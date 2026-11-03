@@ -2,3 +2,32 @@
 
 .workspace{grid-template-rows:minmax(0,1fr)}.map-area,.sidebar{min-height:0}#atlas{position:absolute;inset:0}.marker-region{font-size:8px;fill:#849bad;paint-order:stroke;stroke:#182a3a;stroke-width:3px;pointer-events:none}@media(max-width:800px){.workspace{grid-template-rows:620px 430px}#atlas{margin-left:-25%;height:100%}}
 .status-badge.outage-badge{color:#bf4747;border-color:#f4dada;background:#fff0f0}.outage-badge i{background:#e45a5a}.status-evidence{font-size:9px;color:#a54e4e;display:block;margin-top:7px}
+
+/* Railway service areas: the same colours are used on the map and in the key. */
+.railway-zone{fill:var(--rail-color);fill-opacity:.25;stroke:var(--rail-color);stroke-opacity:.75;stroke-width:1;stroke-dasharray:4 2;cursor:pointer;transition:fill-opacity .15s,stroke-opacity .15s;vector-effect:non-scaling-stroke}
+.railway-zone:hover,.railway-zone.is-selected{fill-opacity:.46;stroke-opacity:1;stroke-width:1.8}
+.railway-zone.is-muted{fill-opacity:.045;stroke-opacity:.2}
+.railway-zone.is-muted:hover{fill-opacity:.24;stroke-opacity:.8}
+.rail-route{pointer-events:none;stroke:#bdcbd0;opacity:.55}
+.country-label,.neighbor-label,.sea-label,.graticule{pointer-events:none}
+.railway-label{cursor:pointer;outline:none;transition:opacity .15s}
+.railway-label rect{fill:#122334;fill-opacity:.94;stroke:var(--rail-color);stroke-opacity:.65;stroke-width:.8}
+.railway-label text{font-size:9px;font-weight:700;fill:var(--rail-color);pointer-events:none}
+.railway-label line{stroke:var(--rail-color);stroke-opacity:.55;stroke-width:.75;pointer-events:none}
+.railway-label circle{fill:var(--rail-color);pointer-events:none}
+.railway-label.is-muted{opacity:.4}
+.railway-label:hover,.railway-label:focus-visible,.railway-label.is-selected{opacity:1}
+.railway-label:hover rect,.railway-label:focus-visible rect,.railway-label.is-selected rect{stroke-width:1.7;stroke-opacity:1;fill:#223b50}
+.railway-key{border:1px solid #dde4eb;border-radius:10px;background:white;padding:20px 22px;margin-top:16px}
+.railway-key-heading{display:flex;align-items:flex-start;justify-content:space-between;gap:18px;margin-bottom:15px}
+.railway-key-heading h2{font-size:14px;margin:0 0 7px;font-weight:800}
+.railway-key-heading p{font-size:10px;line-height:1.7;color:#788898;margin:0;max-width:800px}
+.railway-schematic{white-space:nowrap;font-size:9px;color:#84929f;border:1px dashed #d6e0e7;border-radius:5px;padding:7px 9px}
+.railway-options{display:flex;flex-wrap:wrap;gap:7px}
+.railway-chip{--rail-color:#159c7c;display:flex;align-items:center;gap:7px;border:1px solid #e0e7ed;border-radius:6px;padding:8px 10px;background:#f9fbfc;color:#566b7c;font-size:10px;transition:background .15s,border-color .15s}
+.railway-chip i{width:9px;height:9px;background:var(--rail-color);box-shadow:inset 0 0 0 1px #0001;border-radius:2px}
+.railway-chip>span{color:#94a1ac;font-size:9px;min-width:12px;text-align:right}
+.railway-chip:hover,.railway-chip.is-active{border-color:var(--rail-color);background:#eff5f7;color:#203047}
+.railway-chip.is-active{box-shadow:inset 0 0 0 1px var(--rail-color)}
+@media(max-width:800px){.railway-key{padding:16px;margin-top:12px}.railway-key-heading{display:block}.railway-schematic{display:inline-block;margin-top:10px}.railway-chip{font-size:10px;padding:9px 8px}.railway-options{gap:6px}.map-caption{font-size:7px;max-width:calc(100% - 30px)}.railway-key-heading p{font-size:10px}}
+.map-marker{pointer-events:bounding-box}.marker-label,.marker-region{pointer-events:auto}
