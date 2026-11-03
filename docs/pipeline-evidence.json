@@ -1,0 +1,491 @@
+{
+  "methodology": {
+    "snapshotCommit": "043a9d0fe8755af76f5b41c892ab7d2494e4d121",
+    "snapshotCommitTime": "2026-11-03T06:32:55Z",
+    "sourceUrl": "https://github.com/GlobalEnergyMonitor/goit-ggit-data-ops/blob/043a9d0fe8755af76f5b41c892ab7d2494e4d121/goit_map_latest.geojson",
+    "sourceBlobHash": "23d5f8275263f2fbac4310b055c5e8bf40602b2d",
+    "downloadedBytes": 71918169,
+    "allFeatures": 1556,
+    "russiaFeatures": 159,
+    "russiaFuelCounts": {
+      "Oil": 118,
+      "NGL": 41
+    },
+    "russiaStatusCounts": {
+      "construction": 10,
+      "retired": 3,
+      "operating": 137,
+      "mothballed": 3,
+      "cancelled": 4,
+      "proposed": 1,
+      "idled": 1
+    },
+    "addedDirections": 20,
+    "selectedSourceRecords": 22,
+    "selectedStatusCounts": {
+      "operating": 22
+    },
+    "sourceRecordDateRange": [
+      "2022-03-02",
+      "2025-01-14"
+    ],
+    "exclusionNotes": [
+      "NGL/condensate excluded; not refined petroleum products.",
+      "Working map excludes standalone Oil products-only categories; cannot justify adding regional product pipelines from it.",
+      "Tuymazy-Ufa P2436/P5172/P5173 excluded: StartState Khanty-Mansi conflicts with Tuymazy; no silent repair.",
+      "Tikhoretsk-Novorossiysk retired P5160 and construction P6165 excluded.",
+      "Existing main-system entries and long interregional systems are not added as extra regional records.",
+      "No claim of current operating status or complete coverage."
+    ]
+  },
+  "records": [
+    {
+      "id": "perm-osa",
+      "name": "Пермь — Оса",
+      "sourceRecords": [
+        {
+          "ProjectID": "P2369",
+          "PipelineName": "Perm-Osa Oil Pipeline",
+          "SegmentName": "Main Line",
+          "OtherLanguagePrimaryPipelineName": "Нефтепровод \"Пермь-Оса\"",
+          "Fuel": "Oil",
+          "Status": "operating",
+          "StartLocation": "Perm",
+          "EndLocation": "Osa",
+          "StartState/Province": "Perm Krai",
+          "EndState/Province": "Perm Krai",
+          "LastUpdated": "2025-01-14",
+          "Wiki": "https://www.gem.wiki/Perm-Osa_Oil_Pipeline"
+        }
+      ],
+      "method": "Two rounded endpoint areas, no detailed source trace. The Karabash line adds Almetyevsk city area named in source."
+    },
+    {
+      "id": "almetyevsk-aznakaevo",
+      "name": "Альметьевск — Азнакаево",
+      "sourceRecords": [
+        {
+          "ProjectID": "P2280",
+          "PipelineName": "Almetyevsk-Aznakaevo I, II Oil Pipeline",
+          "SegmentName": "",
+          "OtherLanguagePrimaryPipelineName": "Нефтепровод Альметьевск - Азнакаево",
+          "Fuel": "Oil",
+          "Status": "operating",
+          "StartLocation": "Almetyevsk",
+          "EndLocation": "Aznakayevo",
+          "StartState/Province": "Republic of Tatarstan",
+          "EndState/Province": "Republic of Tatarstan",
+          "LastUpdated": "2023-01-31",
+          "Wiki": "https://www.gem.wiki/Almetyevsk-Aznakaevo_I,_II_Oil_Pipeline"
+        }
+      ],
+      "method": "Two rounded endpoint areas, no detailed source trace. The Karabash line adds Almetyevsk city area named in source."
+    },
+    {
+      "id": "chernushka-kaltasy",
+      "name": "Чернушка — Калтасы",
+      "sourceRecords": [
+        {
+          "ProjectID": "P2295",
+          "PipelineName": "Chernushka-Kaltasy Oil Pipeline",
+          "SegmentName": "",
+          "OtherLanguagePrimaryPipelineName": "Нефтепровод Чернушка - Калтасы",
+          "Fuel": "Oil",
+          "Status": "operating",
+          "StartLocation": "Chernushka",
+          "EndLocation": "Kaltasy",
+          "StartState/Province": "Perm Krai",
+          "EndState/Province": "Republic of Bashkortostan",
+          "LastUpdated": "2023-01-25",
+          "Wiki": "https://www.gem.wiki/Chernushka-Kaltasy_Oil_Pipeline"
+        }
+      ],
+      "method": "Two rounded endpoint areas, no detailed source trace. The Karabash line adds Almetyevsk city area named in source."
+    },
+    {
+      "id": "kaleykino-nizhnekamsk",
+      "name": "Калейкино — Нижнекамск",
+      "sourceRecords": [
+        {
+          "ProjectID": "P3703",
+          "PipelineName": "Kaleykino–Nizhnekamsk Refinery Oil Pipeline",
+          "SegmentName": "",
+          "OtherLanguagePrimaryPipelineName": "",
+          "Fuel": "Oil",
+          "Status": "operating",
+          "StartLocation": "Kaleykino",
+          "EndLocation": "Niznhekamsk",
+          "StartState/Province": "Tatarstan",
+          "EndState/Province": "Tatarstan",
+          "LastUpdated": "2022-03-02",
+          "Wiki": "https://www.gem.wiki/Kaleykino%E2%80%93Nizhnekamsk_Refinery_Oil_Pipeline"
+        }
+      ],
+      "method": "Two rounded endpoint areas, no detailed source trace. The Karabash line adds Almetyevsk city area named in source."
+    },
+    {
+      "id": "karabash-almetyevsk-kaleykino",
+      "name": "Карабаш — Альметьевск — Калейкино",
+      "sourceRecords": [
+        {
+          "ProjectID": "P2319",
+          "PipelineName": "Karabash-Almetyevsk-Kaleykino Oil Pipeline",
+          "SegmentName": "",
+          "OtherLanguagePrimaryPipelineName": "",
+          "Fuel": "Oil",
+          "Status": "operating",
+          "StartLocation": "Karabash",
+          "EndLocation": "Kaleikino",
+          "StartState/Province": "Republic of Tatarstan",
+          "EndState/Province": "Republic of Tatarstan",
+          "LastUpdated": "2023-01-25",
+          "Wiki": "https://www.gem.wiki/Karabash-Almetyevsk-Kaleykino_Oil_Pipeline"
+        }
+      ],
+      "method": "Two rounded endpoint areas, no detailed source trace. The Karabash line adds Almetyevsk city area named in source."
+    },
+    {
+      "id": "khadyzhensk-krasnodar",
+      "name": "Хадыженск — Краснодар",
+      "sourceRecords": [
+        {
+          "ProjectID": "P2323",
+          "PipelineName": "Khadyzhensk-Krasnodar Oil Pipeline",
+          "SegmentName": "",
+          "OtherLanguagePrimaryPipelineName": "Нефтепровод Хадыженск - Краснодар",
+          "Fuel": "Oil",
+          "Status": "operating",
+          "StartLocation": "Khadyzhensk",
+          "EndLocation": "Krasnodar",
+          "StartState/Province": "Krasnodar Krai",
+          "EndState/Province": "Krasnodar Krai",
+          "LastUpdated": "2023-01-25",
+          "Wiki": "https://www.gem.wiki/Khadyzhensk-Krasnodar_Oil_Pipeline"
+        }
+      ],
+      "method": "Two rounded endpoint areas, no detailed source trace. The Karabash line adds Almetyevsk city area named in source."
+    },
+    {
+      "id": "krymsk-krasnodar",
+      "name": "Крымск — Краснодар",
+      "sourceRecords": [
+        {
+          "ProjectID": "P2330",
+          "PipelineName": "Krymsk-Krasnodar Oil Pipeline",
+          "SegmentName": "",
+          "OtherLanguagePrimaryPipelineName": "Нефтепровод Крымск - Краснодар",
+          "Fuel": "Oil",
+          "Status": "operating",
+          "StartLocation": "Krymsk",
+          "EndLocation": "Krasnodar",
+          "StartState/Province": "Krasnodar Krai",
+          "EndState/Province": "Krasnodar Krai",
+          "LastUpdated": "2025-01-09",
+          "Wiki": "https://www.gem.wiki/Krymsk-Krasnodar_Oil_Pipeline"
+        }
+      ],
+      "method": "Two rounded endpoint areas, no detailed source trace. The Karabash line adds Almetyevsk city area named in source."
+    },
+    {
+      "id": "kuleshovka-samara",
+      "name": "Кулешовка — Самара",
+      "sourceRecords": [
+        {
+          "ProjectID": "P2333",
+          "PipelineName": "Kuleshovka-Kuibyshev Oil Pipeline",
+          "SegmentName": "",
+          "OtherLanguagePrimaryPipelineName": "Нефтепровод Кулешовка - Куйбышев",
+          "Fuel": "Oil",
+          "Status": "operating",
+          "StartLocation": "Kuleshovka",
+          "EndLocation": "Samara",
+          "StartState/Province": "Samara Oblast",
+          "EndState/Province": "Samara Oblast",
+          "LastUpdated": "2023-01-26",
+          "Wiki": "https://www.gem.wiki/Kuleshovka-Kuibyshev_Oil_Pipeline"
+        }
+      ],
+      "method": "Two rounded endpoint areas, no detailed source trace. The Karabash line adds Almetyevsk city area named in source."
+    },
+    {
+      "id": "mukhanovo-samara",
+      "name": "Муханово — Самара",
+      "sourceRecords": [
+        {
+          "ProjectID": "P2345",
+          "PipelineName": "Mukhanovo-Kuibyshev Oil Pipeline",
+          "SegmentName": "",
+          "OtherLanguagePrimaryPipelineName": "Нефтепровод Муханово - Куйбышев",
+          "Fuel": "Oil",
+          "Status": "operating",
+          "StartLocation": "Mukhanovo",
+          "EndLocation": "Samara",
+          "StartState/Province": "Samara Oblast",
+          "EndState/Province": "Samara Oblast",
+          "LastUpdated": "2023-01-27",
+          "Wiki": "https://www.gem.wiki/Mukhanovo-Kuibyshev_Oil_Pipeline"
+        }
+      ],
+      "method": "Two rounded endpoint areas, no detailed source trace. The Karabash line adds Almetyevsk city area named in source."
+    },
+    {
+      "id": "chelny-almetyevsk",
+      "name": "Набережные Челны — Альметьевск",
+      "sourceRecords": [
+        {
+          "ProjectID": "P2347",
+          "PipelineName": "Naberezhnye Chelny-Almetyevsk Oil Pipeline",
+          "SegmentName": "",
+          "OtherLanguagePrimaryPipelineName": "Нефтепровод Набережные Челны - Альметьевск",
+          "Fuel": "Oil",
+          "Status": "operating",
+          "StartLocation": "Naberezhnye Chelny",
+          "EndLocation": "Almetyevsk",
+          "StartState/Province": "Republic of Tatarstan",
+          "EndState/Province": "Republic of Tatarstan",
+          "LastUpdated": "2023-01-27",
+          "Wiki": "https://www.gem.wiki/Naberezhnye_Chelny-Almetyevsk_Oil_Pipeline"
+        }
+      ],
+      "method": "Two rounded endpoint areas, no detailed source trace. The Karabash line adds Almetyevsk city area named in source."
+    },
+    {
+      "id": "novovelichkovskaya-krasnodar",
+      "name": "Нововеличковская — Краснодар",
+      "sourceRecords": [
+        {
+          "ProjectID": "P2359",
+          "PipelineName": "Novovelichkovskaya-Krasnodar Oil Pipeline",
+          "SegmentName": "",
+          "OtherLanguagePrimaryPipelineName": "",
+          "Fuel": "Oil",
+          "Status": "operating",
+          "StartLocation": "Novovelichkovskaya",
+          "EndLocation": "Krasnodar",
+          "StartState/Province": "Krasnodar Krai",
+          "EndState/Province": "Krasnodar Krai",
+          "LastUpdated": "2023-01-27",
+          "Wiki": "https://www.gem.wiki/Novovelichkovskaya-Krasnodar_Oil_Pipeline"
+        }
+      ],
+      "method": "Two rounded endpoint areas, no detailed source trace. The Karabash line adds Almetyevsk city area named in source."
+    },
+    {
+      "id": "pokrovka-krotovka",
+      "name": "Покровка — Кротовка",
+      "sourceRecords": [
+        {
+          "ProjectID": "P2374",
+          "PipelineName": "Pokrovka-Krotovka Oil Pipeline",
+          "SegmentName": "",
+          "OtherLanguagePrimaryPipelineName": "Нефтепровод Покровка - Кротовка",
+          "Fuel": "Oil",
+          "Status": "operating",
+          "StartLocation": "Privolny",
+          "EndLocation": "Krotovka",
+          "StartState/Province": "Samara Oblast",
+          "EndState/Province": "Samara Oblast",
+          "LastUpdated": "2023-01-30",
+          "Wiki": "https://www.gem.wiki/Pokrovka-Krotovka_Oil_Pipeline"
+        }
+      ],
+      "method": "Two rounded endpoint areas, no detailed source trace. The Karabash line adds Almetyevsk city area named in source."
+    },
+    {
+      "id": "salavat-orsk",
+      "name": "Салават — Орск",
+      "sourceRecords": [
+        {
+          "ProjectID": "P2382",
+          "PipelineName": "Salavat-Orsk Oil Pipeline",
+          "SegmentName": "",
+          "OtherLanguagePrimaryPipelineName": "Нефтепровод Салават - Орск",
+          "Fuel": "Oil",
+          "Status": "operating",
+          "StartLocation": "Salavat",
+          "EndLocation": "Orsk",
+          "StartState/Province": "Republic of Bashkortostan",
+          "EndState/Province": "Orenburg Oblast",
+          "LastUpdated": "2023-01-30",
+          "Wiki": "https://www.gem.wiki/Salavat-Orsk_Oil_Pipeline"
+        }
+      ],
+      "method": "Two rounded endpoint areas, no detailed source trace. The Karabash line adds Almetyevsk city area named in source."
+    },
+    {
+      "id": "shkapovo-salavat",
+      "name": "Шкапово — Салават",
+      "sourceRecords": [
+        {
+          "ProjectID": "P2389",
+          "PipelineName": "Shkapovo-Salavat Oil Pipeline",
+          "SegmentName": "",
+          "OtherLanguagePrimaryPipelineName": "Нефтепровод Шкапово - Салават",
+          "Fuel": "Oil",
+          "Status": "operating",
+          "StartLocation": "Bizhbulyaksky District",
+          "EndLocation": "Salavat",
+          "StartState/Province": "Republic of Bashkortostan",
+          "EndState/Province": "Republic of Bashkortostan",
+          "LastUpdated": "2023-01-30",
+          "Wiki": "https://www.gem.wiki/Shkapovo-Salavat_Oil_Pipeline"
+        }
+      ],
+      "method": "Two rounded endpoint areas, no detailed source trace. The Karabash line adds Almetyevsk city area named in source."
+    },
+    {
+      "id": "subkhankulovo-shkapovo",
+      "name": "Субханкулово — Шкапово",
+      "sourceRecords": [
+        {
+          "ProjectID": "P2427",
+          "PipelineName": "Subhankulovo-Shkapovo Oil Pipeline",
+          "SegmentName": "",
+          "OtherLanguagePrimaryPipelineName": "Нефтепровод Субханкулово - Шкапово",
+          "Fuel": "Oil",
+          "Status": "operating",
+          "StartLocation": "Subkhankulovo",
+          "EndLocation": "Bizhbulyaksky District",
+          "StartState/Province": "Republic of Bashkortostan",
+          "EndState/Province": "Republic of Bashkortostan",
+          "LastUpdated": "2023-01-30",
+          "Wiki": "https://www.gem.wiki/Subhankulovo-Shkapovo_Oil_Pipeline"
+        }
+      ],
+      "method": "Two rounded endpoint areas, no detailed source trace. The Karabash line adds Almetyevsk city area named in source."
+    },
+    {
+      "id": "tikhoretsk-tuapse",
+      "name": "Тихорецк — Туапсе",
+      "sourceRecords": [
+        {
+          "ProjectID": "P5127",
+          "PipelineName": "Tikhoretsk-Tuapse 1 Oil Pipeline",
+          "SegmentName": "",
+          "OtherLanguagePrimaryPipelineName": "Нефтепровод Тихорецк - Туапсе 1",
+          "Fuel": "Oil",
+          "Status": "operating",
+          "StartLocation": "Tikhoretsk",
+          "EndLocation": "Tuapse",
+          "StartState/Province": "Krasnodar Krai",
+          "EndState/Province": "Krasnodar Krai",
+          "LastUpdated": "2023-01-24",
+          "Wiki": "https://www.gem.wiki/Tikhoretsk-Tuapse_1_Oil_Pipeline"
+        },
+        {
+          "ProjectID": "P0659",
+          "PipelineName": "Tikhoretsk-Tuapse 2 Oil Pipeline",
+          "SegmentName": "",
+          "OtherLanguagePrimaryPipelineName": "Нефтепровод Тихорецк - Туапсе 2",
+          "Fuel": "Oil",
+          "Status": "operating",
+          "StartLocation": "Tikhoretsk",
+          "EndLocation": "Tuapse",
+          "StartState/Province": "Krasnodar Krai",
+          "EndState/Province": "Krasnodar Krai",
+          "LastUpdated": "2025-01-13",
+          "Wiki": "https://www.gem.wiki/Tikhoretsk-Tuapse_2_Oil_Pipeline"
+        }
+      ],
+      "method": "Two rounded endpoint areas, no detailed source trace. The Karabash line adds Almetyevsk city area named in source."
+    },
+    {
+      "id": "tikhoretsk-novorossiysk",
+      "name": "Тихорецк — Новороссийск",
+      "sourceRecords": [
+        {
+          "ProjectID": "P5161",
+          "PipelineName": "Tikhoretsk-Novorossiysk Oil Pipeline",
+          "SegmentName": "2",
+          "OtherLanguagePrimaryPipelineName": "Магистральный нефтепровод \"Тихорецк-Новороссийск-2\"",
+          "Fuel": "Oil",
+          "Status": "operating",
+          "StartLocation": "Tikhoretsk",
+          "EndLocation": "Novorossiysk",
+          "StartState/Province": "Krasnodar Krai",
+          "EndState/Province": "Krasnodar Krai",
+          "LastUpdated": "2025-01-09",
+          "Wiki": "https://www.gem.wiki/Tikhoretsk-Novorossiysk_Oil_Pipeline"
+        },
+        {
+          "ProjectID": "P5162",
+          "PipelineName": "Tikhoretsk-Novorossiysk Oil Pipeline",
+          "SegmentName": "3",
+          "OtherLanguagePrimaryPipelineName": "Магистральный нефтепровод \"Тихорецк-Новороссийск-3\"",
+          "Fuel": "Oil",
+          "Status": "operating",
+          "StartLocation": "Tikhoretsk",
+          "EndLocation": "Novorossiysk",
+          "StartState/Province": "Krasnodar Krai",
+          "EndState/Province": "Krasnodar Krai",
+          "LastUpdated": "2025-01-09",
+          "Wiki": "https://www.gem.wiki/Tikhoretsk-Novorossiysk_Oil_Pipeline"
+        }
+      ],
+      "method": "Two rounded endpoint areas, no detailed source trace. The Karabash line adds Almetyevsk city area named in source."
+    },
+    {
+      "id": "bavly-samara",
+      "name": "Бавлы — Самара",
+      "sourceRecords": [
+        {
+          "ProjectID": "P2284",
+          "PipelineName": "Bavly-Kuibyshev Oil Pipeline",
+          "SegmentName": "",
+          "OtherLanguagePrimaryPipelineName": "",
+          "Fuel": "Oil",
+          "Status": "operating",
+          "StartLocation": "Bavly",
+          "EndLocation": "Samara",
+          "StartState/Province": "Republic of Tatarstan",
+          "EndState/Province": "Samara Oblast",
+          "LastUpdated": "2023-01-25",
+          "Wiki": "https://www.gem.wiki/Bavly-Kuibyshev_Oil_Pipeline"
+        }
+      ],
+      "method": "Two rounded endpoint areas, no detailed source trace. The Karabash line adds Almetyevsk city area named in source."
+    },
+    {
+      "id": "yaroslavl-moscow",
+      "name": "Ярославль — Москва",
+      "sourceRecords": [
+        {
+          "ProjectID": "P5208",
+          "PipelineName": "Yaroslavl-Moscow Oil Pipeline",
+          "SegmentName": "",
+          "OtherLanguagePrimaryPipelineName": "",
+          "Fuel": "Oil",
+          "Status": "operating",
+          "StartLocation": "Yaroslavl",
+          "EndLocation": "Moscow",
+          "StartState/Province": "",
+          "EndState/Province": "",
+          "LastUpdated": "2023-02-09",
+          "Wiki": "https://www.gem.wiki/Yaroslavl-Moscow_Oil_Pipeline"
+        }
+      ],
+      "method": "Two rounded endpoint areas, no detailed source trace. The Karabash line adds Almetyevsk city area named in source."
+    },
+    {
+      "id": "zhirnovsk-volgograd",
+      "name": "Жирновск — Волгоград",
+      "sourceRecords": [
+        {
+          "ProjectID": "P2460",
+          "PipelineName": "Zhirnovsk-Volgograd Oil Pipeline",
+          "SegmentName": "",
+          "OtherLanguagePrimaryPipelineName": "Нефтепровод \"Жирновск - Волгоград\"",
+          "Fuel": "Oil",
+          "Status": "operating",
+          "StartLocation": "Zhirnovsk",
+          "EndLocation": "Volgograd",
+          "StartState/Province": "Volgograd Oblast",
+          "EndState/Province": "Volgograd Oblast",
+          "LastUpdated": "2025-01-14",
+          "Wiki": "https://www.gem.wiki/Zhirnovsk-Volgograd_Oil_Pipeline"
+        }
+      ],
+      "method": "Two rounded endpoint areas, no detailed source trace. The Karabash line adds Almetyevsk city area named in source."
+    }
+  ]
+}
