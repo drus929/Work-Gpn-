@@ -30,22 +30,5 @@ const rows = [
 ['ant','Антипинский НПЗ','Тюменская область','Русинвест',9,65.89,57.07,'Свердловская','Дизельное топливо, нафта, вакуумный газойль, кокс'],
 ['yaya','Яйский НПЗ','Кемеровская область','НефтеХимСервис',3,85.96,56.17,'Западно-Сибирская','Дизельное топливо, бензин, нафта, мазут']
 ];
-export const plants = rows.map(([id,name,region,owner,capacity,lon,lat,rail,products])=>({id,name,region,owner,capacity,lon,lat,rail,products:products.split(', '),status:'unknown',statusSource:null,statusCheckedAt:null}));
+export const plants = rows.map(([id,name,region,owner,capacity,lon,lat,rail,products])=>({id,name,region,owner,capacity,lon,lat,rail,products:products.split(', ')}));
 export const ownerSources = {'Роснефть':'https://www.rosneft.ru/business/Downstream/Neftepererabotka/','Газпром нефть':'https://www.gazprom-neft.ru/company/business/','ЛУКОЙЛ':'https://lukoil.ru/Business/Downstream/OilRefining','Башнефть':'https://www.bashneft.ru/','Сургутнефтегаз':'https://www.surgutneftegas.ru/','Славнефть':'https://www.slavneft.ru/','Татнефть':'https://www.tatneft.ru/','ТАИФ':'https://www.taifnk.ru/','Газпром':'https://salavat-neftekhim.gazprom.ru/'};
-
-// Заполнять только после проверки актуального источника. Не выводить статус из старых новостей.
-// Формат: { omsk: { status: 'outage', cause: 'external', source: 'https://…', checkedAt: '2026-11-02' } }
-export const statusUpdates = {};
-export function isConfirmedOutage(update) {
-  return update?.status === 'outage' && update.cause === 'external'
-    && /^https:\/\//.test(update.source || '')
-    && /^\d{4}-\d{2}-\d{2}$/.test(update.checkedAt || '');
-}
-for (const plant of plants) {
-  const update = statusUpdates[plant.id];
-  if (isConfirmedOutage(update)) {
-    plant.status = 'outage';
-    plant.statusSource = update.source;
-    plant.statusCheckedAt = update.checkedAt;
-  }
-}
