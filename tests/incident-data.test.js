@@ -16,6 +16,6 @@ test('published incident records identify catalog plants and pass the evidence t
 
 test('unreviewed coverage never claims a completed news survey', () => {
   assert.ok(incidentCoverage.message);
-  if(incidentCoverage.state==='unavailable')assert.equal(incidentCoverage.verifiedThrough,null);
+  if(['unavailable','partial'].includes(incidentCoverage.state))assert.equal(incidentCoverage.verifiedThrough,null);
   if(incidentCoverage.verifiedThrough)assert.ok(incidentCoverage.verifiedThrough<=moscowDate());
 });
