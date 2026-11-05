@@ -56,6 +56,13 @@ export function validateIncident(record, plantIds) {
   if (!parseDate(record.occurredOn)) errors.push('invalid_occurredOn');
   if (!parseDate(record.reviewedOn)) errors.push('invalid_reviewedOn');
   if (!['reported_disruption', 'unspecified'].includes(record.impact)) errors.push('invalid_impact');
+  if (record.damageReview !== undefined) {
+    const review = record.damageReview;
+    if (!review || typeof review !== 'object' || Array.isArray(review)) errors.push('invalid_damage_review');
+    else for (const key of ['damage', 'production', 'recovery', 'limits']) {
+      if (!nonempty(review[key])) errors.push(`damage_review_${key}_required`);
+    }
+  }
   if (parseDate(record.occurredOn) && parseDate(record.reviewedOn) && record.reviewedOn < record.occurredOn) errors.push('review_before_incident');
   if (!Array.isArray(record.sources) || !record.sources.length) errors.push('sources_required');
   const urls = new Set();
@@ -63,6 +70,11 @@ export function validateIncident(record, plantIds) {
     const prefix = `source_${index}_`;
     if (!source || typeof source !== 'object' || Array.isArray(source)) { errors.push(prefix + 'required'); continue; }
     for (const key of ['publisher', 'originKey']) if (!nonempty(source[key])) errors.push(prefix + key + '_required');
+    if (source.medium !== undefined && !['news', 'social'].includes(source.medium)) errors.push(prefix + 'invalid_medium');
+    if (source.medium === 'social') {
+      if (!nonempty(source.platform)) errors.push(prefix + 'platform_required');
+      if (!nonempty(source.originNote)) errors.push(prefix + 'provenance_required');
+    }
     const identity = sourceIdentity(source.url);
     if (!identity) errors.push(prefix + 'invalid_url');
     else if (urls.has(identity.url)) errors.push(prefix + 'duplicate_url');

@@ -8,7 +8,7 @@ test('partial coverage shows the fixed research period without claiming a comple
   assert.equal(incidentCoverageLabel(incidentCoverage), 'Проверка неполная');
   const panel = renderIncidentPanel(incidentCoverage, '2026-11-04');
   assert.match(panel, /04\.10\.2026 — 04\.11\.2026/);
-  assert.match(panel, /03\.10–03\.11\.2026/);
+  assert.match(panel, /03\.10–05\.11\.2026/);
   assert.match(panel, /Дата завершённой проверки публикаций не установлена/);
   assert.match(panel, /Отчёт о проверке/);
   assert.doesNotMatch(panel, /Публикации проверены по/);
@@ -16,7 +16,7 @@ test('partial coverage shows the fixed research period without claiming a comple
 
 test('Ryazan keeps the one-sided production report without marking independently confirmed impact', () => {
   const records = incidentRecords.filter(record => record.plantId === 'ryazan');
-  const assessment = assessIncidents(records, 'ryazan', '2026-11-03');
+  const assessment = assessIncidents(records, 'ryazan', '2026-11-05');
   assert.equal(assessment.status, 'reported_incident');
   assert.ok(assessment.recent[0].sources.some(source => source.confirmsImpact));
   assert.ok(assessment.recent[0].sources.filter(source => source.perspective === 'russian').every(source => !source.confirmsImpact));
@@ -27,4 +27,21 @@ test('Ryazan keeps the one-sided production report without marking independently
   assert.equal(expired.status, 'unknown');
   assert.equal(expired.archive.length, 1);
   assert.match(renderPlantIncidents(expired, incidentCoverage), /Снятие отметки по сроку не подтверждает восстановление/);
+});
+
+
+test('damage review and public social provenance are visible without changing the evidence category', () => {
+  const assessment = assessIncidents(incidentRecords, 'yar', '2026-11-05');
+  assert.equal(assessment.status, 'reported_incident');
+  const rendered = renderPlantIncidents(assessment, incidentCoverage);
+  assert.match(rendered, /Повреждения и последствия · 05\.11\.2026/);
+  assert.match(rendered, /медпомощь потребовалась трём сотрудникам/);
+  assert.match(rendered, /соцсеть Telegram/);
+  assert.match(rendered, /Это та же цепочка, что у Интерфакса/);
+  assert.match(rendered, /нет отдельного подтверждения восстановления/);
+  const unsafe = structuredClone(assessment);
+  unsafe.recent[0].damageReview.damage = '<img src=x onerror=alert(1)>';
+  const escaped = renderPlantIncidents(unsafe, incidentCoverage);
+  assert.ok(!escaped.includes('<img src=x'));
+  assert.ok(escaped.includes('&lt;img'));
 });

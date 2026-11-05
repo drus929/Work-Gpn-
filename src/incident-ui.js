@@ -26,8 +26,14 @@ export function renderIncidentPanel(coverage, asOf) {
   </section>`;
 }
 
+function renderDamageReview(record) {
+  if (!record.damageReview) return '';
+  const review = record.damageReview;
+  return `<details class="incident-analysis"><summary>Повреждения и последствия · ${displayDate(record.reviewedOn)}</summary><dl>${[['damage','Повреждения'],['production','Производственные последствия'],['recovery','Сведения о восстановлении']].map(([key,label])=>`<dt>${label}</dt><dd>${escapeHtml(review[key])}</dd>`).join('')}</dl><p>${escapeHtml(review.limits)}</p></details>`;
+}
+
 function renderEvent(record, archived = false) {
-  return `<article class="incident-event ${archived?'is-archived':''}"><div class="incident-event-heading"><time datetime="${record.occurredOn}">${displayDate(record.occurredOn)}</time><span>${archived?'Вне месячного окна':record.assessment==='reported_impact'?'Сообщалось о последствиях':'Подтверждённое сообщение'}</span></div><h4>${escapeHtml(record.title)}</h4><p>${escapeHtml(record.summary)}</p><ul>${record.sources.filter(source=>source.confirmsIncident).map(source=>`<li><a href="${escapeHtml(source.url)}" target="_blank" rel="noopener noreferrer">${escapeHtml(source.publisher)} ↗</a><small>${source.perspective==='russian'?'Российский':'Западный'} источник · ${displayDate(source.publishedOn)}${source.confirmsImpact?' · сообщает о последствиях':''}</small>${source.originNote?`<small>${escapeHtml(source.originNote)}</small>`:''}</li>`).join('')}</ul><small>Проверено: ${displayDate(record.reviewedOn)}</small></article>`;
+  return `<article class="incident-event ${archived?'is-archived':''}"><div class="incident-event-heading"><time datetime="${record.occurredOn}">${displayDate(record.occurredOn)}</time><span>${archived?'Вне месячного окна':record.assessment==='reported_impact'?'Сообщалось о последствиях':'Подтверждённое сообщение'}</span></div><h4>${escapeHtml(record.title)}</h4><p>${escapeHtml(record.summary)}</p>${renderDamageReview(record)}<ul>${record.sources.filter(source=>source.confirmsIncident).map(source=>`<li><a href="${escapeHtml(source.url)}" target="_blank" rel="noopener noreferrer">${escapeHtml(source.publisher)} ↗</a><small>${source.perspective==='russian'?'Российский':'Западный'} источник${source.medium==='social'?` · соцсеть ${escapeHtml(source.platform)}`:''} · ${displayDate(source.publishedOn)}${source.confirmsImpact?' · сообщает о последствиях':''}</small>${source.originNote?`<small>${escapeHtml(source.originNote)}</small>`:''}</li>`).join('')}</ul><small>Проверено: ${displayDate(record.reviewedOn)}</small></article>`;
 }
 
 export function renderPlantIncidents(assessment, coverage) {

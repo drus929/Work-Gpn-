@@ -107,3 +107,17 @@ test('duplicate event identifiers cannot inflate the journal and other plants do
   assert.equal(unrelated.status, 'unknown');
   assert.equal(unrelated.recent.length, 0);
 });
+
+
+test('social evidence requires platform and provenance, and damage findings must include uncertainty', () => {
+  const record = incident();
+  record.sources[0].medium = 'social';
+  assert.equal(validateIncident(record, plantIds).valid, false);
+  record.sources[0].platform = 'Public test platform';
+  record.sources[0].originNote = 'Fictional primary account, same original statement.';
+  assert.equal(validateIncident(record, plantIds).valid, true);
+  record.damageReview = {damage: 'Fictional report', production: 'Unknown', recovery: 'Unknown'};
+  assert.equal(validateIncident(record, plantIds).valid, false);
+  record.damageReview.limits = 'Independent confirmation is missing.';
+  assert.equal(validateIncident(record, plantIds).valid, true);
+});
