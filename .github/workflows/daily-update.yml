@@ -1,0 +1,143 @@
+name: Daily incident source monitor
+
+on:
+  schedule:
+    # Moscow is UTC+3 throughout the year. GitHub may delay scheduled starts.
+    - cron: '0 6 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  actions: write
+  pages: write
+
+concurrency:
+  group: daily-collection
+  cancel-in-progress: false
+
+jobs:
+  update:
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+
+      - name: Check the existing site and enable Pages workflow builds
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          pages_type="$(gh api "repos/${GITHUB_REPOSITORY}/pages" --jq '.build_type')"
+          if [ "$pages_type" != workflow ]; then
+            # Update only the existing site's build method. Do not create a site,
+            # change its domain, or broaden the github-pages environment policy.
+            if ! gh api --method PUT "repos/${GITHUB_REPOSITORY}/pages" -f build_type=workflow --silent; then
+              echo '::error::The built-in token cannot set Pages Source to GitHub Actions. Set that existing-site option in Settings -> Pages, then rerun; no branches have been changed.'
+              exit 1
+            fi
+            pages_type="$(gh api "repos/${GITHUB_REPOSITORY}/pages" --jq '.build_type')"
+            if [ "$pages_type" != workflow ]; then
+              echo '::error::Pages workflow configuration could not be verified; publication stopped.'
+              exit 1
+            fi
+          fi
+
+      - name: Record remote bases
+        id: base
+        run: |
+          git fetch origin refs/heads/gh-pages:refs/remotes/origin/gh-pages
+          echo "main=$(git rev-parse HEAD)" >> "$GITHUB_OUTPUT"
+          echo "pages=$(git rev-parse refs/remotes/origin/gh-pages)" >> "$GITHUB_OUTPUT"
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+          cache: npm
+
+      - run: npm ci
+
+      - name: Offline collector tests
+        run: |
+          python3 -m unittest discover -s tests -p 'test_*.py' -v
+
+      - name: Collect unreviewed publication links
+        id: collect
+        run: |
+          set +e
+          python3 scripts/update-incident-monitor.py
+          result=$?
+          set -e
+          if [ "$result" -eq 2 ]; then
+            echo 'failed=true' >> "$GITHUB_OUTPUT"
+            echo '::warning::Both feeds failed. The published monitor will show the failed attempt and the earlier successful-run date separately.'
+          elif [ "$result" -ne 0 ]; then
+            echo '::error::Collector failed before producing its result. The previous published site is preserved.'
+            exit "$result"
+          else
+            echo 'failed=false' >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Validate generated data and build production site
+        run: |
+          node --test tests/*.test.js
+          npm run build
+
+      - name: Prepare source and published-build commits
+        id: commits
+        run: |
+          if ! git diff --quiet -- src/incident-data.js src/incidents.js; then
+            echo '::error::The collector changed the reviewed journal or its assessment rules. Publication stopped.'
+            exit 1
+          fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -- src/data/incident-monitor.json
+          if ! git diff --cached --quiet; then
+            git commit -m 'Update unreviewed incident source monitor'
+          fi
+          echo "main=$(git rev-parse HEAD)" >> "$GITHUB_OUTPUT"
+          pages_worktree="$RUNNER_TEMP/nefteatlas-pages"
+          git worktree add --detach "$pages_worktree" refs/remotes/origin/gh-pages
+          rsync -a --delete --exclude='.git' --exclude='.nojekyll' --exclude='CNAME' dist/ "$pages_worktree/"
+          touch "$pages_worktree/.nojekyll"
+          mkdir -p "$pages_worktree/.github/workflows"
+          cp .github/workflows/deploy-pages.yml "$pages_worktree/.github/workflows/deploy-pages.yml"
+          git -C "$pages_worktree" add -A
+          if ! git -C "$pages_worktree" diff --cached --quiet; then
+            git -C "$pages_worktree" commit -m 'Publish daily incident source monitor build'
+          fi
+          echo "pages=$(git -C "$pages_worktree" rev-parse HEAD)" >> "$GITHUB_OUTPUT"
+
+      - name: Push both branches atomically without overwriting concurrent changes
+        env:
+          BASE_MAIN: ${{ steps.base.outputs.main }}
+          BASE_PAGES: ${{ steps.base.outputs.pages }}
+          NEXT_MAIN: ${{ steps.commits.outputs.main }}
+          NEXT_PAGES: ${{ steps.commits.outputs.pages }}
+        run: |
+          remote_main="$(git ls-remote origin refs/heads/main | cut -f1)"
+          remote_pages="$(git ls-remote origin refs/heads/gh-pages | cut -f1)"
+          if [ "$remote_main" != "$BASE_MAIN" ] || [ "$remote_pages" != "$BASE_PAGES" ]; then
+            echo '::error::A remote branch changed during collection. No update was pushed; rerun from the latest main.'
+            exit 1
+          fi
+          git push --atomic origin "$NEXT_MAIN:refs/heads/main" "$NEXT_PAGES:refs/heads/gh-pages"
+
+      - name: Start Pages deployment from the permitted gh-pages branch
+        env:
+          GH_TOKEN: ${{ github.token }}
+          NEXT_PAGES: ${{ steps.commits.outputs.pages }}
+        run: gh workflow run deploy-pages.yml --ref gh-pages -f "expected_sha=$NEXT_PAGES"
+
+      - name: Mark complete collection failure in Actions
+        if: steps.collect.outputs.failed == 'true'
+        run: |
+          echo '::error::All publication feeds failed. A transparent failed-attempt notice was published; no incidents or recovery were inferred.'
+          exit 1
