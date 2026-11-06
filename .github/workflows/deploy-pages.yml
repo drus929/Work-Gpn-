@@ -45,6 +45,9 @@ jobs:
             exit 1
           fi
 
+      - name: Validate the exact artifact entrypoint and linked assets
+        run: python3 .github/scripts/validate-pages-build.py .
+
       # The action excludes .git and .github from the uploaded site archive.
       - name: Upload the already tested published build
         uses: actions/upload-pages-artifact@v3

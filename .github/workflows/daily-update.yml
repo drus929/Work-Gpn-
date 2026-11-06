@@ -79,6 +79,7 @@ jobs:
         run: |
           node --test tests/*.test.js
           npm run build
+          python3 scripts/validate-pages-build.py dist
 
       - name: Prepare source and published-build commits
         id: commits
@@ -96,10 +97,11 @@ jobs:
           echo "main=$(git rev-parse HEAD)" >> "$GITHUB_OUTPUT"
           pages_worktree="$RUNNER_TEMP/nefteatlas-pages"
           git worktree add --detach "$pages_worktree" refs/remotes/origin/gh-pages
-          rsync -a --delete --exclude='.git' --exclude='.nojekyll' --exclude='CNAME' dist/ "$pages_worktree/"
-          touch "$pages_worktree/.nojekyll"
-          mkdir -p "$pages_worktree/.github/workflows"
+          python3 scripts/validate-pages-build.py dist --copy-to "$pages_worktree"
+          mkdir -p "$pages_worktree/.github/workflows" "$pages_worktree/.github/scripts"
           cp .github/workflows/deploy-pages.yml "$pages_worktree/.github/workflows/deploy-pages.yml"
+          cp scripts/validate-pages-build.py "$pages_worktree/.github/scripts/validate-pages-build.py"
+          python3 scripts/validate-pages-build.py "$pages_worktree"
           git -C "$pages_worktree" add -A
           if ! git -C "$pages_worktree" diff --cached --quiet; then
             git -C "$pages_worktree" commit -m 'Publish daily incident source monitor build'
