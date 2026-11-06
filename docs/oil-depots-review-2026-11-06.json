@@ -1,0 +1,271 @@
+{
+  "checkedAt": "2026-11-06",
+  "coverage": "partial",
+  "acceptedIds": [
+    "depot-amurskaya",
+    "depot-kaliningrad-fuel-cargo"
+  ],
+  "excluded": [
+    {
+      "name": "Ангелинская нефтебаза",
+      "url": "https://anboil.ru/",
+      "publisher": "Ангелинская нефтебаза, сайт оператора",
+      "publishedOn": null,
+      "basis": "Полный текст страницы прямо называет резервуарный парк вместимостью до 6 000 тонн топлива.",
+      "reason": "Значение ниже порога 30 000 тонн."
+    },
+    {
+      "name": "Нефтебаза «Союз»",
+      "url": "https://mostransneft.ru/neftebazy/moskva_i_mo/nb_soyuz/",
+      "publisher": "Мостранснефть, коммерческая справочная карточка",
+      "publishedOn": null,
+      "basis": "Полный текст сообщает об одновременном хранении более 12 тысяч тонн нефтепродуктов.",
+      "reason": "Порог 30 000 тонн этим значением не установлен."
+    },
+    {
+      "name": "Дунай Терминал: Благовещенск, Белогорск, Хабаровск, Екатеринославка",
+      "url": "https://dunay-terminal.ru/",
+      "publishedOn": null,
+      "basis": "Прочитанная операторская страница даёт общие объёмы единовременного хранения соответственно 9 325, 3 500, 7 450 и 8 425 м³.",
+      "reason": "Каждый объект ниже 30 000 м³; объекты не суммировались."
+    },
+    {
+      "name": "Нефтебазы «Невский мазут» и «Ручьи»",
+      "url": "https://www.nevaoil.ru/bunk-capacity.shtml",
+      "publishedOn": null,
+      "basis": "Операторская страница в кодировке Windows-1251 даёт соответственно 15 000 и 19 450 м³ общего резервуарного парка.",
+      "reason": "Каждый объект ниже 30 000 м³; объекты не суммировались."
+    },
+    {
+      "name": "Нефтебаза, описание HelpOil",
+      "url": "http://helpoil.ru/main/farm.php",
+      "publishedOn": null,
+      "basis": "Прочитанный текст прямо указывает общую вместимость 13 532 м³.",
+      "reason": "Ниже порога 30 000 м³."
+    },
+    {
+      "name": "Нефтебаза «Белые Столбы»",
+      "url": "https://mostransneft.ru/neftebazy/moskva_i_mo/nb_belye_stolby/",
+      "publishedOn": null,
+      "basis": "Прочитанная коммерческая карточка описывает объект, но прямой пригодной общей вместимости не установлено.",
+      "reason": "Порог не подтверждён; число отдельных резервуаров не использовано для расчёта."
+    },
+    {
+      "name": "Неклиновская нефтебаза",
+      "url": "https://aktivgroupp.ru/%D0%B4%D0%B5%D1%8F%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D0%BE%D1%81%D1%82%D1%8C/",
+      "publishedOn": null,
+      "basis": "Прочитанная операторская страница даёт суточную перевалку, но не общую вместимость резервуарного парка.",
+      "reason": "Перевалка не является единовременной вместимостью."
+    },
+    {
+      "name": "Наливная станция Нагорная",
+      "url": "https://nefteterminal.ru/refinery/nalivnaja-stancija-nagornaja/",
+      "publishedOn": null,
+      "basis": "Коммерческая страница называет 59 тыс. м³, но сведения о месте объекта внутри текста противоречивы; независимой сверки не получено.",
+      "reason": "Оставлена кандидатом, в слой не включается из-за недостаточной надёжности сопоставления."
+    },
+    {
+      "name": "Нефтяные морские терминалы ПНТ, РПК-Высоцк, Усть-Луга Ойл",
+      "url": "https://oilterminal.ru/services/",
+      "publishedOn": null,
+      "basis": "Прочитаны операторские страницы; отдельная нефтебаза не выделена.",
+      "reason": "Не добавлены ради количества: слой портов уже существует, порт не приравнивается к отдельной нефтебазе."
+    },
+    {
+      "url": "https://ntkt.ru/neftebaza/",
+      "publisher": "НТК, операторский сайт",
+      "publishedOn": null,
+      "reason": "Полный текст прямо даёт общую ёмкость 5045 м³, ниже порога."
+    },
+    {
+      "url": "https://azsenergia.ru/neftebaza",
+      "publisher": "Энергия, операторский сайт",
+      "publishedOn": null,
+      "reason": "Полный текст даёт общую вместимость 950000 литров, ниже порога; в каталог не включено."
+    },
+    {
+      "url": "https://neftegaz.ru/news/transport-and-storage/237015-gazpromneft-terminal-zavershil-rekonstruktsiyu-omskoy-neftebazy/",
+      "publisher": "Neftegaz.RU",
+      "publishedOn": "2014-10-23",
+      "reason": "Полная публикация прямо указывает общий резервуарный парк Омской нефтебазы 20 тыс. м³, ниже порога."
+    },
+    {
+      "url": "https://www.kommersant.ru/doc/9080214",
+      "publisher": "Коммерсантъ",
+      "publishedOn": "2026-11-04",
+      "reason": "Прочитан полный текст: продаваемая нефтебаза в Аргаяше имеет общую ёмкость 14 тыс. м³, ниже порога. Указанный в поисковых предположениях объём 60 тыс. м³ не подтверждён."
+    },
+    {
+      "url": "https://ttk.nornickel.ru/news-and-media/press-releases-and-news/nornikel-nachal-renovatsiyu-neftebaz-v-norilske-i-dudinke/",
+      "publisher": "Таймырская топливная компания, Норникель",
+      "publishedOn": null,
+      "reason": "Прочитанный текст сообщает проектную общую вместимость 467 тыс. м³ для нескольких нефтебаз Норильского промышленного района, а не конкретной нефтебазы. Исключено из индивидуальных записей."
+    },
+    {
+      "url": "https://ttk.nornickel.ru/news-and-media/press-releases-and-news/taymyrskaya-toplivnaya-kompaniya-prodolzhaet-kompleksnuyu-rekonstruktsiyu-dudinskoy-neftebazy/",
+      "publisher": "Таймырская топливная компания, Норникель",
+      "publishedOn": null,
+      "reason": "Общая вместимость конкретной нефтебазы в прочитанной публикации не установлена. Планируемые объёмы завоза не использованы как вместимость."
+    },
+    {
+      "url": "https://www.kem.kp.ru/daily/27665/5015991/",
+      "publisher": "Комсомольская правда, Кемерово",
+      "publishedOn": "2024-11-26",
+      "reason": "Прочитан полный текст, прямого показателя суммарной вместимости в принятой единице не найдено. Число резервуаров, годовой оборот и технические детали в набор не перенесены."
+    },
+    {
+      "url": "https://gt-tomsk.ru/news/gazprom-neft-rekonstruiruet-tomskuyu-neftebazu/",
+      "publisher": "Томская интернет-газета",
+      "publishedOn": "2025-12-11",
+      "reason": "Прочитан полный материал о проекте реконструкции; общая вместимость не указана."
+    },
+    {
+      "url": "https://ysia.ru/lenskaya-neftebaza-sahaneftegazsbyta-nachala-priem-pervogo-tankera-s-toplivom/",
+      "publisher": "ЯСИА",
+      "publishedOn": null,
+      "reason": "Прочитанный материал описывает сезонный завоз, а не общую вместимость нефтебазы. Показатель поставок не перенесён в каталог."
+    },
+    {
+      "url": "https://knp24.ru/about/filials/",
+      "publisher": "АО «Красноярскнефтепродукт»",
+      "publishedOn": null,
+      "reason": "Прочитан список филиалов и шесть доступных страниц филиалов; прямых общих ёмкостей в них не установлено."
+    },
+    {
+      "url": "https://xn--80aaaeilas3cxbihgul1i.xn--p1ai/about/obshchaya-informatsiya/",
+      "publisher": "АО «Саханефтегазсбыт»",
+      "publishedOn": null,
+      "reason": "Прочитана общая информация компании; подходящих объёмов конкретных нефтебаз не установлено."
+    },
+    {
+      "name": "Омская нефтебаза, перепечатка сообщения Газпром нефти",
+      "url": "https://www.chemport.ru/chemprodnews_10594.html",
+      "publishedOn": "2014-10-24",
+      "finding": "То же исходное сообщение: резервуарный парк 20000 м³; ниже порога. Не независимое подтверждение."
+    },
+    {
+      "name": "НАФТА ГРУПП, официальная страница компании",
+      "url": "https://www.optom-toplivo.ru/rus/about/",
+      "publishedOn": null,
+      "finding": "Прямо указаны резервуарные парки: Березовский 3000 м³, Екатеринбург 1500 м³; оба ниже порога. Текст корректно повторно декодирован UTF-8."
+    },
+    {
+      "name": "Производственный склад в Екатеринбурге",
+      "url": "https://proskladek.ru/",
+      "publishedOn": null,
+      "finding": "Общая номинальная вместимость 980 м³, ниже порога. Текст корректно повторно декодирован UTF-8."
+    },
+    {
+      "name": "РУНАТКО, нефтебаза в Екатеринбурге",
+      "url": "https://runatko.com/neftebaza/",
+      "publishedOn": null,
+      "finding": "Номинальная вместимость 980 м³, ниже порога. Возможно описание того же склада, отдельным подтверждением не считалось."
+    },
+    {
+      "name": "Нефтебаза ШУМ, официальные услуги",
+      "url": "https://nb-shum.ru/services/",
+      "publishedOn": null,
+      "finding": "Общая вместимость 10600 м³, ниже порога."
+    },
+    {
+      "name": "MegaResearch, обзор нефтебаз Тюменской области",
+      "url": "https://www.megaresearch.ru/knowledge_library/perechen-i-raspolozhenie-neftebaz-v-tyumeni-i-tyumenskoy-oblasti-1030",
+      "publishedOn": null,
+      "finding": "Публикация перечисляет объекты и общий ориентир >5000 м³, но не даёт пригодного значения >=30000 м³ для выбранного конкретного объекта."
+    }
+  ],
+  "accessLimits": [
+    {
+      "url": "https://energybase.ru/tank-farm/krasnodarskaya-tank-farm",
+      "error": "HTTP 403"
+    },
+    {
+      "url": "https://energybase.ru/tank-farm/rostovskaya-tank-farm",
+      "error": "HTTP 403"
+    },
+    {
+      "url": "https://energybase.ru/tank-farm/talagi-tank-farm",
+      "error": "HTTP 403"
+    },
+    {
+      "url": "https://fttrinity.com/about.html",
+      "error": "HTTP 503"
+    },
+    {
+      "url": "https://www.knb.group/",
+      "error": "HTTP 403"
+    },
+    {
+      "url": "https://1-mt.ru/neftebaza.php.htm",
+      "error": "HTTP 503; HTTP version did not yield useful source text"
+    },
+    {
+      "url": "https://pskovneft-terminal.ru/",
+      "error": "HTTP 503; также страницы инфраструктуры и «О нас»"
+    },
+    {
+      "url": "https://neftebaza52.ru/o-kompanii/",
+      "error": "HTTP 503"
+    },
+    {
+      "url": "https://idm-eurasia.ru/projects/project_paveltsevskaya-neftebaza/",
+      "error": "HTTP 503"
+    },
+    {
+      "url": "https://energybase.ru/tank-farm/nagornaya-tank-farm",
+      "error": "HTTP 403"
+    },
+    {
+      "url": "https://xn--h1aghhfl.xn--p1ai/neftebazy",
+      "error": "HTTP 403; доступная главная страница не содержит пригодных общих вместимостей нефтебаз"
+    },
+    {
+      "url": "https://www.nps-fuel.ru/",
+      "result": "HTTP 503"
+    },
+    {
+      "url": "https://www.gstruktura.ru/obekty/sokurskaya",
+      "result": "HTTP 403"
+    },
+    {
+      "url": "https://energybase.ru/tank-farm/dudinskaya-tank-farm",
+      "result": "HTTP 403"
+    },
+    {
+      "url": "https://energybase.ru/tank-farm/lenskaya-tank-farm",
+      "result": "HTTP 403"
+    },
+    {
+      "url": "https://trb-vanino.com/",
+      "result": "HTTP 503"
+    },
+    {
+      "url": "https://knp24.ru/about/filials/1265/",
+      "result": "HTTP 503"
+    },
+    {
+      "url": "https://knp24.ru/about/filials/380/",
+      "result": "HTTP 503"
+    },
+    {
+      "url": "https://www.interfax-russia.ru/siberia/news/gazprom-neft-planiruet-rekonstruirovat-neftebazu-pod-tomskom",
+      "result": "Ответ без доступного текста статьи; не принят как прочитанный источник"
+    },
+    {
+      "url": "https://energybase.ru/tank-farm/tomskaya-tank-farm",
+      "status": "HTTP403"
+    },
+    {
+      "url": "https://idm-eurasia.ru/projects/project_nnpz/",
+      "status": "HTTP503"
+    },
+    {
+      "url": "https://www.oilcom.ru/about/",
+      "status": "HTTP503"
+    },
+    {
+      "url": "https://informat86.info/",
+      "status": "HTTP403"
+    }
+  ]
+}

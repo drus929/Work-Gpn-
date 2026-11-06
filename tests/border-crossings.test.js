@@ -22,3 +22,13 @@ test('border catalogue keeps source-era evidence separate from operating status 
   const stationPairs=borderCrossings.filter(item=>item.kind==='station-pair');
   assert.ok(stationPairs.every(item=>item.evidence.sourceDate==='2019-10-11'));
 });
+
+test('Petropavlovsk is one Kazakhstan transfer-station reference with an explicit identity limit',()=>{
+  const item=borderCrossings.find(item=>item.id==='rail-petropavlovsk');
+  assert.ok(item);
+  assert.match(item.region,/Казахстан/);
+  assert.match(item.displayKind,/Передаточная станция/);
+  assert.match(item.description,/одна передаточная станция/);
+  assert.match(item.description,/не подтверждение юридического/);
+  assert.deepEqual(item.coordinates,[69.2,54.9]);
+});
