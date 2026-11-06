@@ -1,11 +1,11 @@
 import {escapeHtml} from './pipeline-catalog.js';
-import {storageLabel} from './depots.js';
+import {storageLabel,depotSourceTypes} from './depots.js';
 
 const normalized = value => String(value || '').toLocaleLowerCase('ru-RU').replaceAll('ё','е');
 const date = value => escapeHtml(value ? value.split('-').reverse().join('.') : 'не указана');
 const methodUrl = 'https://github.com/drus929/Work-Gpn-/blob/main/docs/oil-depots.md';
 const safeUrl = value => {
-  try { const url=new URL(value);return url.protocol==='https:'&&!url.username&&!url.password?value:'#'; } catch { return '#'; }
+  try { const url=new URL(value);return ['http:','https:'].includes(url.protocol)&&!url.username&&!url.password?value:'#'; } catch { return '#'; }
 };
 
 export function filterDepots(records, {query = '',region = ''} = {}) {
@@ -56,6 +56,6 @@ export function depotDetail(item,closeIcon) {
     <div class="detail-metrics"><div><small>КОМПАНИЯ / ОПЕРАТОР В ИСТОЧНИКЕ</small><strong>${escapeHtml(item.operator)}</strong></div><div><small>РЕГИОН</small><strong>${escapeHtml(item.region)}</strong></div><div><small>НАСЕЛЁННЫЙ ПУНКТ</small><strong>${escapeHtml(item.locality)}</strong></div></div>
     <section class="depot-storage"><h3>Общая вместимость резервуарного парка</h3><p>${escapeHtml(item.storage.asOf)}</p><strong>${escapeHtml(storageLabel(item.storage))}</strong><small>Опубликованная характеристика хранения</small></section>
     ${item.products.length?`<div class="products"><h3>Нефтепродукты в источнике</h3><div>${item.products.map(product=>`<span>${escapeHtml(product)}</span>`).join('')}</div></div>`:''}
-    <p class="infra-description">${escapeHtml(item.description)}</p><div class="depot-evidence"><strong>Источник и основание включения</strong><p>${escapeHtml(item.source.basis)}</p><a href="${escapeHtml(safeUrl(item.source.url))}" target="_blank" rel="noopener noreferrer">${escapeHtml(item.source.publisher)} ↗</a><small>Дата публикации: ${date(item.source.publishedOn)} · проверено: ${date(item.source.checkedAt)}</small></div>
+    <p class="infra-description">${escapeHtml(item.description)}</p><div class="depot-evidence"><strong>Источник и основание включения</strong><small class="depot-source-type">${escapeHtml(depotSourceTypes[item.source.type]||'Тип источника не указан')}</small><p>${escapeHtml(item.source.basis)}</p><a href="${escapeHtml(safeUrl(item.source.url))}" target="_blank" rel="noopener noreferrer">${escapeHtml(item.source.publisher)} ↗</a><small>Дата публикации: ${date(item.source.publishedOn)} · проверено: ${date(item.source.checkedAt)}</small></div>
     <p class="infra-note">Обзорная привязка к населённому пункту. Сведения о вместимости не устанавливают текущие запасы или состояние нефтебазы.</p><a class="detail-source" href="${methodUrl}" target="_blank" rel="noopener noreferrer">Источники и полнота проверки ↗</a></article>`;
 }

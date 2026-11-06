@@ -3,7 +3,7 @@ import assert from 'node:assert/strict';
 import {depots,depotCoverage,validateDepot,storageLabel} from '../src/depots.js';
 import {filterDepots,renderDepots,depotOptions,depotPanel,depotDetail} from '../src/depot-layer.js';
 
-const fixture=()=>({id:'fictional-depot',name:'Тестовая нефтебаза',operator:'Тестовый оператор',region:'Тестовая область',locality:'Ёлочный',coordinates:[100.1,50.2],storage:{value:30000,unit:'tonnes',asOf:'Сведения 2020 года'},products:['Дизельное топливо'],description:'Учебная справочная запись.',source:{publisher:'Fictional source',url:'https://source.example.invalid/storage',publishedOn:'2020-06-01',checkedAt:'2026-11-06',basis:'Fictional source explicitly states aggregate tank storage in tonnes.'}});
+const fixture=()=>({id:'fictional-depot',name:'Тестовая нефтебаза',operator:'Тестовый оператор',region:'Тестовая область',locality:'Ёлочный',coordinates:[100.1,50.2],storage:{value:30000,unit:'tonnes',asOf:'Сведения 2020 года'},products:['Дизельное топливо'],description:'Учебная справочная запись.',source:{type:'publication',publisher:'Fictional source',url:'https://source.example.invalid/storage',publishedOn:'2020-06-01',checkedAt:'2026-11-06',basis:'Fictional source explicitly states aggregate tank storage in tonnes.'}});
 
 test('depot catalogue requires source-dated aggregate storage at the accepted threshold',()=>{
   assert.equal(depotCoverage.state,'partial');
@@ -19,6 +19,9 @@ test('depot catalogue requires source-dated aggregate storage at the accepted th
     r=>r.source.url='javascript:alert(1)',
     r=>r.source.publishedOn='2026-11-07',
     r=>delete r.storage.asOf,
+    r=>delete r.source.type,
+    r=>r.storage.qualifier='up_to',
+    r=>r.storage.qualifier='about',
   ]){const item=fixture();change(item);assert.equal(validateDepot(item,{acceptedUnits:['tonnes']}).valid,false);}
   const cubic=fixture();cubic.storage.unit='m3';
   assert.equal(validateDepot(cubic,{acceptedUnits:['tonnes','m3']}).valid,true);
@@ -63,4 +66,17 @@ test('depot cards retain storage units, source period and escaped content withou
   assert.doesNotMatch(html,/report-red|report-yellow|status-badge|млн т \/ год/);
   item.source.url='javascript:alert(1)';
   assert.ok(!depotDetail(item,'').includes('href="javascript:'));
+});
+
+
+test('published qualifiers and source provenance survive rendering, including public HTTP references',()=>{
+  const item=fixture();item.storage.value=100000;item.storage.qualifier='about';
+  item.source.type='reference';item.source.url='http://source.example.invalid/reference';
+  assert.equal(validateDepot(item).valid,true);
+  assert.match(storageLabel(item.storage),/^около 100\s000 т$/);
+  assert.match(depotDetail(item,''),/Коммерческий справочник · требуется дополнительная сверка/);
+  assert.match(depotDetail(item,''),/href="http:\/\/source.example.invalid\/reference"/);
+  item.source.url='http://user:password@source.example.invalid/';
+  assert.equal(validateDepot(item).valid,false);
+  assert.ok(!depotDetail(item,'').includes('href="http://user:password'));
 });

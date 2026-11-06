@@ -1,0 +1,2040 @@
+{
+  "checkedAt": "2026-11-06",
+  "coverage": "partial",
+  "acceptedIds": [
+    "depot-kaliningrad-fuel-cargo",
+    "depot-yeniseyskaya",
+    "depot-kansk",
+    "depot-gladkoe",
+    "depot-volodarskaya",
+    "depot-paveltsevskaya",
+    "depot-first-murmansk-terminal",
+    "depot-krasny-yar-novosibirsk",
+    "depot-vladivostok-uliss",
+    "depot-makhachkala-portside",
+    "depot-krasny-neftyanik",
+    "depot-ruchyi-ptk",
+    "depot-kambarskaya",
+    "depot-amurskaya",
+    "depot-pevek-chukotsnab",
+    "depot-yaroslavl-perevalochnaya"
+  ],
+  "acceptedCount": 16,
+  "regionCount": 13,
+  "sourceTypes": {
+    "official": 8,
+    "publication": 6,
+    "reference": 2
+  },
+  "scope": "Поиск по федеральным округам и межрегиональным операторам. Все найденные подходящие записи включены; полнота национального перечня не доказана.",
+  "rounds": [
+    {
+      "group": "central",
+      "audit": {
+        "checkedAt": "2026-11-06",
+        "scope": [
+          "Центральный федеральный округ",
+          "Приволжский федеральный округ"
+        ],
+        "coverage": "partial",
+        "coverageBasis": "Поиск по всем регионам Центрального округа и основным коммерческим операторам регионов Приволжского округа. Поисковая выдача использована только для обнаружения источников; текущие запасы, эксплуатационный статус, повреждения, точные координаты и схемы не собирались. Этот проход не устанавливает полноту регионального перечня.",
+        "acceptedIds": [
+          "depot-volodarskaya",
+          "depot-paveltsevskaya",
+          "depot-yaroslavl-perevalochnaya"
+        ],
+        "excluded": [
+          {
+            "name": "Нагорная наливная станция",
+            "url": "https://oilselling.ru/2019/03/04/nns/",
+            "publisher": "Амистад · коммерческая справочная публикация",
+            "publishedOn": "2019-03-04",
+            "basis": "Полный текст приводит 59 000 м³, но связывает Нагорную с деревней Жуковка Пушкинского района. Такую же несовместимую с идентификацией Нагорной привязку повторяет https://alfamonolit.ru/info/rdt/bases1/.",
+            "reason": "Противоречивое сопоставление объекта и места. Копии не считаются независимым подтверждением; в каталог не добавлено."
+          },
+          {
+            "name": "Нефтебаза «Софрино»",
+            "url": "https://alfamonolit.ru/info/rdt/bases1/",
+            "publishedOn": null,
+            "basis": "Прочитанный коммерческий справочник прямо указывает 11 400 м³. Вторичный обзор https://mosregdata.ru/article/oil-depots-mo приводит несовместимые справочные оценки и сам отмечает расхождение.",
+            "reason": "Полноценного источника общей вместимости от 30 000 м³ не получено; противоречие не разрешено."
+          },
+          {
+            "name": "Нефтебаза «Тайга Энерджи», Уфа",
+            "url": "https://taygaenergy.com/neftebaza/",
+            "publishedOn": null,
+            "basis": "Официальная страница прямо указывает резервуарный парк 5 000 кубометров.",
+            "reason": "Ниже порога."
+          },
+          {
+            "name": "Нефтебаза «ОРЕНОЙЛ», Оренбург",
+            "url": "https://oren-oil.ru/neftebaza-orenoyl",
+            "publishedOn": null,
+            "basis": "Официальная страница прямо указывает резервуарный парк 900 000 литров.",
+            "reason": "Ниже порога; литры не перенесены в принятую схему данных."
+          },
+          {
+            "name": "КТК Терминал",
+            "url": "https://ktk-terminal.ru/opisanie-neftebazy/",
+            "publishedOn": null,
+            "basis": "Оператор прямо указывает общий объем резервуарного парка 6 000 куб. м.",
+            "reason": "Ниже порога."
+          },
+          {
+            "name": "ГК Терминал",
+            "url": "https://gkterminal.ru/services/khranenie-nefteproduktov/",
+            "publishedOn": null,
+            "basis": "Оператор указывает общий объем около 14 000 кубометров.",
+            "reason": "Ниже порога; не отождествляли с нижегородским ООО «Терминал Групп»."
+          },
+          {
+            "name": "Нефтебаза ИИС, Тверь",
+            "url": "https://tverneftebaza.ru/",
+            "publishedOn": null,
+            "basis": "Операторская страница пишет «Резервуары с ёмкостью 50.000 куб.м. Общий объем 1.800.000 куб.м.».",
+            "reason": "Необычно крупная характеристика требует независимой сверки единиц и принадлежности; таких подтверждений не найдено. Не исправляли единицы и не принимали буквально."
+          },
+          {
+            "name": "Павельцевская нефтебаза, проект реконструкции",
+            "url": "http://idm-eurasia.ru/projects/project_paveltsevskaya-neftebaza/",
+            "publishedOn": null,
+            "basis": "Проектировщик подтверждает Долгопрудный, но приводит отдельные проектируемые этапы.",
+            "reason": "Проектные этапы не суммировались и не использовались как существующая общая вместимость; запись каталога основана на другом источнике."
+          },
+          {
+            "name": "Ярославская перевалочная нефтебаза, отдельные резервуары",
+            "url": "https://yarneftebaza.com/uslugi",
+            "publishedOn": null,
+            "basis": "Оператор перечисляет резервуары по продуктовым группам и их количества; независимого общего итога в этой странице нет.",
+            "reason": "По резервуарам не рассчитывали общий итог; принята лишь отдельная явная историческая цифра 300 000 м³ из истории оператора."
+          },
+          {
+            "name": "Казаньнефтепродукт и сеть Татнефтепродукта",
+            "url": "https://old.tatnp.ru/structure/branches/kazan/",
+            "publishedOn": null,
+            "basis": "Прочитаны архивная карточка филиала, https://tatnp.ru/set-neftebaz/ и https://tatnp.ru/o-kompanii/. Есть услуги и история сети; общей вместимости конкретных нефтебаз нет.",
+            "reason": "Порог конкретного объекта по этим источникам не подтверждён."
+          },
+          {
+            "name": "Нефтебаза «Видное» / Старая Купавна / Серпуховская РОС-ТРЕЙД / Нефто-Сервис / Резерв-А / Солнечногорск Лукойл",
+            "url": "https://alfamonolit.ru/info/rdt/bases1/",
+            "publishedOn": null,
+            "basis": "Коммерческий справочник прямо приводит соответственно 17 423 / 2 660 / 17 400 / 9 000 / 5 000 / 3 800 м³.",
+            "reason": "Все ниже порога; объекты и ёмкости не суммировались."
+          },
+          {
+            "name": "Туланефтепродукт, Тамбовнефтепродукт, Саратовнефтепродукт",
+            "url": "https://neftregion.ru/katalog-kompanii/pao-saratovnefteprodukt",
+            "publishedOn": null,
+            "basis": "Прочитаны соответствующие отраслевые карточки neftregion.ru; есть ассортимент и сведения о компании, но подходящих общих вместимостей конкретных нефтебаз нет.",
+            "reason": "Не является доказательством отсутствия крупных нефтебаз; оставлено направлением дальнейшей проверки."
+          },
+          {
+            "name": "Нефтебаза «Пермь» ЛУКОЙЛ",
+            "url": "https://nangs.org/news/downstream/permskaya-neftebaza-lukojla-v-1-8-raza-uvelichit-propusknuyu-sposobnost-posle-modernizatsii",
+            "publisher": "НАНГС, перепечатка Интерфакса",
+            "publishedOn": "2021-11-23",
+            "basis": "Прочитана полная публикация. 2,8 и 5 тыс. тонн в сутки — пропускная способность; 11 нефтебаз — сеть предприятия. Общая вместимость конкретной нефтебазы не сообщается.",
+            "reason": "Перевалка не использована как хранение."
+          },
+          {
+            "name": "Нефтебаза в пригороде Йошкар-Олы",
+            "url": "https://rusinvestproject.ru/projects/pokupka-neftebazy/",
+            "publishedOn": null,
+            "basis": "Инвестиционная карточка прямо указывает существующий общий емкостный парк 3650 м³; остальные показатели — производственные планы.",
+            "reason": "Ниже порога."
+          }
+        ],
+        "unresolvedCandidates": [
+          {
+            "name": "Воронежская нефтебаза",
+            "url": "https://energybase.ru/tank-farm/voronezhskaya-tank-farm",
+            "status": "Найден кандидат в поисковом результате; полный текст не подтверждён. Поисковый результат и название не использовались как доказательство вместимости."
+          },
+          {
+            "name": "Смоленская нефтебаза",
+            "url": "https://energybase.ru/tank-farm/smolenskaya-tank-farm",
+            "status": "Найден кандидат в поисковом результате; полный текст не подтверждён. Поисковый результат и название не использовались как доказательство вместимости."
+          },
+          {
+            "name": "Брянская нефтебаза",
+            "url": "https://energybase.ru/tank-farm/bryansk-tank-farm",
+            "status": "Найден кандидат в поисковом результате; полный текст не подтверждён. Поисковый результат и название не использовались как доказательство вместимости."
+          },
+          {
+            "name": "Курская нефтебаза",
+            "url": "https://energybase.ru/tank-farm/kurskaya-tank-farm",
+            "status": "Найден кандидат в поисковом результате; полный текст не подтверждён. Поисковый результат и название не использовались как доказательство вместимости."
+          },
+          {
+            "name": "Белгородская нефтебаза",
+            "url": "https://energybase.ru/tank-farm/belgorod-tank-farm",
+            "status": "Найден кандидат в поисковом результате; полный текст не подтверждён. Поисковый результат и название не использовались как доказательство вместимости."
+          },
+          {
+            "name": "Тульская нефтебаза",
+            "url": "https://energybase.ru/tank-farm/tulskaya-tank-farm",
+            "status": "Найден кандидат в поисковом результате; полный текст не подтверждён. Поисковый результат и название не использовались как доказательство вместимости."
+          },
+          {
+            "name": "Новомосковская нефтебаза",
+            "url": "https://energybase.ru/tank-farm/novomoskovskaya-tank-farm",
+            "status": "Найден кандидат в поисковом результате; полный текст не подтверждён. Поисковый результат и название не использовались как доказательство вместимости."
+          },
+          {
+            "name": "Орловская нефтебаза",
+            "url": "https://energybase.ru/tank-farm/orlovskaya-tank-farm",
+            "status": "Найден кандидат в поисковом результате; полный текст не подтверждён. Поисковый результат и название не использовались как доказательство вместимости."
+          },
+          {
+            "name": "Тамбовская нефтебаза",
+            "url": "https://energybase.ru/tank-farm/tambovskaya-tank-farm",
+            "status": "Найден кандидат в поисковом результате; полный текст не подтверждён. Поисковый результат и название не использовались как доказательство вместимости."
+          },
+          {
+            "name": "Липецкая нефтебаза",
+            "url": "https://energybase.ru/tank-farm/lipecskaya-tank-farm",
+            "status": "Найден кандидат в поисковом результате; полный текст не подтверждён. Поисковый результат и название не использовались как доказательство вместимости."
+          },
+          {
+            "name": "Северный Рудник нефтебаза",
+            "url": "https://energybase.ru/tank-farm/lipetskaya-tank-farm",
+            "status": "Найден кандидат в поисковом результате; полный текст не подтверждён. Поисковый результат и название не использовались как доказательство вместимости."
+          },
+          {
+            "name": "Ивановская нефтебаза",
+            "url": "https://energybase.ru/tank-farm/ivanovskaya-tank-farm",
+            "status": "Найден кандидат в поисковом результате; полный текст не подтверждён. Поисковый результат и название не использовались как доказательство вместимости."
+          },
+          {
+            "name": "Тверская нефтебаза",
+            "url": "https://energybase.ru/tank-farm/tverskaya-tank-farm",
+            "status": "Найден кандидат в поисковом результате; полный текст не подтверждён. Поисковый результат и название не использовались как доказательство вместимости."
+          },
+          {
+            "name": "Калужская нефтебаза",
+            "url": "https://energybase.ru/tank-farm/kaluzhskaya-tank-farm",
+            "status": "Найден кандидат в поисковом результате; полный текст не подтверждён. Поисковый результат и название не использовались как доказательство вместимости."
+          },
+          {
+            "name": "Казаньнефтепродукт нефтебаза",
+            "url": "https://energybase.ru/tank-farm/kazannefteproduct-tank-farm",
+            "status": "Найден кандидат в поисковом результате; полный текст не подтверждён. Поисковый результат и название не использовались как доказательство вместимости."
+          },
+          {
+            "name": "Челнинская нефтебаза",
+            "url": "https://energybase.ru/tank-farm/chelninskaya-tank-farm",
+            "status": "Найден кандидат в поисковом результате; полный текст не подтверждён. Поисковый результат и название не использовались как доказательство вместимости."
+          },
+          {
+            "name": "Арская нефтебаза",
+            "url": "https://energybase.ru/tank-farm/arsk-tank-farm",
+            "status": "Найден кандидат в поисковом результате; полный текст не подтверждён. Поисковый результат и название не использовались как доказательство вместимости."
+          },
+          {
+            "name": "Болгарская нефтебаза",
+            "url": "https://energybase.ru/tank-farm/bulgarian-tank-farm",
+            "status": "Найден кандидат в поисковом результате; полный текст не подтверждён. Поисковый результат и название не использовались как доказательство вместимости."
+          },
+          {
+            "name": "Киров нефтебаза",
+            "url": "https://energybase.ru/tank-farm/kirov-tank-farm",
+            "status": "Найден кандидат в поисковом результате; полный текст не подтверждён. Поисковый результат и название не использовались как доказательство вместимости."
+          },
+          {
+            "name": "Кировская нефтебаза",
+            "url": "https://energybase.ru/tank-farm/kirovskaya-tank-farm",
+            "status": "Найден кандидат в поисковом результате; полный текст не подтверждён. Поисковый результат и название не использовались как доказательство вместимости."
+          },
+          {
+            "name": "Оренбургская нефтебаза",
+            "url": "https://energybase.ru/tank-farm/orenburgskaya-tank-farm",
+            "status": "Найден кандидат в поисковом результате; полный текст не подтверждён. Поисковый результат и название не использовались как доказательство вместимости."
+          },
+          {
+            "name": "Оренбург нефтебаза",
+            "url": "https://energybase.ru/tank-farm/orenburg-tank-farm",
+            "status": "Найден кандидат в поисковом результате; полный текст не подтверждён. Поисковый результат и название не использовались как доказательство вместимости."
+          },
+          {
+            "name": "Увекская нефтебаза",
+            "url": "https://energybase.ru/tank-farm/uvekskaya-tank-farm",
+            "status": "Найден кандидат в поисковом результате; полный текст не подтверждён. Поисковый результат и название не использовались как доказательство вместимости."
+          },
+          {
+            "name": "Балашовская нефтебаза",
+            "url": "https://energybase.ru/tank-farm/balashovskaya-tank-farm",
+            "status": "Найден кандидат в поисковом результате; полный текст не подтверждён. Поисковый результат и название не использовались как доказательство вместимости."
+          },
+          {
+            "name": "Пензенская нефтебаза",
+            "url": "https://energybase.ru/tank-farm/penzenskaya-tank-farm",
+            "status": "Найден кандидат в поисковом результате; полный текст не подтверждён. Поисковый результат и название не использовались как доказательство вместимости."
+          },
+          {
+            "name": "Ульяновская нефтебаза",
+            "url": "https://energybase.ru/tank-farm/ulyanovskaya-tank-farm",
+            "status": "Найден кандидат в поисковом результате; полный текст не подтверждён. Поисковый результат и название не использовались как доказательство вместимости."
+          },
+          {
+            "name": "Ульяновскнефтепродукт нефтебаза",
+            "url": "https://energybase.ru/tank-farm/ulianovsknefteproduct-tank-farm",
+            "status": "Найден кандидат в поисковом результате; полный текст не подтверждён. Поисковый результат и название не использовались как доказательство вместимости."
+          },
+          {
+            "name": "Сызранская нефтебаза",
+            "url": "https://energybase.ru/tank-farm/syzranskaya-tank-farm",
+            "status": "Найден кандидат в поисковом результате; полный текст не подтверждён. Поисковый результат и название не использовались как доказательство вместимости."
+          },
+          {
+            "name": "Салаватская нефтебаза",
+            "url": "https://energybase.ru/tank-farm/salavatskaya-tank-farm",
+            "status": "Найден кандидат в поисковом результате; полный текст не подтверждён. Поисковый результат и название не использовались как доказательство вместимости."
+          },
+          {
+            "name": "Сибайская нефтебаза",
+            "url": "https://energybase.ru/tank-farm/sibayskaya-tank-farm",
+            "status": "Найден кандидат в поисковом результате; полный текст не подтверждён. Поисковый результат и название не использовались как доказательство вместимости."
+          },
+          {
+            "name": "Пермь нефтебаза",
+            "url": "https://energybase.ru/tank-farm/perm-tank-farm",
+            "status": "Найден кандидат в поисковом результате; полный текст не подтверждён. Поисковый результат и название не использовались как доказательство вместимости."
+          },
+          {
+            "name": "Волганефтьхолдинг нефтебаза",
+            "url": "https://energybase.ru/tank-farm/volganeftholding-tank-farm",
+            "status": "Найден кандидат в поисковом результате; полный текст не подтверждён. Поисковый результат и название не использовались как доказательство вместимости."
+          }
+        ],
+        "sourceChecks": [
+          {
+            "url": "https://energybase.ru/tank-farm/volodarskaya-tank-farm",
+            "result": "HTTP Error 403: Forbidden",
+            "checkedAt": "2026-11-06"
+          },
+          {
+            "url": "https://mostoplivo.ru/neftebazy-moskvy-i-moskovskoj-oblasti/",
+            "result": "full-text read",
+            "checkedAt": "2026-11-06"
+          },
+          {
+            "url": "https://mosregdata.ru/article/oil-depots-mo",
+            "result": "full-text read",
+            "checkedAt": "2026-11-06"
+          },
+          {
+            "url": "https://alfamonolit.ru/info/rdt/bases1/",
+            "result": "full-text read",
+            "checkedAt": "2026-11-06"
+          },
+          {
+            "url": "https://oilselling.ru/2019/01/27/nb-pavelcevo/",
+            "result": "full-text read",
+            "checkedAt": "2026-11-06"
+          },
+          {
+            "url": "https://postavcom.ru/nb/vlpds/",
+            "result": "full-text read",
+            "checkedAt": "2026-11-06"
+          },
+          {
+            "url": "https://nangs.org/news/downstream/permskaya-neftebaza-lukojla-v-1-8-raza-uvelichit-propusknuyu-sposobnost-posle-modernizatsii",
+            "result": "full-text read",
+            "checkedAt": "2026-11-06"
+          },
+          {
+            "url": "https://tzkneftebaza.ru/",
+            "result": "HTTP Error 503: Service Unavailable",
+            "checkedAt": "2026-11-06"
+          },
+          {
+            "url": "https://bor-perm.ru/",
+            "result": "HTTP Error 503: Service Unavailable",
+            "checkedAt": "2026-11-06"
+          },
+          {
+            "url": "https://rusinvestproject.ru/projects/pokupka-neftebazy/",
+            "result": "full-text read",
+            "checkedAt": "2026-11-06"
+          },
+          {
+            "url": "https://energybase.ru/tank-farm/pavelcevckaya-tank-farm",
+            "result": "HTTP Error 403: Forbidden",
+            "checkedAt": "2026-11-06"
+          },
+          {
+            "url": "https://energybase.ru/vendor/centrnp-lukoil/tank-farms",
+            "result": "HTTP Error 403: Forbidden",
+            "checkedAt": "2026-11-06"
+          },
+          {
+            "url": "https://oilselling.ru/2019/03/04/nns/",
+            "result": "full-text read",
+            "checkedAt": "2026-11-06"
+          },
+          {
+            "url": "https://ammoxx.ru/info/grafik-raboty-neftebaz/paveltsovskaya-neftebaza-zao-universal-neft/",
+            "result": "full-text read",
+            "checkedAt": "2026-11-06"
+          },
+          {
+            "url": "https://taygaenergy.com/neftebaza/",
+            "result": "full-text read",
+            "checkedAt": "2026-11-06"
+          },
+          {
+            "url": "http://idm-eurasia.ru/projects/project_paveltsevskaya-neftebaza/",
+            "result": "full-text read",
+            "checkedAt": "2026-11-06"
+          },
+          {
+            "url": "https://yarneftebaza.com/",
+            "result": "full-text read",
+            "checkedAt": "2026-11-06"
+          },
+          {
+            "url": "https://yarneftebaza.com/neftebaza/istoriya-razvitiya",
+            "result": "HTTP Error 503: Service Unavailable",
+            "checkedAt": "2026-11-06"
+          },
+          {
+            "url": "https://mec-energo.ru/projects/ooo-spetstorg-plyus-yaroslavskaya-perevalochnaya-neftebaza/",
+            "result": "full-text read",
+            "checkedAt": "2026-11-06"
+          },
+          {
+            "url": "https://oren-oil.ru/neftebaza-orenoyl",
+            "result": "full-text read",
+            "checkedAt": "2026-11-06"
+          },
+          {
+            "url": "https://neftebaza52.ru/o-kompanii/",
+            "result": "HTTP Error 503: Service Unavailable",
+            "checkedAt": "2026-11-06"
+          },
+          {
+            "url": "http://neftebaza52.ru/o-kompanii/",
+            "result": "HTTP Error 503: Service Unavailable",
+            "checkedAt": "2026-11-06"
+          },
+          {
+            "url": "https://rosneft-opt.ru/168823",
+            "result": "full-text read",
+            "checkedAt": "2026-11-06"
+          },
+          {
+            "url": "https://tatnp.ru/set-neftebaz/",
+            "result": "full-text read",
+            "checkedAt": "2026-11-06"
+          },
+          {
+            "url": "https://azscityoil.ru/company/neftebaza/",
+            "result": "HTTP Error 503: Service Unavailable",
+            "checkedAt": "2026-11-06"
+          },
+          {
+            "url": "https://tverneftebaza.ru/",
+            "result": "full-text read",
+            "checkedAt": "2026-11-06"
+          },
+          {
+            "url": "https://sharya.kostroma.gov.ru/informatsiya-dlya-naseleniya/istoricheskaya-spravka/neftebaza.php",
+            "result": "HTTP Error 503: Service Unavailable",
+            "checkedAt": "2026-11-06"
+          },
+          {
+            "url": "https://neftregion.ru/katalog-kompanii/pao-saratovnefteprodukt",
+            "result": "full-text read",
+            "checkedAt": "2026-11-06"
+          },
+          {
+            "url": "https://neftregion.ru/katalog-kompanii/pao-tulanefteprodukt",
+            "result": "full-text read",
+            "checkedAt": "2026-11-06"
+          },
+          {
+            "url": "https://neftregion.ru/katalog-kompanii/ao-tambovnefteprodukt",
+            "result": "full-text read",
+            "checkedAt": "2026-11-06"
+          },
+          {
+            "url": "https://yarneftebaza.com/o-kompanii",
+            "result": "full-text read",
+            "checkedAt": "2026-11-06"
+          },
+          {
+            "url": "http://yarneftebaza.com/neftebaza/istoriya-razvitiya",
+            "result": "full-text read",
+            "checkedAt": "2026-11-06"
+          },
+          {
+            "url": "https://yarneftebaza.com/uslugi",
+            "result": "full-text read",
+            "checkedAt": "2026-11-06"
+          },
+          {
+            "url": "https://tatnp.ru/o-kompanii/",
+            "result": "full-text read",
+            "checkedAt": "2026-11-06"
+          },
+          {
+            "url": "http://old.tatnp.ru/investors/sobraniya/",
+            "result": "full-text read",
+            "checkedAt": "2026-11-06"
+          },
+          {
+            "url": "http://old.tatnp.ru/",
+            "result": "full-text read",
+            "checkedAt": "2026-11-06"
+          },
+          {
+            "url": "https://yarneftebaza.com/neftebaza/kratkaya-tekhn-kharakteristika",
+            "result": "full-text read",
+            "checkedAt": "2026-11-06"
+          },
+          {
+            "url": "http://yarneftebaza.com/neftebaza/kratkaya-tekhn-kharakteristika",
+            "result": "full-text read",
+            "checkedAt": "2026-11-06"
+          },
+          {
+            "url": "https://trans.lukoil.ru/ru/About/Structure/Kambarskaya",
+            "result": "full-text read",
+            "checkedAt": "2026-11-06"
+          },
+          {
+            "url": "https://neftebaza52.ru/",
+            "result": "HTTP Error 503: Service Unavailable",
+            "checkedAt": "2026-11-06"
+          },
+          {
+            "url": "https://petrom24.ru/neftebaza/neftebaza/neftebaza-kazannefteprodukt-filial-tatnefteprodukt/",
+            "result": "full-text read",
+            "checkedAt": "2026-11-06"
+          },
+          {
+            "url": "https://vimpel73.ru/lukoyl-kambarskaya-neftebaza-41",
+            "result": "full-text read",
+            "checkedAt": "2026-11-06"
+          },
+          {
+            "url": "https://msc-i.ru/catalog/chemicals_and_petrochemicals/kambarka_tank_farm/",
+            "result": "full-text read",
+            "checkedAt": "2026-11-06"
+          },
+          {
+            "url": "https://neftegaz.ru/tags/%D0%BA%D0%B0%D0%BC%D0%B1%D0%B0%D1%80%D1%81%D0%BA%D0%B0%D1%8F+%D0%BD%D0%B5%D1%84%D1%82%D0%B5%D0%B1%D0%B0%D0%B7%D0%B0/",
+            "result": "full-text read",
+            "checkedAt": "2026-11-06"
+          },
+          {
+            "url": "https://www.nge.ru/abonents_card_107920.htm",
+            "result": "full-text read",
+            "checkedAt": "2026-11-06"
+          },
+          {
+            "url": "https://gkterminal.ru/services/khranenie-nefteproduktov/",
+            "result": "full-text read",
+            "checkedAt": "2026-11-06"
+          },
+          {
+            "url": "http://energybase.ru/tank-farm/volodarskaya-tank-farm",
+            "result": "HTTP Error 403: Forbidden",
+            "checkedAt": "2026-11-06"
+          },
+          {
+            "url": "http://energybase.ru/tank-farm/kambarka-tank-farm",
+            "result": "HTTP Error 403: Forbidden",
+            "checkedAt": "2026-11-06"
+          },
+          {
+            "url": "https://www.energybase.ru/tank-farm/kambarka-tank-farm",
+            "result": "HTTP Error 403: Forbidden",
+            "checkedAt": "2026-11-06"
+          },
+          {
+            "url": "https://oilselling.ru/2016/10/17/vlpds-volodarka/",
+            "result": "full-text read",
+            "checkedAt": "2026-11-06"
+          },
+          {
+            "url": "https://gasoil-center.ru/volodarskaya-lpds/",
+            "result": "full-text read",
+            "checkedAt": "2026-11-06"
+          },
+          {
+            "url": "https://alfamonolit.ru/info/rdt/bases1/",
+            "result": "full-text read",
+            "checkedAt": "2026-11-06"
+          },
+          {
+            "url": "https://old.tatnp.ru/structure/branches/kazan/",
+            "result": "full-text read",
+            "checkedAt": "2026-11-06"
+          },
+          {
+            "url": "https://old.tatnp.ru/structure/branches/",
+            "result": "full-text read",
+            "checkedAt": "2026-11-06"
+          },
+          {
+            "url": "https://ktk-terminal.ru/opisanie-neftebazy/",
+            "result": "full-text read",
+            "checkedAt": "2026-11-06"
+          },
+          {
+            "url": "https://neftegaz.ru/news/transport-and-storage/475891-port-vysotsk-vozobnovil-rechnoy-eksport-nefti-iz-rossii-/",
+            "result": "full-text read",
+            "checkedAt": "2026-11-06"
+          }
+        ],
+        "searchQueries": [
+          "Володарская нефтебаза резервуарный парк емкость",
+          "Павельцевская нефтебаза общая емкость резервуарного парка",
+          "Нагорная нефтебаза резервуарный парк 59000 Москва",
+          "Московская область нефтебаза общая емкость 100 тысяч",
+          "нефтебазы Лукойл Нижегородская резервуарный парк вместимость",
+          "Башнефть нефтебазы общая емкость Уфа Благовещенск",
+          "Камбарская нефтебаза резервуарный парк",
+          "Чебоксары нефтебаза 60000",
+          "Набережночелнинская нефтебаза резервуарный",
+          "Арская нефтебаза резервуарный",
+          "Альметьевская нефтебаза резервуарный",
+          "Казаньнефтепродукт вместимость 2014",
+          "Болгарская нефтебаза резервуарный",
+          "Киров Движение нефтебаза резервуарный",
+          "Казаньнефтепродукт 150000",
+          "Челнынефтепродукт емкость",
+          "Набережночелнинская нефтебаза емкость 50",
+          "Чувашнефтепродукт емкость нефтебазы",
+          "Волганефтьхолдинг 70000",
+          "Чувашнефтепродукт 100000",
+          "Арскнефтепродукт резервуарный",
+          "Йошкар Ола нефтебаза 30000",
+          "Ижевск нефтебаза 30000",
+          "Пермская нефтебаза 140000",
+          "\"нефтебаза\" \"резервуарный парк\" \"Воронеж\"",
+          "\"нефтебаза\" \"резервуарный парк\" \"Смоленск\"",
+          "\"нефтебаза\" \"резервуарный парк\" \"Брянск\"",
+          "\"нефтебаза\" \"резервуарный парк\" \"Курск\"",
+          "\"нефтебаза\" \"резервуарный парк\" \"Тула\"",
+          "\"нефтебаза\" \"резервуарный парк\" \"Белгород\"",
+          "\"Нагорная\" \"нефтебаза\" \"емкость\"",
+          "\"Володарская\" \"емкость\" \"нефтебаза\"",
+          "Володарская ЛПДС 250 резервуарный",
+          "Павельцевская нефтебаза 180000 Газпром",
+          "Нагорная наливная станция резервуарный парк",
+          "Софрино нефтебаза 75600",
+          "Воронежская нефтебаза емкость",
+          "Смоленская нефтебаза вместимость",
+          "Брянская нефтебаза емкость",
+          "Курская нефтебаза вместимость",
+          "Белгородская нефтебаза емкость",
+          "Тульская нефтебаза емкость",
+          "Нижегородская нефтебаза вместимость",
+          "Володарская ЛПДС резервуарный парк 250 site:transneft.ru",
+          "Павельцевская нефтебаза емкость site:neftegaz.ru",
+          "Павельцевская нефтебаза 180 тыс site:kommersant.ru",
+          "Нагорная станция 59 тыс",
+          "Володарская ЛПДС 250 тыс site:kommersant.ru",
+          "нефтебаза Казань емкость",
+          "нефтебаза Уфа емкость",
+          "нефтебаза Самара резервуарный парк",
+          "нефтебаза Саратов резервуарный парк",
+          "нефтебаза Пермь резервуарный парк",
+          "Казаньнефтепродукт резервуарный",
+          "Чебоксарская нефтебаза емкость",
+          "Йошкар Олинская нефтебаза вместимость",
+          "Кировская нефтебаза вместимость",
+          "Оренбургская нефтебаза вместимость",
+          "Увекская нефтебаза вместимость",
+          "Саранская нефтебаза вместимость",
+          "Пензенская нефтебаза вместимость",
+          "Ульяновская нефтебаза вместимость",
+          "Ижевская нефтебаза вместимость",
+          "нефтебаза 30000 Татарстан",
+          "нефтебаза 50000 Нижегородская",
+          "нефтебаза 100000 Башкортостан",
+          "нефтебаза 60000 Пермь",
+          "нефтебаза 50000 Самара",
+          "Казаньнефтепродукт резервуары 100",
+          "Черепановская нефтебаза емкость",
+          "Кстово нефтебаза Кудьминская емкость",
+          "Рязань нефтебаза резервуарный парк",
+          "Ярославская нефтебаза резервуарный",
+          "Орловская нефтебаза емкость",
+          "Тамбовская нефтебаза емкость",
+          "Липецкая нефтебаза емкость",
+          "Ивановская нефтебаза емкость",
+          "Владимирская нефтебаза емкость",
+          "Костромская нефтебаза емкость",
+          "Тверская нефтебаза емкость",
+          "Калужская нефтебаза емкость",
+          "Ярнефтебаза вместимость",
+          "Татнефтепродукт нефтебазы объем",
+          "Ярославская перевалочная нефтебаза 300",
+          "Спецторг Плюс нефтебаза вместимость",
+          "Терминал Групп нефтебаза объем хранения",
+          "Волганефтьхолдинг нефтебаза емкость",
+          "Татнефтепродукт Казань нефтебаза 140",
+          "Салават нефтебаза резервуарный",
+          "Камская нефтебаза емкость",
+          "Сызранская нефтебаза емкость",
+          "Камбарская нефтебаза 120 тысяч",
+          "Камбарская нефтебаза 160",
+          "Нефтебаза резервуарный парк Саратовнефтепродукт",
+          "Самаранефтепродукт нефтебаза емкость",
+          "Кудьминская нефтебаза объем хранения",
+          "Сормовская нефтебаза объем хранения",
+          "Пермь нефтебаза Лукойл емкость",
+          "Киров нефтебаза Движение емкость"
+        ],
+        "limitations": [
+          "Energybase: несколько прочитанных попыток разных страниц вернули HTTP403; остальные названия из выдачи оставлены непроверенными, не заявлены как прочитанные.",
+          "Нижегородский Терминал Групп: основной сайт и страница компании вернули HTTP503.",
+          "Архивные сведения и недатированные справочные карточки не интерпретируются как нынешняя вместимость.",
+          "Камбарскую нефтебазу проверяет другой участник исследования; дублирующая запись здесь не создавалась."
+        ]
+      }
+    },
+    {
+      "group": "northwest",
+      "audit": {
+        "checkedAt": "2026-11-06",
+        "coverage": "partial",
+        "regions": [
+          "Республика Карелия",
+          "Республика Коми",
+          "Архангельская область",
+          "Мурманская область",
+          "Псковская область",
+          "Новгородская область",
+          "Вологодская область",
+          "Ленинградская область",
+          "Санкт-Петербург",
+          "Калининградская область"
+        ],
+        "acceptedIds": [
+          "depot-krasny-neftyanik",
+          "depot-ruchyi-ptk",
+          "depot-first-murmansk-terminal"
+        ],
+        "corrections": [
+          {
+            "name": "Нефтебаза «ЛенЦГН» вместо ошибочно указанных «Ручьёв»",
+            "url": "https://www.nevaoil.ru/bunk-capacity.shtml",
+            "basis": "В HTML заголовок страницы: «Бункеровка - Мощности компании Невский мазут, Нефтебаза Невский мазут, Нефтебаза ЛенЦГН, Автотранспортное предприятие ЛенЦГН-транс». Непосредственно перед блоком 19450 м3 находится закомментированный заголовок <!-- b>Нефтебаза \"ЛенЦГН\"</b -->. Слова «Ручьи» в полном HTML нет.",
+            "correction": "Заменить ошибочное название «Ручьи» на «ЛенЦГН» в прежнем исключении нефтебаз Невский мазут/Ручьи. Значения 15000 и 19450 м³ остаются исключёнными как подпороговые."
+          }
+        ],
+        "excluded": [
+          {
+            "name": "Псковнефть-Терминал",
+            "url": "http://tulomainvest.ru/asset/oil_refining/",
+            "publishedOn": null,
+            "basis": "На странице владельца Тулома: «парк резервуаров, способных единовременно хранить до 10 тыс. тонн светлых нефтепродуктов».",
+            "reason": "Ниже 30 000 тонн. Отдельные 600 000 тонн в год — перевалка."
+          },
+          {
+            "name": "Петергофская нефтебаза",
+            "url": "https://kpon.ru/neftebaza",
+            "publishedOn": null,
+            "basis": "Оператор ООО «Красносельская Топливная Компания»: «Резервуарный парк объёмом в 9800 кубометров хранения нефтепродуктов».",
+            "reason": "Ниже 30 000 м³."
+          },
+          {
+            "name": "Калининградская портовая нефтебаза: исторический справочник enet",
+            "url": "http://www.enet.ru/fish/info_kpnb.htm",
+            "publishedOn": null,
+            "basis": "Прямое число 30000 дано как «кв.м.»; 50000 тонн — планируемое расширение.",
+            "reason": "Квадратные метры не принимаются как вместимость; проектное расширение не подтверждает существующую вместимость."
+          },
+          {
+            "name": "Калининградская портовая нефтебаза: RuCompany",
+            "url": "https://rucompany.ru/company.php?id_company=20",
+            "publishedOn": null,
+            "basis": "Приведён план создания перспективного парка 60 тыс. т, подготовка документов и выбор площадки.",
+            "reason": "Проектная будущая ёмкость; существующая общая вместимость не установлена."
+          },
+          {
+            "name": "ТЗК Пулково: проект Роснефти",
+            "url": "https://www.aviastat.ru/news/198059-rosneft-nachala-stroitelstvo-tzk-v-pulkovo-stoimostyu-okolo-3-mlrd-rubley",
+            "publishedOn": "2019-06-03",
+            "basis": "Публикация 03.06.2019: два разных склада по 8 тыс. м³; 300 тыс. тонн относится к годовому объёму заправок.",
+            "reason": "Каждый склад ниже порога; склады не суммируются; годовой оборот не принимается."
+          },
+          {
+            "name": "Архангельский терминал Роснефти",
+            "url": "https://rosneft.com/about/Rosneft_today/Operational_structure/Marketing/ArkhangelskTerminal/",
+            "publishedOn": null,
+            "basis": "Полная официальная английская страница даёт 4 млн тонн в год, без общей вместимости хранения.",
+            "reason": "Годовая перевалка не является вместимостью."
+          },
+          {
+            "name": "Архангельский терминал Роснефти: отгрузки 2020",
+            "url": "https://oilgascom.com/rosneft-narashhivaet-perevalku-nefteproduktov-i-gruzov-cherez-arxangelsk/",
+            "publishedOn": "2020-08-13",
+            "basis": "Прочитан полный материал от 13.08.2020; значения относятся к отгрузкам и поставкам.",
+            "reason": "Общая вместимость нефтебазы не дана."
+          },
+          {
+            "name": "Арктический портово-промышленный комплекс «Талаги»",
+            "url": "https://portnews.ru/news/397559/",
+            "publishedOn": "2026-09-28",
+            "basis": "Публикация от 28.09.2026 о будущем порте к 2030 году, 5 млн тонн/год.",
+            "reason": "Новый проект другого объекта; годовая перевалка не подтверждает вместимость нефтебазы."
+          }
+        ],
+        "candidates": [
+          {
+            "name": "Петрозаводская нефтебаза",
+            "url": "https://energybase.ru/tank-farm/petrozavodskaya-tank-farm",
+            "reason": "HTTP 403; не получен полный текст. Альтернативная карточка metaprom.ru также HTTP 403."
+          },
+          {
+            "name": "Талажская нефтебаза",
+            "url": "https://energybase.ru/tank-farm/talagi-tank-farm",
+            "reason": "Прежний аудит фиксирует HTTP403; новый пригодный источник с индивидуальной общей вместимостью не найден."
+          },
+          {
+            "name": "Печорская нефтебаза",
+            "url": "https://plkpechora.ru/",
+            "reason": "Новый операторский результат, HTTP403; вместимость не принята по сниппету."
+          },
+          {
+            "name": "Вологодская и Череповецкая нефтебазы",
+            "url": "https://vosincom.ru/reservoirpark",
+            "reason": "HTTP403 на операторском описании; поиски ЛУКОЙЛ/СЕНАКО не установили полные вместимости."
+          },
+          {
+            "name": "Калининградская нефтебаза Сургутнефтегаза",
+            "url": "https://surgutneftegas39.ru/kontakty/kaliningradskaja-neftebaza/",
+            "reason": "HTTP503 на операторской странице."
+          },
+          {
+            "name": "Лужская, Гладкое, Санкт-Петербургская, Морозовская нефтебазы",
+            "url": "https://energybase.ru/region/leningradskaya-oblast/tank-farms",
+            "reason": "Поиск идентифицировал справочные карточки, подходящей прочитанной вместимости не установлено."
+          },
+          {
+            "name": "Сыктывкарская нефтебаза ЛУКОЙЛ",
+            "url": "https://www.find-org.net/cli/898692_sykt_aja_neftebaza_ooo_lukojjl_severnefteprodukt",
+            "reason": "Поиск установил название; пригодная общая вместимость из прочитанного источника не установлена."
+          },
+          {
+            "name": "Нефтебаза Бронка (Несте / Татнефть)",
+            "url": "https://www.tsn-group.ru/neftyanoj-terminal-kompanii-neste",
+            "reason": "Найдена страница подрядчика, полный текст недоступен HTTP403; общая вместимость не принята."
+          }
+        ],
+        "accessLimits": [
+          {
+            "url": "https://energybase.ru/tank-farm/petrozavodskaya-tank-farm",
+            "status": "HTTP403"
+          },
+          {
+            "url": "https://vosincom.ru/reservoirpark",
+            "status": "HTTP403"
+          },
+          {
+            "url": "https://e-ecolog.ru/docs/xT4lHydEaphulovtwlCsg/39",
+            "status": "Request denied, no source text"
+          },
+          {
+            "url": "https://rosneft.ru/upload/site1/document_file/175657/prospectus_10122014_2.pdf",
+            "status": "HTTP503"
+          },
+          {
+            "url": "https://plkpechora.ru/",
+            "status": "HTTP403"
+          },
+          {
+            "url": "https://uglevodorody.ru/terminal/neftyanoy-i-nefteproduktovyy-terminal-ooo-pervyy-murmanskiy-terminal",
+            "status": "HTTP503"
+          },
+          {
+            "url": "https://metaprom.ru/companies/id655458",
+            "status": "HTTP403"
+          },
+          {
+            "url": "https://surgutneftegas39.ru/kontakty/kaliningradskaja-neftebaza/",
+            "status": "HTTP503"
+          },
+          {
+            "url": "https://www.rosneft.ru/about/Glance/OperationalStructure/Sbit/anp/",
+            "status": "HTTP503"
+          },
+          {
+            "url": "https://uglevodorody.ru/terminal/arhangelskiy-neftenalivnoy-terminal",
+            "status": "HTTP503"
+          },
+          {
+            "url": "https://www.tsn-group.ru/neftyanoj-terminal-kompanii-neste",
+            "status": "HTTP403"
+          }
+        ],
+        "operatorCoverage": [
+          {
+            "name": "Псковская и Великолукская нефтебазы Псковнефтепродукта",
+            "url": "https://pskovnp.ru/o-kompanii/o-nas/",
+            "finding": "Полная операторская страница сообщает о двух нефтебазах, но не даёт индивидуальных вместимостей."
+          },
+          {
+            "name": "Новгороднефтепродукт",
+            "url": "https://novnp.ru/",
+            "finding": "Прочитана главная страница оператора; нефтебаза обозначена, но прямой вместимости нет."
+          },
+          {
+            "name": "Мурманскнефтепродукт",
+            "url": "https://rosneft-opt.ru/168793",
+            "finding": "Прочитана официальная оптовая страница Роснефти; нет общей вместимости конкретной нефтебазы."
+          },
+          {
+            "name": "Транзит-Плюс, Сыктывкар",
+            "url": "https://tp-rk.ru/azs/galereya",
+            "finding": "Страница перенаправляет на полное описание компании и склада, но вместимость не дана."
+          },
+          {
+            "name": "Нефтебазы партнёров Нафта-Групп Санкт-Петербург",
+            "url": "https://naftagroupspb.ru/neftebazy/",
+            "finding": "Список названий нефтебаз и НПЗ без вместимостей; это не собственная единая сеть хранения."
+          },
+          {
+            "name": "Новгороднефтепродукт: отраслевой справочник",
+            "url": "https://neftregion.ru/katalog-kompanii/ooo-novgorodnefteprodukt",
+            "finding": "Прочитан полный отраслевой профиль; подтверждена Новгородская нефтебаза, общая вместимость не дана."
+          },
+          {
+            "name": "ПТК: нефтебазы Ручьи и Красный нефтяник",
+            "url": "https://www.fontanka.ru/2014/06/18/67833913/",
+            "publishedOn": "2014-06-18",
+            "finding": "Полная публикация подтверждает две отдельные нефтебазы и оператора ООО «ПТК-Терминал». Совокупный оборот 7 млн тонн в год не использовался как вместимость."
+          },
+          {
+            "name": "ЛУКОЙЛ-Северо-Западнефтепродукт",
+            "url": "https://sznp.lukoil.ru/ru/About/Generalinformation",
+            "finding": "Прочитаны официальная главная страница и «Общая информация». Подтверждена эксплуатация собственных нефтебаз, индивидуальные общие вместимости не опубликованы в прочитанном тексте."
+          }
+        ]
+      }
+    },
+    {
+      "group": "south",
+      "audit": {
+        "checkedAt": "2026-11-06",
+        "districts": [
+          "Южный федеральный округ",
+          "Северо-Кавказский федеральный округ"
+        ],
+        "coverage": {
+          "state": "partial",
+          "message": "Проведен поиск по региональным центрам, крупным операторам и индивидуальным коммерческим нефтебазам. Полнота не установлена; недоступные карточки и страницы без общей вместимости не дают оснований утверждать отсутствие подходящих нефтебаз.",
+          "regionsSearched": [
+            "Краснодарский край",
+            "Ростовская область",
+            "Волгоградская область",
+            "Астраханская область",
+            "Республика Адыгея",
+            "Республика Калмыкия",
+            "Ставропольский край",
+            "Республика Дагестан",
+            "Кабардино-Балкарская Республика",
+            "Карачаево-Черкесская Республика",
+            "Республика Северная Осетия — Алания",
+            "Республика Ингушетия",
+            "Чеченская Республика"
+          ],
+          "additionalCandidatesSearched": [
+            "Краснодарская",
+            "Тихорецкая",
+            "Армавирская",
+            "Кропоткинская",
+            "Камышинская",
+            "Волгоградская",
+            "Астраханская",
+            "Сулинская",
+            "Майкопская",
+            "Владикавказская",
+            "Нальчикская",
+            "Моздокская",
+            "Георгиевская",
+            "Элиста",
+            "Нефтебаза Промхим"
+          ],
+          "priorFailuresAvoided": [
+            "Краснодарская Energybase HTTP403",
+            "Ростовская Energybase HTTP403",
+            "Ангелинская <6000 тонн",
+            "Неклиновская: только перевалка"
+          ]
+        },
+        "supportingSources": [
+          {
+            "name": "Грушовая и Шесхарис: сопоставление отдельных нефтебаз",
+            "url": "https://neftegaz.ru/news/transport-and-storage/502396-na-neftebaze-grushovaya-kompleksa-sheskharis-poyavyatsya-novye-neftyanye-rezervuary-/",
+            "publisher": "Neftegaz.RU",
+            "publishedOn": "2019-10-24",
+            "basis": "Прочитан полный текст: Грушовая и Шесхарис названы отдельными нефтебазами; суммарные 1,4 млн м³ объединенного комплекса не перенесены в индивидуальные записи. Будущие новые резервуары не использованы для общего показателя."
+          },
+          {
+            "name": "Грушовая и Шесхарис: оператор",
+            "url": "https://neftegaz.ru/news/transport-and-storage/653380-odobren-predstavlennyy-povtorno-proekt-rekonstruktsii-ploshchadki-grushovaya-neftebazy-sheskharis-v-/",
+            "publisher": "Neftegaz.RU",
+            "publishedOn": "2020-12-07",
+            "basis": "Полный текст прямо называет оператором перевалочного комплекса «Черномортранснефть»; название в данных обозначено как историческое."
+          },
+          {
+            "url": "https://www.oilexp.ru/news/russia/summa-postroit-uzel-ucheta-nefti-ryadom-s-portom-makhachkaly/81012/",
+            "publisher": "Oil.Эксперт, со ссылкой на Прайм",
+            "publishedOn": "2014-02-05",
+            "basis": "Прочитан полный текст с тем же индивидуальным показателем; дата извлечена из datePublished / article:published_time, а не из текущего календаря страницы."
+          },
+          {
+            "name": "Припортовая нефтебаза Махачкалы: точный фрагмент",
+            "url": "https://mmport.ru/общие-сведения/",
+            "publisher": "АО «Махачкалинский морской торговый порт», официальный сайт",
+            "publishedOn": null,
+            "basis": "В полном тексте страницы, после отдельного описания пропускной способности портовой железной дороги, написано: «В непосредственной близости к порту расположена и самая крупная на Северном Кавказе нефтебаза емкостью 540 тыс. кубических метров единовременного хранения». Это одно отдельно описанное хранилище, а не сумма вместимостей порта; юридическое имя не заявлено."
+          }
+        ],
+        "candidates": [
+          {
+            "name": "Грушовая",
+            "url": "https://www.nefteavtomatika.ru/ru/projects/pk-sheskharis/",
+            "reason": "На финальной сверке выяснено: объём относится к резервуарам, охваченным проектом автоматизации; полная вместимость нефтебазы однозначно не установлена. Период2014–2019 — срок проекта."
+          },
+          {
+            "name": "Шесхарис",
+            "url": "https://www.nefteavtomatika.ru/ru/projects/pk-sheskharis/",
+            "reason": "На финальной сверке выяснено: объём относится к резервуарам, охваченным проектом автоматизации; полная вместимость нефтебазы однозначно не установлена. Период2014–2019 — срок проекта."
+          }
+        ],
+        "excluded": [
+          {
+            "name": "Нефтебаза ООО «Югнефтепродукт», Лабинск",
+            "url": "https://yugnefteprodukt.ru/neftebaza/neftebaza",
+            "publisher": "ООО «Югнефтепродукт», официальный сайт",
+            "publishedOn": null,
+            "basis": "Полный текст прямо сообщает общий объем более 9000 м³.",
+            "reason": "Порог 30000 м³ не подтвержден."
+          },
+          {
+            "name": "Нефтебаза ООО «ФЛЭШ ЭНЕРДЖИ»",
+            "url": "https://flashazs.ru/sobstvennaya-neftebaza/",
+            "publisher": "FLASH ААЗС, официальный сайт",
+            "publishedOn": null,
+            "basis": "Полный текст прямо сообщает общий объем более 6500 м³.",
+            "reason": "Порог 30000 м³ не подтвержден."
+          },
+          {
+            "name": "Нефтебаза ООО «НПК», Энем",
+            "url": "https://www.barrel.kz/catalog/uslugi_hraneniya_gsm/rossiya/respublika-adigeya/view_6584",
+            "publisher": "Barrel.kz, отраслевой каталог",
+            "publishedOn": null,
+            "basis": "Прочитан полный текст: новый емкостной парк объемом 10 тыс. м³.",
+            "reason": "Опубликованный общий показатель ниже 30000 м³."
+          },
+          {
+            "name": "Дагнефтепродукт: карточка NGE",
+            "url": "https://www.nge.ru/passport-description-1292.htm",
+            "publisher": "NGE.RU, отраслевой каталог",
+            "publishedOn": null,
+            "basis": "В полном тексте и исходном HTML написано «резервуарный парк - 140 000 м .».",
+            "reason": "Единица физической величины в источнике повреждена; м³ не предполагалось автоматически."
+          },
+          {
+            "name": "Нефтебазы РН-Ростовнефтепродукт",
+            "url": "https://neftregion.ru/katalog-kompanii/ao-rn-rostovnefteprodukt",
+            "publisher": "НефтьРегион",
+            "publishedOn": "2016-12-22",
+            "basis": "Полный текст, последняя редакция 17.04.2026: Лиховская, Миллеровская, Ростовская, Цимлянская, Сальская.",
+            "reason": "Индивидуальные общие вместимости не опубликованы на прочитанной странице."
+          },
+          {
+            "name": "Нефтебазы Роснефть-Кубаньнефтепродукт",
+            "url": "https://neftregion.ru/katalog-kompanii/ao-nk-rosneft---kubannefteprodukt",
+            "publisher": "НефтьРегион",
+            "publishedOn": "2016-11-16",
+            "basis": "Полный текст, последняя редакция 17.04.2026: перечень филиалов Белореченский, Краснодарский, Протокский, Сочинский, Тимашевский, Тихорецкий, Северный, Черноморский и Туапсинский цех.",
+            "reason": "Индивидуальные общие вместимости не опубликованы на прочитанной странице."
+          },
+          {
+            "name": "Знаменская нефтебаза",
+            "url": "https://neftregion.ru/katalog-kompanii/pao-nk-rosneft-karachaevo-cherkessknefteprodukt",
+            "publisher": "НефтьРегион",
+            "publishedOn": "2016-11-16",
+            "basis": "Полный текст, последняя редакция 17.04.2026, подтверждает нефтебазу в селе Знаменка.",
+            "reason": "Общая вместимость не опубликована на прочитанной странице."
+          },
+          {
+            "name": "РН-Ингушнефтепродукт",
+            "url": "https://neftregion.ru/katalog-kompanii/ooo-rn-ingushnefteprodukt",
+            "publisher": "НефтьРегион",
+            "publishedOn": "2017-11-09",
+            "basis": "Полный текст, последняя редакция 16.05.2024, сообщает одну нефтебазу.",
+            "reason": "Общая вместимость не опубликована на прочитанной странице."
+          },
+          {
+            "name": "Нефтебазы Роснефть-Ставрополье",
+            "url": "https://neftregion.ru/katalog-kompanii/ao-nk-rosneft---stavropole",
+            "publisher": "НефтьРегион",
+            "publishedOn": "2016-12-22",
+            "basis": "Полный текст, последняя редакция 17.04.2026: Георгиевск, Буденновск, Светлоград.",
+            "reason": "Индивидуальные общие вместимости не опубликованы на прочитанной странице."
+          },
+          {
+            "name": "ЛУКОЙЛ-Нижневолжскнефтепродукт",
+            "url": "https://www.nge.ru/passport-description-1075.htm",
+            "publisher": "NGE.RU, отраслевой каталог",
+            "publishedOn": null,
+            "basis": "Полный текст описывает нефтебазовую сеть нескольких регионов.",
+            "reason": "Общих вместимостей конкретных нефтебаз нет; сеть не суммировалась."
+          },
+          {
+            "name": "Нефтебазовое хозяйство РФ, ОМТ-Консалт",
+            "url": "https://www.omt-consult.ru/markets/motornoe-toplivo/neftebazovoe-hozyajstvo-rf",
+            "publisher": "ОМТ-Консалт",
+            "publishedOn": null,
+            "basis": "Прочитана страница описания коммерческой базы данных.",
+            "reason": "Индивидуальные вместимости в открытом полном тексте не опубликованы."
+          }
+        ],
+        "accessLimits": [
+          {
+            "url": "https://energybase.ru/tank-farm/georgievskaya-tank-farm",
+            "result": "HTTP 403"
+          },
+          {
+            "url": "https://xn--d1achcpfehgk5e1ch.xn--p1ai/2021/07/16/u-czimlyanskoj-neftebazy-skoro-yubilej/",
+            "result": "HTTP 403"
+          },
+          {
+            "url": "https://tech-oil.ru/oildepot.html",
+            "result": "HTTP 403"
+          },
+          {
+            "url": "https://morvesti.ru/exclusive/54652/",
+            "result": "HTTP 503"
+          },
+          {
+            "url": "https://rg.ru/2025/08/06/krupnejshij-neftekompleks-severnogo-kavkaza-dagnefteprodukt-vernuli-gosudarstvu.html",
+            "result": "HTTP 403"
+          },
+          {
+            "url": "https://2base.ru/company/ooo-andquot-kaspetrolservisandquot-krupneishii-nefteperevalochnyi-kompleks-na-kaspiiskom-poberezh-e-rd-b10101945",
+            "result": "HTTP 410"
+          },
+          {
+            "url": "https://www.kommersant.ru/doc/4603889",
+            "result": "Получен ответ без доступного текста статьи; не принят как прочитанный источник"
+          }
+        ],
+        "acceptedIds": [
+          "depot-makhachkala-portside"
+        ]
+      }
+    },
+    {
+      "group": "siberia",
+      "audit": {
+        "checkedAt": "2026-11-06",
+        "districts": [
+          "Уральский федеральный округ",
+          "Сибирский федеральный округ"
+        ],
+        "coverage": "partial",
+        "acceptedIds": [
+          "depot-kansk",
+          "depot-yeniseyskaya",
+          "depot-krasny-yar-novosibirsk"
+        ],
+        "queryCount": 116,
+        "queries": [
+          "Сокурская нефтебаза вместимость резервуарного парка",
+          "Уярская нефтебаза общая емкость",
+          "Красноярскнефтепродукт нефтебазы емкость резервуарного парка",
+          "Новосибирская нефтебаза общая вместимость",
+          "Томская нефтебаза резервуарный парк тысяч кубометров",
+          "Челябинская нефтебаза емкость резервуарного парка",
+          "Свердловская нефтебаза резервуарный парк тысяч",
+          "Тюменская нефтебаза общая емкость",
+          "Тюменская нефтебаза резервуары",
+          "Антипинская нефтебаза емкость",
+          "Верхнепышминская нефтебаза емкость",
+          "Шабровская нефтебаза емкость",
+          "Курганская нефтебаза емкость",
+          "Ишимская нефтебаза емкость",
+          "Нижневартовская нефтебаза емкость",
+          "Сургутнефтепродукт нефтебаза емкость",
+          "Ханты-Мансийск нефтебаза резервуарный",
+          "Ямал нефтебаза емкость",
+          "\"Кемеровская нефтебаза\"",
+          "\"Челябинская нефтебаза\"",
+          "\"Томская нефтебаза\"",
+          "\"Жилкинская\" \"тысяч\"",
+          "\"Сокурской\" \"кубометров\"",
+          "\"Нижнетагильская\" \"тысяч\"",
+          "\"Шабровская\" \"резервуарный\"",
+          "\"Усть-Кутская нефтебаза\"",
+          "\"Абаканская нефтебаза\"",
+          "\"Барнаульская нефтебаза\" \"объем\"",
+          "Усть-Кутская нефтебаза хранение объем",
+          "Иркутскнефтепродукт Усть-Кут резервуарный парк",
+          "Усть Кут нефтебаза 180",
+          "Иркутскнефтепродукт годовой отчет нефтебазы",
+          "Курганнефтепродукт годовой отчет емкость",
+          "Газпромнефть Урал нефтебаза объем хранения",
+          "Туринский терминал резервуарный парк объем",
+          "Сокурская нефтебаза Газпром 2013",
+          "Новосибирская нефтебаза Татнефть емкость",
+          "Нефтебаза Красный Яр резервуары 135000",
+          "\"Сокурская\" \"нефтебаза\" \"тыс\"",
+          "\"Уярская\" \"нефтебаза\"",
+          "\"Красноярская нефтебаза\" емкость",
+          "\"Красноярскнефтепродукт\" \"резервуарный\"",
+          "\"Новосибирская нефтебаза\" \"тыс\"",
+          "\"Томская нефтебаза\" \"емкость\"",
+          "\"Челябинская нефтебаза\" \"тыс\"",
+          "\"Свердловская нефтебаза\"",
+          "\"Екатеринбургская нефтебаза\" \"тыс\"",
+          "\"Тюменская нефтебаза\" \"тыс\"",
+          "Уяр нефтебаза вместимость",
+          "Сокур нефтебаза вместимость",
+          "Красноярскнефтепродукт годовой отчет 2023",
+          "нефтебаза Красный Яр резервуарный парк",
+          "Промнефть Челябинск нефтебаза объем",
+          "нефтебаза Барнаул резервуарный парк",
+          "нефтебаза Иркутск резервуарный парк",
+          "нефтебаза Кемерово резервуарный парк",
+          "\"Уярская\" нефтебаза куб",
+          "\"Уярской нефтебазы\"",
+          "\"Красноярскнефтепродукт\" \"ёмкость\"",
+          "\"Красноярскнефтепродукт\" \"вместимость\"",
+          "\"Красный Яр\" нефтебаза \"тысяч\"",
+          "\"Сокурской нефтебазы\"",
+          "\"Томской нефтебазы\" \"емкость\"",
+          "\"Барнаульская нефтебаза\" вместимость",
+          "\"Жилкинская нефтебаза\" емкость",
+          "\"Тюменнефтепродукт\" \"нефтебаз\" \"емкость\"",
+          "Уяр нефтебаза Красноярскнефтепродукт",
+          "Красноярская нефтебаза КНП емкость",
+          "Томск нефтебаза 30000",
+          "Сокурская нефтебаза 100000",
+          "Сокурская нефтебаза 65",
+          "нефтебаза Челябинск 30000",
+          "нефтебаза Екатеринбург 50000",
+          "Барнаульская нефтебаза Газпромнефть",
+          "Жилкинская нефтебаза Роснефть",
+          "Абаканская нефтебаза вместимость",
+          "нефтебаза Сибирь \"емкостью\"",
+          "нефтебаза Сибирь \"вместимость\"",
+          "нефтебаза Урал \"резервуарный парк\"",
+          "нефтебаза Курган \"тыс\"",
+          "нефтебаза Тюмень \"куб\"",
+          "нефтебаза Красноярск \"куб\"",
+          "нефтебаза Иркутск \"куб\"",
+          "нефтебаза Томск \"куб\"",
+          "нефтебаза Новосибирск \"емкость\"",
+          "нефтебаза Кемерово \"емкость\"",
+          "нефтебаза \"Сокур\" хранение",
+          "нефтебаза \"Сокурская\" кубометров",
+          "нефтебаза \"Уяр\" резервуаров",
+          "\"КНП\" \"нефтебаза\" \"емкостью\"",
+          "\"нефтебаза\" \"Абалаково\"",
+          "\"Канская нефтебаза\"",
+          "\"Заозерновская нефтебаза\"",
+          "\"Назаровская нефтебаза\"",
+          "\"Абаканская нефтебаза\" \"парк\"",
+          "\"Братская нефтебаза\" \"емкость\"",
+          "site:knp24.ru \"нефтебаза\" \"вместимостью\"",
+          "site:knp24.ru \"нефтебаза\" \"емкостью\"",
+          "site:knp24.ru \"нефтебаза\" \"кубометров\"",
+          "site:knp24.ru \"нефтебаза\" \"хранилище\"",
+          "нефтебаза \"Нижний Тагил\" емкость",
+          "нефтебаза \"Тобольск\" емкость",
+          "нефтебаза \"Сургут\" емкость",
+          "нефтебаза \"Ханты-Мансийск\" емкость",
+          "нефтебаза \"Усть-Кут\" емкость",
+          "нефтебаза \"Тайшет\" емкость",
+          "нефтебаза Минусинск вместимость",
+          "нефтебаза Ачинск вместимость",
+          "нефтебаза Абалаково вместимость",
+          "нефтебаза Назарово вместимость",
+          "нефтебаза Таймырская топливная Дудинка объем",
+          "нефтебаза Норильск объем хранения",
+          "нефтебаза Туран емкость",
+          "нефтебаза Кызыл емкость",
+          "нефтебаза Бийск емкость",
+          "нефтебаза Рубцовск емкость"
+        ],
+        "acceptedEvidence": [
+          {
+            "id": "depot-kansk",
+            "url": "https://knp24.ru/about/news/1020",
+            "publishedOn": "2023-12-08",
+            "basis": "В статье «Как это устроено: Канская нефтебаза» указано: «резервуары общей вместимостью 57600 тонн топлива». Сохранена единица исходного источника; отдельный показатель 156 тыс. тонн ежегодных продаж не использован."
+          },
+          {
+            "id": "depot-yeniseyskaya",
+            "url": "https://knp24.ru/about/news/1002",
+            "publishedOn": "2024-02-08",
+            "basis": "В статье «Северные ворота Красноярского края» прямо указано: «Общий объем резервуаров нефтебазы составляет более 139 тысяч куб. метров». Сохранено уточнение «более». Это именованная Енисейская нефтебаза в Абалаково, а не сумма резервуаров сети."
+          },
+          {
+            "id": "depot-krasny-yar-novosibirsk",
+            "url": "https://www.kommersant.ru/doc/3507922",
+            "publishedOn": "2017-12-25",
+            "basis": "Полный текст публикации о продаже акций прямо указывает: «Объем резервуарного парка — 135 тыс. кубометров». Значение относится к нефтебазе, созданной в 1964 году; публикация имеет исторический контекст банкротства, поэтому дата характеристики явно сохранена."
+          }
+        ],
+        "excluded": [
+          {
+            "name": "Нефтебаза «Промнефть»",
+            "operator": "Промнефть",
+            "region": "Челябинская область",
+            "url": "https://neftregion.ru/katalog-kompanii/neftebaza-promneft",
+            "publisher": "НефтьРегионы, отраслевой каталог",
+            "reason": "Прочитан полный текст: общая вместимость 2400 м³; ниже порога."
+          },
+          {
+            "name": "Назаровская нефтебаза",
+            "operator": "АО «Красноярскнефтепродукт»",
+            "region": "Красноярский край",
+            "url": "https://newslab.ru/article/922102",
+            "publisher": "Newslab",
+            "reason": "Прочитан полный текст. 100 тыс. тонн относится к годовой перевалке, а не общей вместимости; описания отдельных резервуаров не суммировались."
+          },
+          {
+            "name": "Туринский топливный терминал",
+            "operator": "Газпром нефть",
+            "region": "Тюменская область",
+            "url": "https://ria.ru/20230920/terminal-1897657206.html",
+            "publisher": "РИА Новости",
+            "publishedOn": "2023-09-20",
+            "reason": "Прочитан полный текст. 600 тыс. тонн в год — перевалка. Общая вместимость не установлена. Сопоставлен также полный текст Neftegaz.RU: https://neftegaz.ru/news/transport-and-storage/794735-gazprom-neft-vvela-v-ekspluatatsiyu-toplivnyy-terminal-turinskiy-v-tyumenskoy-oblasti/"
+          },
+          {
+            "name": "Сеть КНП",
+            "operator": "АО «Красноярскнефтепродукт»",
+            "region": "Красноярский край",
+            "url": "https://disclosure.1prime.ru/Portal/GetDocument.aspx?emId=2460002949&docId=a2a03d86646948ed88faa4d9143574cd",
+            "publisher": "КНП / ПРАЙМ, годовой отчет за 2022 год",
+            "publishedOn": "2023-06-08",
+            "reason": "Полный PDF извлечен и прочитан по релевантным разделам. 247352 м³ — емкостной парк всей компании. Не распределялся между нефтебазами. Дополнительно проверены отчеты 2025 и 2016 годов: индивидуальных общих вместимостей не установлено."
+          },
+          {
+            "name": "Шабровская нефтебаза",
+            "operator": "Газпромнефть",
+            "region": "Свердловская область",
+            "url": "https://www.uralgeoecology.ru/portfolio/referens-list/8-shabrovsk-neftebaza",
+            "publisher": "Уралгеоэкология",
+            "reason": "Полный текст описания подрядчика не содержит общей вместимости нефтебазы."
+          },
+          {
+            "name": "Нефтебаза «Красный Яр», исторические интервью",
+            "operator": "ГУП «Нефтебаза «Красный Яр»",
+            "region": "Новосибирская область",
+            "url": "https://ksonline.ru/nomer/ks/-/id/15227/",
+            "publisher": "Континент Сибирь",
+            "reason": "Прочитаны интервью и статья https://ksonline.ru/nomer/ks/-/id/9057/. Значения 10–5000 м³ относятся к выпускаемым на предприятии отдельным резервуарам; не являются общей вместимостью нефтебазы. Для принятой записи использован иной источник — Коммерсантъ."
+          }
+        ],
+        "accessLimits": [
+          {
+            "url": "https://tech-oil.ru/oildepot.html",
+            "error": "HTTP Error 403: Forbidden"
+          },
+          {
+            "url": "https://energybase.ru/tank-farm/sokyrskaya-tank-farm",
+            "error": "HTTP Error 403: Forbidden"
+          },
+          {
+            "url": "https://energybase.ru/tank-farm/chelyabinskaya-tank-farm",
+            "error": "HTTP Error 403: Forbidden"
+          },
+          {
+            "url": "https://energybase.ru/tank-farm/barnaulskaya-tank-farm",
+            "error": "HTTP Error 403: Forbidden"
+          },
+          {
+            "url": "https://energybase.ru/tank-farm/zhilkinskaya-tank-farm",
+            "error": "HTTP Error 403: Forbidden"
+          },
+          {
+            "url": "https://newsib.ru/news-list/read/2961",
+            "error": "HTTP Error 503: Service Unavailable"
+          },
+          {
+            "url": "https://vosincom.ru/reservoirpark",
+            "error": "HTTP Error 403: Forbidden"
+          },
+          {
+            "url": "https://avalon-oil.ru/neftebaza",
+            "error": "HTTP Error 404: Not Found"
+          }
+        ],
+        "candidateCoverage": [
+          {
+            "region": "Красноярский край",
+            "operator": "КНП",
+            "candidates": [
+              "Канская",
+              "Енисейская / Абалаково",
+              "Красноярская",
+              "Ачинская",
+              "Назаровская",
+              "Заозерновская",
+              "Уярская",
+              "Минусинская"
+            ],
+            "finding": "Две записи подтверждены официальными статьями; проверены раскрытие и годовые отчеты. Для остальных индивидуальная вместимость не подтверждена."
+          },
+          {
+            "region": "Красноярский край",
+            "operator": "Таймырская топливная компания",
+            "candidates": [
+              "Дудинская",
+              "Норильская"
+            ],
+            "finding": "Альтернативные поиски выполнены; не повторялся ранее исключенный проектный сетевой итог 467 тыс. м³. Нового полного источника индивидуальной существующей вместимости не найдено."
+          },
+          {
+            "region": "Новосибирская область",
+            "operator": "Газпромнефть-Терминал / Красный Яр",
+            "candidates": [
+              "Сокурская",
+              "Новосибирская",
+              "Красный Яр"
+            ],
+            "finding": "Красный Яр подтвержден исторической деловой публикацией. По Сокурской отраслевой каталог недоступен (403); коммерческая карточка Mergers не дала вместимость."
+          },
+          {
+            "region": "Томская область",
+            "operator": "Газпром нефть / Томскнефтепродукт",
+            "candidates": [
+              "Томская"
+            ],
+            "finding": "Альтернативные поиски выполнены; доступного нового полного источника индивидуальной вместимости не найдено; прошлые неудачные статьи не перечитывались."
+          },
+          {
+            "region": "Кемеровская область — Кузбасс",
+            "operator": "Газпромнефть-Кузбасс",
+            "candidates": [
+              "Кемеровская"
+            ],
+            "finding": "Прямые и региональные поиски выполнены; общая вместимость не подтверждена."
+          },
+          {
+            "region": "Алтайский край",
+            "operator": "Газпромнефть-Терминал / Роснефть-Алтайнефтепродукт",
+            "candidates": [
+              "Барнаульская",
+              "Бийская",
+              "Рубцовская"
+            ],
+            "finding": "Прямые и региональные поиски выполнены; карточка Барнаульской недоступна (403); иных пригодных полных источников не установлено."
+          },
+          {
+            "region": "Иркутская область",
+            "operator": "Иркутскнефтепродукт / Авалон",
+            "candidates": [
+              "Жилкинская",
+              "Усть-Кутская",
+              "Братская",
+              "Тайшетская"
+            ],
+            "finding": "Прямые, операторские и поиски раскрытия выполнены; индивидуальные общие вместимости не установлены. Сайт Авалона 404, карточка Жилкинской 403."
+          },
+          {
+            "region": "Республика Хакасия",
+            "operator": "Региональные операторы",
+            "candidates": [
+              "Абаканская"
+            ],
+            "finding": "Прямые региональные поиски выполнены, подходящая общая вместимость не подтверждена."
+          },
+          {
+            "region": "Республика Тыва",
+            "operator": "Тыванефтепродукт / региональные операторы",
+            "candidates": [
+              "Кызыл",
+              "Туран",
+              "Балгазынская"
+            ],
+            "finding": "Поиски выполнены, подходящая общая вместимость не подтверждена."
+          },
+          {
+            "region": "Омская область",
+            "operator": "Газпромнефть-Терминал",
+            "candidates": [
+              "Омская"
+            ],
+            "finding": "Сохранено исключение предыдущего аудита: 20000 м³ ниже порога; не повторялось."
+          },
+          {
+            "region": "Челябинская область",
+            "operator": "Газпромнефть / Промнефть / независимые",
+            "candidates": [
+              "Челябинская",
+              "Промнефть",
+              "Аргаяш"
+            ],
+            "finding": "Промнефть 2400 м³ ниже порога. Аргаяш 14000 м³ уже исключен в предыдущем аудите. Челябинская отрасловая карточка 403."
+          },
+          {
+            "region": "Свердловская область",
+            "operator": "Газпромнефть-Урал / независимые",
+            "candidates": [
+              "Шабровская",
+              "Нижнетагильская",
+              "Екатеринбургская",
+              "Верхнепышминская"
+            ],
+            "finding": "Прямые, подрядные и операторские поиски выполнены; пригодные индивидуальные итоги не установлены; ранее исключенные малые склады не перечитывались."
+          },
+          {
+            "region": "Тюменская область",
+            "operator": "Газпром нефть / независимые",
+            "candidates": [
+              "Туринская",
+              "Тюменская",
+              "Антипинская",
+              "Тобольская",
+              "Ишимская"
+            ],
+            "finding": "Туринский терминал имеет подтвержденную перевалку 600 тыс. т/год, не вместимость. Для прочих подходящие итоги не установлены."
+          },
+          {
+            "region": "Курганская область",
+            "operator": "Роснефть-Курганнефтепродукт",
+            "candidates": [
+              "Курганская"
+            ],
+            "finding": "Выполнены прямой поиск и проверка страницы раскрытия ПРАЙМ; доступный пригодный итог не найден."
+          },
+          {
+            "region": "Ханты-Мансийский автономный округ — Югра",
+            "operator": "Региональные коммерческие операторы",
+            "candidates": [
+              "Ханты-Мансийск",
+              "Сургут",
+              "Нижневартовск"
+            ],
+            "finding": "Поиски выполнены; операторский источник vosincom.ru 403; подходящие итоги не подтверждены."
+          },
+          {
+            "region": "Ямало-Ненецкий автономный округ",
+            "operator": "Региональные коммерческие операторы",
+            "candidates": [
+              "Ямал"
+            ],
+            "finding": "Региональный поиск выполнен; подходящий источник индивидуальной вместимости коммерческой нефтебазы не найден."
+          }
+        ],
+        "limitations": [
+          "Покрытие не исчерпывающее: наличие отрицательного поиска не означает отсутствие нефтебазы в регионе.",
+          "Историческая запись Красный Яр относится к 2017 году; текущий статус не устанавливался.",
+          "Маркеры отражают населенные пункты и округлены до 0,1 градуса.",
+          "Нефтебазы Республики Алтай отдельно не подтверждены; нефтеперерабатывающие заводы и трубопроводные станции не подменяли коммерческие нефтебазы."
+        ],
+        "coordinateBasis": [
+          {
+            "id": "depot-yeniseyskaya",
+            "url": "https://ru.wikipedia.org/wiki/Абалаково_(Абалаковское_сельское_поселение)",
+            "basis": "Координаты населенного пункта округлены до [92.7, 58.1], а не координаты территории нефтебазы."
+          },
+          {
+            "id": "depot-krasny-yar-novosibirsk",
+            "url": "https://ru.wikipedia.org/wiki/Красный_Яр_(Новосибирский_район)",
+            "basis": "Координаты населенного пункта округлены до [82.9, 55.2]."
+          }
+        ]
+      }
+    },
+    {
+      "group": "east",
+      "audit": {
+        "checkedAt": "2026-11-06",
+        "scope": "Дальневосточный федеральный округ, включая Бурятию и Забайкальский край; Якутские отчеты переданы отдельному исследователю",
+        "coverage": "partial",
+        "acceptedIds": [
+          "depot-vladivostok-uliss",
+          "depot-pevek-chukotsnab"
+        ],
+        "method": "Систематические запросы по операторам и всем регионам ДФО, затем чтение полных операторских страниц, публикаций и раскрытых отчетов. Только явная общая вместимость индивидуального объекта >=30 000 тонн или м³. Поисковые фрагменты не принимались. Неподтвержденные регионы не означают отсутствие объектов.",
+        "excluded": [
+          {
+            "name": "СибавиаТЭК, Чита",
+            "url": "https://www.sibaviatek.ru/",
+            "publisher": "ООО «СибавиаТЭК», официальный сайт",
+            "publishedOn": null,
+            "reason": "Полный текст дает суммарный объем резервуарного парка 20 000 м³, ниже порога."
+          },
+          {
+            "name": "Трансбункер-Холмск, Холмск и Южно-Сахалинск",
+            "url": "https://xtk-khv.ru/napravlenie-deyatelnosti/perevalka-i-khranenie-nefteproduktov/",
+            "publisher": "ООО «Хабаровская топливная компания», официальный сайт",
+            "publishedOn": null,
+            "reason": "Полный текст указывает Холмск 8 000 м³ и дополнительный склад Южно-Сахалинск 1 500 м³; оба ниже порога, объекты не суммировались."
+          },
+          {
+            "name": "Трансбункер-Приморье, Находка",
+            "url": "https://xtk-khv.ru/napravlenie-deyatelnosti/perevalka-i-khranenie-nefteproduktov/",
+            "publisher": "ООО «Хабаровская топливная компания», официальный сайт",
+            "publishedOn": null,
+            "reason": "Полный текст дает раздельные категории 12 000 м³ темных и 6 000 м³ светлых продуктов; даже их сумма ниже порога."
+          },
+          {
+            "name": "Трансбункер-Ванино",
+            "url": "https://xtk-khv.ru/napravlenie-deyatelnosti/perevalka-i-khranenie-nefteproduktov/",
+            "publisher": "ООО «Хабаровская топливная компания», официальный сайт",
+            "publishedOn": null,
+            "reason": "Полный текст описывает морской терминал и отдельные категории хранения 125 000 и 87 000 м³. Отдельная нефтебаза и явная общая вместимость не выделены; не включен в слой нефтебаз."
+          },
+          {
+            "name": "ННК-Приморнефтепродукт: Владивосток, Уссурийск, Сысоевка, Дальнереченск",
+            "url": "https://neftregion.ru/katalog-kompanii/ao-nnk-primornefteprodukt",
+            "publisher": "НефтьРегион, отраслевой справочник",
+            "publishedOn": "2025-04-02",
+            "reason": "Прочитан полный список нефтебаз; индивидуальные общие вместимости не приведены."
+          },
+          {
+            "name": "ННК-Хабаровскнефтепродукт: Хабаровская, Вяземская, Николаевская",
+            "url": "https://neftregion.ru/katalog-kompanii/nnk-khabarovskneftprodukt",
+            "publisher": "НефтьРегион, отраслевой справочник",
+            "publishedOn": "2025-03-10",
+            "reason": "Прочитан полный текст; индивидуальные общие вместимости не приведены."
+          },
+          {
+            "name": "ННК-Камчатнефтепродукт",
+            "url": "https://knp.kamoil.ru/about/",
+            "publisher": "АО «ННК-Камчатнефтепродукт», официальный сайт",
+            "publishedOn": null,
+            "reason": "Прочитана полная операторская страница; общая вместимость отдельной нефтебазы не указана."
+          },
+          {
+            "name": "ННК-Камчатнефтепродукт, годовой отчет 2018",
+            "url": "https://www.disclosure.ru/issuer/GetFileMD5?md5=d075109e38b140e99696a7cbfac29318",
+            "publisher": "АО «ННК-Камчатнефтепродукт», раскрытие через АК&М",
+            "publishedOn": "2019-07-03",
+            "reason": "Скачан и прочитан текст отчета PDF. Пригодных общих емкостей индивидуальных нефтебаз не установлено."
+          },
+          {
+            "name": "ННК-Камчатнефтепродукт, квартальный отчет 1 квартал 2018",
+            "url": "https://www.disclosure.ru/issuer/GetFileMD5?md5=15d631096f4d3aa511edaea4a40238f0",
+            "publisher": "АО «ННК-Камчатнефтепродукт», раскрытие через АК&М",
+            "publishedOn": "2018-05-15",
+            "reason": "Скачан DOC, прочитан извлеченный текст. Пригодных общих емкостей индивидуальных нефтебаз не установлено."
+          },
+          {
+            "name": "ННК-Хабаровскнефтепродукт, годовой отчет 2015",
+            "url": "https://www.disclosure.ru/issuer/GetFileMD5?md5=4bad0078495bf1420c7998ca718ee6d4",
+            "publisher": "АО «ННК-Хабаровскнефтепродукт», раскрытие через АК&М",
+            "publishedOn": "2016-06-28",
+            "reason": "Прочитан извлеченный текст DOC: указано 6 нефтебаз, индивидуальные общие вместимости не приведены."
+          },
+          {
+            "name": "Бурятнефтепродукт",
+            "url": "https://rosneft-opt.ru/168909",
+            "publisher": "Роснефть, официальный портал оптовых продаж",
+            "publishedOn": null,
+            "reason": "Прочитанная полная страница не содержит индивидуальных вместимостей нефтебаз."
+          },
+          {
+            "name": "Нефтемаркет, Забайкальский край",
+            "url": "https://www.chita.ru/text/longread/2019/05/25/71100764/",
+            "publisher": "ЧИТА.ру",
+            "publishedOn": "2019-05-25",
+            "reason": "Полная историческая публикация перечисляет нефтебазы и число объектов, но индивидуальных общих вместимостей не дает."
+          },
+          {
+            "name": "Магаданнефто",
+            "url": "https://nefto.online/",
+            "publisher": "ООО «Магаданнефто», официальный сайт",
+            "publishedOn": null,
+            "reason": "Главная страница прочитана: явная общая вместимость отдельного объекта не дана. Ссылки на доступную мощность и текущие показатели не использовались."
+          },
+          {
+            "name": "Владивостокская нефтебаза ННК, историческая публикация",
+            "url": "https://primamedia.ru/news/448328/",
+            "publisher": "PrimaMedia",
+            "publishedOn": "2015-07-08",
+            "reason": "Полностью прочитанная публикация об истории нефтебазы не содержит явной общей вместимости. Размер сети и число нефтебаз не использованы."
+          }
+        ],
+        "accessLimits": [
+          {
+            "url": "https://energybase.ru/tank-farm/vladivostokskaya-tank-farm",
+            "error": "HTTP 403; полная карточка не получена"
+          },
+          {
+            "url": "https://e-disclosure.ru/portal/files.aspx?id=2142&type=2",
+            "error": "HTTP 403; найден альтернативный архив disclosure.ru"
+          },
+          {
+            "url": "https://www.e-disclosure.ru/portal/files.aspx?id=9197&type=2",
+            "error": "HTTP 403"
+          },
+          {
+            "url": "https://rpn.gov.ru/public/161220241120591/",
+            "error": "HTTP 403"
+          },
+          {
+            "url": "https://erdc.ru/en/stories/ooo-kamchatskaya-neftebaza/",
+            "error": "HTTP 403; русская версия также 403"
+          },
+          {
+            "url": "https://www.knb.group/about/",
+            "error": "HTTP 403; главная ранее уже была заблокирована в старом аудите"
+          },
+          {
+            "url": "https://www.disclosure.ru/issuer/2504000532/",
+            "error": "Страница эмитента деактивирована"
+          },
+          {
+            "url": "https://www.disclosure.ru/issuer/2801013238/",
+            "error": "Ответ «нет такого эмитента»"
+          },
+          {
+            "url": "https://www.disclosure.ru/issuer/GetFileMD5?md5=82679743de0b5e771bec604e7fff1be2",
+            "error": "Годовой отчет Камчатнефтепродукт 2025 получен как скан PDF без текстового слоя; не принят как подтверждение"
+          },
+          {
+            "url": "https://www.disclosure.ru/issuer/GetFileMD5?md5=0311c9ee2f744ad9e9e868afc46fc795",
+            "error": "Годовой отчет Хабаровскнефтепродукт 2016 получен как скан PDF без текстового слоя; не принят как подтверждение"
+          },
+          {
+            "url": "https://www.neftmarket.com/index.php",
+            "error": "HTTP 403"
+          }
+        ],
+        "regionCoverage": [
+          {
+            "region": "Приморский край",
+            "result": "Улисс подтвержден; ННК Владивосток/Уссурийск/Сысоевка/Дальнереченск без проверенной вместимости; малый Трансбункер-Приморье исключен"
+          },
+          {
+            "region": "Хабаровский край",
+            "result": "Амурская нефтебаза уже в исходном наборе; ННК проверен по справочнику и годовому отчету, дополнительных индивидуальных вместимостей не установлено"
+          },
+          {
+            "region": "Чукотский автономный округ",
+            "result": "Певек подтвержден историческим источником; Анадырь/Мыс Обсервации/Провидения не подтверждены полным источником"
+          },
+          {
+            "region": "Камчатский край",
+            "result": "Операторские и отчетные источники ННК прочитаны без емкостей; Камчатская нефтебаза остается кандидатом из-за недоступных страниц"
+          },
+          {
+            "region": "Сахалинская область",
+            "result": "Трансбункер-Холмск и склад Южно-Сахалинска ниже порога; ННК-Сахалиннефтепродукт не подтвержден"
+          },
+          {
+            "region": "Магаданская область",
+            "result": "Магаданнефто прочитан без пригодного общего объема; Колыманефтепродукт подтвержден только для его нефтебазы во Владивостоке"
+          },
+          {
+            "region": "Амурская область",
+            "result": "Запросы по ННК-Амурнефтепродукт, Благовещенской и Сковородинской нефтебазам не дали проверенного общего объема; Дунай Терминал ранее исключен как ниже порога"
+          },
+          {
+            "region": "Еврейская автономная область",
+            "result": "Запросы по Биробиджану и сети Хабаровскнефтепродукта не дали проверенных индивидуальных общих объемов"
+          },
+          {
+            "region": "Республика Бурятия",
+            "result": "Бурятнефтепродукт, Улан-Удэнская, Сульфатская, Северобайкальская нефтебазы искались; операторская страница без объемов, карточки Energybase не приняты без полного текста"
+          },
+          {
+            "region": "Забайкальский край",
+            "result": "СибавиаТЭК 20 000 м³ исключен; история Нефтемаркета и поиски Читинской нефтебазы не дали подтвержденной индивидуальной вместимости"
+          },
+          {
+            "region": "Республика Саха (Якутия)",
+            "result": "Доступные годовые отчеты 2024 и 2025 переданы depots_inventory для отдельной проверки; не дублируются здесь"
+          }
+        ]
+      }
+    },
+    {
+      "group": "inventory",
+      "audit": {
+        "checkedAt": "2026-11-06",
+        "scope": "Общероссийские коммерческие операторские перечни и исторические отчеты; дополнительные проверки Удмуртии, Ленинградской области, Якутии, Татарстана и Башкортостана. Полнота по всем регионам не установлена.",
+        "acceptedIds": [
+          "depot-kambarskaya",
+          "depot-gladkoe"
+        ],
+        "regionsSearched": [
+          "Удмуртская Республика",
+          "Ленинградская область",
+          "Республика Саха (Якутия)",
+          "Красноярский край",
+          "Республика Татарстан",
+          "Республика Башкортостан",
+          "Пермский край",
+          "Ульяновская область",
+          "Самарская область",
+          "Чувашская Республика"
+        ],
+        "operatorsSearched": [
+          {
+            "name": "АО «Саханефтегазсбыт»",
+            "sources": [
+              "https://aosngs.ru/akcioneram/raskrytie-informatsii/",
+              "https://aosngs.ru/contacts/kontakty-neftebaz/"
+            ],
+            "finding": "Загружены и прочитаны исторические годовые отчеты за 2012, 2015, 2018, 2022, 2024 и 2025 годы. Общей вместимости отдельных нефтебаз не установлено. Таблицы количества РВС не являются таблицами вместимости; показатели текущего состояния и запаса не извлекались в каталог."
+          },
+          {
+            "name": "АО «Красноярскнефтепродукт»",
+            "sources": [
+              "https://www.knp24.ru/about/documents.php",
+              "https://disclosure.1prime.ru/Portal/GetDocument.aspx?emId=2460002949&docId=a2a03d86646948ed88faa4d9143574cd"
+            ],
+            "finding": "Полный годовой отчет за 2022 год указывает 247352 м³ для всего емкостного парка компании; значение не назначалось отдельной нефтебазе."
+          },
+          {
+            "name": "ООО «ЛУКОЙЛ-Транс»",
+            "sources": [
+              "https://trans.lukoil.ru/ru/About/Structure",
+              "https://trans.lukoil.ru/ru/About/Structure/Kambarskaya",
+              "https://en.portnews.ru/news/280338/"
+            ],
+            "finding": "Оператор подтверждает Камбарскую нефтебазу; общий объем 153400 м³ подтвержден полной отраслевой публикацией 17.07.2019."
+          },
+          {
+            "name": "ООО «Газпромнефть-Терминал»",
+            "sources": [
+              "https://www.na-atr.ru/news/view/16681",
+              "https://rupec.ru/news/41433/"
+            ],
+            "finding": "В перечне реконструкции 26 нефтебаз объемов по каждой базе нет. Гладкое принято по отдельной публикации 27.06.2019 с объемом единовременного хранения 40000 м³."
+          },
+          {
+            "name": "АО ХК «Татнефтепродукт»",
+            "sources": [
+              "https://tatnp.ru/set-neftebaz/",
+              "https://old.tatnp.ru/investors/sobraniya/",
+              "https://old.tatnp.ru/investors/sobraniya/tatnp/index.php"
+            ],
+            "finding": "Полные операторские страницы перечисляют услуги и объекты, но пригодной общей вместимости конкретной нефтебазы не дают."
+          },
+          {
+            "name": "ООО «Татнефть-АЗС Центр»",
+            "sources": [
+              "https://neftregion.ru/katalog-kompanii/ooo-tatneft-azs-centr"
+            ],
+            "finding": "Полная отраслевая публикация от 09.02.2017 перечисляет Челнинскую, Бавлинскую, Чебоксарскую нефтебазы, но их вместимость не указывает."
+          },
+          {
+            "name": "ООО «ЛУКОЙЛ-Уралнефтепродукт»",
+            "sources": [
+              "https://iadevon.ru/news/azs/lukoyl_udvoit_propusknuyu_sposobnost_permskoy_neftebazi-12165/"
+            ],
+            "finding": "Публикация 25.11.2021 о нефтебазе Пермь указывает суточную и годовую перевалку; объем единовременного хранения не подтвержден."
+          },
+          {
+            "name": "ООО «ГНП сеть»",
+            "sources": [
+              "https://otptek.ru/wp-content/uploads/2023/07/Perechen-neftebaz-27.07.2023.pdf"
+            ],
+            "finding": "Полностью прочитан коммерческий PDF-перечень 19 объектов от 27.07.2023; вместимости в документе нет."
+          }
+        ],
+        "nationalDirectories": [
+          {
+            "name": "ОМТ-Консалт, Справочник нефтебаз РФ",
+            "url": "https://www.omt-consult.ru/markets/motornoe-toplivo/neftebazovoe-hozyajstvo-rf",
+            "finding": "Доступная страница описывает общероссийский справочник с полем вместимости. Бесплатный пример XLSX прочитан полностью: 4 объекта, все ниже порога. Полная версия не была доступна; покупка и обращение к поставщику не выполнялись."
+          },
+          {
+            "name": "ООО «Поставком», карта нефтебаз",
+            "url": "https://postavcom.ru/map.html",
+            "finding": "Полная страница дает названия разных типов объектов, включая НПЗ и наливные станции, без общей вместимости. Не использована для включения объектов по порогу."
+          }
+        ],
+        "excluded": [
+          {
+            "name": "Аркон-Про",
+            "url": "https://www.omt-consult.ru/markets/motornoe-toplivo/neftebazovoe-hozyajstvo-rf",
+            "publisher": "ОМТ-Консалт, бесплатный пример отраслевого справочника XLSX",
+            "basis": "Полная строка примера содержит емкостной парк 3000 м³. Значение исходного столбца «тыс.м3» умножено на 1000 без преобразования единицы объема в массу.",
+            "reason": "Ниже порога 30000 м³."
+          },
+          {
+            "name": "Акрил",
+            "url": "https://www.omt-consult.ru/markets/motornoe-toplivo/neftebazovoe-hozyajstvo-rf",
+            "publisher": "ОМТ-Консалт, бесплатный пример отраслевого справочника XLSX",
+            "basis": "Полная строка примера содержит емкостной парк 5600 м³. Значение исходного столбца «тыс.м3» умножено на 1000 без преобразования единицы объема в массу.",
+            "reason": "Ниже порога 30000 м³."
+          },
+          {
+            "name": "Агросервис Урупский",
+            "url": "https://www.omt-consult.ru/markets/motornoe-toplivo/neftebazovoe-hozyajstvo-rf",
+            "publisher": "ОМТ-Консалт, бесплатный пример отраслевого справочника XLSX",
+            "basis": "Полная строка примера содержит емкостной парк 3260 м³. Значение исходного столбца «тыс.м3» умножено на 1000 без преобразования единицы объема в массу.",
+            "reason": "Ниже порога 30000 м³."
+          },
+          {
+            "name": "Варгашинская нефтебаза",
+            "url": "https://www.omt-consult.ru/markets/motornoe-toplivo/neftebazovoe-hozyajstvo-rf",
+            "publisher": "ОМТ-Консалт, бесплатный пример отраслевого справочника XLSX",
+            "basis": "Полная строка примера содержит емкостной парк 8900 м³. Значение исходного столбца «тыс.м3» умножено на 1000 без преобразования единицы объема в массу.",
+            "reason": "Ниже порога 30000 м³."
+          },
+          {
+            "name": "Нефтебаза «Тайга Энерджи», Благовещенск, Башкортостан",
+            "url": "https://taygaenergy.com/neftebaza/",
+            "publisher": "Тайга Энерджи, официальный сайт",
+            "basis": "Полный текст прямо указывает резервуарный парк объемом 5000 м³.",
+            "reason": "Ниже порога 30000 м³."
+          }
+        ],
+        "candidates": [
+          {
+            "name": "Батагайская нефтебаза",
+            "region": "Республика Саха (Якутия)",
+            "url": "https://aosngs.ru/akcioneram/raskrytie-informatsii/",
+            "reason": "Объект присутствует в операторском перечне; общая вместимость в прочитанных отчетах не подтверждена. Это не вывод о том, что объект ниже порога."
+          },
+          {
+            "name": "Белогорская нефтебаза",
+            "region": "Республика Саха (Якутия)",
+            "url": "https://aosngs.ru/akcioneram/raskrytie-informatsii/",
+            "reason": "Объект присутствует в операторском перечне; общая вместимость в прочитанных отчетах не подтверждена. Это не вывод о том, что объект ниже порога."
+          },
+          {
+            "name": "Жиганская нефтебаза",
+            "region": "Республика Саха (Якутия)",
+            "url": "https://aosngs.ru/akcioneram/raskrytie-informatsii/",
+            "reason": "Объект присутствует в операторском перечне; общая вместимость в прочитанных отчетах не подтверждена. Это не вывод о том, что объект ниже порога."
+          },
+          {
+            "name": "Зырянская нефтебаза",
+            "region": "Республика Саха (Якутия)",
+            "url": "https://aosngs.ru/akcioneram/raskrytie-informatsii/",
+            "reason": "Объект присутствует в операторском перечне; общая вместимость в прочитанных отчетах не подтверждена. Это не вывод о том, что объект ниже порога."
+          },
+          {
+            "name": "Ленская нефтебаза",
+            "region": "Республика Саха (Якутия)",
+            "url": "https://aosngs.ru/akcioneram/raskrytie-informatsii/",
+            "reason": "Объект присутствует в операторском перечне; общая вместимость в прочитанных отчетах не подтверждена. Это не вывод о том, что объект ниже порога."
+          },
+          {
+            "name": "Нижне-Бестяхская нефтебаза",
+            "region": "Республика Саха (Якутия)",
+            "url": "https://aosngs.ru/akcioneram/raskrytie-informatsii/",
+            "reason": "Объект присутствует в операторском перечне; общая вместимость в прочитанных отчетах не подтверждена. Это не вывод о том, что объект ниже порога."
+          },
+          {
+            "name": "Нагорнинская нефтебаза",
+            "region": "Республика Саха (Якутия)",
+            "url": "https://aosngs.ru/akcioneram/raskrytie-informatsii/",
+            "reason": "Объект присутствует в операторском перечне; общая вместимость в прочитанных отчетах не подтверждена. Это не вывод о том, что объект ниже порога."
+          },
+          {
+            "name": "Нижнеянская нефтебаза",
+            "region": "Республика Саха (Якутия)",
+            "url": "https://aosngs.ru/akcioneram/raskrytie-informatsii/",
+            "reason": "Объект присутствует в операторском перечне; общая вместимость в прочитанных отчетах не подтверждена. Это не вывод о том, что объект ниже порога."
+          },
+          {
+            "name": "Нижнеколымская нефтебаза",
+            "region": "Республика Саха (Якутия)",
+            "url": "https://aosngs.ru/akcioneram/raskrytie-informatsii/",
+            "reason": "Объект присутствует в операторском перечне; общая вместимость в прочитанных отчетах не подтверждена. Это не вывод о том, что объект ниже порога."
+          },
+          {
+            "name": "Нюрбинская нефтебаза",
+            "region": "Республика Саха (Якутия)",
+            "url": "https://aosngs.ru/akcioneram/raskrytie-informatsii/",
+            "reason": "Объект присутствует в операторском перечне; общая вместимость в прочитанных отчетах не подтверждена. Это не вывод о том, что объект ниже порога."
+          },
+          {
+            "name": "Олекминская нефтебаза",
+            "region": "Республика Саха (Якутия)",
+            "url": "https://aosngs.ru/akcioneram/raskrytie-informatsii/",
+            "reason": "Объект присутствует в операторском перечне; общая вместимость в прочитанных отчетах не подтверждена. Это не вывод о том, что объект ниже порога."
+          },
+          {
+            "name": "Сангарская нефтебаза",
+            "region": "Республика Саха (Якутия)",
+            "url": "https://aosngs.ru/akcioneram/raskrytie-informatsii/",
+            "reason": "Объект присутствует в операторском перечне; общая вместимость в прочитанных отчетах не подтверждена. Это не вывод о том, что объект ниже порога."
+          },
+          {
+            "name": "Среднеколымская нефтебаза",
+            "region": "Республика Саха (Якутия)",
+            "url": "https://aosngs.ru/akcioneram/raskrytie-informatsii/",
+            "reason": "Объект присутствует в операторском перечне; общая вместимость в прочитанных отчетах не подтверждена. Это не вывод о том, что объект ниже порога."
+          },
+          {
+            "name": "Томмотская нефтебаза",
+            "region": "Республика Саха (Якутия)",
+            "url": "https://aosngs.ru/akcioneram/raskrytie-informatsii/",
+            "reason": "Объект присутствует в операторском перечне; общая вместимость в прочитанных отчетах не подтверждена. Это не вывод о том, что объект ниже порога."
+          },
+          {
+            "name": "Усть-Куйгинская нефтебаза",
+            "region": "Республика Саха (Якутия)",
+            "url": "https://aosngs.ru/akcioneram/raskrytie-informatsii/",
+            "reason": "Объект присутствует в операторском перечне; общая вместимость в прочитанных отчетах не подтверждена. Это не вывод о том, что объект ниже порога."
+          },
+          {
+            "name": "Хандыгская нефтебаза",
+            "region": "Республика Саха (Якутия)",
+            "url": "https://aosngs.ru/akcioneram/raskrytie-informatsii/",
+            "reason": "Объект присутствует в операторском перечне; общая вместимость в прочитанных отчетах не подтверждена. Это не вывод о том, что объект ниже порога."
+          },
+          {
+            "name": "Чокурдахская нефтебаза",
+            "region": "Республика Саха (Якутия)",
+            "url": "https://aosngs.ru/akcioneram/raskrytie-informatsii/",
+            "reason": "Объект присутствует в операторском перечне; общая вместимость в прочитанных отчетах не подтверждена. Это не вывод о том, что объект ниже порога."
+          },
+          {
+            "name": "Эльдиканская нефтебаза",
+            "region": "Республика Саха (Якутия)",
+            "url": "https://aosngs.ru/akcioneram/raskrytie-informatsii/",
+            "reason": "Объект присутствует в операторском перечне; общая вместимость в прочитанных отчетах не подтверждена. Это не вывод о том, что объект ниже порога."
+          },
+          {
+            "name": "Якутская нефтебаза",
+            "region": "Республика Саха (Якутия)",
+            "url": "https://aosngs.ru/akcioneram/raskrytie-informatsii/",
+            "reason": "Объект присутствует в операторском перечне; общая вместимость в прочитанных отчетах не подтверждена. Это не вывод о том, что объект ниже порога."
+          },
+          {
+            "name": "Нефтебаза «Пермь»",
+            "reason": "Объект подтвержден прочитанным перечнем или публикацией; общей вместимости нет."
+          },
+          {
+            "name": "Челнинская нефтебаза",
+            "reason": "Объект подтвержден прочитанным перечнем или публикацией; общей вместимости нет."
+          },
+          {
+            "name": "Бавлинская нефтебаза",
+            "reason": "Объект подтвержден прочитанным перечнем или публикацией; общей вместимости нет."
+          },
+          {
+            "name": "Чебоксарская нефтебаза",
+            "reason": "Объект подтвержден прочитанным перечнем или публикацией; общей вместимости нет."
+          }
+        ],
+        "accessLimits": [
+          {
+            "url": "https://www.benzol.ru/news/?cat_id=1&n=389300",
+            "error": "HTTP 503"
+          },
+          {
+            "url": "https://www.interfax-russia.ru/volga/news/permskaya-neftebaza-lukoyla-v-1-8-raza-uvelichit-propusknuyu-sposobnost-posle-modernizacii",
+            "error": "Ответ без доступного текста статьи; не принят как прочитанный источник"
+          }
+        ]
+      }
+    }
+  ]
+}
