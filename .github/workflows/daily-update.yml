@@ -9,7 +9,7 @@ on:
 permissions:
   contents: write
   actions: write
-  pages: write
+  pages: read
 
 concurrency:
   group: daily-collection
@@ -26,24 +26,15 @@ jobs:
           ref: main
           fetch-depth: 0
 
-      - name: Check the existing site and enable Pages workflow builds
+      - name: Verify the existing Pages site without changing its settings
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
-          pages_type="$(gh api "repos/${GITHUB_REPOSITORY}/pages" --jq '.build_type')"
-          if [ "$pages_type" != workflow ]; then
-            # Update only the existing site's build method. Do not create a site,
-            # change its domain, or broaden the github-pages environment policy.
-            if ! gh api --method PUT "repos/${GITHUB_REPOSITORY}/pages" -f build_type=workflow --silent; then
-              echo '::error::The built-in token cannot set Pages Source to GitHub Actions. Set that existing-site option in Settings -> Pages, then rerun; no branches have been changed.'
-              exit 1
-            fi
-            pages_type="$(gh api "repos/${GITHUB_REPOSITORY}/pages" --jq '.build_type')"
-            if [ "$pages_type" != workflow ]; then
-              echo '::error::Pages workflow configuration could not be verified; publication stopped.'
-              exit 1
-            fi
-          fi
+          pages_url="$(gh api "repos/${GITHUB_REPOSITORY}/pages" --jq '.html_url')"
+          case "$pages_url" in
+            https://*) echo "Existing Pages site: $pages_url" ;;
+            *) echo '::error::The existing Pages site URL could not be verified; no branches have been changed.'; exit 1 ;;
+          esac
 
       - name: Record remote bases
         id: base
