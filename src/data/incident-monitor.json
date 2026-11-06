@@ -7,31 +7,31 @@
     "cronUtc": "0 6 * * *"
   },
   "status": "complete",
-  "lastAttemptAt": "2026-11-06T11:20:50Z",
-  "finishedAt": "2026-11-06T11:21:16Z",
+  "lastAttemptAt": "2026-11-06T11:57:23Z",
+  "finishedAt": "2026-11-06T11:57:47Z",
   "lastSuccessfulRun": {
-    "finishedAt": "2026-11-06T11:21:16Z",
+    "finishedAt": "2026-11-06T11:57:47Z",
     "window": {
-      "from": "2026-11-04T11:20:50Z",
-      "to": "2026-11-06T11:20:50Z",
-      "fromMoscow": "2026-11-04 14:20",
-      "toMoscow": "2026-11-06 14:20"
+      "from": "2026-11-04T11:57:23Z",
+      "to": "2026-11-06T11:57:23Z",
+      "fromMoscow": "2026-11-04 14:57",
+      "toMoscow": "2026-11-06 14:57"
     },
     "counts": {
-      "discovered": 164,
-      "eligible": 164,
+      "discovered": 165,
+      "eligible": 165,
       "excluded": 0,
       "checked": 16,
       "available": 14,
       "unresolved": 0,
-      "omittedByLimit": 148
+      "omittedByLimit": 149
     }
   },
   "window": {
-    "from": "2026-11-04T11:20:50Z",
-    "to": "2026-11-06T11:20:50Z",
-    "fromMoscow": "2026-11-04 14:20",
-    "toMoscow": "2026-11-06 14:20"
+    "from": "2026-11-04T11:57:23Z",
+    "to": "2026-11-06T11:57:23Z",
+    "fromMoscow": "2026-11-04 14:57",
+    "toMoscow": "2026-11-06 14:57"
   },
   "feeds": [
     {
@@ -39,7 +39,7 @@
       "label": "Google News RSS · ru",
       "language": "ru",
       "url": "https://news.google.com/rss/search?q=%D0%9D%D0%9F%D0%97+%28%D0%BF%D0%BE%D0%B6%D0%B0%D1%80+OR+%D0%B0%D1%82%D0%B0%D0%BA%D0%B0+OR+%D0%BE%D1%81%D1%82%D0%B0%D0%BD%D0%BE%D0%B2%D0%BA%D0%B0%29+after%3A2026-11-04+before%3A2026-11-07&hl=ru&gl=RU&ceid=RU%3Aru",
-      "checkedAt": "2026-11-06T11:20:50Z",
+      "checkedAt": "2026-11-06T11:57:23Z",
       "status": "ok",
       "httpStatus": 200,
       "count": 100,
@@ -50,23 +50,77 @@
       "label": "Google News RSS · en",
       "language": "en",
       "url": "https://news.google.com/rss/search?q=Russia+refinery+%28fire+OR+attack+OR+disruption%29+after%3A2026-11-04+before%3A2026-11-07&hl=en&gl=US&ceid=US%3Aen",
-      "checkedAt": "2026-11-06T11:20:51Z",
+      "checkedAt": "2026-11-06T11:57:23Z",
       "status": "ok",
       "httpStatus": 200,
-      "count": 64,
+      "count": 65,
       "error": null
     }
   ],
   "counts": {
-    "discovered": 164,
-    "eligible": 164,
+    "discovered": 165,
+    "eligible": 165,
     "excluded": 0,
     "checked": 16,
     "available": 14,
     "unresolved": 0,
-    "omittedByLimit": 148
+    "omittedByLimit": 149
   },
   "items": [
+    {
+      "publisher": "Русская служба The Moscow Times",
+      "publishedAt": "2026-11-06T11:32:23Z",
+      "publishedOnMoscow": "2026-11-06",
+      "publicationDateBasis": "rss_unverified",
+      "discoveryUrl": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOeHQ1cXRBbS1vWFp6SFhTc1gwcTZWY3ZSamt3YThGVDdCbjl0cjhpeVJtVkd4MFRtRW9tMk93V3lUV3Faak1ZLUlyLUVkLUJISWNGRlR2NnhOMlU3YVhjeW1yZWRqWTFTbTB6N3lrS01Lc1JQbFRKNEZGSnpyRVQ5ajRnNjhIdlpXbjJwbGFadG9fQjlxNDNrZGVrRlVUREUxNzJ5UnpabURFbWNjWXFiSEdxX0hSMHBheVNlSjM1anFGaE0xOGlHZFBTUUFMNmctN2dnUFdlaG5TVDNsMm1DNg?oc=5",
+      "feedIds": [
+        "google-news-ru"
+      ],
+      "reviewStatus": "unreviewed",
+      "url": "https://ru.themoscowtimes.com/2026/11/06/pravitelstvo-zaplatilo-neftyanim-kompaniyam-pochti-3-trilliona-rublei-izbyudzheta-iz-za-atak-nanpz-a210654",
+      "resolution": {
+        "status": "resolved",
+        "checkedAt": "2026-11-06T11:57:24Z",
+        "error": null
+      },
+      "availability": {
+        "status": "available",
+        "checkedAt": "2026-11-06T11:57:24Z",
+        "httpStatus": 200,
+        "error": null,
+        "contentType": "text/html",
+        "truncated": false,
+        "finalUrl": "https://ru.themoscowtimes.com/2026/11/06/pravitelstvo-zaplatilo-neftyanim-kompaniyam-pochti-3-trilliona-rublei-izbyudzheta-iz-za-atak-nanpz-a210654"
+      },
+      "id": "22462b4d0166aa846ea8"
+    },
+    {
+      "publisher": "The Moscow Times",
+      "publishedAt": "2026-11-06T09:59:16Z",
+      "publishedOnMoscow": "2026-11-06",
+      "publicationDateBasis": "rss_unverified",
+      "discoveryUrl": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNMnZBZEpCUG9ONnZ5endYbVF1NkVzM0IxQllOamFQZE4xckt4TXctX2VlY0Rwc0FrWEJ2MFZkNndoRkR6TnhVRmhzY09zaGxJLUd2ajg5WkNYZlA0Y0x6dDJMWURtYVNzeElDUmFZUFItaEVIbmFoWHA4LUp1YjNwR2ZMQkpZVm9zN2NwZ3ozX21EVWxFTW9CME5BWUI4SE5WcmZuSGIyOE9Xa2pRX1ZnTTZFeG9HUXF2b1MtTHE2OUxOSk5jV0JIN0ljWjROdw?oc=5",
+      "feedIds": [
+        "google-news-en"
+      ],
+      "reviewStatus": "unreviewed",
+      "url": "https://www.themoscowtimes.com/2026/11/06/ukraine-and-russia-trade-volley-of-strikes-against-each-others-energy-infrastructure-a94189",
+      "resolution": {
+        "status": "resolved",
+        "checkedAt": "2026-11-06T11:57:26Z",
+        "error": null
+      },
+      "availability": {
+        "status": "available",
+        "checkedAt": "2026-11-06T11:57:26Z",
+        "httpStatus": 200,
+        "error": null,
+        "contentType": "text/html",
+        "truncated": false,
+        "finalUrl": "https://www.themoscowtimes.com/2026/11/06/ukraine-and-russia-trade-volley-of-strikes-against-each-others-energy-infrastructure-a94189"
+      },
+      "id": "a3d7b32226877ff2cbeb"
+    },
     {
       "publisher": "UNITED24 Media",
       "publishedAt": "2026-11-06T09:55:40Z",
@@ -80,12 +134,12 @@
       "url": "https://united24media.com/war-in-ukraine/seven-strikes-in-one-year-russias-afipsky-oil-refinery-faces-another-ukrainian-drone-attack-24134",
       "resolution": {
         "status": "resolved",
-        "checkedAt": "2026-11-06T11:20:52Z",
+        "checkedAt": "2026-11-06T11:57:27Z",
         "error": null
       },
       "availability": {
         "status": "available",
-        "checkedAt": "2026-11-06T11:20:52Z",
+        "checkedAt": "2026-11-06T11:57:27Z",
         "httpStatus": 200,
         "error": null,
         "contentType": "text/html",
@@ -107,12 +161,12 @@
       "url": "https://www.currenttime.tv/a/krasnodarskom-krae-dronami-atakovan-afipskiy-npz/33892183.html",
       "resolution": {
         "status": "resolved",
-        "checkedAt": "2026-11-06T11:20:53Z",
+        "checkedAt": "2026-11-06T11:57:29Z",
         "error": null
       },
       "availability": {
         "status": "available",
-        "checkedAt": "2026-11-06T11:20:53Z",
+        "checkedAt": "2026-11-06T11:57:29Z",
         "httpStatus": 200,
         "error": null,
         "contentType": "text/html",
@@ -134,12 +188,12 @@
       "url": "https://odessa-journal.com/drones-strike-russias-afipsky-oil-refinery-for-7th-time",
       "resolution": {
         "status": "resolved",
-        "checkedAt": "2026-11-06T11:20:54Z",
+        "checkedAt": "2026-11-06T11:57:30Z",
         "error": null
       },
       "availability": {
         "status": "blocked",
-        "checkedAt": "2026-11-06T11:20:54Z",
+        "checkedAt": "2026-11-06T11:57:30Z",
         "httpStatus": 403,
         "error": "http_error"
       },
@@ -158,12 +212,12 @@
       "url": "https://incidentia.ru/news/massirovannaya-ataka-bpla-na-yug-rossii-2026-11-06",
       "resolution": {
         "status": "resolved",
-        "checkedAt": "2026-11-06T11:20:55Z",
+        "checkedAt": "2026-11-06T11:57:31Z",
         "error": null
       },
       "availability": {
         "status": "blocked",
-        "checkedAt": "2026-11-06T11:20:55Z",
+        "checkedAt": "2026-11-06T11:57:31Z",
         "httpStatus": 200,
         "error": "access_challenge",
         "contentType": "text/html",
@@ -185,12 +239,12 @@
       "url": "https://euromaidanpress.com/2026/11/06/a-russian-refinery-rated-at-more-than-6-million-tons-a-year-burns-again-in-krasnodar-krai/",
       "resolution": {
         "status": "resolved",
-        "checkedAt": "2026-11-06T11:20:57Z",
+        "checkedAt": "2026-11-06T11:57:32Z",
         "error": null
       },
       "availability": {
         "status": "available",
-        "checkedAt": "2026-11-06T11:20:57Z",
+        "checkedAt": "2026-11-06T11:57:32Z",
         "httpStatus": 200,
         "error": null,
         "contentType": "text/html",
@@ -212,12 +266,12 @@
       "url": "https://www.kyivpost.com/post/89235",
       "resolution": {
         "status": "resolved",
-        "checkedAt": "2026-11-06T11:20:58Z",
+        "checkedAt": "2026-11-06T11:57:33Z",
         "error": null
       },
       "availability": {
         "status": "available",
-        "checkedAt": "2026-11-06T11:20:58Z",
+        "checkedAt": "2026-11-06T11:57:33Z",
         "httpStatus": 200,
         "error": null,
         "contentType": "text/html",
@@ -239,12 +293,12 @@
       "url": "https://www.bfm.ru/news/623067",
       "resolution": {
         "status": "resolved",
-        "checkedAt": "2026-11-06T11:20:59Z",
+        "checkedAt": "2026-11-06T11:57:35Z",
         "error": null
       },
       "availability": {
         "status": "available",
-        "checkedAt": "2026-11-06T11:20:59Z",
+        "checkedAt": "2026-11-06T11:57:35Z",
         "httpStatus": 200,
         "error": null,
         "contentType": "text/html",
@@ -266,12 +320,12 @@
       "url": "https://www.dailykos.com/stories/2026/11/5/800122714/community/russian-stuff-blowing-up/",
       "resolution": {
         "status": "resolved",
-        "checkedAt": "2026-11-06T11:21:01Z",
+        "checkedAt": "2026-11-06T11:57:37Z",
         "error": null
       },
       "availability": {
         "status": "available",
-        "checkedAt": "2026-11-06T11:21:01Z",
+        "checkedAt": "2026-11-06T11:57:37Z",
         "httpStatus": 200,
         "error": null,
         "contentType": "text/html",
@@ -293,12 +347,12 @@
       "url": "https://www.ukrinform.net/amp/rubric-ato/4182002-drones-attack-afipsky-oil-refinery-in-russias-krasnodar-krai-fire-breaks-out-media.html",
       "resolution": {
         "status": "resolved",
-        "checkedAt": "2026-11-06T11:21:03Z",
+        "checkedAt": "2026-11-06T11:57:38Z",
         "error": null
       },
       "availability": {
         "status": "available",
-        "checkedAt": "2026-11-06T11:21:03Z",
+        "checkedAt": "2026-11-06T11:57:38Z",
         "httpStatus": 200,
         "error": null,
         "contentType": "text/html",
@@ -320,12 +374,12 @@
       "url": "https://www.dw.com/ru/ukrainskie-drony-snova-atakovali-poselok-afipskij-v-krasnodarskom-krae/a-79872122",
       "resolution": {
         "status": "resolved",
-        "checkedAt": "2026-11-06T11:21:05Z",
+        "checkedAt": "2026-11-06T11:57:39Z",
         "error": null
       },
       "availability": {
         "status": "available",
-        "checkedAt": "2026-11-06T11:21:05Z",
+        "checkedAt": "2026-11-06T11:57:39Z",
         "httpStatus": 200,
         "error": null,
         "contentType": "text/html",
@@ -347,12 +401,12 @@
       "url": "https://hvylya.net/news/329661-afipskiy-npz-na-kubani-gorit-posle-massirovannoy-ataki-dronov-i-reaktivnyh-bpla",
       "resolution": {
         "status": "resolved",
-        "checkedAt": "2026-11-06T11:21:06Z",
+        "checkedAt": "2026-11-06T11:57:41Z",
         "error": null
       },
       "availability": {
         "status": "available",
-        "checkedAt": "2026-11-06T11:21:06Z",
+        "checkedAt": "2026-11-06T11:57:41Z",
         "httpStatus": 200,
         "error": null,
         "contentType": "text/html",
@@ -374,12 +428,12 @@
       "url": "https://www.profinance.ru/live/2026-11-06/1000662-vozobnovlenie-atak-na-neftepererabatyvayushchie-zavody-istoshchaet-rossiyskie",
       "resolution": {
         "status": "resolved",
-        "checkedAt": "2026-11-06T11:21:07Z",
+        "checkedAt": "2026-11-06T11:57:42Z",
         "error": null
       },
       "availability": {
         "status": "available",
-        "checkedAt": "2026-11-06T11:21:07Z",
+        "checkedAt": "2026-11-06T11:57:42Z",
         "httpStatus": 200,
         "error": null,
         "contentType": "text/html",
@@ -401,12 +455,12 @@
       "url": "https://parlament.ua/ru/news/afipskyj-npz-u-rosiyi-znovu-atakuvaly-drony-na-zavodi-spalahnula-pozhezha-krasnodar-zatyagnulo-dymom/",
       "resolution": {
         "status": "resolved",
-        "checkedAt": "2026-11-06T11:21:11Z",
+        "checkedAt": "2026-11-06T11:57:44Z",
         "error": null
       },
       "availability": {
         "status": "available",
-        "checkedAt": "2026-11-06T11:21:11Z",
+        "checkedAt": "2026-11-06T11:57:44Z",
         "httpStatus": 200,
         "error": null,
         "contentType": "text/html",
@@ -428,12 +482,12 @@
       "url": "https://hromadske.ua/en/war/273889-fire-reported-near-russian-oil-refinery-after-drone-attack-in-krasnodar-krai",
       "resolution": {
         "status": "resolved",
-        "checkedAt": "2026-11-06T11:21:13Z",
+        "checkedAt": "2026-11-06T11:57:46Z",
         "error": null
       },
       "availability": {
         "status": "available",
-        "checkedAt": "2026-11-06T11:21:13Z",
+        "checkedAt": "2026-11-06T11:57:46Z",
         "httpStatus": 200,
         "error": null,
         "contentType": "text/html",
@@ -441,60 +495,6 @@
         "finalUrl": "https://hromadske.ua/en/war/273889-fire-reported-near-russian-oil-refinery-after-drone-attack-in-krasnodar-krai"
       },
       "id": "24fe018974fad865466b"
-    },
-    {
-      "publisher": "DonPress.com",
-      "publishedAt": "2026-11-06T08:00:00Z",
-      "publishedOnMoscow": "2026-11-06",
-      "publicationDateBasis": "rss_unverified",
-      "discoveryUrl": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNVFJ4MFgySWVpcklvUS10d1BncmZ1UnVaUnV0UWhjR0pXU3dDal8yVERQOUJ6RHNBS25tamJmd2pHLWVqbXFxSUgyREtoSFZmOElYS1VzUUlEdEczSVg5d1N6NWJ0dENKY0NZVnFvRXd0cmVNbG14bFFQOUUxVVg0VFFmX2NTZVN3QUZKYTJUdGl5WUF6QWc?oc=5",
-      "feedIds": [
-        "google-news-ru"
-      ],
-      "reviewStatus": "unreviewed",
-      "url": "https://donpress.com/news/06-11-2026-v-krasnodarskom-krae-rf-atakovan-npz-proizoshel-pozhar",
-      "resolution": {
-        "status": "resolved",
-        "checkedAt": "2026-11-06T11:21:14Z",
-        "error": null
-      },
-      "availability": {
-        "status": "available",
-        "checkedAt": "2026-11-06T11:21:14Z",
-        "httpStatus": 200,
-        "error": null,
-        "contentType": "text/html",
-        "truncated": false,
-        "finalUrl": "https://donpress.com/news/06-11-2026-v-krasnodarskom-krae-rf-atakovan-npz-proizoshel-pozhar"
-      },
-      "id": "7ed001b67ca93f1bc195"
-    },
-    {
-      "publisher": "The Insider",
-      "publishedAt": "2026-11-06T07:57:09Z",
-      "publishedOnMoscow": "2026-11-06",
-      "publicationDateBasis": "rss_unverified",
-      "discoveryUrl": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTE02bV9MV2V1N2xJT195b2JNeVBJUVhPOXd5WVUwM3F4d1NMMTRCcFNhUHotN0F5WlZ5YWNqZDF5M3RCQkU?oc=5",
-      "feedIds": [
-        "google-news-ru"
-      ],
-      "reviewStatus": "unreviewed",
-      "url": "https://theins.ru/news/299246",
-      "resolution": {
-        "status": "resolved",
-        "checkedAt": "2026-11-06T11:21:16Z",
-        "error": null
-      },
-      "availability": {
-        "status": "available",
-        "checkedAt": "2026-11-06T11:21:16Z",
-        "httpStatus": 200,
-        "error": null,
-        "contentType": "text/html",
-        "truncated": false,
-        "finalUrl": "https://theins.ru/news/299246"
-      },
-      "id": "b14bdb250f0105dec9cd"
     }
   ],
   "limitations": [
