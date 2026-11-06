@@ -1,3 +1,5 @@
+import {wagonCapacityFor} from './wagon-capacity.js';
+import {renderWagonCapacity} from './wagon-capacity-ui.js';
 import {escapeHtml, pipelineScopes} from './pipeline-catalog.js';
 
 export const infrastructureKinds = {
@@ -80,6 +82,7 @@ export function infrastructureDetail(item, type, closeIcon, railDetail = '') {
     </div>
     ${isPort ? `<div class="products"><h3>Грузы</h3><div>${item.cargo.map(cargo => `<span>${cargo}</span>`).join('')}</div></div>` : ''}
     <p class="infra-description">${escapeHtml(item.description)}</p>
+    ${isPort ? renderWagonCapacity(wagonCapacityFor('port',item.id)) : ''}
     ${isPort ? railDetail : ''}
     ${evidence?`<div class="pipeline-evidence ${evidence.status==='documented'?'is-documented':''}"><strong>${evidence.status==='documented'?'Есть подтверждение в опубликованном источнике':'Справочная запись · документ не проверен'}</strong><p>${escapeHtml(evidence.basis||'')}</p>${sourceDates.length?`<small>${sourceDates.length>1?'Даты сведений записей':'Дата сведений записи'}: ${sourceDates.map(escapeHtml).join(', ')}</small>`:''}${evidence.checkedAt?`<small>Источник проверен: ${escapeHtml(evidence.checkedAt)}</small>`:''}</div>`:''}
     <p class="infra-note">${isPort ? 'Положение обзорное; порт может включать несколько терминалов.' : 'Линия показывает общее направление, а не точную трассу.'} Текущая работа и объёмы не подтверждены.</p>
