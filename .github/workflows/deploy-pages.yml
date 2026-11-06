@@ -1,0 +1,66 @@
+name: Deploy published Pages build
+
+on:
+  workflow_dispatch:
+    inputs:
+      expected_sha:
+        description: 'Expected gh-pages commit; blank deploys the selected current gh-pages tip'
+        required: false
+        default: ''
+        type: string
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages-publication
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    if: github.ref == 'refs/heads/gh-pages'
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.sha }}
+
+      - name: Verify the requested published commit
+        env:
+          EXPECTED_SHA: ${{ inputs.expected_sha }}
+          EVENT_SHA: ${{ github.sha }}
+        run: |
+          if [ -n "$EXPECTED_SHA" ] && [ "$EXPECTED_SHA" != "$EVENT_SHA" ]; then
+            echo '::error::gh-pages changed before the deployment was dispatched. Rerun from its current tip.'
+            exit 1
+          fi
+          if [ ! -f index.html ] || [ ! -f .nojekyll ]; then
+            echo '::error::The selected commit is not a published Pages build.'
+            exit 1
+          fi
+
+      # The action excludes .git and .github from the uploaded site archive.
+      - name: Upload the already tested published build
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: .
+
+      - name: Refuse to replace a newer published commit
+        env:
+          EVENT_SHA: ${{ github.sha }}
+        run: |
+          current_pages="$(git ls-remote origin refs/heads/gh-pages | cut -f1)"
+          if [ "$current_pages" != "$EVENT_SHA" ]; then
+            echo '::error::A newer gh-pages commit exists. This older deployment was stopped.'
+            exit 1
+          fi
+
+      - name: Deploy to the existing Pages site
+        id: deployment
+        uses: actions/deploy-pages@v4
