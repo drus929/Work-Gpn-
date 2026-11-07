@@ -7,39 +7,39 @@
     "cronUtc": "0 6 * * *"
   },
   "status": "complete",
-  "lastAttemptAt": "2026-11-06T12:54:38Z",
-  "finishedAt": "2026-11-06T12:55:01Z",
+  "lastAttemptAt": "2026-11-07T06:43:58Z",
+  "finishedAt": "2026-11-07T06:44:28Z",
   "lastSuccessfulRun": {
-    "finishedAt": "2026-11-06T12:55:01Z",
+    "finishedAt": "2026-11-07T06:44:28Z",
     "window": {
-      "from": "2026-11-04T12:54:38Z",
-      "to": "2026-11-06T12:54:38Z",
-      "fromMoscow": "2026-11-04 15:54",
-      "toMoscow": "2026-11-06 15:54"
+      "from": "2026-11-05T06:43:58Z",
+      "to": "2026-11-07T06:43:58Z",
+      "fromMoscow": "2026-11-05 09:43",
+      "toMoscow": "2026-11-07 09:43"
     },
     "counts": {
-      "discovered": 166,
-      "eligible": 166,
+      "discovered": 160,
+      "eligible": 160,
       "excluded": 0,
       "checked": 16,
-      "available": 14,
+      "available": 15,
       "unresolved": 0,
-      "omittedByLimit": 150
+      "omittedByLimit": 144
     }
   },
   "window": {
-    "from": "2026-11-04T12:54:38Z",
-    "to": "2026-11-06T12:54:38Z",
-    "fromMoscow": "2026-11-04 15:54",
-    "toMoscow": "2026-11-06 15:54"
+    "from": "2026-11-05T06:43:58Z",
+    "to": "2026-11-07T06:43:58Z",
+    "fromMoscow": "2026-11-05 09:43",
+    "toMoscow": "2026-11-07 09:43"
   },
   "feeds": [
     {
       "id": "google-news-ru",
       "label": "Google News RSS · ru",
       "language": "ru",
-      "url": "https://news.google.com/rss/search?q=%D0%9D%D0%9F%D0%97+%28%D0%BF%D0%BE%D0%B6%D0%B0%D1%80+OR+%D0%B0%D1%82%D0%B0%D0%BA%D0%B0+OR+%D0%BE%D1%81%D1%82%D0%B0%D0%BD%D0%BE%D0%B2%D0%BA%D0%B0%29+after%3A2026-11-04+before%3A2026-11-07&hl=ru&gl=RU&ceid=RU%3Aru",
-      "checkedAt": "2026-11-06T12:54:38Z",
+      "url": "https://news.google.com/rss/search?q=%D0%9D%D0%9F%D0%97+%28%D0%BF%D0%BE%D0%B6%D0%B0%D1%80+OR+%D0%B0%D1%82%D0%B0%D0%BA%D0%B0+OR+%D0%BE%D1%81%D1%82%D0%B0%D0%BD%D0%BE%D0%B2%D0%BA%D0%B0%29+after%3A2026-11-05+before%3A2026-11-08&hl=ru&gl=RU&ceid=RU%3Aru",
+      "checkedAt": "2026-11-07T06:43:58Z",
       "status": "ok",
       "httpStatus": 200,
       "count": 100,
@@ -49,452 +49,452 @@
       "id": "google-news-en",
       "label": "Google News RSS · en",
       "language": "en",
-      "url": "https://news.google.com/rss/search?q=Russia+refinery+%28fire+OR+attack+OR+disruption%29+after%3A2026-11-04+before%3A2026-11-07&hl=en&gl=US&ceid=US%3Aen",
-      "checkedAt": "2026-11-06T12:54:39Z",
+      "url": "https://news.google.com/rss/search?q=Russia+refinery+%28fire+OR+attack+OR+disruption%29+after%3A2026-11-05+before%3A2026-11-08&hl=en&gl=US&ceid=US%3Aen",
+      "checkedAt": "2026-11-07T06:43:59Z",
       "status": "ok",
       "httpStatus": 200,
-      "count": 66,
+      "count": 60,
       "error": null
     }
   ],
   "counts": {
-    "discovered": 166,
-    "eligible": 166,
+    "discovered": 160,
+    "eligible": 160,
     "excluded": 0,
     "checked": 16,
-    "available": 14,
+    "available": 15,
     "unresolved": 0,
-    "omittedByLimit": 150
+    "omittedByLimit": 144
   },
   "items": [
     {
-      "publisher": "UA.NEWS",
-      "publishedAt": "2026-11-06T12:34:15Z",
-      "publishedOnMoscow": "2026-11-06",
+      "publisher": "theins.ru",
+      "publishedAt": "2026-11-07T06:38:31Z",
+      "publishedOnMoscow": "2026-11-07",
       "publicationDateBasis": "rss_unverified",
-      "discoveryUrl": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNWDEydXZNQ0g4bC1Ob0w1d0xFTllYOHFLTU5GNUtQV0FVQzFEZUhPak10OXFvQTRiakwxcTZkWjZsck5fOWRNSzRyZzJ6ZndzMzV3OGNTMnEzYW56dGdiOGJnY2ZRR0lZR1RQZnRMZUF6WUxBdUVfUFVVMlI2aEMxaHItNFNwRTB4azRvc2FNOXFiUF9KckVScU5HYkN0OTF3NHNyTkUzS1pYc3Q4?oc=5",
+      "discoveryUrl": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTE1GVnowejZLR1NlaFhxLVdMSi1hWlJOT29XVC1KZTA3eEZmSF9JYk9LaXlJMzJsakpnM3FlOGxLSnNvY0E?oc=5",
       "feedIds": [
         "google-news-ru"
       ],
       "reviewStatus": "unreviewed",
-      "url": "https://ua.news/ru/war-vs-rf/rosiia-viplatila-naftovim-kompaniiam-ponad-34-mlrd-subsidii-cherez-ataki-na-npz",
+      "url": "https://theins.ru/news/299285",
       "resolution": {
         "status": "resolved",
-        "checkedAt": "2026-11-06T12:54:40Z",
+        "checkedAt": "2026-11-07T06:44:00Z",
         "error": null
       },
       "availability": {
         "status": "available",
-        "checkedAt": "2026-11-06T12:54:40Z",
+        "checkedAt": "2026-11-07T06:44:00Z",
         "httpStatus": 200,
         "error": null,
         "contentType": "text/html",
         "truncated": false,
-        "finalUrl": "https://ua.news/ru/war-vs-rf/rosiia-viplatila-naftovim-kompaniiam-ponad-34-mlrd-subsidii-cherez-ataki-na-npz"
+        "finalUrl": "https://theins.ru/news/299285"
       },
-      "id": "c54003869ff36847022d"
+      "id": "d40bf73a7f5fa4df572d"
     },
     {
-      "publisher": "Русская служба The Moscow Times",
-      "publishedAt": "2026-11-06T11:32:23Z",
-      "publishedOnMoscow": "2026-11-06",
+      "publisher": "Капитал страны",
+      "publishedAt": "2026-11-07T06:32:35Z",
+      "publishedOnMoscow": "2026-11-07",
       "publicationDateBasis": "rss_unverified",
-      "discoveryUrl": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOeHQ1cXRBbS1vWFp6SFhTc1gwcTZWY3ZSamt3YThGVDdCbjl0cjhpeVJtVkd4MFRtRW9tMk93V3lUV3Faak1ZLUlyLUVkLUJISWNGRlR2NnhOMlU3YVhjeW1yZWRqWTFTbTB6N3lrS01Lc1JQbFRKNEZGSnpyRVQ5ajRnNjhIdlpXbjJwbGFadG9fQjlxNDNrZGVrRlVUREUxNzJ5UnpabURFbWNjWXFiSEdxX0hSMHBheVNlSjM1anFGaE0xOGlHZFBTUUFMNmctN2dnUFdlaG5TVDNsMm1DNg?oc=5",
+      "discoveryUrl": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPMTM5azZKYUt2WTQ3QnNOUUZlNEs0NTE3dXNOeWVDMEVUNWlQMFcwVVpydlo1X1laMHdHczAyR3p4WDBqOVAzZ1dCc2RJWUgtNFloZnB3ODVHVlFsY1F2dGxlWWpGRE9xVmlQNlY3R2l2djJraUlwakt0UkVaN1lZRkJBelE2WUtWUmUwSURRTVdjWUpyaVVob3lMRFBNWDMwaDFMWmpVVQ?oc=5",
       "feedIds": [
         "google-news-ru"
       ],
       "reviewStatus": "unreviewed",
-      "url": "https://ru.themoscowtimes.com/2026/11/06/pravitelstvo-zaplatilo-neftyanim-kompaniyam-pochti-3-trilliona-rublei-izbyudzheta-iz-za-atak-nanpz-a210654",
+      "url": "https://kapital-rus.ru/news/431458-saratov_belgorod_i_orel_podverglis_masshtabnoi_atake_vsu_opyat_celil/",
       "resolution": {
         "status": "resolved",
-        "checkedAt": "2026-11-06T12:54:41Z",
+        "checkedAt": "2026-11-07T06:44:01Z",
         "error": null
       },
       "availability": {
         "status": "available",
-        "checkedAt": "2026-11-06T12:54:41Z",
+        "checkedAt": "2026-11-07T06:44:01Z",
         "httpStatus": 200,
         "error": null,
         "contentType": "text/html",
         "truncated": false,
-        "finalUrl": "https://ru.themoscowtimes.com/2026/11/06/pravitelstvo-zaplatilo-neftyanim-kompaniyam-pochti-3-trilliona-rublei-izbyudzheta-iz-za-atak-nanpz-a210654"
+        "finalUrl": "https://kapital-rus.ru/news/431458-saratov_belgorod_i_orel_podverglis_masshtabnoi_atake_vsu_opyat_celil/"
       },
-      "id": "22462b4d0166aa846ea8"
+      "id": "ed5cdaa76df23c0c6270"
     },
     {
-      "publisher": "The Moscow Times",
-      "publishedAt": "2026-11-06T09:59:16Z",
-      "publishedOnMoscow": "2026-11-06",
+      "publisher": "Hromadske",
+      "publishedAt": "2026-11-07T06:20:00Z",
+      "publishedOnMoscow": "2026-11-07",
       "publicationDateBasis": "rss_unverified",
-      "discoveryUrl": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNMnZBZEpCUG9ONnZ5endYbVF1NkVzM0IxQllOamFQZE4xckt4TXctX2VlY0Rwc0FrWEJ2MFZkNndoRkR6TnhVRmhzY09zaGxJLUd2ajg5WkNYZlA0Y0x6dDJMWURtYVNzeElDUmFZUFItaEVIbmFoWHA4LUp1YjNwR2ZMQkpZVm9zN2NwZ3ozX21EVWxFTW9CME5BWUI4SE5WcmZuSGIyOE9Xa2pRX1ZnTTZFeG9HUXF2b1MtTHE2OUxOSk5jV0JIN0ljWjROdw?oc=5",
-      "feedIds": [
-        "google-news-en"
-      ],
-      "reviewStatus": "unreviewed",
-      "url": "https://www.themoscowtimes.com/2026/11/06/ukraine-and-russia-trade-volley-of-strikes-against-each-others-energy-infrastructure-a94189",
-      "resolution": {
-        "status": "resolved",
-        "checkedAt": "2026-11-06T12:54:42Z",
-        "error": null
-      },
-      "availability": {
-        "status": "available",
-        "checkedAt": "2026-11-06T12:54:42Z",
-        "httpStatus": 200,
-        "error": null,
-        "contentType": "text/html",
-        "truncated": false,
-        "finalUrl": "https://www.themoscowtimes.com/2026/11/06/ukraine-and-russia-trade-volley-of-strikes-against-each-others-energy-infrastructure-a94189"
-      },
-      "id": "a3d7b32226877ff2cbeb"
-    },
-    {
-      "publisher": "UNITED24 Media",
-      "publishedAt": "2026-11-06T09:55:40Z",
-      "publishedOnMoscow": "2026-11-06",
-      "publicationDateBasis": "rss_unverified",
-      "discoveryUrl": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPUndQUXhXZ1VZeVJ0QVB3ZmhYekEyeUNVU3JEdlBNaDNqT0E2bWotN0txMno0VFJEUEhsY29ZSEtLUUJKZkVaZ2xlaGc4dEdyRmZsay1MQmM2b3JPdFo3TmtYeDQ3bExrVGk4UFlhQ2RzVGJ4ekc2MmpBVzRNMXVpeXl2cHczSE1USTRxci0wYzJMaHJUdnNQcE9LUXFHVFgxbUlSMHhlUmZDbzhCSXRHNUppS2Y4SGREMzhHakxHbWRQWnlDT01HN2VkLVRJM0psYkktMg?oc=5",
-      "feedIds": [
-        "google-news-en"
-      ],
-      "reviewStatus": "unreviewed",
-      "url": "https://united24media.com/war-in-ukraine/seven-strikes-in-one-year-russias-afipsky-oil-refinery-faces-another-ukrainian-drone-attack-24134",
-      "resolution": {
-        "status": "resolved",
-        "checkedAt": "2026-11-06T12:54:43Z",
-        "error": null
-      },
-      "availability": {
-        "status": "available",
-        "checkedAt": "2026-11-06T12:54:43Z",
-        "httpStatus": 200,
-        "error": null,
-        "contentType": "text/html",
-        "truncated": false,
-        "finalUrl": "https://united24media.com/war-in-ukraine/seven-strikes-in-one-year-russias-afipsky-oil-refinery-faces-another-ukrainian-drone-attack-24134"
-      },
-      "id": "64bd7995252adbe3fffb"
-    },
-    {
-      "publisher": "Настоящее Время",
-      "publishedAt": "2026-11-06T09:43:35Z",
-      "publishedOnMoscow": "2026-11-06",
-      "publicationDateBasis": "rss_unverified",
-      "discoveryUrl": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOd3F6bnhYRWRtMUZsVVhTWHh0UXYyeXNNVmZLQmFLSDFFRXREekRSWnpVRXkwWVp0ZEpuT2pCVTZ5N3J1THdHN1RxTnZ6Wmk0TmZiZGRDVjd6bXBGV2NOWDBhdWZvcXNDRDhMTWt1VklLRHNqX0FFeW9JMGd2SWtPeUs0N0dxWTFkYVZJN09hb001SzduSHfSAZgBQVVfeXFMTk53ak9ZQ0dTT1o5WG9CMFZzaENhWllzWjFNbFVEVHRyMG1OVGdQX2g1OFdOTDh1d1JhVHV0eDRJd3FZV2dFb0d5OWg2WHloZjJDbncxcXQyM3NYZDhYRDUtWlRIbkdMMC05bkhlNVVOV1FxX0tuMzlXT2lIY2hjM1BtTGpHQ1dPUkZBSE9VTTVFMWZEUFlkaEE?oc=5",
+      "discoveryUrl": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOcHVzMkRqMG1BU0x3bmtzelZJNmo2enBZMDhZejJWMGlpdno5ZU0wLXdGZnFJR2R6ZE9qZVVwekFjNGdNSkJBdGV5VGxVYTZZUFBPR05oRlduaDJIYk1ZaTdNS0E4ZEdIVTBndmdlUXZ1WHlQTFdIMjNCZEJGajU1Wl9IUFAtXzlrOXNSQmxfYlhQdmFueGYyZ2NjSUJfTHFQTFR3QU1NZ1AxbTRha1IwLTZyMHZjd9IBuwFBVV95cUxPQURsakF0RlQzWnIzQmIzT0hUT0JvX2E0N1JtNVAtZkZBU0I1eGNvalQtQUY3bzZJRS1jUURIUTcyU2NBV1hNR0c1aGJobjlBb3J4eFhlbUhEQTl6cUdxY1A0QUw0QlBDZGI2WjBOS1M2QlVlU2tnUVJ5alBtSXViUUZTLXdzcWk4TFFsZWZGVVZkM3ZqNXNrS3hmYUtmSDdOX2JUZWEwd096R3J0Vmw5Z2RrSXk4dkRLbEpz?oc=5",
       "feedIds": [
         "google-news-ru"
       ],
       "reviewStatus": "unreviewed",
-      "url": "https://www.currenttime.tv/a/krasnodarskom-krae-dronami-atakovan-afipskiy-npz/33892183.html",
+      "url": "https://hromadske.ua/ru/voyna/273966-o-dronovoy-atake-soobschali-v-saratovskoy-oblasti-rossii-pohozhe-tam-gorit-npz",
       "resolution": {
         "status": "resolved",
-        "checkedAt": "2026-11-06T12:54:45Z",
+        "checkedAt": "2026-11-07T06:44:04Z",
         "error": null
       },
       "availability": {
         "status": "available",
-        "checkedAt": "2026-11-06T12:54:45Z",
+        "checkedAt": "2026-11-07T06:44:04Z",
         "httpStatus": 200,
         "error": null,
         "contentType": "text/html",
         "truncated": false,
-        "finalUrl": "https://www.currenttime.tv/a/krasnodarskom-krae-dronami-atakovan-afipskiy-npz/33892183.html"
+        "finalUrl": "https://hromadske.ua/ru/voyna/273966-o-dronovoy-atake-soobschali-v-saratovskoy-oblasti-rossii-pohozhe-tam-gorit-npz"
       },
-      "id": "fb0c314d1b04d6b211da"
+      "id": "539b5d69abd339e0489f"
     },
     {
-      "publisher": "Odessa Journal",
-      "publishedAt": "2026-11-06T09:38:06Z",
-      "publishedOnMoscow": "2026-11-06",
+      "publisher": "Вот Так",
+      "publishedAt": "2026-11-07T06:15:00Z",
+      "publishedOnMoscow": "2026-11-07",
       "publicationDateBasis": "rss_unverified",
-      "discoveryUrl": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQNWNmekx6SlVZbkFOX1hxX1B0QVlTYzBCc0sxazJBclkzNV9ERU01QTJnSUdKbjlSQzFtR0pMeE1MU0EzT0RQWGtJd3VQaGdib1BHRTR3QkRSNjBsWXQ0aXpHSVdDa1FzMDRweHpYR1NHZU5wNU55VmtINXRrNVZsZVNVTmc0c3RReFE?oc=5",
+      "discoveryUrl": "https://news.google.com/rss/articles/CBMigwFBVV95cUxORzdGRzdTa1JiNmlkNGdhUG1MTnAzSV8xaEtsQ0VYOWFNY1FhU3hJUnFpWlB5QmZvcHBmSkJfdkE3QWhoM1o5OWg2bWxmN0JqU1lPSWw5LUMzX1pNaDRCUFJNWExya05BZEFVUEM0aGxKMVE3N29kYTUtZDkzNmsxVTUzRQ?oc=5",
+      "feedIds": [
+        "google-news-ru"
+      ],
+      "reviewStatus": "unreviewed",
+      "url": "https://vot-tak.tv/96355536/ataka-bpla-na-saratovskiy-npz-21-y-raz-7-noyabrya",
+      "resolution": {
+        "status": "resolved",
+        "checkedAt": "2026-11-07T06:44:05Z",
+        "error": null
+      },
+      "availability": {
+        "status": "available",
+        "checkedAt": "2026-11-07T06:44:05Z",
+        "httpStatus": 200,
+        "error": null,
+        "contentType": "text/html",
+        "truncated": false,
+        "finalUrl": "https://vot-tak.tv/96355536/ataka-bpla-na-saratovskiy-npz-21-y-raz-7-noyabrya"
+      },
+      "id": "a0d91a3fd98924548c76"
+    },
+    {
+      "publisher": "УНИАН",
+      "publishedAt": "2026-11-07T06:07:00Z",
+      "publishedOnMoscow": "2026-11-07",
+      "publicationDateBasis": "rss_unverified",
+      "discoveryUrl": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPRnhOcUhadnYySTNJaTZKMWpHVjFEb0M0VlRHdlBBc2NGaHB4b2RzSDc4SVlQNE5MVnVCYXdkSnhQbjJnanoyQ3ROdmFhckN3QzVfN1RyN3VxY1dsQ21ualItRW9tZzMtaHcwVVBJY2FLdU9Eb2lBZVZHcVFQa1cyR0dLOW1Yb3doUFFoZFZjaFFlZkZkYUJ0WWxKd0NMTHBWSjJfdl85d201eDVlcENHVEt0OU1sUTNoRFdNRzZVUdIB9wFBVV95cUxNbi1hcDlZaldLb1A3aGllaUZoTk0xMGdQXzNsOGtRc3Z6bHBNSVRCNnVPemxYbXBCYWNtelE4QjV0VVRjZFZvQ0l2TnAyZ3FvTzZJWjVzZnExb2V5SFpLOGhFbTN6RUhsdkdvVGpxaGFmZHJJUWlrNF9JV3RHcFZVZVlJVzNxUzFKNUVxamFOU0JNMVdPbGIwTTlaTGQtdWFVbkFSaURCWEt5c1dHQ3pOaXphUHZnYTlLQVIxN2JwdjVfR3FGOFA5cWNPMmQ0b0paenlmMU9kcklHVV9iZFUwUG5JTjFPWmpSNmNkR3dtUHhqd20teFQw?oc=5",
+      "feedIds": [
+        "google-news-ru"
+      ],
+      "reviewStatus": "unreviewed",
+      "url": "https://www.unian.net/war/posle-udarov-dronov-pozhary-v-saratove-orle-i-rostove-goryat-zavody-i-sklady-video-13552362.html",
+      "resolution": {
+        "status": "resolved",
+        "checkedAt": "2026-11-07T06:44:07Z",
+        "error": null
+      },
+      "availability": {
+        "status": "available",
+        "checkedAt": "2026-11-07T06:44:07Z",
+        "httpStatus": 200,
+        "error": null,
+        "contentType": "text/html",
+        "truncated": false,
+        "finalUrl": "https://www.unian.net/war/posle-udarov-dronov-pozhary-v-saratove-orle-i-rostove-goryat-zavody-i-sklady-video-13552362.html"
+      },
+      "id": "0845da37a16629e3795d"
+    },
+    {
+      "publisher": "News Telegraf",
+      "publishedAt": "2026-11-07T05:45:59Z",
+      "publishedOnMoscow": "2026-11-07",
+      "publicationDateBasis": "rss_unverified",
+      "discoveryUrl": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOV1pXeVB5YWpjSkJJMDBYRmw5WHBreUx5UkgtbWVwUkJMeTEwZTY5MW5oUEJYWVAwd1hrRW05YkpLUnQzaTZTdUhPakJrOWNQc1NqaDFSajZMd2FJMnRhT0l0TUVLYTB3M1N6QjNjSUVCTmRNdUFIclpvRF9GajcteXkzbkJMeWdZMDE1ZHBlMXV0eWRVcTdSRi1qS2cybDFZS0JmWkZ3T3NQRE00THpKb3pRZF9qZHc4UUd0bGVtNUtqUE1zSXN5RnhNUFRtVjVRZWUxZGxIYjJ5ZHBKaHU0VtIB5gFBVV95cUxOcEpkQmhXTVdXRGZCZ09ZX0E4dExzbEp5RjEzeE80dnpPYTNMdnlOa29aZWdVMVkwYm84MTltT2ZWUzAtaHZaTWVIcEZ3SEo5TmVxT2x6TXQ5NGw1ZnRiSFM0QjRtU3RPLXE4VzgyVkdPbjBVQVJmMS0xN2VCQ19WMk9oSHNod0FXMHd2RnM1ZmVvaDRSVXJUUDE3VW5DMUtwNlN6WGdFTnJsQ2UxWE9yc2RBYkctVXlWLUM3VE1uZENHR2VhSWgwN1czRjE0b1NDWDJjQ3JzRzdtUW1WUTg3SWhncm80Zw?oc=5",
+      "feedIds": [
+        "google-news-ru"
+      ],
+      "reviewStatus": "unreviewed",
+      "url": "https://news.telegraf.com.ua/novosti-rossii/5954775-u-saratovi-pislya-nalotu-droniv-potuzhno-palae-vazhliviy-npz-skilki-takikh-u-rosii-foto-i-video",
+      "resolution": {
+        "status": "resolved",
+        "checkedAt": "2026-11-07T06:44:08Z",
+        "error": null
+      },
+      "availability": {
+        "status": "available",
+        "checkedAt": "2026-11-07T06:44:08Z",
+        "httpStatus": 200,
+        "error": null,
+        "contentType": "text/html",
+        "truncated": false,
+        "finalUrl": "https://news.telegraf.com.ua/novosti-rossii/5954775-u-saratovi-pislya-nalotu-droniv-potuzhno-palae-vazhliviy-npz-skilki-takikh-u-rosii-foto-i-video"
+      },
+      "id": "e8306ee5b5a8e22ec631"
+    },
+    {
+      "publisher": "Інформатор Україна",
+      "publishedAt": "2026-11-07T05:25:20Z",
+      "publishedOnMoscow": "2026-11-07",
+      "publicationDateBasis": "rss_unverified",
+      "discoveryUrl": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNZXRfUF84cUxlbFBiUFZvLXpqaTdDQkJZNUozRTRkUzJoLXVlRmlrQ1BCNkI5c1c1VklhRDdZNmpOQnc3YWJDX3MxTkhuQThUYklxdnp3dFRuUkhVNVZjbHVDSnhJSXE2NkVRTEM1ZERONVBqay1aSzFyUmhUSDJEV0lKV1pYZGNQOERxTTBGd0lfSXJna0JLT2tYUnFGM3VYTS1JalNpSGFMS1ZwajJhU01ncmdNV240UGs3QlY1ekNRenVf?oc=5",
+      "feedIds": [
+        "google-news-ru"
+      ],
+      "reviewStatus": "unreviewed",
+      "url": "https://informator.ua/ru/ukrainskie-drony-atakovali-saratovskiy-npz-na-territorii-zavoda-zafiksirovali-mnogochislennye-pozhary",
+      "resolution": {
+        "status": "resolved",
+        "checkedAt": "2026-11-07T06:44:10Z",
+        "error": null
+      },
+      "availability": {
+        "status": "available",
+        "checkedAt": "2026-11-07T06:44:10Z",
+        "httpStatus": 200,
+        "error": null,
+        "contentType": "text/html",
+        "truncated": true,
+        "finalUrl": "https://informator.ua/ru/ukrainskie-drony-atakovali-saratovskiy-npz-na-territorii-zavoda-zafiksirovali-mnogochislennye-pozhary"
+      },
+      "id": "4b77e6dc8429000232fd"
+    },
+    {
+      "publisher": "Arbat media",
+      "publishedAt": "2026-11-07T05:20:48Z",
+      "publishedOnMoscow": "2026-11-07",
+      "publicationDateBasis": "rss_unverified",
+      "discoveryUrl": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNTDE2MzBBREpzQk90NlhGWnNIUmloci1FdDVXaHh2bmlLdHlvNHllRGl3dVpYY2Vzc2JlWU9MdzNPcEkwUXM4dGRyazRFRFZRUlFXTW55Sk5EMXhOckFua3ZzU1lWdGZNNGtpWWlFd3M4Y3dqTXd6U2xEZGEycW44ZkpIWEFaTk9EM3RnaUxUTzEwT3JXVmJfRNIBngFBVV95cUxPbnN2bHZaZ1Z5bzRpbnl3REFuT3JpdzRmeUlQcXB2VlRxTFBuZXNreHNxR3pGU0dBbGFzT3VNZGtzYmJ6NktmOFgtUEFyaGMxZk10bm82Zm1BT0NnUGFHWVJWclRqY1owWkktN214a09scGRySnNMclRBUzI2TXo0WEFFcm1kRjgzaFRuUXFwTG9DWlVaWWMzSUZRRmhRZw?oc=5",
+      "feedIds": [
+        "google-news-ru"
+      ],
+      "reviewStatus": "unreviewed",
+      "url": "https://arbatmedia.kz/exo-moskvy/saratovskii-npz-i-zavod-proton-mogli-popast-pod-udar-vsu-701",
+      "resolution": {
+        "status": "resolved",
+        "checkedAt": "2026-11-07T06:44:12Z",
+        "error": null
+      },
+      "availability": {
+        "status": "available",
+        "checkedAt": "2026-11-07T06:44:12Z",
+        "httpStatus": 200,
+        "error": null,
+        "contentType": "text/html",
+        "truncated": false,
+        "finalUrl": "https://arbatmedia.kz/exo-moskvy/saratovskii-npz-i-zavod-proton-mogli-popast-pod-udar-vsu-701"
+      },
+      "id": "3581c2b3c9c1101e6362"
+    },
+    {
+      "publisher": "UkrMedia News",
+      "publishedAt": "2026-11-07T05:14:56Z",
+      "publishedOnMoscow": "2026-11-07",
+      "publicationDateBasis": "rss_unverified",
+      "discoveryUrl": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1QV2h2V1BnYVRkSkZldUEwT0dtMkdTbGpIaTVtLXlTZVdseUhlNTlYblZzZU1KaHJyRC0zTmVwNllDM3pZMExLeFJrV1JOalZINjAzTGxNWHZUUUNXRlZiX3p1NWRjLXRhdTJJVEJHQUl2RnZBOUttOURR?oc=5",
       "feedIds": [
         "google-news-en"
       ],
       "reviewStatus": "unreviewed",
-      "url": "https://odessa-journal.com/drones-strike-russias-afipsky-oil-refinery-for-7th-time",
+      "url": "https://ukrmedia.news/en/world/saratovskyi-npz-ataka-7-lystopada-2026/",
       "resolution": {
         "status": "resolved",
-        "checkedAt": "2026-11-06T12:54:46Z",
+        "checkedAt": "2026-11-07T06:44:15Z",
+        "error": null
+      },
+      "availability": {
+        "status": "available",
+        "checkedAt": "2026-11-07T06:44:15Z",
+        "httpStatus": 200,
+        "error": null,
+        "contentType": "text/html",
+        "truncated": false,
+        "finalUrl": "https://ukrmedia.news/en/world/saratovskyi-npz-ataka-7-lystopada-2026/"
+      },
+      "id": "3b73067e582227c547cc"
+    },
+    {
+      "publisher": "АНТИКОР",
+      "publishedAt": "2026-11-07T05:14:00Z",
+      "publishedOnMoscow": "2026-11-07",
+      "publicationDateBasis": "rss_unverified",
+      "discoveryUrl": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQX2tJMk15a0lwVVd1YTZibzljVmQwZDFqYVF1N2JBWGhjbms1cHQ1RTVJbnFRU0tLOUhXd1FGMnBVZ1pBcDVNR0hrSEpQWlBNZlRqWkc1cGMtaW1zbU5oMG92MWo3YnB6MlBRQzd0N1FnX0hfUk1Tc3FwUkpWT3BoWmYwRFM2dnppRmZvR0JjMnpFQzUzSFdQRWthNWpQZllPbWg1T3A1WUJKeWZncVNnNHVXVGQwTlQ2eUE?oc=5",
+      "feedIds": [
+        "google-news-ru"
+      ],
+      "reviewStatus": "unreviewed",
+      "url": "https://antikor.info/ru/articles/873954-bespilotniki_atakovali_saratovskij_npz_rosnefti_na_predprijatii_vspyhnul_pohar",
+      "resolution": {
+        "status": "resolved",
+        "checkedAt": "2026-11-07T06:44:20Z",
+        "error": null
+      },
+      "availability": {
+        "status": "available",
+        "checkedAt": "2026-11-07T06:44:20Z",
+        "httpStatus": 200,
+        "error": null,
+        "contentType": "text/html",
+        "truncated": false,
+        "finalUrl": "https://antikor.info/ru/articles/873954-bespilotniki_atakovali_saratovskij_npz_rosnefti_na_predprijatii_vspyhnul_pohar"
+      },
+      "id": "cc037a6b97e03934326d"
+    },
+    {
+      "publisher": "Українські Новини",
+      "publishedAt": "2026-11-07T05:11:35Z",
+      "publishedOnMoscow": "2026-11-07",
+      "publicationDateBasis": "rss_unverified",
+      "discoveryUrl": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOczBjQnN4MG9yUGg1UU9TY09xcWM1cm9ISFM2UTBjcDZPYkdQTFd5M205NThTWkVWMWJmempBWU1yeTFaS3R4Vi0wWExsamhqQm5ZaVI0VUhJaGppUVc5NzYxZ25MUzgwMmF0cDM4M2drcTFJRmNjT2xOTnh6STBFNGI3WllEWXRYX2JXZU9zR2pvVG9TNmJrdFNlS29HZTlCRDI0aHJ4bFFzdENJUlhBRTlBd9IBuAFBVV95cUxQWjI4VERjY2pfUF9vTVBmOUc3M0Jnbm1DVDRtcTBLaWdGamRwNlVKWTRiYWJMcm96OHcxamdsY0RyUTBtN1lWM2doMi1yNDB1OHdHMGNQejAxLUhEZ2Z6NUIySFMxQWZVYWRtYkdKQVNvVWdhbm5ydnZjb21CeHVmS0FzYndGRVpuZWk2NXp6Q1hidzJ6cTJqMVZYRFNNY2JQR3ZJbW5JVTF5Qzc5bnFiZTE1YTVsai1s?oc=5",
+      "feedIds": [
+        "google-news-ru"
+      ],
+      "reviewStatus": "unreviewed",
+      "url": "https://ukranews.com/news/1186084-saratovskij-npz-gorit-v-rezultate-nochnoj-ataki-so-storony-ukrainy-osint-analiz",
+      "resolution": {
+        "status": "resolved",
+        "checkedAt": "2026-11-07T06:44:21Z",
         "error": null
       },
       "availability": {
         "status": "blocked",
-        "checkedAt": "2026-11-06T12:54:46Z",
+        "checkedAt": "2026-11-07T06:44:21Z",
         "httpStatus": 403,
         "error": "http_error"
       },
-      "id": "633c0e43b6f39129f65c"
+      "id": "a2d97a5f89173b7c8603"
     },
     {
-      "publisher": "https://incidentia.ru/",
-      "publishedAt": "2026-11-06T09:37:30Z",
-      "publishedOnMoscow": "2026-11-06",
+      "publisher": "24 Канал",
+      "publishedAt": "2026-11-07T05:03:00Z",
+      "publishedOnMoscow": "2026-11-07",
       "publicationDateBasis": "rss_unverified",
-      "discoveryUrl": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQUlctc0wwdjg2Z096YXREYzZCZXVaTm1CVTZfeDVhdUVXVTZwVHljS2JNX0RBVDRUc01hbEd3QTU2TF82WW9MZk15bVMzeWZCdjgwekdlMGJ3blJaYmJiR1ZEYkE0TGtNRk9wcmpocVFoVC1FaEJGMk40S3JFbDJ5VFAzNA?oc=5",
+      "discoveryUrl": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOVjNjVDJ1Tk9xZ3Zrb3U1WnNCWnpkQW5hWXVRSnpMRHhRd01DLWVUT2tnZ0szZmZhVzVXV1R1RmNfZVRBLVlHb2x5WlNlSlVVdi1CYlQwZGZ1TFBxQWRTLU5DZEdWVkxkZXc0UXhrQkphZ014WkZHRVlteUt1VEM5VUN4WGJKcFNabmpqNF9kalhvQUgta0pKNXNPZHpIRGtNMmo2SVFwX07SAa4BQVVfeXFMTXFENk41QS1ua0tGcTUzVC1uOVdMaFJCR3F4T1A4cXAyTmpQVmp1ckRUUW96TU1MYnZuTWRlbzRuTDU2Rnp5ckRrNi1KZy1QOHNyVGZRSFNYZUUyeUZJRmRRd1JhVk1rQ2EwaXlUWERZQW1OcGJRa2R5RzZCRE9YemxKWjUweVV4SWIxQ3ZjV1hLMjRSeDRnMExsWkluTVlwellaUmdHNjFIS0lyWl9B?oc=5",
       "feedIds": [
         "google-news-ru"
       ],
       "reviewStatus": "unreviewed",
-      "url": "https://incidentia.ru/news/massirovannaya-ataka-bpla-na-yug-rossii-2026-11-06",
+      "url": "https://24tv.ua/ru/7-nojabrja-proizoshel-vzryv-na-saratovskom-npz-v-seti-pojavilos-video-pozhara_n3175739",
       "resolution": {
         "status": "resolved",
-        "checkedAt": "2026-11-06T12:54:47Z",
-        "error": null
-      },
-      "availability": {
-        "status": "blocked",
-        "checkedAt": "2026-11-06T12:54:47Z",
-        "httpStatus": 200,
-        "error": "access_challenge",
-        "contentType": "text/html",
-        "truncated": false,
-        "finalUrl": "https://incidentia.ru/news/massirovannaya-ataka-bpla-na-yug-rossii-2026-11-06"
-      },
-      "id": "89545df96f68c9b6f9cd"
-    },
-    {
-      "publisher": "Euromaidan Press",
-      "publishedAt": "2026-11-06T09:27:50Z",
-      "publishedOnMoscow": "2026-11-06",
-      "publicationDateBasis": "rss_unverified",
-      "discoveryUrl": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQR1ZaMWtnSVpGMGV5bUdNVWt0SWdmdHJBUzYzQWEyLUpkZ2w5T01ocGdQeHZWeXB4Mk9NRV9Wb0FiR3lWQnZ2NDRGaUNDcjdkZFJkcU9uS3ltQ2YxSmd2Q2tKdU9DUWlCNTlwMGEzUlNPaVlicms1ai15aWdOc3pfWEZXV0VBWHV1bWdEbkxlVEZSNk8wcU4wM2xrTUczbHJOTXZLQl9OTGhkdGZTUlFFdEZ5N3ZzMFQ0Xzd6RHoyV1ZhdGczbTQ3ZQ?oc=5",
-      "feedIds": [
-        "google-news-en"
-      ],
-      "reviewStatus": "unreviewed",
-      "url": "https://euromaidanpress.com/2026/11/06/a-russian-refinery-rated-at-more-than-6-million-tons-a-year-burns-again-in-krasnodar-krai/",
-      "resolution": {
-        "status": "resolved",
-        "checkedAt": "2026-11-06T12:54:48Z",
+        "checkedAt": "2026-11-07T06:44:22Z",
         "error": null
       },
       "availability": {
         "status": "available",
-        "checkedAt": "2026-11-06T12:54:48Z",
+        "checkedAt": "2026-11-07T06:44:22Z",
         "httpStatus": 200,
         "error": null,
         "contentType": "text/html",
         "truncated": false,
-        "finalUrl": "https://euromaidanpress.com/2026/11/06/a-russian-refinery-rated-at-more-than-6-million-tons-a-year-burns-again-in-krasnodar-krai/"
+        "finalUrl": "https://24tv.ua/ru/7-nojabrja-proizoshel-vzryv-na-saratovskom-npz-v-seti-pojavilos-video-pozhara_n3175739"
       },
-      "id": "3e3cf71f9bf318ee1f74"
+      "id": "d45bab51cb860951ea81"
     },
     {
-      "publisher": "Kyiv Post",
-      "publishedAt": "2026-11-06T09:27:04Z",
-      "publishedOnMoscow": "2026-11-06",
+      "publisher": "NV",
+      "publishedAt": "2026-11-07T04:53:00Z",
+      "publishedOnMoscow": "2026-11-07",
       "publicationDateBasis": "rss_unverified",
-      "discoveryUrl": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBJUVpEMXo0blRKM0YxQnZkQUw0MUFCeV9waTVpN1ZnOU04MFdldjBkNDdvQXloZndRcFZOQlBaUDI5THI3WkphRWNDNA?oc=5",
-      "feedIds": [
-        "google-news-en"
-      ],
-      "reviewStatus": "unreviewed",
-      "url": "https://www.kyivpost.com/post/89235",
-      "resolution": {
-        "status": "resolved",
-        "checkedAt": "2026-11-06T12:54:49Z",
-        "error": null
-      },
-      "availability": {
-        "status": "available",
-        "checkedAt": "2026-11-06T12:54:49Z",
-        "httpStatus": 200,
-        "error": null,
-        "contentType": "text/html",
-        "truncated": false,
-        "finalUrl": "https://www.kyivpost.com/post/89235"
-      },
-      "id": "715bbd74e2cde56c7b63"
-    },
-    {
-      "publisher": "BFM.ru",
-      "publishedAt": "2026-11-06T08:41:08Z",
-      "publishedOnMoscow": "2026-11-06",
-      "publicationDateBasis": "rss_unverified",
-      "discoveryUrl": "https://news.google.com/rss/articles/CBMiREFVX3lxTE41N2lZUnlNVlowRTJzRHBfdHBxaHp4RGVEMTBiTmtMWFQwTHY3d29uakVtb3ZOcmg2UW04a2NQRzRnUlRw0gFKQVVfeXFMTVN5T0VaTGhTNTZiZEFjWVRCM2k2dXF6c0hEYUE5bUZpY0szZVlGbmlQNXR0T05rVEdFeEFPMG9CVWlMSExOb09jakE?oc=5",
+      "discoveryUrl": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNQnRiTGZxVkxDMEpwUkVzREJBWVBjOVo1ZXFNZEdzYnVxeklUSUhnZVJyUG1vdVdPZzkzbG1tVVBFbXVkOHd4cjd4ZnRwQ0FUb1BvQ05RWjFDdGNjWXh1U0J0VGRBTERhQ3YycW1Fc1AxTFZZaU5ZOUw2WlVSaE9Cd1VMSENadmpVM29XUWVJX3VJMXJTVEVZdmpPbzZRNUx6ZDZEVU1DeFFCdDk2VElMVVE4TFFDZnF6NkpN0gGrAUFVX3lxTE9TLXVnMEZoTHdpVUVFTk5WZlBEZVY2MWhaWEdVZkRBTENEaW5Vb2tkNTRRWFFaN1NMRHVXNUN0VVdPOGtSQkFPTXBmZEttOHBEU2JKXy1iU3VFLTVpQkZpekZfNi1aR0VqTEhkQ016bEV5MTl2c2ZBTVZLMjVJZmpqeXNjUXFhUlh6ZEtUNzZGdmRPVVA2bDV3VkRyQzlOTlRENk55WnNXQUJnTQ?oc=5",
       "feedIds": [
         "google-news-ru"
       ],
       "reviewStatus": "unreviewed",
-      "url": "https://www.bfm.ru/news/623067",
+      "url": "https://nv.ua/world/countries/ataka-bespilotnikov-na-saratovskiy-npz-pozhar-i-povrezhdenie-infrastruktury-50657123.html",
       "resolution": {
         "status": "resolved",
-        "checkedAt": "2026-11-06T12:54:50Z",
+        "checkedAt": "2026-11-07T06:44:23Z",
         "error": null
       },
       "availability": {
         "status": "available",
-        "checkedAt": "2026-11-06T12:54:50Z",
+        "checkedAt": "2026-11-07T06:44:23Z",
         "httpStatus": 200,
         "error": null,
         "contentType": "text/html",
         "truncated": false,
-        "finalUrl": "https://www.bfm.ru/news/623067"
+        "finalUrl": "https://nv.ua/world/countries/ataka-bespilotnikov-na-saratovskiy-npz-pozhar-i-povrezhdenie-infrastruktury-50657123.html"
       },
-      "id": "7b5bee7f2f4148081b65"
+      "id": "7df113bbd6545f33941a"
     },
     {
-      "publisher": "Daily Kos",
-      "publishedAt": "2026-11-06T08:25:56Z",
-      "publishedOnMoscow": "2026-11-06",
+      "publisher": "ТСН",
+      "publishedAt": "2026-11-07T04:39:03Z",
+      "publishedOnMoscow": "2026-11-07",
       "publicationDateBasis": "rss_unverified",
-      "discoveryUrl": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPTml2dGdRbEdWbWNvUy1hN2pmV2hYUHRMUFBiYWRKeWdRT2tCOTgtYlUwcGY1RldLQjZXYkF0dkRwTlNESWRpcFJBZTI5eHpoeVFnbTFhN0xrRDRmbl9XM05WbHpkY3V2cEY3SDBXYnVOZjdGNmlsYnZSOUFBNmZqa2laZVg0dVg0RkxpUXY4SWFfZw?oc=5",
-      "feedIds": [
-        "google-news-en"
-      ],
-      "reviewStatus": "unreviewed",
-      "url": "https://www.dailykos.com/stories/2026/11/5/800122714/community/russian-stuff-blowing-up/",
-      "resolution": {
-        "status": "resolved",
-        "checkedAt": "2026-11-06T12:54:53Z",
-        "error": null
-      },
-      "availability": {
-        "status": "available",
-        "checkedAt": "2026-11-06T12:54:53Z",
-        "httpStatus": 200,
-        "error": null,
-        "contentType": "text/html",
-        "truncated": false,
-        "finalUrl": "https://www.dailykos.com/stories/2026/11/5/800122714/community/russian-stuff-blowing-up/"
-      },
-      "id": "b18e09c1a3be12476b87"
-    },
-    {
-      "publisher": "Ukrinform",
-      "publishedAt": "2026-11-06T08:22:00Z",
-      "publishedOnMoscow": "2026-11-06",
-      "publicationDateBasis": "rss_unverified",
-      "discoveryUrl": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQeE9BWWRoN2c1a3ppVlcyclQ2ODA4cHVqTXRyUm9NMkhpakZZQ1NjTkNGTWd5YjJvZ1NhR29wSVlNVk1UdTBERkhXb3R4QXEtb2hzRDBwQnllaEVJNGRua0JiQkM4VWNJVjdFakNCdzVHVzk2RXFoT0RkUzlOZzg4ZUtrNEJmNFNrWTVzOGNDaTRJcW1PT3k5TU1RY2ppUVJULWF4U1RnN25WWVFWcXd4a3RjWFlXZDZIWFlMcVRVdG4wQmRYWXAyTmQtVHg4R1U4RnfSAdIBQVVfeXFMUHhPQVlkaDdnNWt6aVZXMnJUNjgwOHB1ak10clJvTTJIaWpGWUNTY05DRk1neWIyb2dTYUdvcElZTVZNVHUwREZIV290eEFxLW9oc0QwcEJ5ZWhFSTRkbmtCYkJDOFVjSVY3RWpDQnc1R1c5NkVxaE9EZFM5Tmc4OGVLazRCZjRTa1k1czhjQ2k0SXFtT095OU1NUWNqaVFSVC1heFNUZzduVllRVnF3eGt0Y1hZV2Q2SFhZTHFUVXRuMEJkWFlwMk5kLVR4OEdVOEZ3?oc=5",
-      "feedIds": [
-        "google-news-en"
-      ],
-      "reviewStatus": "unreviewed",
-      "url": "https://www.ukrinform.net/amp/rubric-ato/4182002-drones-attack-afipsky-oil-refinery-in-russias-krasnodar-krai-fire-breaks-out-media.html",
-      "resolution": {
-        "status": "resolved",
-        "checkedAt": "2026-11-06T12:54:54Z",
-        "error": null
-      },
-      "availability": {
-        "status": "available",
-        "checkedAt": "2026-11-06T12:54:54Z",
-        "httpStatus": 200,
-        "error": null,
-        "contentType": "text/html",
-        "truncated": false,
-        "finalUrl": "https://www.ukrinform.net/amp/rubric-ato/4182002-drones-attack-afipsky-oil-refinery-in-russias-krasnodar-krai-fire-breaks-out-media.html"
-      },
-      "id": "b6e9ca071a6da624dd73"
-    },
-    {
-      "publisher": "DW.com",
-      "publishedAt": "2026-11-06T08:13:01Z",
-      "publishedOnMoscow": "2026-11-06",
-      "publicationDateBasis": "rss_unverified",
-      "discoveryUrl": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNU1FCXzNWM2tDaWtXRHE1TDI3cVRhZll3Zld6RXRwbVU0eGFZdWl4VHJXNjJfOG1LemxEQzUtVTN6dGZTN2RPaHRvUlhJRFBueThQallVdkkySzlrWUthWUZWdUJLVFNOZ0N0bWhkZkxhdlFJTEt4UHVoUXU2bk9uZXY1Rk1pN1NPbGNGQ19lbmtMR1V2a005Sjh2VURLTU5PRFNnUkF30gGmAUFVX3lxTE9uZ25SWUs2SVNyZlM3VEM5UXIwaGl2TU1kVmVidkhLNHEycldoQnFUdlNxT3NsRl9fRkM4M2ExUFlRVlVRZ0tBMy1oYy1SNVU1b1IxX3ZFWndJZHpmRVZKMXUwa3BjMXQzM3VDYk8wMVFuR2xjeEhfRnlCSnZmcVJWcEtYeVluQndKY0xoTXpjSExWdFdJMG5zeEJtazVHbk91ZkpoVnc?oc=5",
+      "discoveryUrl": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNaDJzVXpSVm9ZTm15WVA1NGxaam5IV3dDdmVCaDlmN2FhczJPdkR5X2Z5NEN5aU1OS1NFamplM1Fha1NFRDBKbzRpcF9ITmk4OGNISHNtYXI5ZkVmYnBYZzgtV0V3Njl1cHVGSndXU055OXlpNVFYMXFEX0hmcFFJVUtQWVlEMFBfbHh3eTAzS0VvanVNNnNyZGhsZERFQ0c3UEFLS2tUbkFxRXZG0gGyAUFVX3lxTFBPQ1JUN0ZvakVkdWV4Q1F5NkNWcGtiMjBRUjZtVDZybG9JdFNtREhLMWFoUU9nUjZCcXRkQlVYek5SSEFnMW93ZXRhbjFPUEtQN0RQQmlVdmhocExfa3N0TTAtbFdqMGZZbFNXbThiaUExbHNpV2E5Ykt0OWdNUFJPZmZrTzJnSGdmeGhybGFlazJYUjdGSUJBNUxEc3N2OGxIMmo0ZzlCdjRva0MzdUJUeVE?oc=5",
       "feedIds": [
         "google-news-ru"
       ],
       "reviewStatus": "unreviewed",
-      "url": "https://www.dw.com/ru/ukrainskie-drony-snova-atakovali-poselok-afipskij-v-krasnodarskom-krae/a-79872122",
+      "url": "https://tsn.ua/ru/ato/ataka-na-kiev-i-rossiyskie-npz-glavnye-novosti-nochi-7-noyabrya-2026-goda-3210367.html",
       "resolution": {
         "status": "resolved",
-        "checkedAt": "2026-11-06T12:54:56Z",
+        "checkedAt": "2026-11-07T06:44:24Z",
         "error": null
       },
       "availability": {
         "status": "available",
-        "checkedAt": "2026-11-06T12:54:56Z",
+        "checkedAt": "2026-11-07T06:44:24Z",
         "httpStatus": 200,
         "error": null,
         "contentType": "text/html",
         "truncated": false,
-        "finalUrl": "https://www.dw.com/ru/ukrainskie-drony-snova-atakovali-poselok-afipskij-v-krasnodarskom-krae/a-79872122"
+        "finalUrl": "https://tsn.ua/ru/ato/ataka-na-kiev-i-rossiyskie-npz-glavnye-novosti-nochi-7-noyabrya-2026-goda-3210367.html"
       },
-      "id": "ffb52e94800dd2756af3"
+      "id": "0565a75de9655bf8f3c3"
     },
     {
-      "publisher": "hvylya.net",
-      "publishedAt": "2026-11-06T08:07:20Z",
-      "publishedOnMoscow": "2026-11-06",
+      "publisher": "Korrespondent.net",
+      "publishedAt": "2026-11-07T04:34:00Z",
+      "publishedOnMoscow": "2026-11-07",
       "publicationDateBasis": "rss_unverified",
-      "discoveryUrl": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPTWJzRTJ3Mk1mYWh1WUk0VGVGaklVSFBSVFE4Wlp3bzZudkdINm9tbkdvWmJmNHRPeFQxLThrclppUW9vVzhaeWlqVHRCSVA4TVdwY0JMeTJyMXdMcjZXVmowclYzbWhmenR5QS1na3Y0ZXN5cm1Va1BIUE8zWUx1VXhRVUJhMEVaSzUxVnVnb2tKNEQzaFB1eXBVQ2phYWJwNHp1UE1DWW5NdnFHa3Fr0gG0AUFVX3lxTE1LWkUzRVRVN2FXamtsbjdra0tCWUlETXMyd2F2QjJfVC1VcjdqXzJLSUUwc3BKdU1XMVBLRFI5endaZUlnYS1pS2owc24tUXAtdG9DWGFFcUY3T3k5NmFlSjBHWTNnWmhtTTdFUFFMQm14M0thTmM5cDNzYUgzQ2oyZzA0eXY1Z2VLem9ha1JXM2lXa005bUQ0NzB1XzJOeXZaYklIZTJmSnlyUm1YeFBkbzQ3LQ?oc=5",
+      "discoveryUrl": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNZ2RZSnJVUUFQRmNuTXQxcnhJQ0VEQ09JcUlmV3hwRG1nT2RfSHVPbkpEekNjQ3VDSm5lalYtTFFMZWR1Qk9va0VLSl9yalY2SnBZR1UtYVhHeEZ1OE1QNTh1cEEyeGpSU0JZLVk2NGhCV1NkZ2FKUzZzUUh6R2taMC1BLUtXYmdHLXYxRVNYcmFBQdIBhgFBVV95cUxNOVYzMlRXcVBZcUt0dWRGQmQybUc5SEY1UGRDVncxYWItbS1tZkFQb001SzlnbVQtQjM5VS0xS1g0TkhfZXRIa0RrS0hmRDhfUXNWYjJvc0QySF9lTzdCVDNlRVNfTHYtdFpnZm42T1AzeTZkWHlUQUVMaUk0b3lFWVMtMVhOUQ?oc=5",
       "feedIds": [
         "google-news-ru"
       ],
       "reviewStatus": "unreviewed",
-      "url": "https://hvylya.net/news/329661-afipskiy-npz-na-kubani-gorit-posle-massirovannoy-ataki-dronov-i-reaktivnyh-bpla",
+      "url": "https://korrespondent.net/world/russia/4926789-v-rossyiskom-saratove-drony-atakovaly-npz",
       "resolution": {
         "status": "resolved",
-        "checkedAt": "2026-11-06T12:54:57Z",
+        "checkedAt": "2026-11-07T06:44:26Z",
         "error": null
       },
       "availability": {
         "status": "available",
-        "checkedAt": "2026-11-06T12:54:57Z",
+        "checkedAt": "2026-11-07T06:44:26Z",
         "httpStatus": 200,
         "error": null,
         "contentType": "text/html",
         "truncated": false,
-        "finalUrl": "https://hvylya.net/news/329661-afipskiy-npz-na-kubani-gorit-posle-massirovannoy-ataki-dronov-i-reaktivnyh-bpla"
+        "finalUrl": "https://korrespondent.net/world/russia/4926789-v-rossyiskom-saratove-drony-atakovaly-npz"
       },
-      "id": "342d314d9fba71588918"
+      "id": "ed3e0f0662682c94d449"
     },
     {
-      "publisher": "ProFinance",
-      "publishedAt": "2026-11-06T08:06:16Z",
-      "publishedOnMoscow": "2026-11-06",
+      "publisher": "Общественная служба новостей",
+      "publishedAt": "2026-11-07T04:08:57Z",
+      "publishedOnMoscow": "2026-11-07",
       "publicationDateBasis": "rss_unverified",
-      "discoveryUrl": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNckFGQjB5SGI2T1otOVI3aHJ0cHAzb2p2bDFEbEF0YnR2aXgyT0dXOU5qbkE5aHhaSEM4NElVVW5wajJHdlZGM1RGOVVrY3V3UGxUU0ZIQ3g0aUFCMlBIWUN2VnFPWDAycmthMlN5azJSbVNsT0lnRFdMbjlRNkZMVWlXZ2lUMVhETF9BMFBQUW9NMHZrbWxUTGpzVDdYSDh3Q09SRHc4M1JLeU04d1V4NDJkbmp6dWl6dm1KNmJCenFnY2czM2c?oc=5",
+      "discoveryUrl": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQdjkxY3R0RkNQV3c5eTNSeE5rV0F0djZ0a04xT3cwemZqSG1BMHBLVzBxN2s3WWNYQXQxUEhfeGp5dzNhOHV0ZlNJLXJtVmNFZ0NCdlRlaGRWZUdHV3V6MUduQk9KT1lPdTdhemU2ZlQyR2JmM0dBQTRXb3lKZVNjYWFud0NtMEJCZ0w5NVY2YV9PT1VjRkx4ZVA1eTFYcnc?oc=5",
       "feedIds": [
         "google-news-ru"
       ],
       "reviewStatus": "unreviewed",
-      "url": "https://www.profinance.ru/live/2026-11-06/1000662-vozobnovlenie-atak-na-neftepererabatyvayushchie-zavody-istoshchaet-rossiyskie",
+      "url": "https://www.osnmedia.ru/world/zelenskij-pered-peregovorami-prigrozil-rossii-novymi-atakami-na-npz/",
       "resolution": {
         "status": "resolved",
-        "checkedAt": "2026-11-06T12:54:58Z",
+        "checkedAt": "2026-11-07T06:44:27Z",
         "error": null
       },
       "availability": {
         "status": "available",
-        "checkedAt": "2026-11-06T12:54:58Z",
+        "checkedAt": "2026-11-07T06:44:27Z",
         "httpStatus": 200,
         "error": null,
         "contentType": "text/html",
         "truncated": false,
-        "finalUrl": "https://www.profinance.ru/live/2026-11-06/1000662-vozobnovlenie-atak-na-neftepererabatyvayushchie-zavody-istoshchaet-rossiyskie"
+        "finalUrl": "https://www.osnmedia.ru/world/zelenskij-pered-peregovorami-prigrozil-rossii-novymi-atakami-na-npz/"
       },
-      "id": "6ccbc393ed046da5f2d7"
-    },
-    {
-      "publisher": "Парламент.UA",
-      "publishedAt": "2026-11-06T08:06:00Z",
-      "publishedOnMoscow": "2026-11-06",
-      "publicationDateBasis": "rss_unverified",
-      "discoveryUrl": "https://news.google.com/rss/articles/CBMiygFBVV95cUxONHlZamVBTkZBcHlNYTdOeGZIWjhOckxLbmdMNktqNjVGbmNyYWdZYjBFYTU3eFdJX0RWaUhkdnc4bGw4NGFYYjZmTVhYVWVJRGVzQnRJZ3hLdEVaVzZBcG1JQWZwY2g2S05mZGpXYk1ickFLOUFnUklBb0s0bWdNSWFFaDh3ZV9uLTl5Zk15WlhWVDF2YVJnTUZkY2tSZnNuWHlXbWxUN3lzZXNvaFBFZGhldmJZRmE4bGpvVmZGQlY4QUZFckpJM01B0gHSAUFVX3lxTFBmTDF0QjlKNVhCZWdoOUJQalhlVGpZMVRYOG9DaTNBWXpJN21GQmYwVnZjblgwNFVUazBfSXZ5WFo3cDVtLUFpeENXNTdIWE9fdVI2QjBjSng5dVp3QTFtcXJrTHpoc1J5eFVKdVlGNW1WUS1jbkJNQnRYY2lvdFVyU19zU2NJZFZxZTZ2OFZwNktDQkdXUkhLc1dWYjN4Ymgya3ZRQXNyNUEzNmtybEhnMy1BRE5Bai1IME44a2xjX0V3Ry1KMk43c3VuOUlsam16UQ?oc=5",
-      "feedIds": [
-        "google-news-ru"
-      ],
-      "reviewStatus": "unreviewed",
-      "url": "https://parlament.ua/ru/news/afipskyj-npz-u-rosiyi-znovu-atakuvaly-drony-na-zavodi-spalahnula-pozhezha-krasnodar-zatyagnulo-dymom/",
-      "resolution": {
-        "status": "resolved",
-        "checkedAt": "2026-11-06T12:55:00Z",
-        "error": null
-      },
-      "availability": {
-        "status": "available",
-        "checkedAt": "2026-11-06T12:55:00Z",
-        "httpStatus": 200,
-        "error": null,
-        "contentType": "text/html",
-        "truncated": false,
-        "finalUrl": "https://parlament.ua/ru/news/afipskyj-npz-u-rosiyi-znovu-atakuvaly-drony-na-zavodi-spalahnula-pozhezha-krasnodar-zatyagnulo-dymom/"
-      },
-      "id": "f8dd17078bba619e6f75"
+      "id": "72bfb5fbfd8a71fd19d1"
     }
   ],
   "limitations": [
