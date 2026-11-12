@@ -7,497 +7,485 @@
     "cronUtc": "0 6 * * *"
   },
   "status": "complete",
-  "lastAttemptAt": "2026-11-11T06:57:01Z",
-  "finishedAt": "2026-11-11T06:57:29Z",
+  "lastAttemptAt": "2026-11-12T06:58:55Z",
+  "finishedAt": "2026-11-12T06:59:22Z",
   "lastSuccessfulRun": {
-    "finishedAt": "2026-11-11T06:57:29Z",
+    "finishedAt": "2026-11-12T06:59:22Z",
     "window": {
-      "from": "2026-11-09T06:57:01Z",
-      "to": "2026-11-11T06:57:01Z",
-      "fromMoscow": "2026-11-09 09:57",
-      "toMoscow": "2026-11-11 09:57"
+      "from": "2026-11-10T06:58:55Z",
+      "to": "2026-11-12T06:58:55Z",
+      "fromMoscow": "2026-11-10 09:58",
+      "toMoscow": "2026-11-12 09:58"
     },
     "counts": {
-      "discovered": 123,
-      "eligible": 123,
+      "discovered": 125,
+      "eligible": 125,
       "excluded": 0,
       "checked": 16,
-      "available": 15,
+      "available": 12,
       "unresolved": 0,
-      "omittedByLimit": 107
+      "omittedByLimit": 109
     }
   },
   "window": {
-    "from": "2026-11-09T06:57:01Z",
-    "to": "2026-11-11T06:57:01Z",
-    "fromMoscow": "2026-11-09 09:57",
-    "toMoscow": "2026-11-11 09:57"
+    "from": "2026-11-10T06:58:55Z",
+    "to": "2026-11-12T06:58:55Z",
+    "fromMoscow": "2026-11-10 09:58",
+    "toMoscow": "2026-11-12 09:58"
   },
   "feeds": [
     {
       "id": "google-news-ru",
       "label": "Google News RSS · ru",
       "language": "ru",
-      "url": "https://news.google.com/rss/search?q=%D0%9D%D0%9F%D0%97+%28%D0%BF%D0%BE%D0%B6%D0%B0%D1%80+OR+%D0%B0%D1%82%D0%B0%D0%BA%D0%B0+OR+%D0%BE%D1%81%D1%82%D0%B0%D0%BD%D0%BE%D0%B2%D0%BA%D0%B0%29+after%3A2026-11-09+before%3A2026-11-12&hl=ru&gl=RU&ceid=RU%3Aru",
-      "checkedAt": "2026-11-11T06:57:01Z",
+      "url": "https://news.google.com/rss/search?q=%D0%9D%D0%9F%D0%97+%28%D0%BF%D0%BE%D0%B6%D0%B0%D1%80+OR+%D0%B0%D1%82%D0%B0%D0%BA%D0%B0+OR+%D0%BE%D1%81%D1%82%D0%B0%D0%BD%D0%BE%D0%B2%D0%BA%D0%B0%29+after%3A2026-11-10+before%3A2026-11-13&hl=ru&gl=RU&ceid=RU%3Aru",
+      "checkedAt": "2026-11-12T06:58:55Z",
       "status": "ok",
       "httpStatus": 200,
-      "count": 72,
+      "count": 79,
       "error": null
     },
     {
       "id": "google-news-en",
       "label": "Google News RSS · en",
       "language": "en",
-      "url": "https://news.google.com/rss/search?q=Russia+refinery+%28fire+OR+attack+OR+disruption%29+after%3A2026-11-09+before%3A2026-11-12&hl=en&gl=US&ceid=US%3Aen",
-      "checkedAt": "2026-11-11T06:57:01Z",
+      "url": "https://news.google.com/rss/search?q=Russia+refinery+%28fire+OR+attack+OR+disruption%29+after%3A2026-11-10+before%3A2026-11-13&hl=en&gl=US&ceid=US%3Aen",
+      "checkedAt": "2026-11-12T06:58:56Z",
       "status": "ok",
       "httpStatus": 200,
-      "count": 51,
+      "count": 46,
       "error": null
     }
   ],
   "counts": {
-    "discovered": 123,
-    "eligible": 123,
+    "discovered": 125,
+    "eligible": 125,
     "excluded": 0,
     "checked": 16,
-    "available": 15,
+    "available": 12,
     "unresolved": 0,
-    "omittedByLimit": 107
+    "omittedByLimit": 109
   },
   "items": [
     {
-      "publisher": "https://streamlinefeed.co.ke/",
-      "publishedAt": "2026-11-11T06:28:38Z",
-      "publishedOnMoscow": "2026-11-11",
+      "publisher": "Финам",
+      "publishedAt": "2026-11-12T05:41:00Z",
+      "publishedOnMoscow": "2026-11-12",
       "publicationDateBasis": "rss_unverified",
-      "discoveryUrl": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOdmZiQmFYMHp2aUpsZjZkNlJCWDVHTl9nSGlNR2w1RjNqYmFrejY3TWt4M24tQl9wZkhnMjUtRXRuTC02SXFNS0xIS210VFdOYmFGS3doeDRid1NkLV9Lc3BDZWdWQUZ5OEw4dVBHT3ZQT01LSDBNX05PSUxCUFlVZ3hobTF6cmZ6ZWhXV056bnRmSjVtRTA3VkZoMzk?oc=5",
-      "feedIds": [
-        "google-news-en"
-      ],
-      "reviewStatus": "unreviewed",
-      "url": "https://streamlinefeed.co.ke/news/russia-reports-146-drones-downed-as-baltic-states-sound-alerts",
-      "resolution": {
-        "status": "resolved",
-        "checkedAt": "2026-11-11T06:57:02Z",
-        "error": null
-      },
-      "availability": {
-        "status": "available",
-        "checkedAt": "2026-11-11T06:57:02Z",
-        "httpStatus": 200,
-        "error": null,
-        "contentType": "text/html",
-        "truncated": false,
-        "finalUrl": "https://streamlinefeed.co.ke/news/russia-reports-146-drones-downed-as-baltic-states-sound-alerts"
-      },
-      "id": "32365857cd5c682af865"
-    },
-    {
-      "publisher": "Kyiv Post",
-      "publishedAt": "2026-11-11T05:36:59Z",
-      "publishedOnMoscow": "2026-11-11",
-      "publicationDateBasis": "rss_unverified",
-      "discoveryUrl": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE43SW5mVWVCTUI1WDRDYzVKRGI2aWxhYUNKQTRLblROT1FnT0psM3FiajgyYnpGSm1TUnRYWHVLT0c1VGQwQnR5SzJrNA?oc=5",
-      "feedIds": [
-        "google-news-en"
-      ],
-      "reviewStatus": "unreviewed",
-      "url": "https://www.kyivpost.com/post/89741",
-      "resolution": {
-        "status": "resolved",
-        "checkedAt": "2026-11-11T06:57:09Z",
-        "error": null
-      },
-      "availability": {
-        "status": "available",
-        "checkedAt": "2026-11-11T06:57:09Z",
-        "httpStatus": 200,
-        "error": null,
-        "contentType": "text/html",
-        "truncated": false,
-        "finalUrl": "https://www.kyivpost.com/post/89741"
-      },
-      "id": "68dcbfe6792593cf7e4f"
-    },
-    {
-      "publisher": "Главред",
-      "publishedAt": "2026-11-11T05:27:00Z",
-      "publishedOnMoscow": "2026-11-11",
-      "publicationDateBasis": "rss_unverified",
-      "discoveryUrl": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQZFN4SFluN2dXWXZKLUNJQ2VZS1didHdoLWJObVNqcHRDQ3ZIalRHVUplMC1PMVRiTDdXWFpiVk1oaDRSZ3NZYjJIUFFFNTBvQmhLUmFQdGFMUkp1bTA1bHJHZktYZlN3NklFMzNDNGxyNU5WV2thc0V0NUxqcGRJeTJ0WHdFeThnOWtjZkdYT25HUWVUR3dDdm5xWjVxQ0YyV1VpZV9UZ9IBrAFBVV95cUxObkZQNjJiVW00RGZEeU4zY3NhTXVSZVpPUElyUnhmdlE1amQtaW04S1d0ajg5LXhPanRvbjVKeTk5SkZSRGdaVUVVVDJCVjVQTldJdTh3RlZvVDdnOTg4SnRURTFSSnlMczhQUDBVRzVZNmZWOVNOYlNRYVNQamliODA3LXFzNmc5am1HZHJUSFJTcTdISHMtZXpVdWN6b3ZmNWlqcjRkRFRvNG01?oc=5",
+      "discoveryUrl": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOMHdZV25XT2FLTFNJX0RLYjlhRl83WldxUGlxMklieDR5V1pRYXNRNlAyNXRyZlliNkc5c1hfUTk0dUJuMkRvelNFTHNpclkwMjFmTmlHdFlpaU9KRk5yUlRPM0VZVWM2NDRnTHdUeERzTU1HSXVtbTFWdkMxXzltbDVKNGs5bHJ5MDFBZk9MWG4xOER6SFJZV2s2b3M0dXlyc2JIRHQzYkhFS2Z4UWt1YlpPR2liNE51ZURNSmQteEgxUFlyNmxXdWlyb3U5T2hkdzJFLTFR?oc=5",
       "feedIds": [
         "google-news-ru"
       ],
       "reviewStatus": "unreviewed",
-      "url": "https://glavred.info/war/udari-droniv-vibili-30-naftopererobki-rf-shcho-z-yasuvalo-reuters-10811069.html",
+      "url": "https://www.finam.ru/publications/item/ataki-bespilotnikov-na-npz-mogut-stat-katalizatorom-novogo-vitka-potrebitelskikh-tsen-20261112-0835/",
       "resolution": {
         "status": "resolved",
-        "checkedAt": "2026-11-11T06:57:10Z",
+        "checkedAt": "2026-11-12T06:58:57Z",
         "error": null
       },
       "availability": {
-        "status": "available",
-        "checkedAt": "2026-11-11T06:57:10Z",
-        "httpStatus": 200,
-        "error": null,
-        "contentType": "text/html",
-        "truncated": false,
-        "finalUrl": "https://glavred.info/war/udari-droniv-vibili-30-naftopererobki-rf-shcho-z-yasuvalo-reuters-10811069.html"
+        "status": "blocked",
+        "checkedAt": "2026-11-12T06:58:57Z",
+        "httpStatus": 403,
+        "error": "http_error"
       },
-      "id": "52be04bb2cb515267289"
+      "id": "9b55da58fa5321eb4838"
     },
     {
-      "publisher": "NewsCord",
-      "publishedAt": "2026-11-11T05:23:22Z",
-      "publishedOnMoscow": "2026-11-11",
+      "publisher": "NEWS.ru",
+      "publishedAt": "2026-11-12T05:37:00Z",
+      "publishedOnMoscow": "2026-11-12",
       "publicationDateBasis": "rss_unverified",
-      "discoveryUrl": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPS1JKSVRnUW5tb21zcG9XQzFMZGktVUlWNG5FMjNqbEFIeWh1N2M2dmZ0SGlteUp1c0pHZmZXcDFaSE1LR3U4WDFKTjUzdl83QVBfSDFZaXF1QVpQUzNlTjdMTl9SSktVMXZnamlEWm0zTXZIWFNGVUZRc25DeW5nXzlZSHg4cmNwZjhTNmRUTXY2TEE3akpvYTktbGJuZjhlV1JzaDRpNkM3WEJXcVE2RkliZ2d6cXkybWJFVmd1b0ZxYXZtdzN3?oc=5",
-      "feedIds": [
-        "google-news-en"
-      ],
-      "reviewStatus": "unreviewed",
-      "url": "https://newscord.org/article/russia-says-it-downed-146-drones-over-leningrad-region--Story_20261111_Russiaclaimsintercep29c427fd",
-      "resolution": {
-        "status": "resolved",
-        "checkedAt": "2026-11-11T06:57:11Z",
-        "error": null
-      },
-      "availability": {
-        "status": "available",
-        "checkedAt": "2026-11-11T06:57:11Z",
-        "httpStatus": 200,
-        "error": null,
-        "contentType": "text/html",
-        "truncated": false,
-        "finalUrl": "https://newscord.org/article/russia-says-it-downed-146-drones-over-leningrad-region--Story_20261111_Russiaclaimsintercep29c427fd"
-      },
-      "id": "f25b0507db90aacee120"
-    },
-    {
-      "publisher": "Newswav",
-      "publishedAt": "2026-11-11T05:00:09Z",
-      "publishedOnMoscow": "2026-11-11",
-      "publicationDateBasis": "rss_unverified",
-      "discoveryUrl": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNa3ZCT2xuSU9NemJtSFdaSmlseUFDUC1EeGJxUzRzbUUwTzRta29YRmdRZlNBN1JxOFE5em1GTlpmYkxoYTR5RTBBX0JNak5USDFydEFwYnNDZ3E1UURDU3A5N0F1dk96blVZNm9HNEZaaU1mZHNZTTdZYTQ3RFhIT05za2hnaG90Y2RMRnNqbHRSZEtzOElSZ0l2RXZLVE9kTDg4YVVzdGxmR2tUc2ZLRHJrNzNENGc?oc=5",
-      "feedIds": [
-        "google-news-en"
-      ],
-      "reviewStatus": "unreviewed",
-      "url": "https://newswav.com/article/ukraine-russia-war-latest-ukrainian-oil-refinery-attacks-cut-russia-s-proce-A2611_Wdmtpl",
-      "resolution": {
-        "status": "resolved",
-        "checkedAt": "2026-11-11T06:57:13Z",
-        "error": null
-      },
-      "availability": {
-        "status": "available",
-        "checkedAt": "2026-11-11T06:57:13Z",
-        "httpStatus": 200,
-        "error": null,
-        "contentType": "text/html",
-        "truncated": false,
-        "finalUrl": "https://newswav.com/article/ukraine-russia-war-latest-ukrainian-oil-refinery-attacks-cut-russia-s-proce-A2611_Wdmtpl"
-      },
-      "id": "a2764aa01d66a1fde0a4"
-    },
-    {
-      "publisher": "The SOFX Report",
-      "publishedAt": "2026-11-11T03:58:02Z",
-      "publishedOnMoscow": "2026-11-11",
-      "publicationDateBasis": "rss_unverified",
-      "discoveryUrl": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPeEs1bFBaWkxyd2x5WHRRLU9FUW0tQy1KNzRIYU9RUUtJQl9jUWtXVWhDZ3lBS1hUUGVwblptbW1XVVZHZzBBWWR2UURwNUtPaXROZDl1MGM2SHlZT282OENwUUY0Uk9qd1pfaFE1b0JqeUZpcEFGSVdja1JGanBHQWlNRTd5RnhNZUMtdG9SamtnNzQtZXVIendYVlBBMWJwYlE?oc=5",
-      "feedIds": [
-        "google-news-en"
-      ],
-      "reviewStatus": "unreviewed",
-      "url": "https://www.sofx.com/ukrainian-drones-fire-russias-second-largest-refinery-squeezing-30-of-capacity/",
-      "resolution": {
-        "status": "resolved",
-        "checkedAt": "2026-11-11T06:57:15Z",
-        "error": null
-      },
-      "availability": {
-        "status": "available",
-        "checkedAt": "2026-11-11T06:57:15Z",
-        "httpStatus": 200,
-        "error": null,
-        "contentType": "text/html",
-        "truncated": false,
-        "finalUrl": "https://www.sofx.com/ukrainian-drones-fire-russias-second-largest-refinery-squeezing-30-of-capacity/"
-      },
-      "id": "b2fddc72724ee5e1207c"
-    },
-    {
-      "publisher": "ТСН",
-      "publishedAt": "2026-11-11T03:53:14Z",
-      "publishedOnMoscow": "2026-11-11",
-      "publicationDateBasis": "rss_unverified",
-      "discoveryUrl": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNSW5xUjdCNVJwRWhpSlNVcFdzUUZFejdRYVA0Y3E4QjRjRDUzcEdIWlNEVTdqaUo0SG9TcGNPWWpXNGE1NmptXzBwa05POFdETTlvaV83ZVhueElCdFQxRVRFUHBXTUlzYXdzUGtLanZBbGNWUVdja3A4b0hKOF9vR05vaW1WVzFtTnctYUwwNlY1WWR0UEdXcWQ0ZlpEY0dNWDhzaUlDYi1XSGdDd256RnRZLXh3dkZCcm1kMEFBOXHSAcYBQVVfeXFMTUxsTXpHOVpkMDNiQVRqTEZTWURWNXJWRW1EMmRHQzk3bW81elpBdTlFb3ptZ3RfY04xeEJ1UFpRa212eWUtbk03Ti1Yb29hQnoyM0NBeDQ1TGNLdTlySktYZXJUMTlGSGpkYmEzVFh6Y0lSUTJuaW9pUGJWVEgwRFRqMEJmWTZpdFdrMklFNElubUZaSXJjZU1OVnAzMXBvd3lKa2x1WF9QN25xRlhubVlMTnhOSnJDZWVLeXI1d29aUnNfanl3?oc=5",
+      "discoveryUrl": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNMzhTaWxTU2FBaGJWYWNyUjlIVUlkbzhIajJJY2lZeVAzWFVJblI4cXVZcHRtS1ZCOF9MNGhjS3BFcFozUTBSdU5tT28xQWFpYllrTEZKR2VtLWQ2TmZ1NWtYbmEwMGRRMFFMaktYVHU5a3JTdkEyaDcwcjVSNjNSS2V5Q1o5RVR1SHMyQjdzVUpMTV9xT1MxUDE4ekk0SjjSAaQBQVVfeXFMUGhjY056LXpLQVU3ekVQNzRBcTY4TnlURGlOR1d0WnhoR0FJRU9jVEl5eFZCT1hxdmt5ME01UF9UYUNCMDVHODlyZTdqaVdKdVVfVzd3Q1I2WERGZ0FEMFpNVkp5YlcwdXhUZ3YtQTUzMllES184cGRtbTQ3eHU0UGZJN050Q3JGX3A4dGpuS0tta1p1TDJqNWlrRGdXZFZMeUNleGw?oc=5",
       "feedIds": [
         "google-news-ru"
       ],
       "reviewStatus": "unreviewed",
-      "url": "https://tsn.ua/ru/svit/vzryvy-sireny-i-strah-v-sobstvennyh-domah-voyna-nachala-menyat-zhizn-rossiyan-bloomberg-3213383.html",
+      "url": "https://news.ru/regions/aviarejs-iz-peterburga-v-omsk-perenapravili-v-novosibirsk-iz-za-ataki-bpla",
       "resolution": {
         "status": "resolved",
-        "checkedAt": "2026-11-11T06:57:16Z",
+        "checkedAt": "2026-11-12T06:58:58Z",
         "error": null
       },
       "availability": {
         "status": "available",
-        "checkedAt": "2026-11-11T06:57:16Z",
+        "checkedAt": "2026-11-12T06:58:58Z",
         "httpStatus": 200,
         "error": null,
         "contentType": "text/html",
         "truncated": false,
-        "finalUrl": "https://tsn.ua/ru/svit/vzryvy-sireny-i-strah-v-sobstvennyh-domah-voyna-nachala-menyat-zhizn-rossiyan-bloomberg-3213383.html"
+        "finalUrl": "https://news.ru/regions/aviarejs-iz-peterburga-v-omsk-perenapravili-v-novosibirsk-iz-za-ataki-bpla"
       },
-      "id": "d1cc69abe01d9c97ecd9"
+      "id": "8156aa6c237fd19eecab"
     },
     {
-      "publisher": "ТСН",
-      "publishedAt": "2026-11-11T00:38:48Z",
-      "publishedOnMoscow": "2026-11-11",
+      "publisher": "Континент Сибирь Online",
+      "publishedAt": "2026-11-12T04:04:10Z",
+      "publishedOnMoscow": "2026-11-12",
       "publicationDateBasis": "rss_unverified",
-      "discoveryUrl": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNNkNnYmR3QmxMcnY0STBCSzZvSnZjOXdCUzlxaWI4ZEx5YXBxQTdTaUtiWHhJTHgwRUZybkNLXzRNajFqWnh2N0hSdVNHbm81TV9VY043cWtPcVNEQURsTER0aWp3aHdDLTktNW4tSk5vWDA4QjFVRlg0eGNjTkpWbkwzT3AtTmI1NHMzRHhkT3YtM3FOdVRzZjl6ajVpMjB3TWpad1VFc3JncDdfenBlRlZoNzU3Rk1LZVZjU19WSjRaNFJB0gHKAUFVX3lxTE12WFhCMUhJV0tkd3JxN3dwcE44UE53cHR5XzRoMlo2LThQN0ZfM042XzNfM0JKeGtEN19oUC0zcDdCTEJHY0xwQXdDcHNsbU5OaXItVlZyX0NPWjFfR2trMGlMc0dwYVlxMEp4TzFuaGdJMmhIV3M4MmRlSlhyS3RCMWEyQXZUSi1Fek5hSW1iU3VPVElYbmk3eEtEOG9GZXl3RnFOaW5vTktiLWREWUtodUFOTURNdXVnaEEyZ1pZRUpUVmZjU2ItQUE?oc=5",
+      "discoveryUrl": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1DdlJkNDFJMm9sdjBRS3lZUXZIeVNJZURXVXc3U2VGd21KQ0lyQ3loUzl5Uk02LUVZNkxiWk9NZHZIdmNKZFgwcVBlamNkMkZvVU5VVTBMODRZbU1Dd1ZnU2FoY0FORGFrOEMyanVnWUQzQURIdTZIVnRIRWPSAYIBQVVfeXFMUG45WGp3aWJlOEN6ajBYd1ZyRmRPOHdXeWtIR3g0QlRkbFlaZF9qN0xURTJUeS00SHpzdlJlNi1CT0ZKVy1LT1JzVUlHRGVBa3I3akphQ0JyaGxJRms4QUswOW54VHptVDRQLVFYLWJqaThXOFJLZlVwYmtaMzJNUzN1Zw?oc=5",
       "feedIds": [
         "google-news-ru"
       ],
       "reviewStatus": "unreviewed",
-      "url": "https://tsn.ua/ru/svit/ukraina-ustroila-neftyanoy-koshmar-putinu-rossiyskie-npz-poteryali-pochti-tret-moschnostey-3213363.html",
+      "url": "https://ksonline.ru/625910/ostanovki-transporta-obnovili-v-novosibirske/",
       "resolution": {
         "status": "resolved",
-        "checkedAt": "2026-11-11T06:57:17Z",
+        "checkedAt": "2026-11-12T06:59:00Z",
         "error": null
       },
       "availability": {
         "status": "available",
-        "checkedAt": "2026-11-11T06:57:17Z",
+        "checkedAt": "2026-11-12T06:59:00Z",
         "httpStatus": 200,
         "error": null,
         "contentType": "text/html",
         "truncated": false,
-        "finalUrl": "https://tsn.ua/ru/svit/ukraina-ustroila-neftyanoy-koshmar-putinu-rossiyskie-npz-poteryali-pochti-tret-moschnostey-3213363.html"
+        "finalUrl": "https://ksonline.ru/625910/ostanovki-transporta-obnovili-v-novosibirske/"
       },
-      "id": "8157b15ce828ed114ac6"
+      "id": "f4d5621564117f49a523"
+    },
+    {
+      "publisher": "Meduza",
+      "publishedAt": "2026-11-12T01:19:00Z",
+      "publishedOnMoscow": "2026-11-12",
+      "publicationDateBasis": "rss_unverified",
+      "discoveryUrl": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxNT244dFhiN0UzREw1dms4U1NOVmRob0N5NndwVE5oSGVRRDh6Vy1qc2t2b3hQUzYyU19STEM5eWhEVG1sX3dySmlCTGRzVnl4LUlNRkhPMnRwS0tsVmdtVmxzZk5zM05nT1VIemlZdWphYnBNZUhmb0U1WnVaMWNzR3docDk1UUp1NnFHTDdiNUtLZW9wWlc1WWlsTFliZHRnekczbnd5TjBSdy1majhMYld3S0FXUWcxSlExSnVMT0VYLXVtaURxWE03d1otWUF1QUVEaENwNUNWRW85RXFFei1EY3kzNW9mUUJpcHdka2RjbE5PQi1TQ9IB_gFBVV95cUxNWnpEeW10eE0ybVhzaTR4UEdPYkk4TllUTlpHdHpRdDdFX25jU19uZjN6OE1MMlJrejNLNmFtS1RKUXY2bmpOVlNTalN4bDEtNTRIUXVZQmZIWEZqVmJKYVhJcnNhYXdHZEhXYzFvWkRfS21vUDNYX1d2SDRPX2tBYmZxaFVWbHNCMENWWU1NNzhmN1Etemtnb3RUaURpRTRrbW93MFRfZ3VCRXBDb3o1RU9tV3RTM25hSmV5ZEFQcXdCUjdNR0FGNnA2eWZzVDBldDQ3LW9EaXE1MHdoTGtUR2YxLVNUdjg0aE53aV8wY1FVMlV2OG5iRDA1QnVBQQ?oc=5",
+      "feedIds": [
+        "google-news-ru"
+      ],
+      "reviewStatus": "unreviewed",
+      "url": "https://meduza.io/news/2026/11/11/ukraina-atakuet-omsk-bespilotnikami-v-gorode-uzhe-sem-chasov-bespilotnaya-opasnost-gubernator-prizval-zhiteley-ne-vyhodit-na-ulitsu",
+      "resolution": {
+        "status": "resolved",
+        "checkedAt": "2026-11-12T06:59:02Z",
+        "error": null
+      },
+      "availability": {
+        "status": "available",
+        "checkedAt": "2026-11-12T06:59:02Z",
+        "httpStatus": 200,
+        "error": null,
+        "contentType": "text/html",
+        "truncated": false,
+        "finalUrl": "https://meduza.io/news/2026/11/11/ukraina-atakuet-omsk-bespilotnikami-v-gorode-uzhe-sem-chasov-bespilotnaya-opasnost-gubernator-prizval-zhiteley-ne-vyhodit-na-ulitsu"
+      },
+      "id": "f90ec8b8bd170594b847"
+    },
+    {
+      "publisher": "Горсайт",
+      "publishedAt": "2026-11-12T00:53:10Z",
+      "publishedOnMoscow": "2026-11-12",
+      "publicationDateBasis": "rss_unverified",
+      "discoveryUrl": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQTkJqbXY4VWhRUF9VWnU5X1M0bEcxRURKcEQ5SjJrLTRwbWgyLTdZZHgyXzhpS1pzZXpENUh2Sm1jNXdMR2NmTW5wWVY4SDh5S09IZHRoVTE0QTI4eXFoS1NuV3dhb05FaGpGV3ppRHhZUGhVanFtNWMzSFdLV3FhVXBCdjcwbkdEZWdrM015QXotOG1SQ0dLY19tNFVZSVh0YmZlZm9n?oc=5",
+      "feedIds": [
+        "google-news-ru"
+      ],
+      "reviewStatus": "unreviewed",
+      "url": "https://gorsite.ru/news/transport/aviareys_peterburg_omsk_perenapravili_v_novosibirsk_iz_za_ataki_bpla/",
+      "resolution": {
+        "status": "resolved",
+        "checkedAt": "2026-11-12T06:59:03Z",
+        "error": null
+      },
+      "availability": {
+        "status": "available",
+        "checkedAt": "2026-11-12T06:59:03Z",
+        "httpStatus": 200,
+        "error": null,
+        "contentType": "text/html",
+        "truncated": false,
+        "finalUrl": "https://gorsite.ru/news/transport/aviareys_peterburg_omsk_perenapravili_v_novosibirsk_iz_za_ataki_bpla/"
+      },
+      "id": "d5215cf993c2c93bd4a3"
+    },
+    {
+      "publisher": "SSBCrack",
+      "publishedAt": "2026-11-11T23:39:18Z",
+      "publishedOnMoscow": "2026-11-12",
+      "publicationDateBasis": "rss_unverified",
+      "discoveryUrl": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQY3puSmJXSHRpZVRvSWFZU2lBczAybUxsT1FQQ2JlTnBidEd4WlVUVndUUWRqNzJGVkdsa3BscmlnS3N6Y01aaF9fNVBqM1VUVEtPeWxDRjUxU3E3ZEpONFdBSklpQ25kd09IMzJ6N3gyTUlkRjYzTG5LcUF6bGV1RFVlOHFUa1hITTlSSElybVo1QQ?oc=5",
+      "feedIds": [
+        "google-news-en"
+      ],
+      "reviewStatus": "unreviewed",
+      "url": "https://news.ssbcrack.com/ukrainian-drones-target-omsk-oil-refinery-in-sustained-attack/",
+      "resolution": {
+        "status": "resolved",
+        "checkedAt": "2026-11-12T06:59:05Z",
+        "error": null
+      },
+      "availability": {
+        "status": "available",
+        "checkedAt": "2026-11-12T06:59:05Z",
+        "httpStatus": 200,
+        "error": null,
+        "contentType": "text/html",
+        "truncated": false,
+        "finalUrl": "https://news.ssbcrack.com/ukrainian-drones-target-omsk-oil-refinery-in-sustained-attack/"
+      },
+      "id": "ec3dbe739be06fb428d9"
+    },
+    {
+      "publisher": "The Kyiv Independent",
+      "publishedAt": "2026-11-11T22:41:46Z",
+      "publishedOnMoscow": "2026-11-12",
+      "publicationDateBasis": "rss_unverified",
+      "discoveryUrl": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNRDRINWVzWFhkTXhpdXhnb01kMFZFQjJCcmFSY0JHOWZNZTlWU0hMX0EzQkxzaFVISHk0aUxtWXVuMzVXd21TaDhHWlhzVzZ6NnQ5T05CTnowWkdNaDZ6NmZfa082YnRaYkpCMGMtMzBnczEyX3dmMkNxdUtjcDM3b3RaclNKUUg5S0lBNDFFZk1jTUh0THFmajVCRUIyNGRjTG9LV0VrcEQ5UGRPRllvamhR?oc=5",
+      "feedIds": [
+        "google-news-en"
+      ],
+      "reviewStatus": "unreviewed",
+      "url": "https://kyivindependent.com/russias-largest-oil-refinery-slammed-by-drones-in-8-hr-attack-2-500-km-from-ukraine/",
+      "resolution": {
+        "status": "resolved",
+        "checkedAt": "2026-11-12T06:59:06Z",
+        "error": null
+      },
+      "availability": {
+        "status": "available",
+        "checkedAt": "2026-11-12T06:59:06Z",
+        "httpStatus": 200,
+        "error": null,
+        "contentType": "text/html",
+        "truncated": false,
+        "finalUrl": "https://kyivindependent.com/russias-largest-oil-refinery-slammed-by-drones-in-8-hr-attack-2-500-km-from-ukraine/"
+      },
+      "id": "3146cd57d3ddb4e948c4"
+    },
+    {
+      "publisher": "MLQ.ai",
+      "publishedAt": "2026-11-11T21:35:47Z",
+      "publishedOnMoscow": "2026-11-12",
+      "publicationDateBasis": "rss_unverified",
+      "discoveryUrl": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPYjlVemZoSXo1RFdKSUk3NUtjTjV1a2NLVzNCVUhnaGtWdGZVMVVBMkw2bURZRXIwa3hmV0hHZTMwWmhFYXRRbVJXYkpnNGVvVGt6RG5obVdfZmp2cl8yWENLNHpILUtTSjJaWE1WMHFCNk5HUVpUWElXc2JjeGNEVXQ2TWg4cTZlcjlxY0FBbW4tWkNhOF9SUVNvUTlicVRsZ3pfUFllam9GYUhEcWZJZWdvWHY2Q3F2TWNhMDcwNmpRdw?oc=5",
+      "feedIds": [
+        "google-news-en"
+      ],
+      "reviewStatus": "unreviewed",
+      "url": "https://mlq.ai/news/ukrainian-strikes-have-cut-russias-oil-refining-capacity-by-30-reuters-reports-tightening-global-diesel/",
+      "resolution": {
+        "status": "resolved",
+        "checkedAt": "2026-11-12T06:59:07Z",
+        "error": null
+      },
+      "availability": {
+        "status": "blocked",
+        "checkedAt": "2026-11-12T06:59:07Z",
+        "httpStatus": 403,
+        "error": "http_error"
+      },
+      "id": "c781e5db8bccb99dc260"
+    },
+    {
+      "publisher": "uatv.ua",
+      "publishedAt": "2026-11-11T21:15:00Z",
+      "publishedOnMoscow": "2026-11-12",
+      "publicationDateBasis": "rss_unverified",
+      "discoveryUrl": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOM29OVTRNbXF1N2dzZllVU2FPVURLVGFPek1zeFQ4VHRrMmFaR19jclVnN2NROU1lWkNjTTlBWElOdGNPSGRtVTRYcXlsaDEzT0dSRFpLS0FjRVg2V2RkeXpONFJSb2FKRHlCYmpDdEdDSTY5NVNFRVhlcEdhN0E2NjlBS2N0S2hyZDBxV2VrdU5jNmpLOXE4dDRPbmxmVGx6VHhkVVlVZW5QYS1QVUJleFBWNUxvUQ?oc=5",
+      "feedIds": [
+        "google-news-en"
+      ],
+      "reviewStatus": "unreviewed",
+      "url": "https://uatv.ua/en/drones-strike-omsk-oil-refinery-one-of-russia-s-largest-with-annual-capacity-of-21-million-tons/",
+      "resolution": {
+        "status": "resolved",
+        "checkedAt": "2026-11-12T06:59:08Z",
+        "error": null
+      },
+      "availability": {
+        "status": "available",
+        "checkedAt": "2026-11-12T06:59:08Z",
+        "httpStatus": 200,
+        "error": null,
+        "contentType": "text/html",
+        "truncated": false,
+        "finalUrl": "https://uatv.ua/en/drones-strike-omsk-oil-refinery-one-of-russia-s-largest-with-annual-capacity-of-21-million-tons/"
+      },
+      "id": "13ce17e330e58c0844e2"
+    },
+    {
+      "publisher": "airpress.kz",
+      "publishedAt": "2026-11-11T20:23:21Z",
+      "publishedOnMoscow": "2026-11-11",
+      "publicationDateBasis": "rss_unverified",
+      "discoveryUrl": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBkRU5BMERtZmg4TmxwdEw1MV9uM3owTzQzaExYdkpnT1hpbVlUeXdZcE4tRUtURjRHQzFVWVAxU3czVHlqOVZYdWtkTVRUMlBiX2RlQms5NS0xQVV4MHh0dG1MOFhwcndQZUxjR0t1T0tpQXN3ZUt0OUVIX29Udw?oc=5",
+      "feedIds": [
+        "google-news-ru"
+      ],
+      "reviewStatus": "unreviewed",
+      "url": "https://airpress.kz/politics/ukrainskie-drony-snova-atakovali-omskij-npz/",
+      "resolution": {
+        "status": "resolved",
+        "checkedAt": "2026-11-12T06:59:10Z",
+        "error": null
+      },
+      "availability": {
+        "status": "available",
+        "checkedAt": "2026-11-12T06:59:10Z",
+        "httpStatus": 200,
+        "error": null,
+        "contentType": "text/html",
+        "truncated": false,
+        "finalUrl": "https://airpress.kz/politics/ukrainskie-drony-snova-atakovali-omskij-npz/"
+      },
+      "id": "24f67040d81b6a346a35"
+    },
+    {
+      "publisher": "EnergyNow.com",
+      "publishedAt": "2026-11-11T20:13:50Z",
+      "publishedOnMoscow": "2026-11-11",
+      "publicationDateBasis": "rss_unverified",
+      "discoveryUrl": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNWlhqMWE2YWV1QVVJX1hHeVpsQk8wWFFlVjRCNkdfaFRKdGpMeDZfMXVjeEh6U1FzbldjVHZoY2xQNk1OaUxzRUpncUF1ME1JU0xETDUwZmY1aGs3YVItNlhQbU5XWHRueHZBUkZ1c3VXa0JNUkFnUDExSmhnWWNXR1hITkdBVmxlMXluLTl3?oc=5",
+      "feedIds": [
+        "google-news-en"
+      ],
+      "reviewStatus": "unreviewed",
+      "url": "https://energynow.com/2026/06/ukraine-attacks-russian-energy-sites-what-has-been-hit/",
+      "resolution": {
+        "status": "resolved",
+        "checkedAt": "2026-11-12T06:59:13Z",
+        "error": null
+      },
+      "availability": {
+        "status": "blocked",
+        "checkedAt": "2026-11-12T06:59:13Z",
+        "httpStatus": 403,
+        "error": "http_error"
+      },
+      "id": "086bdad0d43ca726788a"
     },
     {
       "publisher": "National Security Journal",
-      "publishedAt": "2026-11-10T23:19:56Z",
+      "publishedAt": "2026-11-11T19:07:28Z",
       "publishedOnMoscow": "2026-11-11",
       "publicationDateBasis": "rss_unverified",
-      "discoveryUrl": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxQU1BjNFlWNkFEUkxnRmVlU25tYWJ0NGlNSjRPSTJSMjZrdVBONFZFUm5JemJmalFwWUVISzR1WThlSGVHWTVycjI3UExkU1BRWXhTNWpSVVVzdng2R3JSV3dPSmF0NXBNSlRRODlEZ1RTUU5NVC1Vc2RLT0RoVEFOUm1MVmVNaHNveHlmNExlZXpQelBxU25wTExBbGU5WnVqcWg2QVhXYWVUb1ZJOFVsUVFuclRyVzl2VVNOa1FjRkEybUtGOG1FNHQ0elRhQkJBb1N3Skt1b2l4UXNBblRWZHZnam94ZEtwT0l1Wk1DTHdFaHhYR09FYXkwbFFXQQ?oc=5",
+      "discoveryUrl": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxOU1l4YnNZMVF2a0NVRkVuY1NmQy0tcndpU2dETERoNGRjandjdkZCZWN4LUFJTTNFdVVmeHBCZndXNC1JeVhRbUx0MW9SM1dKb2l1akRubnJFWlRjdzJ3TEJpZEU3eTVSYVM1TGhsVWVfbnpwNzZiME9EdFR5MUs2MGgyUnJ3cU5fTTdkVTF0eEYxOC1LaEZuRWJKOVZUZTJQV2I4dHZIakVVRDdLbS1UcXRFbW1oYmRTNmNMU09ZbF92Ty1QejJ1NWlQYXVlZXBZN0IxS1FodkktVEt6NThrd1NWYTNjWV9BdDF3?oc=5",
       "feedIds": [
         "google-news-en"
       ],
       "reviewStatus": "unreviewed",
-      "url": "https://nationalsecurityjournal.org/ukraine-is-hitting-russian-refineries-again-after-a-pause-before-the-us-midterms-while-russia-keeps-striking-ukraines-infrastructure/",
+      "url": "https://nationalsecurityjournal.org/ukraines-revenge-against-putin-has-taken-a-new-form-turn-russias-oil-industry-into-a-burning-fireball-thanks-to-drones/",
       "resolution": {
         "status": "resolved",
-        "checkedAt": "2026-11-11T06:57:19Z",
+        "checkedAt": "2026-11-12T06:59:14Z",
         "error": null
       },
       "availability": {
         "status": "available",
-        "checkedAt": "2026-11-11T06:57:19Z",
+        "checkedAt": "2026-11-12T06:59:14Z",
         "httpStatus": 200,
         "error": null,
         "contentType": "text/html",
         "truncated": false,
-        "finalUrl": "https://nationalsecurityjournal.org/ukraine-is-hitting-russian-refineries-again-after-a-pause-before-the-us-midterms-while-russia-keeps-striking-ukraines-infrastructure/"
+        "finalUrl": "https://nationalsecurityjournal.org/ukraines-revenge-against-putin-has-taken-a-new-form-turn-russias-oil-industry-into-a-burning-fireball-thanks-to-drones/"
       },
-      "id": "00a713c381b3116c85e3"
+      "id": "24b1debe3c52da8e934c"
     },
     {
-      "publisher": "DW.com",
-      "publishedAt": "2026-11-10T22:29:37Z",
+      "publisher": "Мілітарний",
+      "publishedAt": "2026-11-11T19:01:09Z",
       "publishedOnMoscow": "2026-11-11",
       "publicationDateBasis": "rss_unverified",
-      "discoveryUrl": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOd2RDMEpycHNxR2gyMjZzNFM1UDFRNTg5ZjlZOHFvYVBhVHJzblNCZ0NKQk1pOW5KZ2ItMk5pdDh2a0VjUU9yTjZVc21FeWZpRzBFMVM5REhvV1JxdFA0NE5hYkxEZVlyZ05DYnJ1dERGcFc3V3pxX05YMG1PMGRUZXlSUVIwNTYtT3lCQmloaGEwY1dUTmpvY3diUmYybURVMUlV0gGjAUFVX3lxTE9McE13SVVNRnBJaVVwVmdkTTZiUEk0REhWb294aVZyZzVHSkxHZFppa3o1UFU2ZHV2VmhMNEZnRnJzaE5VMnNELTNjcWhKS3JzQkxWa1plX0ZOTDhzNEhNNVEwNHpqd1l2OEgzTTF4Y1kwMGRqc2FoWXA1bXltajBKUVFZRDVUS2hiWkY4dTBaMG4yd0tUcW5TenlacGhCeXVMVGM?oc=5",
-      "feedIds": [
-        "google-news-ru"
-      ],
-      "reviewStatus": "unreviewed",
-      "url": "https://www.dw.com/ru/reuters-ataki-bpla-vyveli-iz-stroa-pocti-tret-mosnostej-npz-v-rossii/a-79911886",
-      "resolution": {
-        "status": "resolved",
-        "checkedAt": "2026-11-11T06:57:20Z",
-        "error": null
-      },
-      "availability": {
-        "status": "available",
-        "checkedAt": "2026-11-11T06:57:20Z",
-        "httpStatus": 200,
-        "error": null,
-        "contentType": "text/html",
-        "truncated": false,
-        "finalUrl": "https://www.dw.com/ru/reuters-ataki-bpla-vyveli-iz-stroa-pocti-tret-mosnostej-npz-v-rossii/a-79911886"
-      },
-      "id": "6b17914c2ed44560841f"
-    },
-    {
-      "publisher": "Times Now",
-      "publishedAt": "2026-11-10T22:24:02Z",
-      "publishedOnMoscow": "2026-11-11",
-      "publicationDateBasis": "rss_unverified",
-      "discoveryUrl": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNMy04WFQtb00yV0RtcUM0cmdacU5SRVpTS2N1NGtBb2x3eVk1ZGw2VThaMWpXckh3RG1icGJSTXFJTjdvZGpkTUhzSHNicnh2ODhHbkxRcEc4UWdPTURESkNuTE5ZNVBQQ2tKWS1xT3FxakVjUk9fZ3lkSlhxM1gwcDhuZnZoTTJFMERTYklhUVlVQWNIOUZtZVA3bkRxaVVyUUhHTmJvdERlVmVTSjZCLVQtc2g1LUpkS3lyZmF5V3doX25WSTM0c2ZaTTbSAdIBQVVfeXFMTlJzMkREeFR2RHhZOXl4THRrTENjRGlxLWVyTl9zc1MxOXJPOEdXSDcyb0pTSWJJM25fdEVVLXlySndwbXJaZ3N4MFdoVUF3TW9lcU1jbV84dmdMWGtYdGdrTGY2ZXdndXVialNydnFlcEl6M2FQN2JqYURKVHluVUlrc1lfSmk5RzZ0UnhKdHNxTkpuQWtTRXdwcnFVLUE3dUtib3FBMk1BRzlJWm8tQVh4NkJtQzFqNmpZTm8wWWNUQnB1NjNBcURoM25DZk1SVUxR?oc=5",
+      "discoveryUrl": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOdFYyR25XMVp1RExGXzcwSWFueWtMTGFrcWYtOGpoRk84Q0ZSU1RjdnE3VWU5MGVRVWQxN2ZkcFJlQlFITzlrM2RhenhpSTI0VUwxRm5zVWNRY2JnUU40NklDUFFHX3UxN1huMkpsTTQ1TzdqbnlGWnRWOWpwS3BIT0djdVlmWlNqLUxKUTdEX0ttczI1VkN5Rw?oc=5",
       "feedIds": [
         "google-news-en"
       ],
       "reviewStatus": "unreviewed",
-      "url": "https://www.timesnownews.com/world/ukraine-strikes-hit-nine-russian-oil-refineries-cutting-refining-capacity-by-30-article-156492178",
+      "url": "https://militarnyi.com/en/news/fire-rages-at-omsk-oil-refinery-as-attack-enters-seventh-hour/",
       "resolution": {
         "status": "resolved",
-        "checkedAt": "2026-11-11T06:57:22Z",
+        "checkedAt": "2026-11-12T06:59:15Z",
         "error": null
       },
       "availability": {
         "status": "available",
-        "checkedAt": "2026-11-11T06:57:22Z",
+        "checkedAt": "2026-11-12T06:59:15Z",
         "httpStatus": 200,
         "error": null,
         "contentType": "text/html",
         "truncated": false,
-        "finalUrl": "https://www.timesnownews.com/world/ukraine-strikes-hit-nine-russian-oil-refineries-cutting-refining-capacity-by-30-article-156492178"
+        "finalUrl": "https://militarnyi.com/en/news/fire-rages-at-omsk-oil-refinery-as-attack-enters-seventh-hour/"
       },
-      "id": "f66d653690b1cd24992a"
+      "id": "7a35fd75efd60ef34338"
     },
     {
-      "publisher": "Atlantic Council",
-      "publishedAt": "2026-11-10T21:54:00Z",
+      "publisher": "belsat.ru",
+      "publishedAt": "2026-11-11T18:38:00Z",
       "publishedOnMoscow": "2026-11-11",
       "publicationDateBasis": "rss_unverified",
-      "discoveryUrl": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOMlhmdTN4ZmVpSzdZQ0FxS0k5aTNob0hEbEVmaHBMNGY4Y3NpaFlCNmIzRHRvazBNa3pycEpEQ3lMMlNFaFhRX3NHelZIbndpTmlSN2ZXMG9yOVNxVWhuam5LRkVQWTRNSVA5N3NJWGZrU3NkdE5sclItU3RDYlgyZXdOeWF2WG9kLU1RcmlLanhIclgzTy13MEdVMWg5YjY0N1ZsRFRyUnowcmJjQ0RqcDdOY01mZnVkOTkta096MTBhQjQ?oc=5",
+      "discoveryUrl": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5IQVNienZKbnlsSk1VLTN1T090RlpGUzJIZzFsVTFMSGprYnRydFhvbXVaSXhkdEd0Uk5EeGExa1lnMmU5R2tMMWNaMDc4RUk1QzVYcndwSjZHdDlzZm9R?oc=5",
+      "feedIds": [
+        "google-news-ru"
+      ],
+      "reviewStatus": "unreviewed",
+      "url": "https://ru.belsat.eu/96428406/ataka-dronov-na-omsk",
+      "resolution": {
+        "status": "resolved",
+        "checkedAt": "2026-11-12T06:59:17Z",
+        "error": null
+      },
+      "availability": {
+        "status": "available",
+        "checkedAt": "2026-11-12T06:59:17Z",
+        "httpStatus": 200,
+        "error": null,
+        "contentType": "text/html",
+        "truncated": false,
+        "finalUrl": "https://ru.belsat.eu/96428406/ataka-dronov-na-omsk"
+      },
+      "id": "5963dd33841c983d4174"
+    },
+    {
+      "publisher": "Bloomberg.com",
+      "publishedAt": "2026-11-11T18:17:51Z",
+      "publishedOnMoscow": "2026-11-11",
+      "publicationDateBasis": "rss_unverified",
+      "discoveryUrl": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQNVBpTVFoTUNkQTN1NXVZZ0hFNHRuazFhMURyWGttRkZYWEhydC03NWRxa2JSLVRTN3poQ2pLNGN5WUgzeGxtaGZkZy1QYWxycFNKaEh3Vk9BVEZDYm1pdXZMZTVwX0ZNSUV3Z0xiblJtWlpWVDlxcXJZdW9ySnd3VVYyRG5pbTRpRWNsTFdVdlpyT1UzTE9IUVlySlB1dkgzTEFNbExORkFrZ1ZRdEJUaw?oc=5",
       "feedIds": [
         "google-news-en"
       ],
       "reviewStatus": "unreviewed",
-      "url": "https://www.atlanticcouncil.org/blogs/ukrainealert/ukraines-new-drone-blitz-cuts-russian-oil-refining-capacity-by-30-percent/",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-11/drone-attack-sparks-fire-at-russia-s-ust-luga-port-injures-3",
       "resolution": {
         "status": "resolved",
-        "checkedAt": "2026-11-11T06:57:23Z",
+        "checkedAt": "2026-11-12T06:59:20Z",
         "error": null
       },
       "availability": {
-        "status": "available",
-        "checkedAt": "2026-11-11T06:57:23Z",
-        "httpStatus": 200,
-        "error": null,
-        "contentType": "text/html",
-        "truncated": false,
-        "finalUrl": "https://www.atlanticcouncil.org/blogs/ukrainealert/ukraines-new-drone-blitz-cuts-russian-oil-refining-capacity-by-30-percent/"
+        "status": "blocked",
+        "checkedAt": "2026-11-12T06:59:20Z",
+        "httpStatus": 403,
+        "error": "http_error"
       },
-      "id": "8b7de572278a8a782dc2"
+      "id": "4ce8f81e4886ae91805d"
     },
     {
-      "publisher": "Euromaidan Press",
-      "publishedAt": "2026-11-10T20:02:56Z",
-      "publishedOnMoscow": "2026-11-10",
+      "publisher": "Dagens.com",
+      "publishedAt": "2026-11-11T18:15:49Z",
+      "publishedOnMoscow": "2026-11-11",
       "publicationDateBasis": "rss_unverified",
-      "discoveryUrl": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNREdvRFlJQXFMOEpTenZzWnkxYldPV2lyaVExY1JpQThPNENqcnJpTUFTVHE1d253MThZTUlPbmJ6S2NFXzJBa1ZjeGVMTTdLLWstWmtzVUI4ZzF2RGk1MTgyLVlBUjUtQzRMMGZIeGh2aWFsR3FsSGtvdE8tTVMxT3ptclJuNW8zRmNQRTFRd0hHNU5GQjFJY1JtSUlMRXZHNkhmWF80OVhJRVBsNmNFNkUxOS0xUQ?oc=5",
+      "discoveryUrl": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNdkViWlBpemQ3Wjl5VlVsMEdYZ2pwanI5ZFRIbm1LSy1icmR6ZEpXOWlKZjFBWUF3S3ZfTjVxaDAtYXA2NWlvX2ZLX0hBSEtpclAzTDBraS1LdG9hcU1ZMGNEUGtyRTVoTDh6SW1NUTh6Y0Zhd29XbDBLa3ZBSEtvVjBvNHMzX0JiTzlzdHZHMDIybkpsdF9LeXNkS2Zibk1D?oc=5",
       "feedIds": [
         "google-news-en"
       ],
       "reviewStatus": "unreviewed",
-      "url": "https://euromaidanpress.com/2026/11/10/reuters-ukrainian-drone-strikes-disrupt-30-of-russias-oil-refining-capacity/",
+      "url": "https://www.dagens.com/war/ukrainian-drones-strike-russias-largest-oil-refinery-2500-km-from-border",
       "resolution": {
         "status": "resolved",
-        "checkedAt": "2026-11-11T06:57:24Z",
+        "checkedAt": "2026-11-12T06:59:21Z",
         "error": null
       },
       "availability": {
         "status": "available",
-        "checkedAt": "2026-11-11T06:57:24Z",
+        "checkedAt": "2026-11-12T06:59:21Z",
         "httpStatus": 200,
         "error": null,
         "contentType": "text/html",
         "truncated": false,
-        "finalUrl": "https://euromaidanpress.com/2026/11/10/reuters-ukrainian-drone-strikes-disrupt-30-of-russias-oil-refining-capacity/"
+        "finalUrl": "https://www.dagens.com/war/ukrainian-drones-strike-russias-largest-oil-refinery-2500-km-from-border"
       },
-      "id": "683d5db746c20277d317"
-    },
-    {
-      "publisher": "Подоляка",
-      "publishedAt": "2026-11-10T19:52:49Z",
-      "publishedOnMoscow": "2026-11-10",
-      "publicationDateBasis": "rss_unverified",
-      "discoveryUrl": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9ITm5DU21pOHFCWE04cHQ5Q1JIbmpSWldOVVJ0dlF2aERUX2FrT1NuYjRSR2QyUWpFanEyUnZMZmtpZ2trNkZHa1VlQkllYlZxdGVPejlvMmNvWjJfRTBDRVdPT1pzTGNBSHl2T01lek9VY210N0lja3Jn?oc=5",
-      "feedIds": [
-        "google-news-ru"
-      ],
-      "reviewStatus": "unreviewed",
-      "url": "https://podolyaka.ru/itogi-udarov-podstantsii-npz-i-logistika-ukrainy/",
-      "resolution": {
-        "status": "resolved",
-        "checkedAt": "2026-11-11T06:57:25Z",
-        "error": null
-      },
-      "availability": {
-        "status": "unavailable",
-        "checkedAt": "2026-11-11T06:57:25Z",
-        "httpStatus": 200,
-        "error": "article_text_not_established",
-        "contentType": "text/html",
-        "truncated": false,
-        "finalUrl": "https://podolyaka.ru/itogi-udarov-podstantsii-npz-i-logistika-ukrainy/"
-      },
-      "id": "80edc13bee2d9056528f"
-    },
-    {
-      "publisher": "rus tvnet",
-      "publishedAt": "2026-11-10T18:21:23Z",
-      "publishedOnMoscow": "2026-11-10",
-      "publicationDateBasis": "rss_unverified",
-      "discoveryUrl": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOdzFTTHBLX3BPTkVMTkdnb0F3YkZSOHQtRVhvcG9IY1VxaENXYjVLTm9KdmdXMW96WURGX3NGSFpUMDhNYlpJNmtXYTd3dnRQTFFYU29RWWtDenZRcE9UdG8wc0lfc1VBQXFwNk9iYng0bldWb0I4Mncwd1JiLTBjRHZpZ1hpNlFTTEkwRW5xdHJCbUdVN0JWcXF2cVUxWEJsV29yS0xhckc0XzhuMDdQMzZhUQ?oc=5",
-      "feedIds": [
-        "google-news-ru"
-      ],
-      "reviewStatus": "unreviewed",
-      "url": "https://rus.tvnet.lv/8581039/ataki-ukrainskih-dronov-sokratili-neftepererabatyvayushchie-moshchnosti-rossii-na-30",
-      "resolution": {
-        "status": "resolved",
-        "checkedAt": "2026-11-11T06:57:26Z",
-        "error": null
-      },
-      "availability": {
-        "status": "available",
-        "checkedAt": "2026-11-11T06:57:26Z",
-        "httpStatus": 200,
-        "error": null,
-        "contentType": "text/html",
-        "truncated": false,
-        "finalUrl": "https://rus.tvnet.lv/8581039/ataki-ukrainskih-dronov-sokratili-neftepererabatyvayushchie-moshchnosti-rossii-na-30"
-      },
-      "id": "4a381f71f6538ab0e7fc"
-    },
-    {
-      "publisher": "Газета Дейком",
-      "publishedAt": "2026-11-10T18:05:00Z",
-      "publishedOnMoscow": "2026-11-10",
-      "publicationDateBasis": "rss_unverified",
-      "discoveryUrl": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOUFlfdFEwclVFM1dlX0xzTFFyQmkxdm9yMm9rcEdFMk05OWdaZnRUa3k3S3cxUW44RG04aUtpeG5ITFFBcHZHcXNqSVVQX3h1YTk5ZVRJSWxMa3lDb2lNWU1hYWhMUzlFUjlib0JCOUtVVG5oaVRTMkJ5ajgtaHVaNmltQ0s3Ul85U3pYYlFvcGpvMk8zVnc0WExiNHRENDZ5UXZYSHRBUnd6T0FQZDI0anhDZ1NURlpjN3ZhUkRBeHBqOFhuVmc?oc=5",
-      "feedIds": [
-        "google-news-ru"
-      ],
-      "reviewStatus": "unreviewed",
-      "url": "https://daycom.com.ua/news/udary-po-npz-rossyy-pod-uhrozoi-tret-moshchnostei-toplyvnyi-defytsyt-usylyvaet-davlenye-na-moskvu-ru",
-      "resolution": {
-        "status": "resolved",
-        "checkedAt": "2026-11-11T06:57:28Z",
-        "error": null
-      },
-      "availability": {
-        "status": "available",
-        "checkedAt": "2026-11-11T06:57:28Z",
-        "httpStatus": 200,
-        "error": null,
-        "contentType": "text/html",
-        "truncated": false,
-        "finalUrl": "https://daycom.com.ua/news/udary-po-npz-rossyy-pod-uhrozoi-tret-moshchnostei-toplyvnyi-defytsyt-usylyvaet-davlenye-na-moskvu-ru"
-      },
-      "id": "3b4d50e2c95a1107b9df"
+      "id": "5f32f3b70efd1884eeea"
     }
   ],
   "limitations": [
