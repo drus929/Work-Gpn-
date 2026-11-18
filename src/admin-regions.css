@@ -1,0 +1,42 @@
+#region-legend[hidden], #region-picker[hidden], #region-status[hidden] { display: none; }
+.region-swatch {
+  width: 15px;
+  height: 0;
+  border-top: 1.5px dashed #bed3dd;
+  display: inline-block;
+}
+#region-picker select {
+  width: 100%;
+  max-width: 240px;
+  background: #182939;
+  color: #dfebf0;
+  border: 1px solid #547085;
+  border-radius: 5px;
+  font: inherit;
+  padding: 6px;
+}
+#region-status { color: #c2d6e1; max-width: 230px; }
+.region-outlines {
+  fill: none;
+  stroke: #bad5df;
+  stroke-width: .85;
+  stroke-dasharray: 3.2 1.7;
+  opacity: .69;
+  stroke-linejoin: round;
+}
+.region-highlight {
+  fill: #b4e2e8;
+  fill-opacity: .16;
+  stroke: #d4eff3;
+  stroke-width: 1.7;
+  stroke-linejoin: round;
+}
+.region-name {
+  font: 600 10px Manrope, sans-serif;
+  fill: #c7dce3;
+  stroke: #253847;
+  stroke-width: 2.7px;
+  stroke-linejoin: round;
+  paint-order: stroke;
+}
+.region-name.is-selected { fill: #fff; font-weight: 800; }

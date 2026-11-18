@@ -13,7 +13,7 @@ export function railAccessGeometry(connection) {
   return {type: 'LineString', coordinates: connection.nodes.map(node => node.coordinates)};
 }
 
-export function renderRailAccess({connections, projection, path, selectedPort, zoom = 1}) {
+export function renderRailAccess({connections, projection, path, selectedPort, zoom = 1, labelScale = 1}) {
   const ordered = [...connections].sort((a, b) => Number(a.portId === selectedPort) - Number(b.portId === selectedPort));
   return `<g class="rail-access-layer" aria-hidden="true">${ordered.map(connection => {
     const geometry = railAccessGeometry(connection);
@@ -25,20 +25,21 @@ export function renderRailAccess({connections, projection, path, selectedPort, z
       const [x, y] = node.point;
       const width = Math.min(235, node.name.length * 5.7 + 16);
       const height = 22;
-      let offset = index % 2 ? 14 : -28;
+      const calloutScale = labelScale / zoom;
+      let offset = index % 2 ? 14 : -6 - height * labelScale;
       // Move callouts vertically if adjacent station labels would overlap.
       let box;
       for (let attempt = 0; attempt < 30; attempt++) {
-        box = {x: x + 9 / zoom, y: y + offset / zoom, width: width / zoom, height: height / zoom};
+        box = {x: x + 9 / zoom, y: y + offset / zoom, width: width * calloutScale, height: height * calloutScale};
         if (!occupied.some(other => box.x < other.x + other.width && box.x + box.width > other.x && box.y < other.y + other.height + 4 / zoom && box.y + box.height + 4 / zoom > other.y)) break;
-        offset += 26;
+        offset += height * labelScale + 4;
       }
       occupied.push(box);
       const label = node.name.length > 38 ? node.name.slice(0, 37) + '…' : node.name;
       return `<g class="rail-access-node">
-        <line x1="${x}" y1="${y}" x2="${box.x}" y2="${box.y + height / zoom / 2}"/>
+        <line x1="${x}" y1="${y}" x2="${box.x}" y2="${box.y + box.height / 2}"/>
         <circle cx="${x}" cy="${y}" r="${3 / zoom}"/>
-        <g transform="translate(${box.x},${box.y}) scale(${1 / zoom})"><rect width="${width}" height="${height}" rx="4"/><text x="8" y="14.5">${escapeHtml(label)}</text></g>
+        <g transform="translate(${box.x},${box.y}) scale(${calloutScale})"><rect width="${width}" height="${height}" rx="4"/><text x="8" y="14.5">${escapeHtml(label)}</text></g>
       </g>`;
     }).join('') : '';
     return `<g class="rail-access ${selected ? 'is-selected' : selectedPort ? 'is-muted' : ''}" data-rail-port="${connection.portId}">

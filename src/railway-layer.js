@@ -13,7 +13,7 @@ const namedPlants = ['omsk', 'kirishi', 'perm', 'ang', 'khab', 'ach', 'volg', 'n
 const overlaps = (a, b, gap) => a.x < b.x + b.width + gap && a.x + a.width + gap > b.x
   && a.y < b.y + b.height + gap && a.y + a.height + gap > b.y;
 
-export function renderRailwayLabels({railways, projection, activeRailway, plants, showPlantLabels, selected, zoom = 1}) {
+export function renderRailwayLabels({railways, projection, activeRailway, plants, showPlantLabels, selected, zoom = 1, labelScale = 1}) {
   const inverseZoom = 1 / (Number.isFinite(zoom) && zoom > 0 ? zoom : 1);
   const occupied = plants.map(plant => {
     const [x, y] = projection([plant.lon, plant.lat]);
@@ -22,7 +22,7 @@ export function renderRailwayLabels({railways, projection, activeRailway, plants
     const left = active ? 18 : 9;
     const top = named && plant.id === 'tan' ? 24 : active ? 18 : 10;
     const right = named
-      ? Math.max(12 + plant.name.replace(' НПЗ', '').length * 5.5, active ? 12 + (plant.region || '').length * 4.5 : 0)
+      ? Math.max(12 + plant.name.replace(' НПЗ', '').length * 5.5 * labelScale, active ? 12 + (plant.region || '').length * 5 * labelScale : 0)
       : left;
     const bottom = active && named ? 24 : active ? 18 : 12;
     return {
@@ -36,8 +36,8 @@ export function renderRailwayLabels({railways, projection, activeRailway, plants
     const [x, y] = projection(rail.label);
     const labelWidth = rail.name.length * 5.5 + 18;
     const labelHeight = 22;
-    const width = labelWidth * inverseZoom;
-    const height = labelHeight * inverseZoom;
+    const width = labelWidth * inverseZoom * labelScale;
+    const height = labelHeight * inverseZoom * labelScale;
     let box;
     // Place nearby labels without covering markers or other railway names.
     for (let radius = 0; radius <= 160 && !box; radius += 20) {
@@ -58,7 +58,7 @@ export function renderRailwayLabels({railways, projection, activeRailway, plants
       aria-label="${rail.name} железная дорога: показать НПЗ" aria-pressed="${activeRailway === rail.name}">
       <line x1="${x}" y1="${y}" x2="${box.x + width / 2}" y2="${box.y + height / 2}" vector-effect="non-scaling-stroke"/>
       <circle cx="${x}" cy="${y}" r="${2 * inverseZoom}"/>
-      <g transform="translate(${box.x},${box.y}) scale(${inverseZoom})">
+      <g transform="translate(${box.x},${box.y}) scale(${inverseZoom * labelScale})">
         <rect width="${labelWidth}" height="${labelHeight}" rx="4"/>
         <text x="${labelWidth / 2}" y="14.5" text-anchor="middle">${rail.name}</text>
       </g>

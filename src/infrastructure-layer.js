@@ -8,7 +8,7 @@ export const infrastructureKinds = {
   products: {title: 'Нефтепродуктопроводы', singular: 'Нефтепродуктопровод', color: '#ffcc6e'},
 };
 
-export function renderPipelines({pipelines, path, enabled, selected, zoom = 1}) {
+export function renderPipelines({pipelines, path, enabled, selected, zoom = 1, labelScale = 1}) {
   return pipelines.filter(pipeline => enabled[pipeline.kind])
     .sort((a, b) => Number(a.id === selected?.id) - Number(b.id === selected?.id)).map(pipeline => {
     const active = selected?.type === 'pipeline' && selected.id === pipeline.id;
@@ -31,7 +31,7 @@ export function renderPipelines({pipelines, path, enabled, selected, zoom = 1}) 
       <path class="pipeline-casing" d="${d}"/>
       <path class="pipeline-line" d="${d}"/>
       <path class="pipeline-hit" d="${d}"/>
-      <g class="pipeline-label" transform="translate(${x},${y - 14 / zoom}) scale(${1 / zoom})" aria-hidden="true">
+      <g class="pipeline-label" transform="translate(${x},${y - 14 / zoom}) scale(${labelScale / zoom})" aria-hidden="true">
         <rect x="${-width / 2}" y="${7-height}" width="${width}" height="${height}" rx="4"/>
         <text text-anchor="middle">${labels.map((label,index)=>`<tspan x="0" y="${index*12-(labels.length-1)*12}">${escapeHtml(label)}</tspan>`).join('')}</text>
       </g>
