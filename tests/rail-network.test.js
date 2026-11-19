@@ -1,6 +1,9 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import {readFileSync} from 'node:fs';
+import {createHash} from 'node:crypto';
+import {plants} from '../src/data.js';
+import {borderCrossings} from '../src/border-crossings.js';
 import {ports} from '../src/infrastructure.js';
 import {railways} from '../src/railways.js';
 import {portRailConnections} from '../src/rail-connections.js';
@@ -99,5 +102,61 @@ test('schematic port approaches use named railway nodes and end at the correct p
     }
     assert.ok(new Set(connection.nodes.map(node => JSON.stringify(node.coordinates))).size > 1, port.id);
     assert.deepEqual(connection.nodes.at(-1).coordinates, port.coordinates, port.id);
+  }
+});
+
+test('selected rail corridors preserve source geometry and cover the facility catalogue', () => {
+  const corridors = JSON.parse(readFileSync(new URL('../src/data/rail-corridors.json', import.meta.url), 'utf8'));
+  const sourceBytes = readFileSync(new URL('../src/data/rail-network.json', import.meta.url));
+  const selection = corridors.metadata.selection;
+  assert.equal(selection.inputSha256, createHash('sha256').update(sourceBytes).digest('hex'));
+  const sourceEdges = new Set();
+  const edgeKey = (source, a, b) => JSON.stringify([source, a, b]);
+  for (const feature of network.features) {
+    feature.geometry.coordinates.forEach((line, index) => {
+      for (let point = 1; point < line.length; point++) {
+        sourceEdges.add(edgeKey(feature.properties.sourceIds[index], line[point - 1], line[point]));
+      }
+    });
+  }
+  const vertices = new Set();
+  const sourceIds = new Set();
+  let segmentCount = 0;
+  let vertexCount = 0;
+  for (const feature of corridors.features) {
+    assert.equal(feature.geometry.type, 'MultiLineString');
+    assert.equal(feature.properties.sourceClass, 'Railroad');
+    assert.equal(feature.properties.sourceIds.length, feature.geometry.coordinates.length);
+    feature.geometry.coordinates.forEach((line, index) => {
+      const source = feature.properties.sourceIds[index];
+      sourceIds.add(source);
+      assert.ok(line.length >= 2);
+      for (let point = 0; point < line.length; point++) {
+        vertices.add(JSON.stringify(line[point]));
+        if (point) assert.ok(sourceEdges.has(edgeKey(source, line[point - 1], line[point])), 'Every edge must exist in the source');
+      }
+      segmentCount++;
+      vertexCount += line.length;
+    });
+  }
+  assert.equal(corridors.metadata.segments, segmentCount);
+  assert.equal(corridors.metadata.vertices, vertexCount);
+  assert.equal(corridors.metadata.selectedSourceFeatures, sourceIds.size);
+  assert.ok(segmentCount < network.metadata.segments / 2, 'Unrelated branches must be removed');
+  const expectedTargets = [
+    ...plants.map(plant => plant.id),
+    ...borderCrossings.map(crossing => crossing.id),
+    ...portRailConnections.filter(connection => connection.status === 'schematic')
+      .flatMap(connection => connection.nodes.slice(0, -1).map((_, index) => `${connection.portId}-${index}`)),
+  ];
+  assert.deepEqual(new Set(selection.targets.map(target => target.id)), new Set(expectedTargets));
+  for (const target of selection.targets) {
+    if (target.included) {
+      assert.ok(target.nearestVertexKm <= selection.maximumAnchorDistanceKm, target.id);
+      assert.ok(vertices.has(JSON.stringify(target.networkPoint)), `Missing approach at ${target.id}`);
+    } else {
+      assert.ok(target.nearestVertexKm > selection.maximumAnchorDistanceKm, target.id);
+    }
+    if (target.kind !== 'port') assert.equal(target.included, true, target.id);
   }
 });
