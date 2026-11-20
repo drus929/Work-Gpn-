@@ -7,66 +7,336 @@
     "cronUtc": "0 6 * * *"
   },
   "status": "complete",
-  "lastAttemptAt": "2026-11-19T07:00:35Z",
-  "finishedAt": "2026-11-19T07:01:01Z",
+  "lastAttemptAt": "2026-11-20T07:00:10Z",
+  "finishedAt": "2026-11-20T07:00:36Z",
   "lastSuccessfulRun": {
-    "finishedAt": "2026-11-19T07:01:01Z",
+    "finishedAt": "2026-11-20T07:00:36Z",
     "window": {
-      "from": "2026-11-17T07:00:35Z",
-      "to": "2026-11-19T07:00:35Z",
-      "fromMoscow": "2026-11-17 10:00",
-      "toMoscow": "2026-11-19 10:00"
+      "from": "2026-11-18T07:00:10Z",
+      "to": "2026-11-20T07:00:10Z",
+      "fromMoscow": "2026-11-18 10:00",
+      "toMoscow": "2026-11-20 10:00"
     },
     "counts": {
-      "discovered": 132,
-      "eligible": 132,
+      "discovered": 76,
+      "eligible": 76,
       "excluded": 0,
-      "checked": 14,
-      "available": 12,
-      "unresolved": 2,
-      "omittedByLimit": 116
+      "checked": 16,
+      "available": 11,
+      "unresolved": 0,
+      "omittedByLimit": 60
     }
   },
   "window": {
-    "from": "2026-11-17T07:00:35Z",
-    "to": "2026-11-19T07:00:35Z",
-    "fromMoscow": "2026-11-17 10:00",
-    "toMoscow": "2026-11-19 10:00"
+    "from": "2026-11-18T07:00:10Z",
+    "to": "2026-11-20T07:00:10Z",
+    "fromMoscow": "2026-11-18 10:00",
+    "toMoscow": "2026-11-20 10:00"
   },
   "feeds": [
     {
       "id": "google-news-ru",
       "label": "Google News RSS · ru",
       "language": "ru",
-      "url": "https://news.google.com/rss/search?q=%D0%9D%D0%9F%D0%97+%28%D0%BF%D0%BE%D0%B6%D0%B0%D1%80+OR+%D0%B0%D1%82%D0%B0%D0%BA%D0%B0+OR+%D0%BE%D1%81%D1%82%D0%B0%D0%BD%D0%BE%D0%B2%D0%BA%D0%B0%29+after%3A2026-11-17+before%3A2026-11-20&hl=ru&gl=RU&ceid=RU%3Aru",
-      "checkedAt": "2026-11-19T07:00:35Z",
+      "url": "https://news.google.com/rss/search?q=%D0%9D%D0%9F%D0%97+%28%D0%BF%D0%BE%D0%B6%D0%B0%D1%80+OR+%D0%B0%D1%82%D0%B0%D0%BA%D0%B0+OR+%D0%BE%D1%81%D1%82%D0%B0%D0%BD%D0%BE%D0%B2%D0%BA%D0%B0%29+after%3A2026-11-18+before%3A2026-11-21&hl=ru&gl=RU&ceid=RU%3Aru",
+      "checkedAt": "2026-11-20T07:00:10Z",
       "status": "ok",
       "httpStatus": 200,
-      "count": 91,
+      "count": 49,
       "error": null
     },
     {
       "id": "google-news-en",
       "label": "Google News RSS · en",
       "language": "en",
-      "url": "https://news.google.com/rss/search?q=Russia+refinery+%28fire+OR+attack+OR+disruption%29+after%3A2026-11-17+before%3A2026-11-20&hl=en&gl=US&ceid=US%3Aen",
-      "checkedAt": "2026-11-19T07:00:35Z",
+      "url": "https://news.google.com/rss/search?q=Russia+refinery+%28fire+OR+attack+OR+disruption%29+after%3A2026-11-18+before%3A2026-11-21&hl=en&gl=US&ceid=US%3Aen",
+      "checkedAt": "2026-11-20T07:00:11Z",
       "status": "ok",
       "httpStatus": 200,
-      "count": 41,
+      "count": 27,
       "error": null
     }
   ],
   "counts": {
-    "discovered": 132,
-    "eligible": 132,
+    "discovered": 76,
+    "eligible": 76,
     "excluded": 0,
-    "checked": 14,
-    "available": 12,
-    "unresolved": 2,
-    "omittedByLimit": 116
+    "checked": 16,
+    "available": 11,
+    "unresolved": 0,
+    "omittedByLimit": 60
   },
   "items": [
+    {
+      "publisher": "NV",
+      "publishedAt": "2026-11-20T05:13:00Z",
+      "publishedOnMoscow": "2026-11-20",
+      "publicationDateBasis": "rss_unverified",
+      "discoveryUrl": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPbHo5MUlRaVF2bk9FWHNDRWtPMTd3NnJpYXNYbElkOUJ5bEN2aGJoR3ZPZXNlN1Z6UGVFNXBkYzZ4T0FNOGNRUlRnNkhaM1lnSWI3em5URjA0TEt0aTJfYkJRTXFNeDZ2WnVlOVg0U3NxZ0I5OE1kdFhqODRPOGpiN2JqYVp1ZE1md28yeExKa1VXRWd0b2hNbTJkMGV3aHMyUVZiUEFBeko3aFN4dXFxRjcwU3dYa1ZkNmhWaElqcjkzbGZKMnMyeDhtRV_SAcwBQVVfeXFMT2x6OTFJUWlRdm5PRVhzQ0VrTzE3dzZyaWFzWGxJZDlCeWxDdmhiaEd2T2VzZTdWelBlRTVwZGM2eE9BTThjUVJUZzZIWjNZZ0liN3puVEYwNExLdGkyX2JCUU1xTXg2dlp1ZTlYNFNzcWdCOThNZHRYajg0TzhqYjdiamFadWRNZndvMnhMSmtVV0VndG9oTW0yZDBld2hzMlFWYlBBQXpKN2hTeHVxcUY3MFN3WGtWZDZoVmhJanI5M2xmSjJzMng4bUVf?oc=5",
+      "feedIds": [
+        "google-news-ru"
+      ],
+      "reviewStatus": "unreviewed",
+      "url": "https://nv.ua/amp/ataki-na-neftepererabatyvayushchie-zavody-rossii-ostanovilis-li-npz-pochemu-posledstviya-ogranicheny-50660798.html",
+      "resolution": {
+        "status": "resolved",
+        "checkedAt": "2026-11-20T07:00:12Z",
+        "error": null
+      },
+      "availability": {
+        "status": "blocked",
+        "checkedAt": "2026-11-20T07:00:12Z",
+        "httpStatus": 200,
+        "error": "paywall",
+        "contentType": "text/html",
+        "truncated": false,
+        "finalUrl": "https://nv.ua/amp/ataki-na-neftepererabatyvayushchie-zavody-rossii-ostanovilis-li-npz-pochemu-posledstviya-ogranicheny-50660798.html"
+      },
+      "id": "701f4a3fbe1d67958ed6"
+    },
+    {
+      "publisher": "RUSMONITOR",
+      "publishedAt": "2026-11-19T22:37:40Z",
+      "publishedOnMoscow": "2026-11-20",
+      "publicationDateBasis": "rss_unverified",
+      "discoveryUrl": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQUlo0WUliZGRZZUhZSkEwVDJmVWNKbUFoNG45ZldHVVJzdXAwUjFWM0lWZkhlSDRXc0FtY1JyQW1Od195Z0NBZzJGb0dPX1lLc3ExZV9ERVRZNHFoMjhSZGVRbFdPTGhUU1BXX1lYYklIWS05Q1UzZHY0eTdkbW5fN3R1SnlNUmxlNnhXZ1VZRXhFOW5ObU9LMnBUSWlnWlBwVHdUbnpRb2ZiYWFzX29oRE5qaWpsZw?oc=5",
+      "feedIds": [
+        "google-news-ru"
+      ],
+      "reviewStatus": "unreviewed",
+      "url": "https://rusmonitor.com/neftyanoe-serdcze-povolzhya-v-ogne-ataka-dronov-paralizovala-klyuchevoj-uzel-transnefti.html",
+      "resolution": {
+        "status": "resolved",
+        "checkedAt": "2026-11-20T07:00:13Z",
+        "error": null
+      },
+      "availability": {
+        "status": "available",
+        "checkedAt": "2026-11-20T07:00:13Z",
+        "httpStatus": 200,
+        "error": null,
+        "contentType": "text/html",
+        "truncated": false,
+        "finalUrl": "https://rusmonitor.com/neftyanoe-serdcze-povolzhya-v-ogne-ataka-dronov-paralizovala-klyuchevoj-uzel-transnefti.html"
+      },
+      "id": "2fe78cd350ab64315161"
+    },
+    {
+      "publisher": "Forbes.ru",
+      "publishedAt": "2026-11-19T21:00:00Z",
+      "publishedOnMoscow": "2026-11-20",
+      "publicationDateBasis": "rss_unverified",
+      "discoveryUrl": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNSm84ajJVbm43dzIyanZlRTRxUFZjdktUSGdERkxDcTNHdVdZeFBFVERnNkpFNnRvcFZiTGJ5M1AwMzBfWVpYZXZCNDR4UVB2Qk4tVlNKMURlZjFhcFNKcTZmdng1NlByZ0J3akp2R3BfdGZZNzRRTmVQa3poaHc5ZHRWOGR0NmFBWjJRYVhSdWxwMVNIUXZPS0tySlN1d00?oc=5",
+      "feedIds": [
+        "google-news-ru"
+      ],
+      "reviewStatus": "unreviewed",
+      "url": "https://www.forbes.ru/biznes/572613-osennaa-pora-zdet-li-rossiu-ocerednaa-volna-toplivnogo-krizisa",
+      "resolution": {
+        "status": "resolved",
+        "checkedAt": "2026-11-20T07:00:15Z",
+        "error": null
+      },
+      "availability": {
+        "status": "blocked",
+        "checkedAt": "2026-11-20T07:00:15Z",
+        "httpStatus": 200,
+        "error": "access_challenge",
+        "contentType": "text/html",
+        "truncated": false,
+        "finalUrl": "https://www.forbes.ru/biznes/572613-osennaa-pora-zdet-li-rossiu-ocerednaa-volna-toplivnogo-krizisa"
+      },
+      "id": "dd89ed4e7b093ebd2484"
+    },
+    {
+      "publisher": "Ґвара Медіа",
+      "publishedAt": "2026-11-19T15:46:24Z",
+      "publishedOnMoscow": "2026-11-19",
+      "publicationDateBasis": "rss_unverified",
+      "discoveryUrl": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPcTViNW5EQmhiV2Y2c0liZ2hHbXRQN241QkV5QnNjTkZvamQ3QWM2bWRhNGpudzRja21lcEk3QVdRbzRiWHdxU2FvOURBWWVGSVZXS0s2UlcxeHNkNHI3MjktcUdTT25fc3BST2c0eHNtY0NnTnRwekZlWHhYMmxpM19MOGJHQ19yOHFUTGp0MEw?oc=5",
+      "feedIds": [
+        "google-news-en"
+      ],
+      "reviewStatus": "unreviewed",
+      "url": "https://gwaramedia.com/en/ukrainian-drones-damage-halt-15-of-35-russias-oil-refineries/",
+      "resolution": {
+        "status": "resolved",
+        "checkedAt": "2026-11-20T07:00:17Z",
+        "error": null
+      },
+      "availability": {
+        "status": "unavailable",
+        "checkedAt": "2026-11-20T07:00:17Z",
+        "httpStatus": 200,
+        "error": "article_text_not_established",
+        "contentType": "text/html",
+        "truncated": true,
+        "finalUrl": "https://gwaramedia.com/en/ukrainian-drones-damage-halt-15-of-35-russias-oil-refineries/"
+      },
+      "id": "26586ad4d65d52f7aa63"
+    },
+    {
+      "publisher": "DW.com",
+      "publishedAt": "2026-11-19T12:36:57Z",
+      "publishedOnMoscow": "2026-11-19",
+      "publicationDateBasis": "rss_unverified",
+      "discoveryUrl": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNdTVWeEJwc1hjcEQ4aGhvVUNySVQwYTFkeG1OQklTRGZGV0FKX3hPbTd2dEx1cEYyOF9KX09ydEJXZnYxYS1rR0cwX1F2QlhjZk1pc0dnTXIzWDc2dTBIQWwyelZBLXl6RktITGp2RlRFdnhQd1JLOGcyUTh4U2Y3ZV9CRTdndEJEVUJuaFpNV0QwUWhSeFFLcU1uMXXSAZwBQVVfeXFMUHJjTl9UclRBWmVBMERVRnBMdUtPdWV1TVlYNTZGU3czZ3RUOGszWVJlWWhRVU5YWTlSN0FBYXRoRjNVNjdQZWVnRHZZbk52b1U5NTRWRGVDVkV2NEllT1NlUE96TGF5MzNNV2VVNkRuRGJ4MmVXOVdZMHdwazZaUmpMSTB4QVlTRWYzRG5ockhLVW53ZVVhZ3IwZ2l2?oc=5",
+      "feedIds": [
+        "google-news-ru"
+      ],
+      "reviewStatus": "unreviewed",
+      "url": "https://www.dw.com/ru/reuters-ataki-dronov-sokratili-pererabotku-nefti-v-rossii-na-45/a-79986152",
+      "resolution": {
+        "status": "resolved",
+        "checkedAt": "2026-11-20T07:00:18Z",
+        "error": null
+      },
+      "availability": {
+        "status": "available",
+        "checkedAt": "2026-11-20T07:00:18Z",
+        "httpStatus": 200,
+        "error": null,
+        "contentType": "text/html",
+        "truncated": false,
+        "finalUrl": "https://www.dw.com/ru/reuters-ataki-dronov-sokratili-pererabotku-nefti-v-rossii-na-45/a-79986152"
+      },
+      "id": "84be4e5527166fe1ab9e"
+    },
+    {
+      "publisher": "Delo.ua",
+      "publishedAt": "2026-11-19T10:44:42Z",
+      "publishedOnMoscow": "2026-11-19",
+      "publicationDateBasis": "rss_unverified",
+      "discoveryUrl": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNRlBWazZmekRGWVR2S016Sm1DSXVqVWFIMkczTlZSLWhMcm8tekpOZlFhVzliNXl5eWZ4ZkQ2dUpCTG9rYVVRWjdzQnBoUXdoX1F2aGVRUl9mU2NYZnV5cGtHUDVmY1V1b3pFTkJWWmJPbUhLZDdLcGJ2QjQ0UlhoNG9VVXJOLU9VdGFFMVV5ZG1tMEgweUdQTzREZEN2MktMNDBoeE9JREIxeWdGOG1FcXFDTFM?oc=5",
+      "feedIds": [
+        "google-news-ru"
+      ],
+      "reviewStatus": "unreviewed",
+      "url": "https://delo.ua/ru/news/rossiya-posle-atak-dronov-na-npz-rekordno-skupaet-benzin-v-marokko-turcii-i-egipte-476694/",
+      "resolution": {
+        "status": "resolved",
+        "checkedAt": "2026-11-20T07:00:20Z",
+        "error": null
+      },
+      "availability": {
+        "status": "available",
+        "checkedAt": "2026-11-20T07:00:20Z",
+        "httpStatus": 200,
+        "error": null,
+        "contentType": "text/html",
+        "truncated": false,
+        "finalUrl": "https://delo.ua/ru/news/rossiya-posle-atak-dronov-na-npz-rekordno-skupaet-benzin-v-marokko-turcii-i-egipte-476694/"
+      },
+      "id": "3f8fcbd779c33dc185b5"
+    },
+    {
+      "publisher": "RBC-Ukraine",
+      "publishedAt": "2026-11-19T09:05:06Z",
+      "publishedOnMoscow": "2026-11-19",
+      "publicationDateBasis": "rss_unverified",
+      "discoveryUrl": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOOTA3QmN1MVpVX2lBb2xNWC1jWXhseU16d2NGU2lBLV9xdHFDS0p2aHl4MUdIY2VRQ0NJVkw1dTNVOHJNZk1KZ1lWbnRRRXM5d3VxVm9xS1dxclBidUx4RzRPN05xTmtNTGpMUmNldHJtT25vYWRVXzJTVDVSdVFJTzh1SmlTbXZXdVp1b1NBbXdSdExqaHpBM0Y4dw?oc=5",
+      "feedIds": [
+        "google-news-en"
+      ],
+      "reviewStatus": "unreviewed",
+      "url": "https://newsukraine.rbc.ua/news/drones-attack-tatarstan-key-russian-oil-pumping-1795079106.html",
+      "resolution": {
+        "status": "resolved",
+        "checkedAt": "2026-11-20T07:00:22Z",
+        "error": null
+      },
+      "availability": {
+        "status": "available",
+        "checkedAt": "2026-11-20T07:00:22Z",
+        "httpStatus": 200,
+        "error": null,
+        "contentType": "text/html",
+        "truncated": false,
+        "finalUrl": "https://newsukraine.rbc.ua/news/drones-attack-tatarstan-key-russian-oil-pumping-1795079106.html"
+      },
+      "id": "858dfc9c4d73b218e8fa"
+    },
+    {
+      "publisher": "The Arkansas Democrat-Gazette",
+      "publishedAt": "2026-11-19T08:54:00Z",
+      "publishedOnMoscow": "2026-11-19",
+      "publicationDateBasis": "rss_unverified",
+      "discoveryUrl": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNTHdpQlhSSl9YMEVmOUdJTjFlOWhlTGtTdFp3ak56SnRKaFZCM2hWa1p6YXluZ0c5Y0I3TWwtcUZvbUFTV3ZVdUUybzZCVmFvYXhPelFNQ2tLTDFVdmc5ZG5IaDN4dlFkMXhNbXI0Z1QyMzM1bFFmVVRPc3FBSjZwdzhRNjlrdDhodzRVRQ?oc=5",
+      "feedIds": [
+        "google-news-en"
+      ],
+      "reviewStatus": "unreviewed",
+      "url": "https://www.arkansasonline.com/news/2026/nov/19/ukraine-2-russian-refineries-struck/",
+      "resolution": {
+        "status": "resolved",
+        "checkedAt": "2026-11-20T07:00:23Z",
+        "error": null
+      },
+      "availability": {
+        "status": "blocked",
+        "checkedAt": "2026-11-20T07:00:23Z",
+        "httpStatus": 200,
+        "error": "paywall",
+        "contentType": "text/html",
+        "truncated": false,
+        "finalUrl": "https://www.arkansasonline.com/news/2026/nov/19/ukraine-2-russian-refineries-struck/"
+      },
+      "id": "a608cbf873ede0ea9f42"
+    },
+    {
+      "publisher": "UA.NEWS",
+      "publishedAt": "2026-11-19T07:10:36Z",
+      "publishedOnMoscow": "2026-11-19",
+      "publicationDateBasis": "rss_unverified",
+      "discoveryUrl": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQQi16dERTZ0Y1LTVlWF91dmZ2dGJoeWlDRjNVSmhBTmJJb1Z4azlXSEdBenBUOW1NcTV0OXBxbmJjY3VjdU5CNjc0RnpuVWZIX1NPcnVPanlKVG03ZGlRc3ZKSFQtNHJwcVJfWmdqWm5icWxmOHpMaTMwU3JabEVOaTR1THhya00yaGVDUU0wYm81M0ttdldYR2xEcDFQR3RXZEUtWXpTeGtmR0VlRm1CaTM0SUxkQWJmV3dsZHc3MWV3a0ViUWc?oc=5",
+      "feedIds": [
+        "google-news-ru"
+      ],
+      "reviewStatus": "unreviewed",
+      "url": "https://ua.news/ru/war-vs-rf/putin-pokhvalivsia-ekonomikoiu-rosiyi-na-tli-masshtabnikh-atak-ukrayini-po-npz-the-washington-post",
+      "resolution": {
+        "status": "resolved",
+        "checkedAt": "2026-11-20T07:00:24Z",
+        "error": null
+      },
+      "availability": {
+        "status": "available",
+        "checkedAt": "2026-11-20T07:00:24Z",
+        "httpStatus": 200,
+        "error": null,
+        "contentType": "text/html",
+        "truncated": false,
+        "finalUrl": "https://ua.news/ru/war-vs-rf/putin-pokhvalivsia-ekonomikoiu-rosiyi-na-tli-masshtabnikh-atak-ukrayini-po-npz-the-washington-post"
+      },
+      "id": "1ae2406f92e2f52d0c3c"
+    },
+    {
+      "publisher": "РИА Мелитополь",
+      "publishedAt": "2026-11-19T06:47:23Z",
+      "publishedOnMoscow": "2026-11-19",
+      "publicationDateBasis": "rss_unverified",
+      "discoveryUrl": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOdzItS1lCZzYxbThoOTlaQ3l4dk82S3dIcDgyc3BybnZsbjNYMUdoUDQxanFYYVFLbWxnQzZNeDRwN0UzSUgzaEZ6aW9vQXdCMENHMzZ1bmpGd0Y3dzZfXzA2VjlfMVhmNjBLYjBZYWhrNk5SbUtPYjNuU1BXcTFQcTZjMXFkY3duZ1lrczNUbVVhT1JEbjFoVnhhRHlaaU9yZUJkUl9sazZTZHRqLURwbkJ3aWhnZWhwS3Q3UWYtQ25Kd2ZpNHJR?oc=5",
+      "feedIds": [
+        "google-news-ru"
+      ],
+      "reviewStatus": "unreviewed",
+      "url": "https://ria-m.tv/news/418789/ukrainskie-udaryi-sokratili-pererabotku-nefti-v-rossii-pochti-vdvoe-pod-atakoy-okazalis-15-npz.html",
+      "resolution": {
+        "status": "resolved",
+        "checkedAt": "2026-11-20T07:00:26Z",
+        "error": null
+      },
+      "availability": {
+        "status": "available",
+        "checkedAt": "2026-11-20T07:00:26Z",
+        "httpStatus": 200,
+        "error": null,
+        "contentType": "text/html",
+        "truncated": false,
+        "finalUrl": "https://ria-m.tv/news/418789/ukrainskie-udaryi-sokratili-pererabotku-nefti-v-rossii-pochti-vdvoe-pod-atakoy-okazalis-15-npz.html"
+      },
+      "id": "314fbdcb596f3421380e"
+    },
     {
       "publisher": "Korrespondent.net",
       "publishedAt": "2026-11-19T04:58:00Z",
@@ -80,12 +350,12 @@
       "url": "https://korrespondent.net/ukraine/4929893-ytohy-1811-mynus-dva-npz-y-pynh-ponh-putynym",
       "resolution": {
         "status": "resolved",
-        "checkedAt": "2026-11-19T07:00:36Z",
+        "checkedAt": "2026-11-20T07:00:27Z",
         "error": null
       },
       "availability": {
         "status": "available",
-        "checkedAt": "2026-11-19T07:00:36Z",
+        "checkedAt": "2026-11-20T07:00:27Z",
         "httpStatus": 200,
         "error": null,
         "contentType": "text/html",
@@ -107,12 +377,12 @@
       "url": "https://glavred.info/war/16-vibuhiv-u-tatarstani-pid-udarom-mozhe-buti-klyuchoviy-vuzol-naftoprovodiv-rf-10813376.html",
       "resolution": {
         "status": "resolved",
-        "checkedAt": "2026-11-19T07:00:38Z",
+        "checkedAt": "2026-11-20T07:00:28Z",
         "error": null
       },
       "availability": {
         "status": "available",
-        "checkedAt": "2026-11-19T07:00:38Z",
+        "checkedAt": "2026-11-20T07:00:28Z",
         "httpStatus": 200,
         "error": null,
         "contentType": "text/html",
@@ -122,139 +392,55 @@
       "id": "75042598f0947699d9b6"
     },
     {
-      "publisher": "Forbes.ua",
-      "publishedAt": "2026-11-19T01:45:02Z",
-      "publishedOnMoscow": "2026-11-19",
-      "publicationDateBasis": "rss_unverified",
-      "discoveryUrl": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQQ3JVSlhtRzNhMFRhd0FlclJhbWNxd25TYnFrOVo0OEVCQ1FWekVpZU9vNDdUbnN1QUpDTXM4RWE3MHlvN1UzZ3M0WFB2ZW9fY3pIdVpFVDBaMjU5Y3pPLWh3QlowYXp4OE9wQlNVOHd3T25EYmpxR21yN1l0SVByNk5VaFZ0LTFycU9zSl9zUlZPMTVJMzlkWDBYNkN5QUhITjRoODNYWDdNOG5S?oc=5",
-      "feedIds": [
-        "google-news-ru"
-      ],
-      "reviewStatus": "unreviewed",
-      "url": "https://forbes.ua/ru/news/sili-oboroni-ukrayini-urazili-dva-npz-u-krasnodarskomu-krayi-rosiyi-18112026-43873",
-      "resolution": {
-        "status": "resolved",
-        "checkedAt": "2026-11-19T07:00:39Z",
-        "error": null
-      },
-      "availability": {
-        "status": "available",
-        "checkedAt": "2026-11-19T07:00:39Z",
-        "httpStatus": 200,
-        "error": null,
-        "contentType": "text/html",
-        "truncated": true,
-        "finalUrl": "https://forbes.ua/ru/news/sili-oboroni-ukrayini-urazili-dva-npz-u-krasnodarskomu-krayi-rosiyi-18112026-43873"
-      },
-      "id": "0b9d3c0cb0ac31955275"
-    },
-    {
       "publisher": "DW.com",
-      "publishedAt": "2026-11-18T22:59:56Z",
-      "publishedOnMoscow": "2026-11-19",
-      "publicationDateBasis": "rss_unverified",
-      "discoveryUrl": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPaUxva21pazg1NmdIYkM3UGl3bFJPeUVTWXhvUEZ2WlNPckhDdlpOTnE3WUZFSF91amprT3VoVVZ6MERsTGJZaUR0dkNmY192bmFPdDhBZ3NRV1BybXpZMF9FbFB2R3BxRFNBLU9GVDVmRDBVaUwzbHY0SktMUGM3SWk5UktnZFNidlln?oc=5",
-      "feedIds": [
-        "google-news-ru"
-      ],
-      "reviewStatus": "unreviewed",
-      "url": "https://www.dw.com/ru/krupnejsaa-ataka-dronov-na-moskvu-i-ee-posledstvia/g-77623058",
-      "resolution": {
-        "status": "resolved",
-        "checkedAt": "2026-11-19T07:00:40Z",
-        "error": null
-      },
-      "availability": {
-        "status": "available",
-        "checkedAt": "2026-11-19T07:00:40Z",
-        "httpStatus": 200,
-        "error": null,
-        "contentType": "text/html",
-        "truncated": false,
-        "finalUrl": "https://www.dw.com/ru/krupnejsaa-ataka-dronov-na-moskvu-i-ee-posledstvia/g-77623058"
-      },
-      "id": "e3b2f6b5f5c52beef573"
-    },
-    {
-      "publisher": "rus tvnet",
-      "publishedAt": "2026-11-18T22:00:00Z",
-      "publishedOnMoscow": "2026-11-19",
-      "publicationDateBasis": "rss_unverified",
-      "discoveryUrl": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNNk1XTGFYeW1VQ294TWRaOVpkV2NFUGxlbFlTUkVTZHFBWlBfSklqVnZyODNIckNIb3gxV0V3MnhHd3REU3IxU2s4UVdscTJnbHAzZTRXTWM0VWJXTklGd1NqQnFMdWlUOXdwLS1EN1ZuMzlUdGRxQTRCUUh3WVA1SkNJNHNKU0FqZXdtUkJPa3RNNGQ2c3hF?oc=5",
-      "feedIds": [
-        "google-news-ru"
-      ],
-      "reviewStatus": "unreviewed",
-      "url": "https://rus.tvnet.lv/8585981/reuters-ataki-dronov-sokratili-pererabotku-nefti-v-rossii-na-45",
-      "resolution": {
-        "status": "resolved",
-        "checkedAt": "2026-11-19T07:00:42Z",
-        "error": null
-      },
-      "availability": {
-        "status": "available",
-        "checkedAt": "2026-11-19T07:00:42Z",
-        "httpStatus": 200,
-        "error": null,
-        "contentType": "text/html",
-        "truncated": false,
-        "finalUrl": "https://rus.tvnet.lv/8585981/reuters-ataki-dronov-sokratili-pererabotku-nefti-v-rossii-na-45"
-      },
-      "id": "5594bf09d3d7c78a7d51"
-    },
-    {
-      "publisher": "ФОКУС",
-      "publishedAt": "2026-11-18T20:57:15Z",
+      "publishedAt": "2026-11-18T20:44:09Z",
       "publishedOnMoscow": "2026-11-18",
       "publicationDateBasis": "rss_unverified",
-      "discoveryUrl": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNdmVfanZQMWZJNUp2dllTV0QwRGxCX2xGYWhUZDB1OXNwaVZDaEZmUjU3c3gwbGo4dkZnM2IzOG5NTVV5anBqR1VhV0FILTNJNlZNU0hJQVkyYXFaZ3IxLTN0bTk1eldKc0VjQ0I4WUtNRTdKTXlwMXhWUmVGMTFFblRabjEyYjJHWXgyNlFqVzJ2bUIzcW54d2t5TTdCT0NMUGs3MmJlZ1fSAa4BQVVfeXFMT0lIZlNxcjVzd3M1UUxnQ2c5NzdCbG1JX0tLOW1CcVF6dGhEMWVqNVpPbTBZajlzbkdTNENkVUNqdk5fNVU1Rkgzd0kydTV2VW9JcDMxbS15aGtzWFVnaXY5VmZnUExPLWFYRjRhWC10UjBIOHlLbFR6S0JRb1NydHhtTmlSVnNFX3ZGaXFkWVhqaS1uSW0weWdKZlBnYjNjWGRSYjI5RjVTVE9YOGJn?oc=5",
+      "discoveryUrl": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNZXpxUXJrdzR1RW5zcGlLc3pZZ09IblY0S0V0a0RvWGJuUmdMZkFuSllDLVVTbExVQ1NoaUpLZWNWNm9aeENZVm45bXBuM0pSX2pVN2tXbzd3TVhVeG05U2pBTzRGTTRjdzlHaUk3UDI0cW44ejduWmFUWVIwdm83V01NQlo1R3c1REhRMkdOdG03UXZrb1REVGdVUlVPbkVlakRUY0dNUQ?oc=5",
       "feedIds": [
-        "google-news-ru"
+        "google-news-en"
       ],
       "reviewStatus": "unreviewed",
-      "url": "https://focus.ua/voennye-novosti/775231-udary-po-npz-rf-moskva-stala-zakupat-bolshe-benzina-chem-prodavat",
+      "url": "https://www.dw.com/en/ukraine-kyiv-targets-krasnodar-refineries-after-felling-kerch-bridge/live-79976877",
       "resolution": {
         "status": "resolved",
-        "checkedAt": "2026-11-19T07:00:44Z",
+        "checkedAt": "2026-11-20T07:00:29Z",
         "error": null
       },
       "availability": {
         "status": "available",
-        "checkedAt": "2026-11-19T07:00:44Z",
+        "checkedAt": "2026-11-20T07:00:29Z",
         "httpStatus": 200,
         "error": null,
         "contentType": "text/html",
         "truncated": false,
-        "finalUrl": "https://focus.ua/voennye-novosti/775231-udary-po-npz-rf-moskva-stala-zakupat-bolshe-benzina-chem-prodavat"
+        "finalUrl": "https://www.dw.com/en/ukraine-kyiv-targets-krasnodar-refineries-after-felling-kerch-bridge/live-79976877"
       },
-      "id": "5f4ddedb7ba77e7af404"
+      "id": "093b47bd0ac9ea785019"
     },
     {
-      "publisher": "DW.com",
-      "publishedAt": "2026-11-18T20:11:19Z",
+      "publisher": "prospect.com.ru",
+      "publishedAt": "2026-11-18T20:11:15Z",
       "publishedOnMoscow": "2026-11-18",
       "publicationDateBasis": "rss_unverified",
-      "discoveryUrl": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQcmNOX1RyVEFaZUEwRFVGcEx1S091ZXVNWVg1NkZTdzNndFQ4azNZUmVZaFFVTlhZOVI3QUFhdGhGM1U2N1BlZWdEdlluTnZvVTk1NFZEZUNWRXY0SWVPU2VQT3pMYXkzM01XZVU2RG5EYngyZVc5V1kwd3BrNlpSakxJMHhBWVNFZjNEbmhySEtVbndlVWFncjBnaXbSAZwBQVVfeXFMUHJjTl9UclRBWmVBMERVRnBMdUtPdWV1TVlYNTZGU3czZ3RUOGszWVJlWWhRVU5YWTlSN0FBYXRoRjNVNjdQZWVnRHZZbk52b1U5NTRWRGVDVkV2NEllT1NlUE96TGF5MzNNV2VVNkRuRGJ4MmVXOVdZMHdwazZaUmpMSTB4QVlTRWYzRG5ockhLVW53ZVVhZ3IwZ2l2?oc=5",
+      "discoveryUrl": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPVmRRSUJVMnk2ZzdjYk1WcEd4Y3NzSExnT28tSWJHVUsybzg4dTVHQ3JpMW1mOFZlOTZvVTU2c1BqU2h3ZGxCczdqLW5ZS3ZyVnd2dDNTeDBrS0NGS2dBdjY0UmgwS3EwdENtaFBOeDNMdURteWpCYy1WSXl3c2pfbXJzTXgydG9lcm9lMV9oYk9oNy1BWXEzYWVGRlNqS0ttT3NNQXhJQ3JINUpBaGhfUkx0LXJHcVdCUnc?oc=5",
       "feedIds": [
         "google-news-ru"
       ],
       "reviewStatus": "unreviewed",
-      "url": "https://amp.dw.com/ru/reuters-ataki-dronov-sokratili-pererabotku-nefti-v-rossii-na-45/a-79986152",
+      "url": "https://prospect.com.ru/news/7181092/yaroslavskij-biznes-poluchit-lgotnye-zajmy-na-vosstanovlenie-posle-atak-bpla.html",
       "resolution": {
         "status": "resolved",
-        "checkedAt": "2026-11-19T07:00:46Z",
+        "checkedAt": "2026-11-20T07:00:31Z",
         "error": null
       },
       "availability": {
-        "status": "available",
-        "checkedAt": "2026-11-19T07:00:46Z",
-        "httpStatus": 200,
-        "error": null,
-        "contentType": "text/html",
-        "truncated": false,
-        "finalUrl": "https://amp.dw.com/ru/reuters-ataki-dronov-sokratili-pererabotku-nefti-v-rossii-na-45/a-79986152"
+        "status": "blocked",
+        "checkedAt": "2026-11-20T07:00:31Z",
+        "httpStatus": 403,
+        "error": "http_error"
       },
-      "id": "aa190c8dddea84a7dfb1"
+      "id": "d9cc039c4533d18f6b1c"
     },
     {
       "publisher": "Дзеркало тижня",
@@ -269,12 +455,12 @@
       "url": "https://zn.ua/war/reuters-s-kontsa-oktjabrja-ukrainskie-drony-ostanovili-ili-povredili-pochti-polovinu-krupnejshikh-npz-rossii.html",
       "resolution": {
         "status": "resolved",
-        "checkedAt": "2026-11-19T07:00:48Z",
+        "checkedAt": "2026-11-20T07:00:33Z",
         "error": null
       },
       "availability": {
         "status": "available",
-        "checkedAt": "2026-11-19T07:00:48Z",
+        "checkedAt": "2026-11-20T07:00:33Z",
         "httpStatus": 200,
         "error": null,
         "contentType": "text/html",
@@ -282,33 +468,6 @@
         "finalUrl": "https://zn.ua/war/reuters-s-kontsa-oktjabrja-ukrainskie-drony-ostanovili-ili-povredili-pochti-polovinu-krupnejshikh-npz-rossii.html"
       },
       "id": "b679fc1cc419dfd704e4"
-    },
-    {
-      "publisher": "News-Times",
-      "publishedAt": "2026-11-18T19:51:05Z",
-      "publishedOnMoscow": "2026-11-18",
-      "publicationDateBasis": "rss_unverified",
-      "discoveryUrl": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOTDdKMThEYXMwQlZNYjh2MWNjbl9MTThRalVfLWZ0STJHOWVBR0pPTHhjSGMxaWpRN2c0ek1Cd1EyaEpwQWNaVlkwZTNQRmdoUERLTzJ2bWxzQlNIT0dsckJxTzlEZ21yQ2xMOFZ5a1hsNG82SFN3QmtrcmpSQ2tLMlZ1c01YVmwwdGlYbVBfSGN2bENHdmU4dE1CZ1R0TWZPMkhUdVhtODg?oc=5",
-      "feedIds": [
-        "google-news-en"
-      ],
-      "reviewStatus": "unreviewed",
-      "url": "https://www.newstimes.com/news/world/article/ukraine-says-it-hit-2-russian-oil-refineries-as-22537347.php",
-      "resolution": {
-        "status": "resolved",
-        "checkedAt": "2026-11-19T07:00:49Z",
-        "error": null
-      },
-      "availability": {
-        "status": "available",
-        "checkedAt": "2026-11-19T07:00:49Z",
-        "httpStatus": 200,
-        "error": null,
-        "contentType": "text/html",
-        "truncated": false,
-        "finalUrl": "https://www.newstimes.com/news/world/article/ukraine-says-it-hit-2-russian-oil-refineries-as-22537347.php"
-      },
-      "id": "42b5c9f4e72833aa6e5a"
     },
     {
       "publisher": "Ukr.net",
@@ -323,12 +482,12 @@
       "url": "https://www.ukr.net/ru/news/details/russianaggression/120575419.html",
       "resolution": {
         "status": "resolved",
-        "checkedAt": "2026-11-19T07:00:52Z",
+        "checkedAt": "2026-11-20T07:00:35Z",
         "error": null
       },
       "availability": {
         "status": "available",
-        "checkedAt": "2026-11-19T07:00:52Z",
+        "checkedAt": "2026-11-20T07:00:35Z",
         "httpStatus": 200,
         "error": null,
         "contentType": "text/html",
@@ -336,161 +495,6 @@
         "finalUrl": "https://www.ukr.net/ru/news/details/russianaggression/120575419.html"
       },
       "id": "7ee75407769c6b8acac9"
-    },
-    {
-      "publisher": "The Bell",
-      "publishedAt": "2026-11-18T19:08:17Z",
-      "publishedOnMoscow": "2026-11-18",
-      "publicationDateBasis": "rss_unverified",
-      "discoveryUrl": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNR2RhVkkyMkh0R2pTM1pBRERxczNFSVZnRDRiWVU2bjM0TmRwVzljNU5zY0V6dWd1WE9lRTRLUURRU2tic2NNVWg0VC1KVDZaM0ZVamZGcERTbTBNZEpLOXJBZmc1ODZNR2o0aVR5aWNUNkFPVm0wU25WcElYbnRQUXFJV2hDUDRnZUpsbVg4LXRoTV82ZVJpQTJTRTI0WkZldHpJNkRITnFXZjZSNUxHaWJFMF90YnBQTUE?oc=5",
-      "feedIds": [
-        "google-news-ru"
-      ],
-      "reviewStatus": "unreviewed",
-      "url": "https://thebell.io/rossiya-snova-bez-poloviny-npz-putin-vstretitsya-s-trampom-otdelno-gta-vi-prevzoshla-vse-ozhidaniya",
-      "resolution": {
-        "status": "resolved",
-        "checkedAt": "2026-11-19T07:00:53Z",
-        "error": null
-      },
-      "availability": {
-        "status": "blocked",
-        "checkedAt": "2026-11-19T07:00:53Z",
-        "httpStatus": 200,
-        "error": "paywall",
-        "contentType": "text/html",
-        "truncated": false,
-        "finalUrl": "https://thebell.io/rossiya-snova-bez-poloviny-npz-putin-vstretitsya-s-trampom-otdelno-gta-vi-prevzoshla-vse-ozhidaniya"
-      },
-      "id": "b3a4667abec055268efe"
-    },
-    {
-      "publisher": "RBC-Ukraine",
-      "publishedAt": "2026-11-18T18:42:00Z",
-      "publishedOnMoscow": "2026-11-18",
-      "publicationDateBasis": "rss_unverified",
-      "discoveryUrl": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPdy1zVzZrN0llZ0pNYVpwWjBiVW5aY0xOQmVUNzZ5SkJEd0lXQUg5R3Y1b1F2VncwSV9qVFlnVmp4aWl0WEtBYVI1SnBacFpVX0JsNXNjMXVhWkpOYXJfcy1zelNldmVfU2pMaEdzOU80djdiVGdac0Z0bVctTTJ4cnRjeFpDQlBtRHNENEIyU1ItY1NNWkI4?oc=5",
-      "feedIds": [
-        "google-news-en"
-      ],
-      "reviewStatus": "unreviewed",
-      "url": "https://newsukraine.rbc.ua/news/ukrainian-drone-strikes-slash-russia-s-daily-1795027166.html",
-      "resolution": {
-        "status": "resolved",
-        "checkedAt": "2026-11-19T07:00:54Z",
-        "error": null
-      },
-      "availability": {
-        "status": "available",
-        "checkedAt": "2026-11-19T07:00:54Z",
-        "httpStatus": 200,
-        "error": null,
-        "contentType": "text/html",
-        "truncated": false,
-        "finalUrl": "https://newsukraine.rbc.ua/news/ukrainian-drone-strikes-slash-russia-s-daily-1795027166.html"
-      },
-      "id": "0c1fc289c148904851ae"
-    },
-    {
-      "publisher": "The Kyiv Independent",
-      "publishedAt": "2026-11-18T18:36:33Z",
-      "publishedOnMoscow": "2026-11-18",
-      "publicationDateBasis": "rss_unverified",
-      "discoveryUrl": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQdWFLOFhaVTFYQmNGYXp6YlpibndWTkpWUHN4WnoxdUt0aUVvVnh4V1BLTlFlOUxKUDVqX3NYRXhkZ00wbE5JWG1SZzdfb3RWTWFlZDlaOWlRbU15dmJmeGZOQmFrU0VUTy15bjNXV2tNNFk5SVFxbnZWZ2g5MXktM1Q2T1RQT18yY19ZRzN5ejBvQVEzbkZ0MVpicUhCZ1RFNFp6SWVHU2djNldmVlpOR2tOOXU?oc=5",
-      "feedIds": [
-        "google-news-en"
-      ],
-      "reviewStatus": "unreviewed",
-      "url": "https://kyivindependent.com/ukraine-war-latest-drones-strike-2-russian-oil-refineries-in-krasnodar-krai-kyiv-says/",
-      "resolution": {
-        "status": "resolved",
-        "checkedAt": "2026-11-19T07:00:55Z",
-        "error": null
-      },
-      "availability": {
-        "status": "available",
-        "checkedAt": "2026-11-19T07:00:55Z",
-        "httpStatus": 200,
-        "error": null,
-        "contentType": "text/html",
-        "truncated": false,
-        "finalUrl": "https://kyivindependent.com/ukraine-war-latest-drones-strike-2-russian-oil-refineries-in-krasnodar-krai-kyiv-says/"
-      },
-      "id": "485a68fa4d34835fbdde"
-    },
-    {
-      "publisher": "Digital Report",
-      "publishedAt": "2026-11-18T18:10:32Z",
-      "publishedOnMoscow": "2026-11-18",
-      "publicationDateBasis": "rss_unverified",
-      "discoveryUrl": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNNUhSQjFFTDZzOFRBLS1qaUFXRVF4UlpuazdkeFB2dmxkdVZLWC1qLUZBY0lVZHJYM2xQYmFHNUZyTlN1QnF5N3otSHpadUJpYnJPVXJWX1FfX0drSVAzcWNzakRqdWxtY3oxbUpOM2ZPelNUdlIwdWloQi03RzZrNEFHSjBIZw?oc=5",
-      "feedIds": [
-        "google-news-ru"
-      ],
-      "reviewStatus": "unreviewed",
-      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNNUhSQjFFTDZzOFRBLS1qaUFXRVF4UlpuazdkeFB2dmxkdVZLWC1qLUZBY0lVZHJYM2xQYmFHNUZyTlN1QnF5N3otSHpadUJpYnJPVXJWX1FfX0drSVAzcWNzakRqdWxtY3oxbUpOM2ZPelNUdlIwdWloQi03RzZrNEFHSjBIZw?oc=5",
-      "resolution": {
-        "status": "failed",
-        "checkedAt": "2026-11-19T07:00:58Z",
-        "httpStatus": 429,
-        "error": "http_error"
-      },
-      "availability": {
-        "status": "unresolved",
-        "checkedAt": null,
-        "httpStatus": null,
-        "error": "original_url_not_resolved"
-      },
-      "id": "180f40de778b41b2550a"
-    },
-    {
-      "publisher": "Ukrainian News Agency",
-      "publishedAt": "2026-11-18T17:45:01Z",
-      "publishedOnMoscow": "2026-11-18",
-      "publicationDateBasis": "rss_unverified",
-      "discoveryUrl": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNYTNWUVpBZHd0YjdDdndhbmpfUjlZSFBIandCc0NPZVBWcGlmX2hIVmJoTUhGaUJ3Q3RIb0hhX1RQUGFQV09wMGZSN1IyRGxnczBNRlVuN3BRcTdLV3dUcEdHT2RMRE5KLVFYWTBvTFlXZWRVUGZvWVgtZmg0TWpsa3B3OXBvb1NDd2I1WV91bUFGcWVTeUNMYk4xbkNqRTlJWlJkM19IeHhoU0EzME9RWFR6NzZ6bndaZTEwRzk1bkgtVm5ZemU5atIB1wFBVV95cUxQUEFIWVV2WEZWMXBVSXg3OExvSkxaS3pEaUdxRnV6MnUyLWNrQWdFX2EtUnZ5b3JSeEh3YXZROXFIaFM5OFpibkRIREtZV182ejBMUGlNYVh6STAySktiVUx1MG9rdExRelJyNUxSTEZ2T05sUUpoWnFla21BODIzbzg5MHFueHhaSGF5cDZ3WTA5Q2VLS29uNHBCcjlVMVpESHRISC1WUi1OdXZFQUlVc3ZzVWNJSjFFT1Z0UUp5Z1hrNl9rUGU4TnpFWlIwNXlwQS12WWtQaw?oc=5",
-      "feedIds": [
-        "google-news-en"
-      ],
-      "reviewStatus": "unreviewed",
-      "url": "https://ukranews.com/en/news/1188373-drones-attack-two-russian-oil-refineries-near-krasnodar-fire-breaks-out-at-one-of-facilities",
-      "resolution": {
-        "status": "resolved",
-        "checkedAt": "2026-11-19T07:00:58Z",
-        "error": null
-      },
-      "availability": {
-        "status": "blocked",
-        "checkedAt": "2026-11-19T07:00:58Z",
-        "httpStatus": 403,
-        "error": "http_error"
-      },
-      "id": "9446a499aef2161c18f7"
-    },
-    {
-      "publisher": "Русская служба The Moscow Times",
-      "publishedAt": "2026-11-18T17:37:47Z",
-      "publishedOnMoscow": "2026-11-18",
-      "publicationDateBasis": "rss_unverified",
-      "discoveryUrl": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPMnJacGJQV05YZ29fajZoNWVmYjRxYUZwcnA0TDg3R3pWZHB1V2VJVkMxbU9uaC0yaEtiOUdLaVFFQ2RpZ3I0Ny1rTWtrZzQ1OXQzM1ZaWF9WYnhwSXFUbHEwVkxFUUUwcHdyai1RV1VaSlRZLTdjVXlqalNkWEYyTUFJVG13am9QWmNPZXNOV2FZQ2ZMU0VmaDQyZnhpY3FSaktRM25xa19fdm1BV2V6SUQ0aWwxRVhlS0U1SXVEUGVsZlQ3?oc=5",
-      "feedIds": [
-        "google-news-ru"
-      ],
-      "reviewStatus": "unreviewed",
-      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPMnJacGJQV05YZ29fajZoNWVmYjRxYUZwcnA0TDg3R3pWZHB1V2VJVkMxbU9uaC0yaEtiOUdLaVFFQ2RpZ3I0Ny1rTWtrZzQ1OXQzM1ZaWF9WYnhwSXFUbHEwVkxFUUUwcHdyai1RV1VaSlRZLTdjVXlqalNkWEYyTUFJVG13am9QWmNPZXNOV2FZQ2ZMU0VmaDQyZnhpY3FSaktRM25xa19fdm1BV2V6SUQ0aWwxRVhlS0U1SXVEUGVsZlQ3?oc=5",
-      "resolution": {
-        "status": "failed",
-        "checkedAt": "2026-11-19T07:01:01Z",
-        "httpStatus": 429,
-        "error": "http_error"
-      },
-      "availability": {
-        "status": "unresolved",
-        "checkedAt": null,
-        "httpStatus": null,
-        "error": "original_url_not_resolved"
-      },
-      "id": "20ab95baa42572a63130"
     }
   ],
   "limitations": [
