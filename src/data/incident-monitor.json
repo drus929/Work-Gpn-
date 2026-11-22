@@ -7,147 +7,414 @@
     "cronUtc": "0 6 * * *"
   },
   "status": "complete",
-  "lastAttemptAt": "2026-11-21T06:55:41Z",
-  "finishedAt": "2026-11-21T06:56:08Z",
+  "lastAttemptAt": "2026-11-22T06:56:01Z",
+  "finishedAt": "2026-11-22T06:56:22Z",
   "lastSuccessfulRun": {
-    "finishedAt": "2026-11-21T06:56:08Z",
+    "finishedAt": "2026-11-22T06:56:22Z",
     "window": {
-      "from": "2026-11-19T06:55:41Z",
-      "to": "2026-11-21T06:55:41Z",
-      "fromMoscow": "2026-11-19 09:55",
-      "toMoscow": "2026-11-21 09:55"
+      "from": "2026-11-20T06:56:01Z",
+      "to": "2026-11-22T06:56:01Z",
+      "fromMoscow": "2026-11-20 09:56",
+      "toMoscow": "2026-11-22 09:56"
     },
     "counts": {
-      "discovered": 74,
-      "eligible": 74,
+      "discovered": 50,
+      "eligible": 50,
       "excluded": 0,
       "checked": 16,
-      "available": 11,
+      "available": 10,
       "unresolved": 0,
-      "omittedByLimit": 58
+      "omittedByLimit": 34
     }
   },
   "window": {
-    "from": "2026-11-19T06:55:41Z",
-    "to": "2026-11-21T06:55:41Z",
-    "fromMoscow": "2026-11-19 09:55",
-    "toMoscow": "2026-11-21 09:55"
+    "from": "2026-11-20T06:56:01Z",
+    "to": "2026-11-22T06:56:01Z",
+    "fromMoscow": "2026-11-20 09:56",
+    "toMoscow": "2026-11-22 09:56"
   },
   "feeds": [
     {
       "id": "google-news-ru",
       "label": "Google News RSS · ru",
       "language": "ru",
-      "url": "https://news.google.com/rss/search?q=%D0%9D%D0%9F%D0%97+%28%D0%BF%D0%BE%D0%B6%D0%B0%D1%80+OR+%D0%B0%D1%82%D0%B0%D0%BA%D0%B0+OR+%D0%BE%D1%81%D1%82%D0%B0%D0%BD%D0%BE%D0%B2%D0%BA%D0%B0%29+after%3A2026-11-19+before%3A2026-11-22&hl=ru&gl=RU&ceid=RU%3Aru",
-      "checkedAt": "2026-11-21T06:55:41Z",
+      "url": "https://news.google.com/rss/search?q=%D0%9D%D0%9F%D0%97+%28%D0%BF%D0%BE%D0%B6%D0%B0%D1%80+OR+%D0%B0%D1%82%D0%B0%D0%BA%D0%B0+OR+%D0%BE%D1%81%D1%82%D0%B0%D0%BD%D0%BE%D0%B2%D0%BA%D0%B0%29+after%3A2026-11-20+before%3A2026-11-23&hl=ru&gl=RU&ceid=RU%3Aru",
+      "checkedAt": "2026-11-22T06:56:01Z",
       "status": "ok",
       "httpStatus": 200,
-      "count": 46,
+      "count": 27,
       "error": null
     },
     {
       "id": "google-news-en",
       "label": "Google News RSS · en",
       "language": "en",
-      "url": "https://news.google.com/rss/search?q=Russia+refinery+%28fire+OR+attack+OR+disruption%29+after%3A2026-11-19+before%3A2026-11-22&hl=en&gl=US&ceid=US%3Aen",
-      "checkedAt": "2026-11-21T06:55:42Z",
+      "url": "https://news.google.com/rss/search?q=Russia+refinery+%28fire+OR+attack+OR+disruption%29+after%3A2026-11-20+before%3A2026-11-23&hl=en&gl=US&ceid=US%3Aen",
+      "checkedAt": "2026-11-22T06:56:01Z",
       "status": "ok",
       "httpStatus": 200,
-      "count": 28,
+      "count": 23,
       "error": null
     }
   ],
   "counts": {
-    "discovered": 74,
-    "eligible": 74,
+    "discovered": 50,
+    "eligible": 50,
     "excluded": 0,
     "checked": 16,
-    "available": 11,
+    "available": 10,
     "unresolved": 0,
-    "omittedByLimit": 58
+    "omittedByLimit": 34
   },
   "items": [
     {
-      "publisher": "prospect.com.ru",
-      "publishedAt": "2026-11-21T02:34:36Z",
-      "publishedOnMoscow": "2026-11-21",
+      "publisher": "Активатика",
+      "publishedAt": "2026-11-22T06:31:31Z",
+      "publishedOnMoscow": "2026-11-22",
       "publicationDateBasis": "rss_unverified",
-      "discoveryUrl": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNdXhIczg4OHpKeW1KLWRtNk5WTXBEcV9oMGRwVUFyMWNCSHJYbnFKRUpYNVM0VFd3aFFONVVBVC1KblNlVHpjd1ZhUzJSemVVb2JOX25DQ3Q1dnQ5bFY5eVdNZFVtSGxKNGpvMlA4SVNjMXVZRTdWMmIycHdvUmFlWHNBdkZRdXFqRmdwSjZ5Mlh5b3VqUzh0dnBoZUhDQTNNZ0NhRVNhd21jQQ?oc=5",
+      "discoveryUrl": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOcG12bmo5bTNJX0dxZHNhVzRaazVYd1BjX21lRU5qTW9GQ0NGQkFfNk9QU1hUdHJONy02aERIRk4tTnpXMVNBYlNvY2E1bDAtQ0hHNmFLckxGNTdUQjRDLVdDMGZqY2Y0VzFNR00zNG9yT0hKSUJfeXBSR3NvTldsZElLZ0otX0ZzV092RDBxZE5ESks1aEpGZWxhX2dOSkdmUXpwWTRjTWxfSVpDUWgyc25WWExSYndpZDJuaEtXSXpfeDJrTmc?oc=5",
       "feedIds": [
         "google-news-ru"
       ],
       "reviewStatus": "unreviewed",
-      "url": "https://prospect.com.ru/news/7187550/vnushitelnyj-uscherb-v-kurske-razgrebayut-zavaly-posle-ataki-vsu.html",
+      "url": "https://activatica.org/content/1bb4d872-e645-4f70-96ed-a3acdca95b94/drony-veroyatno-porazili-upravlenie-rosgvardii-v-krasnodare",
       "resolution": {
         "status": "resolved",
-        "checkedAt": "2026-11-21T06:55:42Z",
+        "checkedAt": "2026-11-22T06:56:02Z",
+        "error": null
+      },
+      "availability": {
+        "status": "available",
+        "checkedAt": "2026-11-22T06:56:02Z",
+        "httpStatus": 200,
+        "error": null,
+        "contentType": "text/html",
+        "truncated": false,
+        "finalUrl": "https://activatica.org/content/1bb4d872-e645-4f70-96ed-a3acdca95b94/drony-veroyatno-porazili-upravlenie-rosgvardii-v-krasnodare"
+      },
+      "id": "be4ed95a131ced9306f8"
+    },
+    {
+      "publisher": "Цензор.НЕТ",
+      "publishedAt": "2026-11-22T06:08:00Z",
+      "publishedOnMoscow": "2026-11-22",
+      "publicationDateBasis": "rss_unverified",
+      "discoveryUrl": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQTk1VWVRZeUE0eVJvNG5SWmlNVHBvZW5yazFuSFJrRGJmNFNnYXl2QlA3ZWZCOHZYMGtBNzBUTldpNUZkRkRrTkR6RzdwZnAtTEY1TlRHOFhvejNKYU5PNTRISmdzYjVQNExyQU91VGpYZnR6d3VIdHN2NnNDM3RSeVBObVBjU1JzZ0NLOVRvS0RsOVVqdHJnMlhnUVo4YXZyVWpiX1ZBcU1Kdw?oc=5",
+      "feedIds": [
+        "google-news-ru"
+      ],
+      "reviewStatus": "unreviewed",
+      "url": "https://censor.net/ru/news/4034960/drony-atakuyut-krasnodarskiy-kray-vzryvy-razdavalis-vozle-afipskogo-npz",
+      "resolution": {
+        "status": "resolved",
+        "checkedAt": "2026-11-22T06:56:04Z",
         "error": null
       },
       "availability": {
         "status": "blocked",
-        "checkedAt": "2026-11-21T06:55:42Z",
+        "checkedAt": "2026-11-22T06:56:04Z",
         "httpStatus": 403,
         "error": "http_error"
       },
-      "id": "b26a4410ba4325e828e0"
+      "id": "13f99ad89bc2d2dd10ac"
     },
     {
-      "publisher": "Горсайт",
-      "publishedAt": "2026-11-21T02:20:00Z",
-      "publishedOnMoscow": "2026-11-21",
+      "publisher": "News Telegraf",
+      "publishedAt": "2026-11-22T05:25:43Z",
+      "publishedOnMoscow": "2026-11-22",
       "publicationDateBasis": "rss_unverified",
-      "discoveryUrl": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNLThWMFVjbWJscjBReUUyZlJJWUQta1BCWGIyRm1STGJ1WmlmUkMzWkFwb0FpX2lpVnBObE5MZl9Rb2lzdEE4aWotTGZ0bWxWUnowaUs0STZrMVE1OWRfbHRFa0FxRHA2LXFlaWNCOUhKS19OeDJwc0l6bXJldk9oMVRkQlZDUFd2SDhudzlkMzJ0cGhkb1dkMnppanpMdXhSekJzSlF0aTFiVFU?oc=5",
+      "discoveryUrl": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxPRjh5Rk9zTk1nT0R1Z1hnT09CejdaMXRBbkY4LXctckZpcnZfOWRSUEhzRVVHNVctWm1kbG1mUERXSHRxazZRRTRtamJpRDZ0TmxGQjFGSTdoSDhwMUNZV0Fsb3h0cVJ0Mmc2N2ZuTXc1dmJWNmVGVmRUSnNVM0ZCY0VqbTRWSHNSZlpkbmhGbU5JY1BOS0JwTEZGTG9xaDBzaDNHUjFnb0VuWHFmMGZaU2ZlTm0xWUFGbWphX3dWbGtyNEVJLXlRTmFEeUczQ3BiWWhTS1RhaXB0M2hLenBELWtrVXcyWnRQbVN5b9IB8gFBVV95cUxNVmJZYkJQVHd2emFyZDFzYWVQNnZ4N0pfRXotallfdEE4SW13NjBnVUQzbUp6bHg0cGhCeXZKLTN4TUxKTEJBdGJRNU5kQmJ4R1NnY0lES3Q3UElNNXEwci1lOEVpUG5uV3FjbUpVSkVWd2RKMXdxNGpiNHdmNzBPc1o4THVndmxMYlMwVERURVp2SjJHSzZwXzRhLUh3Ml9SeEhRNzdMd2dCWXVFMVpRMHhBdE8xX3lwRmYxMkl4azdHOUY0dGI0cFBVWEo1TlJHWXNFVlpVelBlN1NCZGhSWlpRejRnaVlDUm5TbGlob0JkUQ?oc=5",
       "feedIds": [
         "google-news-ru"
       ],
       "reviewStatus": "unreviewed",
-      "url": "https://gorsite.ru/news/proisshestviia/v_novosibirske_gospitalizirovali_muzhchinu_s_ozhogami_posle_pozhara/",
+      "url": "https://news.telegraf.com.ua/novosti-rossii/5956475-zarevo-nad-krupnym-npz-i-moshchnye-vzryvy-u-voennogo-gorodka-rosgvardii-chto-izvestno-ob-atake-po-rossii",
       "resolution": {
         "status": "resolved",
-        "checkedAt": "2026-11-21T06:55:44Z",
+        "checkedAt": "2026-11-22T06:56:05Z",
         "error": null
       },
       "availability": {
         "status": "available",
-        "checkedAt": "2026-11-21T06:55:44Z",
+        "checkedAt": "2026-11-22T06:56:05Z",
         "httpStatus": 200,
         "error": null,
         "contentType": "text/html",
         "truncated": false,
-        "finalUrl": "https://gorsite.ru/news/proisshestviia/v_novosibirske_gospitalizirovali_muzhchinu_s_ozhogami_posle_pozhara/"
+        "finalUrl": "https://news.telegraf.com.ua/novosti-rossii/5956475-zarevo-nad-krupnym-npz-i-moshchnye-vzryvy-u-voennogo-gorodka-rosgvardii-chto-izvestno-ob-atake-po-rossii"
       },
-      "id": "f285eafba8b8240ae7b4"
+      "id": "e257d6a25d39c2111dcc"
     },
     {
-      "publisher": "Сиб.фм",
-      "publishedAt": "2026-11-21T02:15:00Z",
-      "publishedOnMoscow": "2026-11-21",
+      "publisher": "https://incidentia.ru/",
+      "publishedAt": "2026-11-22T04:48:11Z",
+      "publishedOnMoscow": "2026-11-22",
       "publicationDateBasis": "rss_unverified",
-      "discoveryUrl": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPMVAtSDZ2b19qb2laak16S1ljd181TFRLTlRWSUJQWmtXYTZFWFYwTEZkMHp3eFROUGRIS1pyQy11VFpIZE9Jd0ZDdFdDTkN4SThyWWpTcUhydy1XZGFGQ1BLMEhMVm4tZm1ob3N0eU53RGd0SmIzdWN6MERYWVNSdTA4dFdyODNFc0ZPdEZhTGRrMHhYSDFNLW5saGRudWR5NnI1OFRHektoX1HSAbABQVVfeXFMTzNpeGNuT0R1R1g4OGh4T25ZRWZMVGUtcFRyWDVORTBiTlR6STluY2J4WUM0VzRqWHJMeGlDREdZeWpyby10d1J1N1MzVmsta2NRQ01HR1h4dHdvOXpka2oyNGthSk9Pd2dhNXI5OEtrOWl0MGdxZWNVNFl4dUF1UV9wTWZrbHhabmhoV0JNSy00QXdrMVNGalplRmFXcXN3b1ZUd2hCd0Vod055emNZR04?oc=5",
+      "discoveryUrl": "https://news.google.com/rss/articles/CBMifEFVX3lxTE4wRFp1a000Yk1vMVRGWVFBMzZrY3h6Zkh3YUxLZnFwRVdlNGsyVTg3N2xtYV93SW5wek5Qc2tUaGMxWWNUV3BYRDdzLVlzcURzek1XbjNTMFpxVHZxOWdOYW5lckk3UE0tMzc0RUUyandIa3NCcFFfVXI3RHU?oc=5",
       "feedIds": [
         "google-news-ru"
       ],
       "reviewStatus": "unreviewed",
-      "url": "https://sib.fm/news/2026/11/21/muzhchinu-gospitalizirovali-s-ozhogami-posle-nochnogo-pozhara-v-novosibirske",
+      "url": "https://incidentia.ru/news/nochnaya-ataka-vsu-na-afipskiy-npz-2026-11-22",
       "resolution": {
         "status": "resolved",
-        "checkedAt": "2026-11-21T06:55:46Z",
+        "checkedAt": "2026-11-22T06:56:07Z",
         "error": null
       },
       "availability": {
-        "status": "available",
-        "checkedAt": "2026-11-21T06:55:46Z",
+        "status": "blocked",
+        "checkedAt": "2026-11-22T06:56:07Z",
         "httpStatus": 200,
-        "error": null,
+        "error": "access_challenge",
         "contentType": "text/html",
         "truncated": false,
-        "finalUrl": "https://sib.fm/news/2026/11/21/muzhchinu-gospitalizirovali-s-ozhogami-posle-nochnogo-pozhara-v-novosibirske"
+        "finalUrl": "https://incidentia.ru/news/nochnaya-ataka-vsu-na-afipskiy-npz-2026-11-22"
       },
-      "id": "631b8f9616b1e83fd9d1"
+      "id": "2dcc2dc5728a01a85624"
+    },
+    {
+      "publisher": "https://incidentia.ru/",
+      "publishedAt": "2026-11-22T04:43:10Z",
+      "publishedOnMoscow": "2026-11-22",
+      "publicationDateBasis": "rss_unverified",
+      "discoveryUrl": "https://news.google.com/rss/articles/CBMingFBVV95cUxNSm45eEgzMjNvRmJQX1NNSmZoNFNYQTRtaVFIWkprMkc3Zzk2WHp6ZkJQMkpaVFZweDl2Z0tlV1hTM3phVldsS2lvMzhMRThPbURFRExkVFFXUS1GSGpUX3JmckJINGVmeHhYaVVRWm5mQ3B4elNkMGtaWjkyWjlzbDN3MkFwOHlsSTM3aGw1cTJ2OFMxOFBnNHh4cC14dw?oc=5",
+      "feedIds": [
+        "google-news-ru"
+      ],
+      "reviewStatus": "unreviewed",
+      "url": "https://incidentia.ru/news/krasnodar-zdanie-rosgvardii-predpolozhitelno-porazheno-bpla-2026-11-22",
+      "resolution": {
+        "status": "resolved",
+        "checkedAt": "2026-11-22T06:56:08Z",
+        "error": null
+      },
+      "availability": {
+        "status": "blocked",
+        "checkedAt": "2026-11-22T06:56:08Z",
+        "httpStatus": 200,
+        "error": "access_challenge",
+        "contentType": "text/html",
+        "truncated": false,
+        "finalUrl": "https://incidentia.ru/news/krasnodar-zdanie-rosgvardii-predpolozhitelno-porazheno-bpla-2026-11-22"
+      },
+      "id": "261f6ac2f3a0e51cbb21"
     },
     {
       "publisher": "DW.com",
-      "publishedAt": "2026-11-21T01:34:37Z",
+      "publishedAt": "2026-11-22T04:36:46Z",
+      "publishedOnMoscow": "2026-11-22",
+      "publicationDateBasis": "rss_unverified",
+      "discoveryUrl": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPUHo2NVhmUmQyS2tVd2xBcXpxUksyTDBDSlRLZ1o2ZVN6SGJJdGdLdUNKNTBqLUhiR1kxdTJHNEVWOVk4bzJjV05YQlRSdTd4YllHTTU0Y3V1RG9jU2JHb1dtcWg3UGJoY1pjNUtGXzJKV2V3d0NyRjdFRDhNT0NPWUNhWVpHZTdQTERGZ3N3Y3ExQi0zU0xvOdIBmAFBVV95cUxPejlCLUhhQUVzcWU4QmRGclpobHdHcUMwNmpleE16b2dRa0g0djJKaGlUaGpiU21hLVBtdHVqck51c0dSclFob2M0SXZ4N1FUREJCeFVDQ19YRmQzOXR1d19kdllxZjNMcHFZSXl3TXljSVhZMEJOVEc2ZDlVbkFqYWt0TlRXU1Q4cnh2aDltLTZtTXNuX3U4bA?oc=5",
+      "feedIds": [
+        "google-news-ru"
+      ],
+      "reviewStatus": "unreviewed",
+      "url": "https://www.dw.com/ru/osint-udar-v-krasnodare-mog-prijtis-po-upravleniu-rosgvardii/a-80012280",
+      "resolution": {
+        "status": "resolved",
+        "checkedAt": "2026-11-22T06:56:09Z",
+        "error": null
+      },
+      "availability": {
+        "status": "available",
+        "checkedAt": "2026-11-22T06:56:09Z",
+        "httpStatus": 200,
+        "error": null,
+        "contentType": "text/html",
+        "truncated": false,
+        "finalUrl": "https://www.dw.com/ru/osint-udar-v-krasnodare-mog-prijtis-po-upravleniu-rosgvardii/a-80012280"
+      },
+      "id": "fc78b6a1ca434b64799a"
+    },
+    {
+      "publisher": "NV",
+      "publishedAt": "2026-11-22T04:32:00Z",
+      "publishedOnMoscow": "2026-11-22",
+      "publicationDateBasis": "rss_unverified",
+      "discoveryUrl": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQOS14YmNDVFhsYlF2dXMtcWhmTjI0MF8zZy1ETjEzVUhITk9YZURfY2F6S21za0xKOVc0b1AxbG90MUxLRm04OVNBZ214WTVxdjY4cWhPVzhzOTJIeENCLWE5NkVxVW4wNUZ5VWVsOHVIVENubFRydVg0N0YtLUU5S0x6QlBJbWF0QzhXSkJraHlCa09DMERRYl9lLXY5QTFhQmhPRHA3bkJjS1hMb1BXU1VWNjZub1NxRHJ5OUpIdjnSAbABQVVfeXFMTTE1a1lSZjZlV2xMNXV2N1pONUliblhLUjNQOHgwVlk2YW1TUGZCazNad0wxdkxmLVFJZHNJWmlWSW9iUGZySWRyaHUyZE5QV1BmaVQ5TXpkNm5wZld3X05mVXo5QS1JQ0RNV3g0UTBZQ2c5S2xRa195RU5pb2pMRFNVc3JfTGpReFZNSG1DbGR5NHJxNDh4bVlZWWZDS29zczdSckh2bDlVaFpJWlVpbXA?oc=5",
+      "feedIds": [
+        "google-news-ru"
+      ],
+      "reviewStatus": "unreviewed",
+      "url": "https://nv.ua/world/countries/ataka-bespilotnikov-na-krasnodar-soobshchaetsya-o-porazhenii-zdaniya-rosgvardii-50661390.html",
+      "resolution": {
+        "status": "resolved",
+        "checkedAt": "2026-11-22T06:56:10Z",
+        "error": null
+      },
+      "availability": {
+        "status": "available",
+        "checkedAt": "2026-11-22T06:56:10Z",
+        "httpStatus": 200,
+        "error": null,
+        "contentType": "text/html",
+        "truncated": false,
+        "finalUrl": "https://nv.ua/world/countries/ataka-bespilotnikov-na-krasnodar-soobshchaetsya-o-porazhenii-zdaniya-rosgvardii-50661390.html"
+      },
+      "id": "5f1debbd953492806eb8"
+    },
+    {
+      "publisher": "24 Канал",
+      "publishedAt": "2026-11-22T04:21:00Z",
+      "publishedOnMoscow": "2026-11-22",
+      "publicationDateBasis": "rss_unverified",
+      "discoveryUrl": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPLU9kUGFXMmhMZUo0aWJoVUZ5MGhlQnI0NVFNZ3ZKNEpOUDF3VWRydS1sZFE3RmY3b1lzcURFRlNISHBYR2tKQUJYU2F2QWowalkxNGlmalF4QWtQbmo4UmtodXByUWpLUWV4ajFUSW1UblphaWNPLUZqalA3MkhjRXVfUTZMRHlmMC00ZGlzVEUzSk9kaWFyU2lEOFJyTWdBcVHSAacBQVVfeXFMTU9UdEY3UC1nbHlYYUk4X243UWhmTnBtUncwLS13Y2hzMWxfVGJGRV9LVGdNUE9NaElHWGxCdGxOX3dpNGdmODBLMWozUDMyam5ickZFMTNmRVpnNzVYVUlXZXBjOTNVTldVMHBqLXJDMll0ck5BYWZ3Y0x2cVIzU1o1dFhVOGpKQy1wVnpmOGhreWhvX09waUYzOTdjbHB4ZmtoZ3FLN28?oc=5",
+      "feedIds": [
+        "google-news-ru"
+      ],
+      "reviewStatus": "unreviewed",
+      "url": "https://24tv.ua/ru/ataka-dronov-na-krasnodar-22-nojabrja-zadymlenie-vozle-chasti-rosgvardii_n3212189",
+      "resolution": {
+        "status": "resolved",
+        "checkedAt": "2026-11-22T06:56:11Z",
+        "error": null
+      },
+      "availability": {
+        "status": "available",
+        "checkedAt": "2026-11-22T06:56:11Z",
+        "httpStatus": 200,
+        "error": null,
+        "contentType": "text/html",
+        "truncated": false,
+        "finalUrl": "https://24tv.ua/ru/ataka-dronov-na-krasnodar-22-nojabrja-zadymlenie-vozle-chasti-rosgvardii_n3212189"
+      },
+      "id": "137a2e5a566305f357ea"
+    },
+    {
+      "publisher": "Korrespondent.net",
+      "publishedAt": "2026-11-21T23:59:00Z",
+      "publishedOnMoscow": "2026-11-22",
+      "publicationDateBasis": "rss_unverified",
+      "discoveryUrl": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPdE5rV3N1anFJUkVVOS01TG1vZElaY1NBbkhUX1FoMVhrbFZPUS1vYnZDQ0pEV29WalVvTWw5SHFhYzB1Qk5yN2VNa1NiTWs4X1JFZTlzbVFlOUVuYzgxSWdScjdYa25mNFlqVkl0Ym9QTTFNS1lXcGM5bmEtTzhBam9xdHJrTGNxNGRkUWxhcmt4QWJJY3ZETlhR0gGOAUFVX3lxTE1GZEFnajZZaEZsZmV0eG1HdmtORjJ3UVc4ZGRnbm1nN2hmUjlybFZqRmVBNDhRZFZ0WFlQdkRObjhLM0I3UzlDelpGV3NfYXpURHZOakd5Tmw3c1dBUE9yUHZ2elNPcm5RNzhFR1FUNVRqekVqY0tuMWdSQ1FDdDZjdl80dVRHa3VVV1FZX2c?oc=5",
+      "feedIds": [
+        "google-news-ru"
+      ],
+      "reviewStatus": "unreviewed",
+      "url": "https://korrespondent.net/world/russia/4930821-v-rf-atakovany-kalynynhrad-y-krasnodar-sotssety",
+      "resolution": {
+        "status": "resolved",
+        "checkedAt": "2026-11-22T06:56:12Z",
+        "error": null
+      },
+      "availability": {
+        "status": "available",
+        "checkedAt": "2026-11-22T06:56:12Z",
+        "httpStatus": 200,
+        "error": null,
+        "contentType": "text/html",
+        "truncated": false,
+        "finalUrl": "https://korrespondent.net/world/russia/4930821-v-rf-atakovany-kalynynhrad-y-krasnodar-sotssety"
+      },
+      "id": "f9416247e0d67e3a5875"
+    },
+    {
+      "publisher": "РБК-Україна",
+      "publishedAt": "2026-11-21T23:15:17Z",
+      "publishedOnMoscow": "2026-11-22",
+      "publicationDateBasis": "rss_unverified",
+      "discoveryUrl": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOZkxkMVo3aWFiWWRtdmdhSmpNMWN0WG1tUTBqbkJkZXdPVW14NUQ0QVI5TDlhQ3lEUk01YW1vTTNMbzNVMDJ1Y055U21VVHRCRUszNUZCX0hfZGhmOW84WlBsaTlZb19nSG5jMGxaSTl6R1pyZVJ4RDNTODRSOXgxY082VGFRNVZSc2NCQzVpRkZvd9IBlwFBVV95cUxNYm5rVXFUVFRQMzVLd2J0ak9MM19xR1FvVUtpUVNHa0pxY09WalgzT2pGRGt6WEVNZU9faVUxTEhMRGZCWEwzZlpvQkE2N2RiRzJuXzdfV05ZeWNlU0dFbGdER2RYVmhvazJQRjFnTGdQNXNYc2Q1alpNMnY5bm9pT3pUTmdkZjU1MkVfNW5NaUQ0em5pN2E4?oc=5",
+      "feedIds": [
+        "google-news-ru"
+      ],
+      "reviewStatus": "unreviewed",
+      "url": "https://www.rbc.ua/ukr/news/krasnodarskomu-krayi-rf-dim-npz-ta-mistechku-1795303637.html",
+      "resolution": {
+        "status": "resolved",
+        "checkedAt": "2026-11-22T06:56:14Z",
+        "error": null
+      },
+      "availability": {
+        "status": "available",
+        "checkedAt": "2026-11-22T06:56:14Z",
+        "httpStatus": 200,
+        "error": null,
+        "contentType": "text/html",
+        "truncated": false,
+        "finalUrl": "https://www.rbc.ua/ukr/news/krasnodarskomu-krayi-rf-dim-npz-ta-mistechku-1795303637.html"
+      },
+      "id": "b94ce034dc2f07546683"
+    },
+    {
+      "publisher": "https://incidentia.ru/",
+      "publishedAt": "2026-11-21T22:04:54Z",
+      "publishedOnMoscow": "2026-11-22",
+      "publicationDateBasis": "rss_unverified",
+      "discoveryUrl": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1iSkZ0U3l3MWZwT09QT2JyYVZaMzYwVFdVOTNSaXVMMFlRbXR2SURmQXlZNC1ueFBVZE9kUzU0SkxHdEIxQ1NSR0JNWmFzU2FGZl9IQ3NVTFhyeXVUaFcwXzlMNkdVMFB4YzdORmZrYUVwcUxvdExsZE1uOA?oc=5",
+      "feedIds": [
+        "google-news-ru"
+      ],
+      "reviewStatus": "unreviewed",
+      "url": "https://incidentia.ru/news/ataka-bpla-na-krasnodar-tseli-npz-2026-11-21",
+      "resolution": {
+        "status": "resolved",
+        "checkedAt": "2026-11-22T06:56:15Z",
+        "error": null
+      },
+      "availability": {
+        "status": "blocked",
+        "checkedAt": "2026-11-22T06:56:15Z",
+        "httpStatus": 200,
+        "error": "access_challenge",
+        "contentType": "text/html",
+        "truncated": false,
+        "finalUrl": "https://incidentia.ru/news/ataka-bpla-na-krasnodar-tseli-npz-2026-11-21"
+      },
+      "id": "a73ac2624aa2a7e51cfe"
+    },
+    {
+      "publisher": "prospect.com.ru",
+      "publishedAt": "2026-11-21T19:14:45Z",
+      "publishedOnMoscow": "2026-11-21",
+      "publicationDateBasis": "rss_unverified",
+      "discoveryUrl": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNeVFpU09nVFFreTJmQUs5YjNtX2RjS2o0ZVZDSmpJeHhHbGI5M3E4WjIwNWFzOG0tZXlBazg5dDJLMU1zZTZJbDdta3pmMFNoNmZXMUJYUmlqcDRQYnhjNDdXMzQzZ0JtQUNKckxfN2JUOU0yak5vZU9OOGtsV0ZLVVdreVlTUHJwM0RpV2xNVU9mTWVrQmU2d1p4aU4wTVdqNnBienJ1MlNrZ0J6OTlfNXRXTndmalEtczQ5M3RHeEVMVzJzb2FaeldXTFBtR1ExY0hTUDB6c2dSZw?oc=5",
+      "feedIds": [
+        "google-news-ru"
+      ],
+      "reviewStatus": "unreviewed",
+      "url": "https://prospect.com.ru/news/7188764/gubernator-isklyuchil-pereboi-v-snabgenii-kaliningrada-posle-ataki-bpla-v-finskom-zalive-besprozvann.html",
+      "resolution": {
+        "status": "resolved",
+        "checkedAt": "2026-11-22T06:56:17Z",
+        "error": null
+      },
+      "availability": {
+        "status": "blocked",
+        "checkedAt": "2026-11-22T06:56:17Z",
+        "httpStatus": 403,
+        "error": "http_error"
+      },
+      "id": "0df6864edfc880c171e3"
+    },
+    {
+      "publisher": "CPG Click Oil and Gas",
+      "publishedAt": "2026-11-21T15:19:00Z",
+      "publishedOnMoscow": "2026-11-21",
+      "publicationDateBasis": "rss_unverified",
+      "discoveryUrl": "https://news.google.com/rss/articles/CBMijAJBVV95cUxNT1NHMVJ5bUVQajZWZ0N5dmNOeWI2LUlBc1lxUXBoTmRKa25nYlAyV1cyMVpUZWc4U3ZKemNoamNwU2x1WHpHYnVtOUMtWFhqMUdvZ1AxNUFaeHlYcmkzT1ZLemJpX0NSYXloVUR2OWV0eHNVNlJhcWpiTkt6NERJcWVuNE1xMDdMWHY0Y2tZRnlCVjJ4WG04WFdwNFpHQzdNQmV4cGpIN2dNQTJ6czgtNTQxWm54R0RxSThmdTJTYk4teTNJR2hES05MbFM4WWQ3aVUwNHdxVEJzVkFDV2tpTTRIMmNZUlRfZGdvTG03TWJTb2hxVnotMFVNUVdHSWFEb0Y2QmhCVnVrOE9P?oc=5",
+      "feedIds": [
+        "google-news-en"
+      ],
+      "reviewStatus": "unreviewed",
+      "url": "https://en.clickpetroleoegas.com.br/ukrainian-drone-strikes-have-cut-russian-refinery-throughput-by-45-since-late-october-from-more-than-700000-to-about-400000-metric-tons-a-btl96/",
+      "resolution": {
+        "status": "resolved",
+        "checkedAt": "2026-11-22T06:56:18Z",
+        "error": null
+      },
+      "availability": {
+        "status": "available",
+        "checkedAt": "2026-11-22T06:56:18Z",
+        "httpStatus": 200,
+        "error": null,
+        "contentType": "text/html",
+        "truncated": false,
+        "finalUrl": "https://en.clickpetroleoegas.com.br/ukrainian-drone-strikes-have-cut-russian-refinery-throughput-by-45-since-late-october-from-more-than-700000-to-about-400000-metric-tons-a-btl96/"
+      },
+      "id": "a853816cacbf8499b665"
+    },
+    {
+      "publisher": "DW.com",
+      "publishedAt": "2026-11-21T15:18:24Z",
       "publishedOnMoscow": "2026-11-21",
       "publicationDateBasis": "rss_unverified",
       "discoveryUrl": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNLTN2OEVDd003bDEyaUd2X3FuZGRnOE03NkV4bkl2XzVHczNUeHkzSzlsMERGUXFNZXNydDRldmp3Z2VLNjRfaEFCYTBiWVdOcUFSN1pZcmMxcHI5TzRDWkVPRUh2RTVRbXNrNkt2NThxdFdPUDY3dlJTNHNDcXRlb3I0ZXJJVE5JZk5uZFk5V2Q?oc=5",
@@ -158,12 +425,12 @@
       "url": "https://www.dw.com/ru/ataki-vsu-na-npz-v-rossii-celi-udarov-i-ih-posledstvia/g-77214971",
       "resolution": {
         "status": "resolved",
-        "checkedAt": "2026-11-21T06:55:48Z",
+        "checkedAt": "2026-11-22T06:56:19Z",
         "error": null
       },
       "availability": {
         "status": "available",
-        "checkedAt": "2026-11-21T06:55:48Z",
+        "checkedAt": "2026-11-22T06:56:19Z",
         "httpStatus": 200,
         "error": null,
         "contentType": "text/html",
@@ -173,316 +440,55 @@
       "id": "1ec74f521a14adcf05f0"
     },
     {
-      "publisher": "DW.com",
-      "publishedAt": "2026-11-20T23:01:57Z",
+      "publisher": "EnergyNow",
+      "publishedAt": "2026-11-21T13:11:27Z",
       "publishedOnMoscow": "2026-11-21",
       "publicationDateBasis": "rss_unverified",
-      "discoveryUrl": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPaUxva21pazg1NmdIYkM3UGl3bFJPeUVTWXhvUEZ2WlNPckhDdlpOTnE3WUZFSF91amprT3VoVVZ6MERsTGJZaUR0dkNmY192bmFPdDhBZ3NRV1BybXpZMF9FbFB2R3BxRFNBLU9GVDVmRDBVaUwzbHY0SktMUGM3SWk5UktnZFNidlln?oc=5",
+      "discoveryUrl": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOVm5YaVl4dVRQU2l4Vk9CdEZKTkJ4UjdlMEpSUXBkSFBSSzdYTnhjZHRLMGdjT0xyS3dQQjRFd2h0dnVOTXdZenJRQWY4dzhSaHZsQm9UbEdoM3ZZVmtYNGwwZG9ULVVGTlFhLTBMVURYOHh3WjBlYkZpTWpWY2FHMjhhYURET28yN2dwSFdlb0V6Y3pKMlhIQW9R?oc=5",
       "feedIds": [
-        "google-news-ru"
+        "google-news-en"
       ],
       "reviewStatus": "unreviewed",
-      "url": "https://www.dw.com/ru/krupnejsaa-ataka-dronov-na-moskvu-i-ee-posledstvia/g-77623058",
+      "url": "https://energynow.ca/2026/09/trumps-ukraine-energy-truce-wont-fix-global-diesel-crunch-bousso/",
       "resolution": {
         "status": "resolved",
-        "checkedAt": "2026-11-21T06:55:50Z",
+        "checkedAt": "2026-11-22T06:56:20Z",
         "error": null
       },
       "availability": {
-        "status": "available",
-        "checkedAt": "2026-11-21T06:55:50Z",
-        "httpStatus": 200,
-        "error": null,
-        "contentType": "text/html",
-        "truncated": false,
-        "finalUrl": "https://www.dw.com/ru/krupnejsaa-ataka-dronov-na-moskvu-i-ee-posledstvia/g-77623058"
+        "status": "blocked",
+        "checkedAt": "2026-11-22T06:56:20Z",
+        "httpStatus": 403,
+        "error": "http_error"
       },
-      "id": "e3b2f6b5f5c52beef573"
+      "id": "5f877c4036fdeacc5e24"
     },
     {
-      "publisher": "LIGA.net",
-      "publishedAt": "2026-11-20T22:19:00Z",
+      "publisher": "NewsBreak: Local News & Alerts",
+      "publishedAt": "2026-11-21T11:06:04Z",
       "publishedOnMoscow": "2026-11-21",
       "publicationDateBasis": "rss_unverified",
-      "discoveryUrl": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNTGhHM2FIRWtYZ1VrY1JYRUw4WVg3RUE3NFhNYVlsY01Senc3SlI0amtZTW9xNmF5bkI5X2ZiUFBfZ0xob2Q2eV94enhzU2sxb3lvMENDamdqX01ZT0hyb0dlckZEVTNKblBidk5GRWROSFZ0RnNES2lwQUhUU0pSbzlEWGVqRnZSOGRYbjdjWVh3NzRXSmlZVjEtWE45RWlVOVhTR1VTSlhYaUVBbUxjNVpRVFNzbXlaTGZqenBqaTAtUQ?oc=5",
-      "feedIds": [
-        "google-news-ru"
-      ],
-      "reviewStatus": "unreviewed",
-      "url": "https://news.liga.net/politics/chronicle/rossiyane-udarili-po-zaporozhyu-i-odesse-izvestny-vse-28-punktov-mirnogo-plana-live",
-      "resolution": {
-        "status": "resolved",
-        "checkedAt": "2026-11-21T06:55:51Z",
-        "error": null
-      },
-      "availability": {
-        "status": "blocked",
-        "checkedAt": "2026-11-21T06:55:51Z",
-        "httpStatus": 403,
-        "error": "http_error"
-      },
-      "id": "4dcb74f1260caa385ed8"
-    },
-    {
-      "publisher": "ABC News - Breaking News, Latest News and Videos",
-      "publishedAt": "2026-11-20T19:01:06Z",
-      "publishedOnMoscow": "2026-11-20",
-      "publicationDateBasis": "rss_unverified",
-      "discoveryUrl": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQY3pQVzJKTEFaQjhuVWRmWmtlVzk3YXpMLU5leXBLVnlYQmUxUGZBVkh2cjU5TkVoMENudVg2VnhpS0hJVm0tZ1lrTVp6Y1ZfNFhYUmtlRVpPVUtpanB6azJFT3RHQzM1ajFySHZublBBRjZ1VDUwQy1TQWpMVW5OWGMzZmU0bi1KS3dVVUg1eUNaZkNIX2RKVzcwdDNyX29Nci1VMzBVWdIBrAFBVV95cUxPaU1zREtSaS1RVkozVDB1b3FvZXQzNlpCeFFwN0FteUgtOVpMVTZWRlo5X3FtV0twa25DYk85QmpsYW5GelJ3a1pzU2N1YjVfWnpDSVdMSzZVanVhMGRWYU5YTEo3NG5lLVRxNm8zbHh2MzBfREF1bkMtUlQ1LXlxTlVKa3c5SDAxVUFZaW52SXAyZEdYNTREOVZLNEFvYXlJMlQwSHRBOWx4aTht?oc=5",
+      "discoveryUrl": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOaklKVDRLckxJcFV1ZTktVWpuVlRsdV9MbEM2Q1p5UlBSclR4TVNZZlNfel9KYVdWXy1BbDlWWEQ5OFYxdDlsMW8wcFFXTGQzODJmakJod2hYNDMxS0RLU0FnM00zVFRwUVVLTlBwQ1hvbnIxM2VCNkFubWduTktBVGtNV2VSbFd2bGF6VXBDVTJLemRoY3pCaUhkNHhJY2dvSzg1WTNReEo5MktIUDlXOERVRW55bVFWZ2VhWFhiSQ?oc=5",
       "feedIds": [
         "google-news-en"
       ],
       "reviewStatus": "unreviewed",
-      "url": "https://abcnews.com/International/kyiv-fire-missile-drone-attack-russian-strike-mayor/story?id=134395585",
+      "url": "https://www.newsbreak.com/abc-news-510079/5021092694949-russian-attacks-on-ukraine-s-energy-grid-intensify-ahead-of-winter",
       "resolution": {
         "status": "resolved",
-        "checkedAt": "2026-11-21T06:55:52Z",
+        "checkedAt": "2026-11-22T06:56:21Z",
         "error": null
       },
       "availability": {
         "status": "available",
-        "checkedAt": "2026-11-21T06:55:52Z",
+        "checkedAt": "2026-11-22T06:56:21Z",
         "httpStatus": 200,
         "error": null,
         "contentType": "text/html",
-        "truncated": false,
-        "finalUrl": "https://abcnews.com/International/kyiv-fire-missile-drone-attack-russian-strike-mayor/story?id=134395585"
+        "truncated": true,
+        "finalUrl": "https://www.newsbreak.com/abc-news-510079/5021092694949-russian-attacks-on-ukraine-s-energy-grid-intensify-ahead-of-winter"
       },
-      "id": "a755f7bea6de22826795"
-    },
-    {
-      "publisher": "DD News",
-      "publishedAt": "2026-11-20T18:57:52Z",
-      "publishedOnMoscow": "2026-11-20",
-      "publicationDateBasis": "rss_unverified",
-      "discoveryUrl": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQRkJuenlMWTdLRFkzQlU0cFJqaEpCRWVnZzJlQTdyRFdXZWM2TEYyRnNjMVAyZzdDSFV3VzNqZGo0cVlWYXNfazNncWFKYmk4WmY3aTJsM1I4dEU0emRUX2ZTdTlSMWlCR3d2Y0hkWVVpdGFISzQybGVRelozaXZJaEVCUEo5cFY2V1k1VnJQV3FMS2VQcmxoTDZYXzU1N2NOWEU1UkFheFU4a3lSZjZtejdnOFBoYkJVUzhWVg?oc=5",
-      "feedIds": [
-        "google-news-en"
-      ],
-      "reviewStatus": "unreviewed",
-      "url": "https://ddnews.gov.in/en/ukrainian-drone-attack-on-russias-tuapse-port-kills-two-including-teenage-girl-hits-oil-tanker/",
-      "resolution": {
-        "status": "resolved",
-        "checkedAt": "2026-11-21T06:55:53Z",
-        "error": null
-      },
-      "availability": {
-        "status": "available",
-        "checkedAt": "2026-11-21T06:55:53Z",
-        "httpStatus": 200,
-        "error": null,
-        "contentType": "text/html",
-        "truncated": false,
-        "finalUrl": "https://ddnews.gov.in/en/ukrainian-drone-attack-on-russias-tuapse-port-kills-two-including-teenage-girl-hits-oil-tanker/"
-      },
-      "id": "e786bd973b551ef9960c"
-    },
-    {
-      "publisher": "Al Jazeera",
-      "publishedAt": "2026-11-20T18:43:21Z",
-      "publishedOnMoscow": "2026-11-20",
-      "publicationDateBasis": "rss_unverified",
-      "discoveryUrl": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQeDNGX09hZ1Rsc0xUZjJ4N2RNUnNoSzltckFEdFliVmVidUk0WlFZTWlibzZUM1RZS2Njb2NleE5fVFBsRzFOd1Z6LVdqdFZIRUotV2ZKbmNCVVFpaVRQYUJpVG1FQzVUZm5KSGVvRVpkU0RBbmJraWVWcmlIODYyNDZIbVd0TU1BOUFabEc4SlhYRUdNWXRhaGFhcVB6UUZ5bFJEbWNtaUZQUdIBrwFBVV95cUxPdWRKbTVTZ0FJVFY2LW44Qk5RemZaVG5ieGF0aDIzX1ZiR1piR1ZBMmRCMmQwQXNGSGpNd0J6Wk5xUlF0NzVua0k2WDJVOUJ6LUFIenpoajNNQnJaTk0wTncwcmozazU1elJoNk8yRi05dkdTS2piNjEtTzBMcmtnYm81Y2VJRk1LTlNvWmZoaHdRSUZoRnh6cDNBNTYwSUR3dTk4VnN0X1ZfVmVwOGxR?oc=5",
-      "feedIds": [
-        "google-news-en"
-      ],
-      "reviewStatus": "unreviewed",
-      "url": "https://www.aljazeera.com/news/2026/11/20/ukraine-strikes-kerch-bridge-as-putin-ally-declares-no-one-needs",
-      "resolution": {
-        "status": "resolved",
-        "checkedAt": "2026-11-21T06:55:58Z",
-        "error": null
-      },
-      "availability": {
-        "status": "available",
-        "checkedAt": "2026-11-21T06:55:58Z",
-        "httpStatus": 200,
-        "error": null,
-        "contentType": "text/html",
-        "truncated": false,
-        "finalUrl": "https://www.aljazeera.com/news/2026/11/20/ukraine-strikes-kerch-bridge-as-putin-ally-declares-no-one-needs"
-      },
-      "id": "8229aad3ae46188ca7e1"
-    },
-    {
-      "publisher": "prospect.com.ru",
-      "publishedAt": "2026-11-20T18:32:13Z",
-      "publishedOnMoscow": "2026-11-20",
-      "publicationDateBasis": "rss_unverified",
-      "discoveryUrl": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNV3ktYkNGNHJKTWtiZ1RQZXg5OTl1OUhhdlZBcVdmMF9GMDhJUEdKeDJTNEJmNlRRaVFFVkF6Ml9aUzQ5REI3SXR5QWxvb0V5Wjg1aWpVSlF0VktYaDRJeGJHNnh2cGRQNWZablRQYVBmRjBsZWxBRlE0OWVCamplWl9MZE5mTEI2MHRYcjNhQzViVUFCMThKY2RnLVhDU0ZnU2VQNUY1NA?oc=5",
-      "feedIds": [
-        "google-news-ru"
-      ],
-      "reviewStatus": "unreviewed",
-      "url": "https://prospect.com.ru/news/7186654/pri-atake-bpla-v-smolenskoj-oblasti-povregden-obekt-energetiki.html",
-      "resolution": {
-        "status": "resolved",
-        "checkedAt": "2026-11-21T06:55:59Z",
-        "error": null
-      },
-      "availability": {
-        "status": "blocked",
-        "checkedAt": "2026-11-21T06:55:59Z",
-        "httpStatus": 403,
-        "error": "http_error"
-      },
-      "id": "15bbf1d9c3560acd1651"
-    },
-    {
-      "publisher": "SSBCrack",
-      "publishedAt": "2026-11-20T17:49:43Z",
-      "publishedOnMoscow": "2026-11-20",
-      "publicationDateBasis": "rss_unverified",
-      "discoveryUrl": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNV2UycXUyUmRJRS01bUhUVlRkaGVfMHhYSVo0MDVIZFRoaHNmYmtKMDhva3FoOExqTEhCYlhFOE9GSHNFQ0tkaDFFeW1VWHpHcUlsY3JZS2FVcnJtcWxUOFJUenhHLTQxZnhsRi1JV1h3TTB2Yl80Z1dKOWFOSmpHXzMxX3o3QVRDcGQ4Q0hDTUZCNUpRaXk0RjFHV1hvYnBWU1B1M2ljby00SGpVZDd6dHA3dU9nX2ZnMFE?oc=5",
-      "feedIds": [
-        "google-news-en"
-      ],
-      "reviewStatus": "unreviewed",
-      "url": "https://news.ssbcrack.com/ukraine-strikes-major-russian-oil-pumping-station-in-tatarstan-damaging-three-storage-tanks/",
-      "resolution": {
-        "status": "resolved",
-        "checkedAt": "2026-11-21T06:56:01Z",
-        "error": null
-      },
-      "availability": {
-        "status": "available",
-        "checkedAt": "2026-11-21T06:56:01Z",
-        "httpStatus": 200,
-        "error": null,
-        "contentType": "text/html",
-        "truncated": false,
-        "finalUrl": "https://news.ssbcrack.com/ukraine-strikes-major-russian-oil-pumping-station-in-tatarstan-damaging-three-storage-tanks/"
-      },
-      "id": "a75c8ef3b039dde63eca"
-    },
-    {
-      "publisher": "EnergyNow.com",
-      "publishedAt": "2026-11-20T15:41:23Z",
-      "publishedOnMoscow": "2026-11-20",
-      "publicationDateBasis": "rss_unverified",
-      "discoveryUrl": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOZmU1aVJkeXAzcWZ6WVRfQndReFE4MkYyVnJTR0NBZm01N2NZeU5vRlpYdXF1VkdoNFNyY2lUY3VZLWhoNlh6M3VHNU91dFJVTzV2T0oyRV81SnI5OE9xci1yUkxjRmJvUzE2ZGhZekpQbkxPV0FaQmN4aUt0UHFYUWstN2xzZXc0Y3pLYWszcGVEeU4tdUE5SkxvUEx6TEZHUVpzXzVBZjdNSTlteGVrRGVSc3lWQXpCcGc?oc=5",
-      "feedIds": [
-        "google-news-en"
-      ],
-      "reviewStatus": "unreviewed",
-      "url": "https://energynow.com/2026/11/recent-ukrainian-attacks-have-reduced-russias-oil-processing-capacity-by-30-sources-say/",
-      "resolution": {
-        "status": "resolved",
-        "checkedAt": "2026-11-21T06:56:02Z",
-        "error": null
-      },
-      "availability": {
-        "status": "blocked",
-        "checkedAt": "2026-11-21T06:56:02Z",
-        "httpStatus": 403,
-        "error": "http_error"
-      },
-      "id": "462cdbb3be77074aa75b"
-    },
-    {
-      "publisher": "EnergyNow.com",
-      "publishedAt": "2026-11-20T15:33:09Z",
-      "publishedOnMoscow": "2026-11-20",
-      "publicationDateBasis": "rss_unverified",
-      "discoveryUrl": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOZDh1aUxQWkpMaXlvZnRBbUhzNE55WU9jZUFVa1M5YzlydVdpcjlTRkYxeFFjeGluVnFuVG4tQ3NxWWRyUW8tRTdWSW52eVhHbzJLM1RuUnNZN0pYTDlydE9CN0l1Z05mZjNfSHgyX3p3dDZGQXpGR1h3c0RLMDRGRlgzWkt3b0VfOTZvYzZrTDRLb0RRSE1QakxrdFkzX2U3V1B1Rkt4d0ZCYmYzMFhiTFNjYVQteU9FamY0enJMVmhlOEhrTFdra0tfM3ByVEhIQVZiMG1mcw?oc=5",
-      "feedIds": [
-        "google-news-en"
-      ],
-      "reviewStatus": "unreviewed",
-      "url": "https://energynow.com/2026/10/trump-warns-zelensky-he-better-damn-well-stop-attacking-russian-oil-refineries-calls-for-new-ukrainian-leader/",
-      "resolution": {
-        "status": "resolved",
-        "checkedAt": "2026-11-21T06:56:03Z",
-        "error": null
-      },
-      "availability": {
-        "status": "blocked",
-        "checkedAt": "2026-11-21T06:56:03Z",
-        "httpStatus": 403,
-        "error": "http_error"
-      },
-      "id": "8700d2d29451c81b3e5c"
-    },
-    {
-      "publisher": "Kyiv Post",
-      "publishedAt": "2026-11-20T14:37:17Z",
-      "publishedOnMoscow": "2026-11-20",
-      "publicationDateBasis": "rss_unverified",
-      "discoveryUrl": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9pLVlVbFFISFRxN0ZmUklucU5BQVhaeDZ2cTlHSFE2NEV1SXlqQXJteUx2NTc5cVNCeFpsNGcwY3UxOVQwTEpRcGJYWQ?oc=5",
-      "feedIds": [
-        "google-news-en"
-      ],
-      "reviewStatus": "unreviewed",
-      "url": "https://www.kyivpost.com/post/90575",
-      "resolution": {
-        "status": "resolved",
-        "checkedAt": "2026-11-21T06:56:04Z",
-        "error": null
-      },
-      "availability": {
-        "status": "available",
-        "checkedAt": "2026-11-21T06:56:04Z",
-        "httpStatus": 200,
-        "error": null,
-        "contentType": "text/html",
-        "truncated": false,
-        "finalUrl": "https://www.kyivpost.com/post/90575"
-      },
-      "id": "34247af0c1cbc7247b1d"
-    },
-    {
-      "publisher": "Вслух.ru",
-      "publishedAt": "2026-11-20T14:26:49Z",
-      "publishedOnMoscow": "2026-11-20",
-      "publicationDateBasis": "rss_unverified",
-      "discoveryUrl": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPS0cwU2NJRFRBQkV2Sm1NNVExQUZqbThfc2V5aEM0aWdRYzk0ZGlZSm1jY3R0cG56aWFQQmVVQVo5S1dXMmZNdVpCNF9KZzFtc3AwSU1BamNEclRHT3RMcV9veWNxcUdJNlJha3MwTExYd0hTMTlrQW1oZER3eE5pZ0xJcVZQNHdRV21vQjBBWHdETkF6ZlhEb1ZOS2JJSTB3Uzk0Mg?oc=5",
-      "feedIds": [
-        "google-news-ru"
-      ],
-      "reviewStatus": "unreviewed",
-      "url": "https://vsluh.ru/novosti/obshchestvo/oblomki-bespilotnika-sbitogo-nad-omskom-peredadut-v-muzey_431978/",
-      "resolution": {
-        "status": "resolved",
-        "checkedAt": "2026-11-21T06:56:05Z",
-        "error": null
-      },
-      "availability": {
-        "status": "available",
-        "checkedAt": "2026-11-21T06:56:05Z",
-        "httpStatus": 200,
-        "error": null,
-        "contentType": "text/html",
-        "truncated": false,
-        "finalUrl": "https://vsluh.ru/novosti/obshchestvo/oblomki-bespilotnika-sbitogo-nad-omskom-peredadut-v-muzey_431978/"
-      },
-      "id": "31ae127f0901c5ff3a22"
-    },
-    {
-      "publisher": "Outlook India",
-      "publishedAt": "2026-11-20T14:00:55Z",
-      "publishedOnMoscow": "2026-11-20",
-      "publicationDateBasis": "rss_unverified",
-      "discoveryUrl": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOeU5xbk5nUHVOeUZ4eGhHbTFodnFVVXlVQ2c2VFdHX1RsdVh0aFdrdzRWbjlIeXR5Q0YzN0dETDBlVU9WbTVEemdMQmt5dG5hYmlSazFNQmE4R3pOVUw2M3I4RHVfNHJqbzBNZzFTMzhGZmp3SC1paWRtWVRFeDV2a0hXMnlPdEUwUHp0QjVHUWJJdHViYm96RFZoY0ttN2t2VGJhY0c0T3RMV1oxVXNFdWl30gG_AUFVX3lxTE56RjI3c1lDdkthVjkwU0k2dGpjQWZkU0NpUFhZbFpvcXlDYkZ4NmJoT0ZHek1rQ0RfM2tGYXR5MkVCZk9Yd1JtZmxPWlUtamh3N1VkRDB0SUhWal9lZ1lPbndtMWg0a3VkRUU1ZmppeDVHQUw4OFJ5TVZfTHJ3VGMwR0VUa3B1SHRBSnBZeF9TOE5yNy1pa2hlSWRrZzFBZmR2anhBQUZzclVnQlZVOHRKVExOMk56NDl5RTBZaE9N?oc=5",
-      "feedIds": [
-        "google-news-en"
-      ],
-      "reviewStatus": "unreviewed",
-      "url": "https://www.outlookindia.com/international/russia-massive-missile-drone-attack-ukraine-putin-retaliation-warning",
-      "resolution": {
-        "status": "resolved",
-        "checkedAt": "2026-11-21T06:56:07Z",
-        "error": null
-      },
-      "availability": {
-        "status": "available",
-        "checkedAt": "2026-11-21T06:56:07Z",
-        "httpStatus": 200,
-        "error": null,
-        "contentType": "text/html",
-        "truncated": false,
-        "finalUrl": "https://www.outlookindia.com/international/russia-massive-missile-drone-attack-ukraine-putin-retaliation-warning"
-      },
-      "id": "4a6ab333c8a57cf739cc"
+      "id": "26caf8f9a3eae212ff38"
     }
   ],
   "limitations": [
